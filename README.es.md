@@ -1,5 +1,7 @@
 # Pegatinas de todas las 11 064 especies de aves vivas del mundo
 
+<img src="previews/header.webp" alt="huashu-bird-sticker: specimen drawer, body-size lineup and family plates" width="100%">
+
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · **Español** · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)
 
 11 064 especies de aves, una pegatina por cada una, en 44 órdenes y 250 familias. Son todas las especies vivas de la IOC World Bird List v15.2 (las 163 especies extintas no se incluyen). Cada especie viene con datos estructurados: taxonomía, nombres en hasta 43 idiomas, identificadores de otras bases de datos y el origen de cada pegatina.

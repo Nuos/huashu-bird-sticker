@@ -1,5 +1,7 @@
 # 全世界現存 11,064 種鳥的貼紙
 
+<img src="previews/header.webp" alt="huashu-bird-sticker: specimen drawer, body-size lineup and family plates" width="100%">
+
 [English](README.md) · [简体中文](README.zh-Hans.md) · **繁體中文** · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)
 
 11,064 種鳥，每種一張貼紙，共 44 目 250 科。這涵蓋 IOC 世界鳥類名錄 v15.2 的全部現生物種（163 個已滅絕的種不在其中）。每種鳥都附有結構化資料：分類、最多 43 種語言的鳥名、各大資料庫的編號，以及每張貼紙的來歷。

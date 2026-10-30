@@ -1,5 +1,7 @@
 # Adesivos de todas as 11.064 espécies de aves vivas
 
+<img src="previews/header.webp" alt="huashu-bird-sticker: specimen drawer, body-size lineup and family plates" width="100%">
+
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · **Português** · [Русский](README.ru.md) · [العربية](README.ar.md)
 
 11.064 espécies de aves, um adesivo para cada uma, em 44 ordens e 250 famílias. São todas as espécies vivas da IOC World Bird List v15.2 (as 163 espécies extintas não estão incluídas). Cada espécie vem com dados estruturados: taxonomia, nomes em até 43 idiomas, IDs em outras bases de dados e a origem de cada adesivo.

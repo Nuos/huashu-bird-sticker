@@ -1,5 +1,7 @@
 # 現生の鳥11,064種すべてのステッカー
 
+<img src="previews/header.webp" alt="huashu-bird-sticker: specimen drawer, body-size lineup and family plates" width="100%">
+
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · **日本語** · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)
 
 鳥11,064種、1種につき1枚のステッカー。44目250科にわたります。IOC World Bird List v15.2の現生種すべてにあたります（絶滅した163種は含みません）。各種には、分類、最大43言語の名前、各データベースのID、そしてステッカーごとの由来といった構造化データが付いています。

@@ -1,5 +1,7 @@
 # Bird stickers for all 11,064 living bird species
 
+<img src="previews/header.webp" alt="huashu-bird-sticker: specimen drawer, body-size lineup and family plates" width="100%">
+
 **花叔开源的全球鸟类贴纸库：全世界现存的11064种鸟，每种一张白边贴纸，附43种语言的鸟名和分布、形态、保护等级数据。贴纸出自花叔做的观鸟App「鸣迹」。[中文说明 →](README.zh-Hans.md)**
 
 **English** · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)

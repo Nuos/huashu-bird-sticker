@@ -1,5 +1,7 @@
 # Sticker für alle 11.064 lebenden Vogelarten
 
+<img src="previews/header.webp" alt="huashu-bird-sticker: specimen drawer, body-size lineup and family plates" width="100%">
+
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · **Deutsch** · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)
 
 11.064 Vogelarten, ein Sticker pro Art, verteilt auf 44 Ordnungen und 250 Familien. Das sind alle lebenden Arten der IOC World Bird List v15.2 (die 163 ausgestorbenen Arten sind nicht enthalten). Zu jeder Art gibt es strukturierte Daten: Taxonomie, Namen in bis zu 43 Sprachen, IDs aus anderen Datenbanken und die Herkunft jedes Stickers.

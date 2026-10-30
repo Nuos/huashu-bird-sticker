@@ -1,5 +1,7 @@
 # Des autocollants pour toutes les 11 064 espèces d'oiseaux actuelles
 
+<img src="previews/header.webp" alt="huashu-bird-sticker: specimen drawer, body-size lineup and family plates" width="100%">
+
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · **Français** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)
 
 11 064 espèces d'oiseaux, un autocollant pour chacune, réparties en 44 ordres et 250 familles. Ce sont toutes les espèces vivantes de la IOC World Bird List v15.2 (les 163 espèces éteintes ne sont pas incluses). Chaque espèce est accompagnée de données structurées : taxonomie, noms dans jusqu'à 43 langues, identifiants dans d'autres bases de données et provenance de chaque autocollant.

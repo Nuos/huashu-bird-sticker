@@ -1,5 +1,7 @@
 # ملصقات لجميع أنواع الطيور الحية البالغ عددها 11,064 نوعًا
 
+<img src="previews/header.webp" alt="huashu-bird-sticker: specimen drawer, body-size lineup and family plates" width="100%">
+
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · **العربية**
 
 11,064 نوعًا من الطيور، لكل نوع ملصق واحد، موزعة على 44 رتبة و250 فصيلة. وهي جميع الأنواع الحية في قائمة IOC World Bird List v15.2 (أما الأنواع المنقرضة وعددها 163 فغير مشمولة). ويأتي مع كل نوع بيانات منظمة: التصنيف، وأسماء بما يصل إلى 43 لغة، ومعرّفات من قواعد بيانات أخرى، ومصدر كل ملصق.
