@@ -1,0 +1,23 @@
+name: Name or taxonomy / 鸟名或分类
+description: A name is wrong or missing in some language / 某种语言的鸟名错了或缺了
+labels: [names]
+body:
+  - type: input
+    id: species
+    attributes:
+      label: Scientific name / 学名
+    validations:
+      required: true
+  - type: input
+    id: lang
+    attributes:
+      label: Language / 语言
+      placeholder: ja, zh-Hant, ko …
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: Correct name and source / 正确的名字和出处
+    validations:
+      required: true

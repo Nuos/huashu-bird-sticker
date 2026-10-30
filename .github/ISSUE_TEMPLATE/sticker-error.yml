@@ -1,0 +1,23 @@
+name: Sticker mistake / 贴纸画错了
+description: A sticker shows a wrong field mark, colour or shape / 贴纸的辨识特征、颜色或形态不对
+labels: [sticker-error]
+body:
+  - type: input
+    id: species
+    attributes:
+      label: Scientific name / 学名
+      placeholder: Pica pica
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong / 哪里不对
+      description: e.g. "eye should be red, not yellow", "legs too long" / 例如「虹膜应为红色」「腿太长」
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Evidence / 依据
+      description: A link to a photo, field guide page or description that shows the correct feature / 能说明正确特征的照片、图鉴或描述的链接
