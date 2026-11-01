@@ -8,7 +8,7 @@
 
 ![40 pegatinas de 15 órdenes de aves](previews/hero.webp)
 
-Las pegatinas se pueden usar gratis para casi cualquier fin, incluido el comercial, bajo la licencia [PolyForm Shield 1.0.0](LICENSE.md). Lo único que no se puede hacer es usarlas en un producto que compita con nuestra aplicación de aves (otra aplicación o sitio de observación de aves, identificación de aves o guía de campo). Los datos están bajo licencia MIT. Lea [NOTICE](NOTICE.md) para conocer las partes que provienen de terceros, y [Sobre las fotografías de referencia](#sobre-las-fotografías-de-referencia) más abajo.
+**Licencia en breve:** puede usar las pegatinas para cualquier fin, incluido el comercial, y también editarlas y redistribuirlas. La única excepción es una aplicación, sitio o servicio de observación de aves, identificación de aves o guía de campo de aves. Mencione huashu-bird-sticker con un enlace a este repositorio y listo. El texto legal es [PolyForm Shield 1.0.0](LICENSE.md). Los datos están bajo licencia MIT y las partes de terceros figuran en [NOTICE](NOTICE.md).
 
 ## Galería
 
@@ -146,18 +146,7 @@ Son ilustraciones, no láminas de guía de campo. Tómelas como un dibujo amable
 
 ## Sobre las fotografías de referencia
 
-La referencia de cada pegatina figura en `sticker.reference`, con su página, autor y licencia. Se reparten así (pegatinas de IA, por especie):
-
-| Referencia | Especies |
-|---|---|
-| Foto con licencia abierta (CC0, dominio público, CC BY, CC BY-SA) | 2020 |
-| Tablero de imágenes con licencia abierta, o solo una descripción escrita | 46 |
-| Foto con licencia no comercial o sin obras derivadas (CC BY-NC, -ND, …) | 5071 |
-| Foto con todos los derechos reservados, o bajo las condiciones de Macaulay Library | 1500 |
-| Foto cuya licencia no registramos | 2017 |
-| Tablero que mezcla imágenes con condiciones distintas | 410 |
-
-Las pegatinas son dibujos nuevos, no copias, y las fotografías de referencia no se distribuyen aquí. Si un dibujo hecho a partir de una foto queda sujeto a la licencia de esa foto es una cuestión jurídica sin resolver. Si le afecta para lo que va a hacer, filtre por `sticker.reference.license`.
+Cada pegatina es un dibujo nuevo hecho con IA, y este repositorio no incluye ninguna fotografía de referencia. La imagen a partir de la cual se dibujó cada especie (página, autor y licencia) está registrada en `sticker.reference`, dentro de `data/species.json`, así que cada pegatina se puede rastrear hasta su origen. Un desglose por licencia de las fotografías de referencia está en [data/README.md](data/README.md#reference-photos).
 
 ## Cómo usarlo
 

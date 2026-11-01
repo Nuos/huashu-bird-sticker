@@ -8,7 +8,7 @@
 
 ![40 adesivos de 15 ordens de aves](previews/hero.webp)
 
-Os adesivos podem ser usados gratuitamente para quase qualquer fim, inclusive comercial, sob a [PolyForm Shield 1.0.0](LICENSE.md). A única coisa proibida é usá-los em um produto que concorra com o nosso aplicativo de aves (outro aplicativo ou site de observação de aves, identificação de aves ou guia de campo). Os dados são MIT. Leia o [NOTICE](NOTICE.md) para saber quais partes vêm de terceiros, e [Sobre as fotos de referência](#sobre-as-fotos-de-referência) mais abaixo.
+**Licença em resumo:** você pode usar os adesivos para qualquer fim, inclusive comercial, e também editá-los e redistribuí-los. A única exceção é um aplicativo, site ou serviço de observação de aves, identificação de aves ou guia de campo de aves. Cite huashu-bird-sticker com um link para este repositório e pronto. O texto legal é a [PolyForm Shield 1.0.0](LICENSE.md). Os dados são MIT, e as partes de terceiros estão listadas no [NOTICE](NOTICE.md).
 
 ## Galeria
 
@@ -146,18 +146,7 @@ São ilustrações, não pranchas de guia de campo. Veja-as como um desenho simp
 
 ## Sobre as fotos de referência
 
-A referência de cada adesivo está em `sticker.reference`, com página, autor e licença. Elas se dividem assim (adesivos de IA, por espécie):
-
-| Referência | Espécies |
-|---|---|
-| Foto com licença aberta (CC0, domínio público, CC BY, CC BY-SA) | 2.020 |
-| Prancha de imagens com licença aberta, ou apenas uma descrição escrita | 46 |
-| Foto com licença não comercial ou sem obras derivadas (CC BY-NC, -ND, …) | 5.071 |
-| Foto com todos os direitos reservados, ou sob os termos da Macaulay Library | 1.500 |
-| Foto cuja licença não registramos | 2.017 |
-| Prancha que mistura imagens com termos diferentes | 410 |
-
-Os adesivos são desenhos novos, não cópias, e as fotos de referência não são distribuídas aqui. Se um desenho feito a partir de uma foto fica sujeito à licença dessa foto é uma questão jurídica ainda não resolvida. Se isso importa para o seu uso, filtre por `sticker.reference.license`.
+Cada adesivo é um desenho novo feito com IA, e este repositório não inclui nenhuma foto de referência. A imagem usada como base para desenhar cada espécie (página, autor e licença) está registrada em `sticker.reference`, em `data/species.json`, então todo adesivo pode ser rastreado até a sua fonte. Um detalhamento por licença das fotos de referência está em [data/README.md](data/README.md#reference-photos).
 
 ## Como usar
 

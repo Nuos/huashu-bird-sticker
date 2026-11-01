@@ -33,6 +33,21 @@ Notes:
 - `zh.aliases` come from Wikidata and Chinese Wikipedia and have not been checked one by one; a few are names of other, similar species. Corrections welcome.
 - Not included: per-province records and monthly occurrence derived from eBird data (we have not confirmed the terms for redistributing them), and Wikipedia article text (link only).
 
+## Reference photos
+
+Each AI sticker was drawn from one reference photo, or from a board of several images. Its page, author and license are in `sticker.reference`; the photos themselves are not distributed. By species:
+
+| Reference | Species |
+|---|---|
+| Openly licensed photo (CC0, public domain, CC BY, CC BY-SA) | 2,020 |
+| Board of openly licensed images, or a written description only | 46 |
+| Photo under a non-commercial or no-derivatives license (CC BY-NC, -ND, …) | 5,071 |
+| Photo with all rights reserved, or under Macaulay Library terms | 1,500 |
+| Photo whose license we did not record | 2,017 |
+| Board mixing images under different terms | 410 |
+
+The stickers are new drawings, not copies. Whether a drawing made from a photo is bound by that photo's license is not settled law; if it matters for your use, filter on `sticker.reference.license`.
+
 ## Sources
 
 - IOC World Bird List v15.2, Gill, Donsker & Rasmussen (Eds), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). <https://worldbirdnames.org/>

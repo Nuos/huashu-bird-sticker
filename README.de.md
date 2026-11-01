@@ -8,7 +8,7 @@
 
 ![40 Sticker aus 15 Vogelordnungen](previews/hero.webp)
 
-Die Sticker dürfen unter [PolyForm Shield 1.0.0](LICENSE.md) für fast alles kostenlos genutzt werden, auch kommerziell. Untersagt ist nur eines: sie in einem Produkt einzusetzen, das mit unserer Vogel-App konkurriert (also einer anderen App oder Website zur Vogelbeobachtung, Vogelbestimmung oder als Bestimmungsführer). Die Daten stehen unter MIT. Welche Teile von Dritten stammen, steht in [NOTICE](NOTICE.md); zu den Referenzfotos siehe unten [Zu den Referenzfotos](#zu-den-referenzfotos).
+**Lizenz in Kürze:** Die Sticker dürfen für alles genutzt werden, auch kommerziell, ebenso bearbeitet und weitergegeben. Die einzige Ausnahme sind Apps, Websites oder Dienste zur Vogelbeobachtung, zur Vogelbestimmung oder als Vogelführer. Nennen Sie huashu-bird-sticker mit einem Link auf dieses Repository, dann ist alles in Ordnung. Der Rechtstext ist [PolyForm Shield 1.0.0](LICENSE.md). Die Daten stehen unter MIT, Teile von Dritten sind in [NOTICE](NOTICE.md) aufgeführt.
 
 ## Galerie
 
@@ -146,18 +146,7 @@ Das sind Illustrationen, keine Bestimmungsbuch-Tafeln. Sie sind als freundliches
 
 ## Zu den Referenzfotos
 
-Die Referenz jedes Stickers steht in `sticker.reference`, mit Seite, Urheber und Lizenz. Sie verteilen sich so (KI-Sticker, nach Arten):
-
-| Referenz | Arten |
-|---|---|
-| Foto unter offener Lizenz (CC0, gemeinfrei, CC BY, CC BY-SA) | 2.020 |
-| Tafel aus Bildern unter offener Lizenz oder nur eine schriftliche Beschreibung | 46 |
-| Foto unter nicht-kommerzieller Lizenz oder Lizenz ohne Bearbeitung (CC BY-NC, -ND, …) | 5.071 |
-| Foto mit allen Rechten vorbehalten oder unter den Bedingungen der Macaulay Library | 1.500 |
-| Foto, dessen Lizenz wir nicht erfasst haben | 2.017 |
-| Tafel mit Bildern unter unterschiedlichen Bedingungen | 410 |
-
-Die Sticker sind neu gezeichnet, keine Kopien, und die Referenzfotos werden hier nicht verbreitet. Ob eine nach einem Foto angefertigte Zeichnung an die Lizenz dieses Fotos gebunden ist, ist rechtlich nicht geklärt. Wenn das für Ihr Vorhaben eine Rolle spielt, filtern Sie nach `sticker.reference.license`.
+Jeder Sticker ist eine neue KI-Zeichnung, und dieses Repository enthält keine Referenzfotos. Welches Bild für welche Art als Vorlage diente (Seite, Urheber und Lizenz), steht in `sticker.reference` in `data/species.json`, sodass sich jeder Sticker bis zu seiner Quelle zurückverfolgen lässt. Eine Aufschlüsselung nach Lizenz der Referenzfotos steht in [data/README.md](data/README.md#reference-photos).
 
 ## Verwendung
 

@@ -10,7 +10,7 @@ By [Huashu (花叔)](https://github.com/alchaincyf), from the bird-watching app 
 
 ![40 stickers from 15 bird orders](previews/hero.webp)
 
-The stickers are free to use for almost anything, including commercial work, under [PolyForm Shield 1.0.0](LICENSE.md): the one thing you may not do is use them in a product that competes with our bird app (another birding, bird-ID or field-guide app or site). The data is MIT. Please read [NOTICE](NOTICE.md) for the parts that come from third parties, and [About the reference photos](#about-the-reference-photos) below.
+**License in short:** use the stickers for anything, including commercial work, editing and redistribution. The one exception is a birding, bird-ID or field-guide app, site or service. Credit huashu-bird-sticker with a link to this repository and you're set. The legal text is [PolyForm Shield 1.0.0](LICENSE.md). The data is MIT, and third-party parts are listed in [NOTICE](NOTICE.md).
 
 ## Gallery
 
@@ -147,18 +147,7 @@ These are illustrations, not field-guide plates. Treat them as a friendly pictur
 
 ## About the reference photos
 
-Each sticker's reference is listed in `sticker.reference`, with its page, author and license. They break down like this (AI stickers, by species):
-
-| Reference | Species |
-|---|---|
-| Openly licensed photo (CC0, public domain, CC BY, CC BY-SA) | 2,020 |
-| Board of openly licensed images, or a written description only | 46 |
-| Photo under a non-commercial or no-derivatives license (CC BY-NC, -ND, …) | 5,071 |
-| Photo with all rights reserved, or under Macaulay Library terms | 1,500 |
-| Photo whose license we did not record | 2,017 |
-| Board mixing images under different terms | 410 |
-
-The stickers are new drawings, not copies, and the reference photos are not distributed here. Whether a drawing made from a photo is bound by that photo's license is not settled law. If it matters for what you are doing, filter on `sticker.reference.license`.
+Every sticker is a new AI drawing, and no reference photo is included in this repository. The image each species was drawn from (page, author and license) is recorded in `sticker.reference` in `data/species.json`, so every sticker can be traced back to its source. A breakdown by reference license is in [data/README.md](data/README.md#reference-photos).
 
 ## Use it
 

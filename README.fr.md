@@ -8,7 +8,7 @@
 
 ![40 autocollants de 15 ordres d’oiseaux](previews/hero.webp)
 
-Les autocollants sont libres d'utilisation pour presque tout, y compris pour un usage commercial, sous licence [PolyForm Shield 1.0.0](LICENSE.md) : la seule chose interdite est de les utiliser dans un produit concurrent de notre application sur les oiseaux (une autre application ou un autre site d'observation, d'identification des oiseaux ou de guide de terrain). Les données sont sous licence MIT. Merci de lire [NOTICE](NOTICE.md) pour les éléments provenant de tiers, et [À propos des photos de référence](#à-propos-des-photos-de-référence) ci-dessous.
+**Licence en bref :** vous pouvez utiliser les autocollants pour tout, y compris en usage commercial, les modifier et les redistribuer. La seule exception est une application, un site ou un service d'observation des oiseaux, d'identification des oiseaux ou de guide de terrain ornithologique. Citez huashu-bird-sticker avec un lien vers ce dépôt et c'est bon. Le texte juridique est la [PolyForm Shield 1.0.0](LICENSE.md). Les données sont sous licence MIT, et les éléments provenant de tiers sont listés dans [NOTICE](NOTICE.md).
 
 ## Galerie
 
@@ -146,18 +146,7 @@ Ce sont des illustrations, pas des planches de guide de terrain. Voyez-les comme
 
 ## À propos des photos de référence
 
-La référence de chaque autocollant figure dans `sticker.reference`, avec sa page, son auteur et sa licence. Elles se répartissent ainsi (autocollants IA, par espèce) :
-
-| Référence | Espèces |
-|---|---|
-| Photo sous licence ouverte (CC0, domaine public, CC BY, CC BY-SA) | 2 020 |
-| Planche d'images sous licence ouverte, ou simple description écrite | 46 |
-| Photo sous licence non commerciale ou sans modification (CC BY-NC, -ND, …) | 5 071 |
-| Photo tous droits réservés, ou soumise aux conditions de la Macaulay Library | 1 500 |
-| Photo dont nous n'avons pas noté la licence | 2 017 |
-| Planche mêlant des images sous des conditions différentes | 410 |
-
-Les autocollants sont des dessins nouveaux, pas des copies, et les photos de référence ne sont pas distribuées ici. Savoir si un dessin réalisé d'après une photo est lié par la licence de cette photo n'est pas tranché en droit. Si cela compte pour votre usage, filtrez sur `sticker.reference.license`.
+Chaque autocollant est un nouveau dessin réalisé par IA, et ce dépôt ne contient aucune photo de référence. L'image à partir de laquelle chaque espèce a été dessinée (page, auteur et licence) est consignée dans `sticker.reference`, dans `data/species.json` : chaque autocollant peut donc être relié à sa source. Une répartition selon la licence des photos de référence se trouve dans [data/README.md](data/README.md#reference-photos).
 
 ## Utilisation
 
