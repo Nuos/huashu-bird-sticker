@@ -135,12 +135,12 @@ Um registro tem este formato (nomes abreviados):
 
 ## Como os adesivos foram feitos e qual é a qualidade
 
-11.030 adesivos são ilustrações feitas por IA. Para cada espécie, procuramos uma foto de referência (ou, nas 453 espécies em que nenhuma foto isolada era boa o bastante, uma prancha com várias imagens e uma descrição escrita), desenhamos o adesivo com o GPT-image, ampliamos e recortamos. 34 foram recortados de fotografias reais e passaram por uma revisão às cegas contra a foto original.
+11.064 adesivos são ilustrações feitas por IA. Para cada espécie, procuramos uma foto de referência (ou, nas 453 espécies em que nenhuma foto isolada era boa o bastante, uma prancha com várias imagens e uma descrição escrita), desenhamos o adesivo com o GPT-image, ampliamos e recortamos.
 
 Depois, cada adesivo de IA recebeu a nota de um revisor independente, que o comparou com a referência quanto às marcas de campo: bico, olho, pernas e pés, padrão e cor da plumagem. Na última rodada, 852 adesivos limítrofes (80–82) passaram também por uma segunda revisão às cegas, e 211 deles foram reprovados e redesenhados. Os adesivos limítrofes de rodadas anteriores não passaram por essa segunda revisão.
 
-- **7.676 atingem nosso padrão de qualidade** (`"meetsQualityBar": true`): adesivos de IA com nota 80 ou mais, mais os 34 recortes de fotografias.
-- **3.388 não atingem.** Foram redesenhados até o limite de tentativas, e ficamos com a versão de maior nota para que nenhuma espécie fique sem imagem. 3.273 têm nota de 70 a 79, 109 ficam abaixo de 70, e 6 tiraram 80 ou mais mas foram reprovados na segunda revisão às cegas.
+- **7.668 atingem nosso padrão de qualidade** (`"meetsQualityBar": true`): adesivos de IA com nota 80 ou mais.
+- **3.396 não atingem.** Foram redesenhados até o limite de tentativas, e ficamos com a versão de maior nota para que nenhuma espécie fique sem imagem. 3.281 têm nota de 70 a 79, 109 ficam abaixo de 70, e 6 tiraram 80 ou mais mas foram reprovados na segunda revisão às cegas.
 
 São ilustrações, não pranchas de guia de campo. Veja-as como um desenho simpático da ave e consulte um guia de campo antes de confiar em algum detalhe fino. Se encontrar um erro, [abra uma issue](../../issues/new/choose): correções de observadores de aves são a contribuição mais valiosa que este projeto pode receber.
 
@@ -150,7 +150,7 @@ A referência de cada adesivo está em `sticker.reference`, com página, autor e
 
 | Referência | Espécies |
 |---|---|
-| Foto com licença aberta (CC0, domínio público, CC BY, CC BY-SA) | 1.986 |
+| Foto com licença aberta (CC0, domínio público, CC BY, CC BY-SA) | 2.020 |
 | Prancha de imagens com licença aberta, ou apenas uma descrição escrita | 46 |
 | Foto com licença não comercial ou sem obras derivadas (CC BY-NC, -ND, …) | 5.071 |
 | Foto com todos os direitos reservados, ou sob os termos da Macaulay Library | 1.500 |

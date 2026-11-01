@@ -136,12 +136,12 @@ A record looks like this (names shortened):
 
 ## How the stickers were made, and how good they are
 
-11,030 stickers are AI illustrations. For each species we found a reference photo (or, for 453 species where no single photo was good enough, a board of several images plus a written description), drew the sticker with GPT-image, upscaled it, and cut it out. 34 are cut out from real photographs and passed a blind review against the original photo.
+11,064 stickers are AI illustrations. For each species we found a reference photo (or, for 453 species where no single photo was good enough, a board of several images plus a written description), drew the sticker with GPT-image, upscaled it, and cut it out.
 
 Every AI sticker was then scored by a separate reviewer against the reference for field marks: bill, eye, legs and feet, plumage pattern and colour. In the last round, 852 borderline stickers (80–82) also got a second, blind review, and 211 of them failed it and were redrawn. Borderline stickers from earlier rounds did not get this second review.
 
-- **7,676 meet our quality bar** (`"meetsQualityBar": true`): AI stickers scoring 80 or above, plus the 34 photo cutouts.
-- **3,388 do not.** They were redrawn up to the limit, and we kept the best-scoring version so that no species is left without a picture. 3,273 score 70–79, 109 score below 70, and 6 scored 80+ but failed the blind second review.
+- **7,668 meet our quality bar** (`"meetsQualityBar": true`): AI stickers scoring 80 or above.
+- **3,396 do not.** They were redrawn up to the limit, and we kept the best-scoring version so that no species is left without a picture. 3,281 score 70–79, 109 score below 70, and 6 scored 80+ but failed the blind second review.
 
 These are illustrations, not field-guide plates. Treat them as a friendly picture of the bird, and check a field guide before relying on a fine detail. If you spot a mistake, please [open an issue](../../issues/new/choose) — corrections from birders are the most valuable contribution this project can get.
 
@@ -151,7 +151,7 @@ Each sticker's reference is listed in `sticker.reference`, with its page, author
 
 | Reference | Species |
 |---|---|
-| Openly licensed photo (CC0, public domain, CC BY, CC BY-SA) | 1,986 |
+| Openly licensed photo (CC0, public domain, CC BY, CC BY-SA) | 2,020 |
 | Board of openly licensed images, or a written description only | 46 |
 | Photo under a non-commercial or no-derivatives license (CC BY-NC, -ND, …) | 5,071 |
 | Photo with all rights reserved, or under Macaulay Library terms | 1,500 |

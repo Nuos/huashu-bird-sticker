@@ -18,12 +18,6 @@ Body measurements and ecology in `traits` come from **AVONET** (Tobias et al. 20
 
 `traits`里的形态与生态数据来自**AVONET**（Tobias等，2022，CC BY 4.0）；IUCN、CITES等级和中文别名、目科中文名来自Wikidata（CC0）；`data/field-guide.zh-Hans.json`里的中文图鉴文字依据中文维基等资料改写，按CC BY-SA 4.0共享。详见[data/README.md](data/README.md)。
 
-## Photo-cutout stickers / 照片抠图贴纸
-
-34 stickers (`"kind": "photo-cutout"` in `data/species.json`) are cut out from real photographs. They are **not** under PolyForm Shield: each keeps the license of its original photo, listed per file with author and source page.
-
-34张贴纸是真实照片抠图，**不适用PolyForm Shield**，各自沿用原照片的许可，作者和出处逐张写在`data/species.json`里。
-
 ## Reference photos / 参考照片
 
 Each AI-illustrated sticker was drawn with one reference photo, or a reference board of several images, for posture and field marks. **The reference images are not included in this repository.** Their pages, authors and licenses are listed per species in `data/species.json` so the source can always be traced. Rights in those photographs remain with their photographers.

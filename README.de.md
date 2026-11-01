@@ -135,12 +135,12 @@ So sieht ein Eintrag aus (Namen gekürzt):
 
 ## Wie die Sticker entstanden sind und wie gut sie sind
 
-11.030 Sticker sind KI-Illustrationen. Für jede Art haben wir ein Referenzfoto gesucht (bei 453 Arten, für die kein einzelnes Foto gut genug war, stattdessen eine Tafel aus mehreren Bildern samt schriftlicher Beschreibung), den Sticker mit GPT-image gezeichnet, hochskaliert und freigestellt. 34 sind aus echten Fotos freigestellt und haben eine Blindprüfung gegen das Originalfoto bestanden.
+11.064 Sticker sind KI-Illustrationen. Für jede Art haben wir ein Referenzfoto gesucht (bei 453 Arten, für die kein einzelnes Foto gut genug war, stattdessen eine Tafel aus mehreren Bildern samt schriftlicher Beschreibung), den Sticker mit GPT-image gezeichnet, hochskaliert und freigestellt.
 
 Jeder KI-Sticker wurde danach von einem eigenen Prüfer anhand der Referenz auf Bestimmungsmerkmale bewertet: Schnabel, Auge, Beine und Füße, Gefiederzeichnung und -farbe. In der letzten Runde wurden 852 Grenzfälle (80–82) zusätzlich blind ein zweites Mal geprüft; 211 davon fielen durch und wurden neu gezeichnet. Grenzfälle aus früheren Runden haben diese zweite Prüfung nicht durchlaufen.
 
-- **7.676 erfüllen unseren Qualitätsanspruch** (`"meetsQualityBar": true`): KI-Sticker mit mindestens 80 Punkten plus die 34 Foto-Freisteller.
-- **3.388 erfüllen ihn nicht.** Sie wurden bis zur Obergrenze neu gezeichnet, und wir haben die am besten bewertete Fassung behalten, damit keine Art ohne Bild bleibt. 3.273 liegen bei 70–79 Punkten, 109 darunter, und 6 hatten 80 oder mehr, sind aber in der blinden Zweitprüfung durchgefallen.
+- **7.668 erfüllen unseren Qualitätsanspruch** (`"meetsQualityBar": true`): KI-Sticker mit mindestens 80 Punkten.
+- **3.396 erfüllen ihn nicht.** Sie wurden bis zur Obergrenze neu gezeichnet, und wir haben die am besten bewertete Fassung behalten, damit keine Art ohne Bild bleibt. 3.281 liegen bei 70–79 Punkten, 109 darunter, und 6 hatten 80 oder mehr, sind aber in der blinden Zweitprüfung durchgefallen.
 
 Das sind Illustrationen, keine Bestimmungsbuch-Tafeln. Sie sind als freundliches Bild des Vogels gedacht; bei feinen Details sollte man ein Bestimmungsbuch zurate ziehen. Wenn Sie einen Fehler entdecken, [eröffnen Sie bitte ein Issue](../../issues/new/choose): Korrekturen von Vogelbeobachtern sind der wertvollste Beitrag, den dieses Projekt bekommen kann.
 
@@ -150,7 +150,7 @@ Die Referenz jedes Stickers steht in `sticker.reference`, mit Seite, Urheber und
 
 | Referenz | Arten |
 |---|---|
-| Foto unter offener Lizenz (CC0, gemeinfrei, CC BY, CC BY-SA) | 1.986 |
+| Foto unter offener Lizenz (CC0, gemeinfrei, CC BY, CC BY-SA) | 2.020 |
 | Tafel aus Bildern unter offener Lizenz oder nur eine schriftliche Beschreibung | 46 |
 | Foto unter nicht-kommerzieller Lizenz oder Lizenz ohne Bearbeitung (CC BY-NC, -ND, …) | 5.071 |
 | Foto mit allen Rechten vorbehalten oder unter den Bedingungen der Macaulay Library | 1.500 |

@@ -135,12 +135,12 @@ Un registro tiene este aspecto (nombres abreviados):
 
 ## Cómo se hicieron las pegatinas y qué calidad tienen
 
-11 030 pegatinas son ilustraciones hechas con IA. Para cada especie buscamos una fotografía de referencia (o, en las 453 especies para las que ninguna foto por sí sola era suficientemente buena, un tablero con varias imágenes y una descripción escrita), dibujamos la pegatina con GPT-image, la ampliamos y la recortamos. 34 están recortadas a partir de fotografías reales y superaron una revisión a ciegas frente a la foto original.
+11 064 pegatinas son ilustraciones hechas con IA. Para cada especie buscamos una fotografía de referencia (o, en las 453 especies para las que ninguna foto por sí sola era suficientemente buena, un tablero con varias imágenes y una descripción escrita), dibujamos la pegatina con GPT-image, la ampliamos y la recortamos.
 
 Después, un revisor independiente puntuó cada pegatina de IA frente a la referencia en cuanto a las marcas de campo: pico, ojo, patas y pies, patrón y color del plumaje. En la última ronda, 852 pegatinas límite (80–82) tuvieron además una segunda revisión a ciegas, y 211 de ellas no la superaron y se volvieron a dibujar. Las pegatinas límite de rondas anteriores no pasaron por esta segunda revisión.
 
-- **7676 cumplen nuestro nivel de calidad** (`"meetsQualityBar": true`): las pegatinas de IA con 80 puntos o más, más los 34 recortes de fotografías.
-- **3388 no lo cumplen.** Se volvieron a dibujar hasta el límite de intentos y nos quedamos con la versión de mayor puntuación para que ninguna especie quede sin imagen. 3273 puntúan entre 70 y 79, 109 puntúan por debajo de 70 y 6 obtuvieron 80 o más pero no superaron la segunda revisión a ciegas.
+- **7668 cumplen nuestro nivel de calidad** (`"meetsQualityBar": true`): las pegatinas de IA con 80 puntos o más.
+- **3396 no lo cumplen.** Se volvieron a dibujar hasta el límite de intentos y nos quedamos con la versión de mayor puntuación para que ninguna especie quede sin imagen. 3281 puntúan entre 70 y 79, 109 puntúan por debajo de 70 y 6 obtuvieron 80 o más pero no superaron la segunda revisión a ciegas.
 
 Son ilustraciones, no láminas de guía de campo. Tómelas como un dibujo amable del ave y consulte una guía de campo antes de fiarse de un detalle fino. Si encuentra un error, [abra una incidencia](../../issues/new/choose): las correcciones de observadores de aves son la contribución más valiosa que puede recibir este proyecto.
 
@@ -150,7 +150,7 @@ La referencia de cada pegatina figura en `sticker.reference`, con su página, au
 
 | Referencia | Especies |
 |---|---|
-| Foto con licencia abierta (CC0, dominio público, CC BY, CC BY-SA) | 1986 |
+| Foto con licencia abierta (CC0, dominio público, CC BY, CC BY-SA) | 2020 |
 | Tablero de imágenes con licencia abierta, o solo una descripción escrita | 46 |
 | Foto con licencia no comercial o sin obras derivadas (CC BY-NC, -ND, …) | 5071 |
 | Foto con todos los derechos reservados, o bajo las condiciones de Macaulay Library | 1500 |

@@ -135,12 +135,12 @@ Voici à quoi ressemble une fiche (noms abrégés) :
 
 ## Comment les autocollants ont été faits, et leur qualité
 
-11 030 autocollants sont des illustrations générées par IA. Pour chaque espèce, nous avons trouvé une photo de référence (ou, pour les 453 espèces où aucune photo seule n'était assez bonne, une planche de plusieurs images accompagnée d'une description écrite), dessiné l'autocollant avec GPT-image, l'avons agrandi puis détouré. 34 sont détourés à partir de vraies photographies et ont passé une relecture en aveugle face à la photo d'origine.
+11 064 autocollants sont des illustrations générées par IA. Pour chaque espèce, nous avons trouvé une photo de référence (ou, pour les 453 espèces où aucune photo seule n'était assez bonne, une planche de plusieurs images accompagnée d'une description écrite), dessiné l'autocollant avec GPT-image, l'avons agrandi puis détouré.
 
 Chaque autocollant IA a ensuite été noté par un relecteur distinct, en le comparant à la référence sur les critères de terrain : bec, œil, pattes et pieds, motif et couleur du plumage. Au dernier tour, 852 autocollants limites (80–82) ont en plus subi une seconde relecture en aveugle ; 211 d'entre eux l'ont échouée et ont été redessinés. Les autocollants limites des tours précédents n'ont pas eu cette seconde relecture.
 
-- **7 676 atteignent notre seuil de qualité** (`"meetsQualityBar": true`) : les autocollants IA notés 80 ou plus, plus les 34 détourages de photos.
-- **3 388 ne l'atteignent pas.** Ils ont été redessinés jusqu'à la limite fixée, et nous avons gardé la version la mieux notée pour qu'aucune espèce ne reste sans image. 3 273 sont notés entre 70 et 79, 109 en dessous de 70, et 6 ont obtenu 80 ou plus mais ont échoué à la seconde relecture en aveugle.
+- **7 668 atteignent notre seuil de qualité** (`"meetsQualityBar": true`) : les autocollants IA notés 80 ou plus.
+- **3 396 ne l'atteignent pas.** Ils ont été redessinés jusqu'à la limite fixée, et nous avons gardé la version la mieux notée pour qu'aucune espèce ne reste sans image. 3 281 sont notés entre 70 et 79, 109 en dessous de 70, et 6 ont obtenu 80 ou plus mais ont échoué à la seconde relecture en aveugle.
 
 Ce sont des illustrations, pas des planches de guide de terrain. Voyez-les comme une image sympathique de l'oiseau, et consultez un guide de terrain avant de vous fier à un détail fin. Si vous repérez une erreur, [ouvrez un ticket](../../issues/new/choose) : les corrections des ornithologues amateurs sont la contribution la plus précieuse que ce projet puisse recevoir.
 
@@ -150,7 +150,7 @@ La référence de chaque autocollant figure dans `sticker.reference`, avec sa pa
 
 | Référence | Espèces |
 |---|---|
-| Photo sous licence ouverte (CC0, domaine public, CC BY, CC BY-SA) | 1 986 |
+| Photo sous licence ouverte (CC0, domaine public, CC BY, CC BY-SA) | 2 020 |
 | Planche d'images sous licence ouverte, ou simple description écrite | 46 |
 | Photo sous licence non commerciale ou sans modification (CC BY-NC, -ND, …) | 5 071 |
 | Photo tous droits réservés, ou soumise aux conditions de la Macaulay Library | 1 500 |

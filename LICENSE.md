@@ -6,7 +6,7 @@ This repository has two kinds of content under two licenses.
 |---|---|
 | AI-illustrated stickers (`stickers/`, `previews/`) | [PolyForm Shield 1.0.0](LICENSES/PolyForm-Shield-1.0.0.md) |
 | Data compiled by this project (`data/`) | [MIT](LICENSES/MIT.txt) |
-| Third-party material (IOC names, 34 photo-cutout stickers, …) | Its own terms, see [NOTICE](NOTICE.md) |
+| Third-party material (IOC names, AVONET data, …) | Its own terms, see [NOTICE](NOTICE.md) |
 
 **In plain words:** you may use, copy, modify and share the stickers for any purpose, including commercial ones, **except to provide a product that competes with Mingji** (a bird-watching, bird-identification or bird field-guide app, website or service), whether paid or free. Publications, teaching, research, museums, games, merchandise, personal projects and apps in other fields are all fine. This summary is for convenience; the license text is what counts.
 

@@ -16049,14 +16049,15 @@
    },
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Sibirionetta_formosa.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 81,
     "meetsQualityBar": true,
-    "license": "CC BY 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by/4.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=146622810",
-     "author": "Sun Jiao (Interaccoonale)"
+     "author": "Sun Jiao (Interaccoonale)",
+     "license": "CC BY 4.0"
     }
    }
   },
@@ -17179,14 +17180,15 @@
    },
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Spatula_clypeata.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 84,
     "meetsQualityBar": true,
-    "license": "CC BY 2.0",
-    "licenseURL": "https://creativecommons.org/licenses/by/2.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/wiki/File:Pato-colhereiro,_macho,_Northern_Shoveler,_male_(49060756056).jpg",
-     "author": "Luiz Lapa from Oeiras, Portugal"
+     "author": "Luiz Lapa from Oeiras, Portugal",
+     "license": "CC BY 2.0"
     }
    }
   },
@@ -18827,14 +18829,15 @@
    },
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Anas_zonorhyncha.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 80,
     "meetsQualityBar": true,
-    "license": "CC BY-SA 3.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/wiki/File:Anas_zonorhyncha_swimming.jpg",
-     "author": "Alpsdake"
+     "author": "Alpsdake",
+     "license": "CC BY-SA 3.0"
     }
    }
   },
@@ -56268,14 +56271,15 @@
    },
    "sticker": {
     "file": "stickers/Galliformes/Phasianidae/Tetraogallus_tibetanus.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 81,
     "meetsQualityBar": true,
-    "license": "CC BY-SA 2.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=74120540",
-     "author": "Donald Macauley from Carshalton, Surrey, UK"
+     "author": "Donald Macauley from Carshalton, Surrey, UK",
+     "license": "CC BY-SA 2.0"
     }
    }
   },
@@ -99204,14 +99208,15 @@
    },
    "sticker": {
     "file": "stickers/Apodiformes/Trochilidae/Lophornis_ornatus.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
-    "meetsQualityBar": true,
-    "license": "CC BY-SA 2.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": {
+    "kind": "ai-illustration",
+    "reviewScore": 77,
+    "meetsQualityBar": false,
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=21074756",
-     "author": "Mike's Birds"
+     "author": "Mike's Birds",
+     "license": "CC BY-SA 2.0"
     }
    }
   },
@@ -211677,14 +211682,15 @@
    },
    "sticker": {
     "file": "stickers/Podicipediformes/Podicipedidae/Podiceps_cristatus.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 83,
     "meetsQualityBar": true,
-    "license": "CC BY 2.0",
-    "licenseURL": "https://creativecommons.org/licenses/by/2.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=138863613",
-     "author": "caroline legg"
+     "author": "caroline legg",
+     "license": "CC BY 2.0"
     }
    }
   },
@@ -212636,14 +212642,15 @@
    },
    "sticker": {
     "file": "stickers/Phoenicopteriformes/Phoenicopteridae/Phoenicopterus_roseus.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
-    "meetsQualityBar": true,
-    "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": {
+    "kind": "ai-illustration",
+    "reviewScore": 77,
+    "meetsQualityBar": false,
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=154920936",
-     "author": "Giles Laurent"
+     "author": "Giles Laurent",
+     "license": "CC BY-SA 4.0"
     }
    }
   },
@@ -212764,14 +212771,15 @@
    },
    "sticker": {
     "file": "stickers/Phoenicopteriformes/Phoenicopteridae/Phoenicopterus_ruber.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 81,
     "meetsQualityBar": true,
-    "license": "CC BY 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by/4.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=158155624",
-     "author": "JeffreyGammon"
+     "author": "JeffreyGammon",
+     "license": "CC BY 4.0"
     }
    }
   },
@@ -213089,14 +213097,15 @@
    },
    "sticker": {
     "file": "stickers/Phoenicopteriformes/Phoenicopteridae/Phoenicoparrus_andinus.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 80,
     "meetsQualityBar": true,
-    "license": "CC BY",
-    "licenseURL": "https://www.inaturalist.org/observations/102841477",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://www.inaturalist.org/observations/102841477",
-     "author": "Luciano Massa"
+     "author": "Luciano Massa",
+     "license": "CC BY"
     }
    }
   },
@@ -218703,14 +218712,15 @@
    },
    "sticker": {
     "file": "stickers/Charadriiformes/Recurvirostridae/Recurvirostra_avosetta.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
-    "meetsQualityBar": true,
-    "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": {
+    "kind": "ai-illustration",
+    "reviewScore": 77,
+    "meetsQualityBar": false,
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=148663312",
-     "author": "El Golli Mohamed"
+     "author": "El Golli Mohamed",
+     "license": "CC BY-SA 4.0"
     }
    }
   },
@@ -234006,14 +234016,15 @@
    },
    "sticker": {
     "file": "stickers/Charadriiformes/Scolopacidae/Actitis_hypoleucos.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
-    "meetsQualityBar": true,
-    "license": "CC BY 3.0",
-    "licenseURL": "https://creativecommons.org/licenses/by/3.0",
-    "source": {
+    "kind": "ai-illustration",
+    "reviewScore": 77,
+    "meetsQualityBar": false,
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=23214327",
-     "author": "JJ Harrison (https://www.jjharrison.com.au/)"
+     "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+     "license": "CC BY 3.0"
     }
    }
   },
@@ -254579,14 +254590,15 @@
    },
    "sticker": {
     "file": "stickers/Charadriiformes/Alcidae/Fratercula_arctica.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 84,
     "meetsQualityBar": true,
-    "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=142988848",
-     "author": "Giles Laurent"
+     "author": "Giles Laurent",
+     "license": "CC BY-SA 4.0"
     }
    }
   },
@@ -258335,14 +258347,15 @@
    },
    "sticker": {
     "file": "stickers/Sphenisciformes/Spheniscidae/Aptenodytes_patagonicus.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 84,
     "meetsQualityBar": true,
-    "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=128465630",
-     "author": "Antoine Lamielle"
+     "author": "Antoine Lamielle",
+     "license": "CC BY-SA 4.0"
     }
    }
   },
@@ -258548,14 +258561,15 @@
    },
    "sticker": {
     "file": "stickers/Sphenisciformes/Spheniscidae/Pygoscelis_adeliae.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 84,
     "meetsQualityBar": true,
-    "license": "CC BY-SA 2.0 de",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=3620239",
-     "author": "Nanosmile = Reinhard Jahn, Mannheim"
+     "author": "Nanosmile = Reinhard Jahn, Mannheim",
+     "license": "CC BY-SA 2.0 de"
     }
    }
   },
@@ -258777,14 +258791,15 @@
    },
    "sticker": {
     "file": "stickers/Sphenisciformes/Spheniscidae/Pygoscelis_papua.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 81,
     "meetsQualityBar": true,
-    "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=74822474",
-     "author": "W. Bulach"
+     "author": "W. Bulach",
+     "license": "CC BY-SA 4.0"
     }
    }
   },
@@ -259333,14 +259348,15 @@
    },
    "sticker": {
     "file": "stickers/Sphenisciformes/Spheniscidae/Spheniscus_demersus.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 83,
     "meetsQualityBar": true,
-    "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=70973063",
-     "author": "Matti Blume"
+     "author": "Matti Blume",
+     "license": "CC BY-SA 4.0"
     }
    }
   },
@@ -278197,14 +278213,15 @@
    },
    "sticker": {
     "file": "stickers/Suliformes/Fregatidae/Fregata_magnificens.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
-    "meetsQualityBar": true,
-    "license": "CC BY 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by/4.0",
-    "source": {
+    "kind": "ai-illustration",
+    "reviewScore": 77,
+    "meetsQualityBar": false,
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=196257982",
-     "author": "Ligocsicnarf89"
+     "author": "Ligocsicnarf89",
+     "license": "CC BY 4.0"
     }
    }
   },
@@ -279747,14 +279764,15 @@
    },
    "sticker": {
     "file": "stickers/Suliformes/Sulidae/Sula_nebouxii.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 82,
     "meetsQualityBar": true,
-    "license": "CC BY",
-    "licenseURL": "https://www.inaturalist.org/observations/40536646",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://www.inaturalist.org/observations/40536646",
-     "author": "William Stephens"
+     "author": "William Stephens",
+     "license": "CC BY"
     }
    }
   },
@@ -286756,14 +286774,15 @@
    },
    "sticker": {
     "file": "stickers/Pelecaniformes/Threskiornithidae/Eudocimus_ruber.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 81,
     "meetsQualityBar": true,
-    "license": "CC BY-SA",
-    "licenseURL": "https://www.inaturalist.org/observations/361869680",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://www.inaturalist.org/observations/361869680",
-     "author": "Miguel"
+     "author": "Miguel",
+     "license": "CC BY-SA"
     }
    }
   },
@@ -290230,14 +290249,15 @@
    },
    "sticker": {
     "file": "stickers/Pelecaniformes/Ardeidae/Nycticorax_nycticorax.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 82,
     "meetsQualityBar": true,
-    "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=44277158",
-     "author": "Laitche"
+     "author": "Laitche",
+     "license": "CC BY-SA 4.0"
     }
    }
   },
@@ -296931,14 +296951,15 @@
    },
    "sticker": {
     "file": "stickers/Accipitriformes/Cathartidae/Gymnogyps_californianus.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 81,
     "meetsQualityBar": true,
-    "license": "CC BY",
-    "licenseURL": "https://www.inaturalist.org/observations/304654041",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://www.inaturalist.org/observations/304654041",
-     "author": "Brooke J."
+     "author": "Brooke J.",
+     "license": "CC BY"
     }
    }
   },
@@ -297151,14 +297172,15 @@
    },
    "sticker": {
     "file": "stickers/Accipitriformes/Cathartidae/Vultur_gryphus.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
-    "meetsQualityBar": true,
-    "license": "CC BY-SA 3.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source": {
+    "kind": "ai-illustration",
+    "reviewScore": 78,
+    "meetsQualityBar": false,
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=11906390",
-     "author": "Martin St-Amant (S23678)"
+     "author": "Martin St-Amant (S23678)",
+     "license": "CC BY-SA 3.0"
     }
    }
   },
@@ -297713,14 +297735,15 @@
    },
    "sticker": {
     "file": "stickers/Accipitriformes/Sagittariidae/Sagittarius_serpentarius.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
-    "meetsQualityBar": true,
-    "license": "CC BY",
-    "licenseURL": "https://www.inaturalist.org/observations/71507882",
-    "source": {
+    "kind": "ai-illustration",
+    "reviewScore": 77,
+    "meetsQualityBar": false,
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://www.inaturalist.org/observations/71507882",
-     "author": "Jan Ebr & Ivana Ebrová"
+     "author": "Jan Ebr & Ivana Ebrová",
+     "license": "CC BY"
     }
    }
   },
@@ -305109,14 +305132,15 @@
    },
    "sticker": {
     "file": "stickers/Accipitriformes/Accipitridae/Harpia_harpyja.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 80,
     "meetsQualityBar": true,
-    "license": "CC BY",
-    "licenseURL": "https://www.inaturalist.org/observations/183365865",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://www.inaturalist.org/observations/183365865",
-     "author": "Agustín Zarco"
+     "author": "Agustín Zarco",
+     "license": "CC BY"
     }
    }
   },
@@ -318228,14 +318252,15 @@
    },
    "sticker": {
     "file": "stickers/Accipitriformes/Accipitridae/Haliaeetus_leucocephalus.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 83,
     "meetsQualityBar": true,
-    "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=154252850",
-     "author": "Paul Danese"
+     "author": "Paul Danese",
+     "license": "CC BY-SA 4.0"
     }
    }
   },
@@ -382097,14 +382122,15 @@
    },
    "sticker": {
     "file": "stickers/Coraciiformes/Alcedinidae/Megaceryle_lugubris.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 80,
     "meetsQualityBar": true,
-    "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=56851449",
-     "author": "Mprasannak"
+     "author": "Mprasannak",
+     "license": "CC BY-SA 4.0"
     }
    }
   },
@@ -396366,14 +396392,14 @@
    },
    "sticker": {
     "file": "stickers/Piciformes/Ramphastidae/Ramphastos_toco.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
-    "meetsQualityBar": true,
-    "license": "CC0 1.0",
-    "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": {
+    "kind": "ai-illustration",
+    "reviewScore": 77,
+    "meetsQualityBar": false,
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://www.inaturalist.org/observations/143502779",
-     "author": null
+     "license": "CC0 1.0"
     }
    }
   },
@@ -463542,14 +463568,15 @@
    },
    "sticker": {
     "file": "stickers/Psittaciformes/Psittacidae/Anodorhynchus_hyacinthinus.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 84,
     "meetsQualityBar": true,
-    "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=169906988",
-     "author": "Giles Laurent"
+     "author": "Giles Laurent",
+     "license": "CC BY-SA 4.0"
     }
    }
   },
@@ -465813,14 +465840,15 @@
    },
    "sticker": {
     "file": "stickers/Psittaciformes/Psittacidae/Ara_ararauna.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 80,
     "meetsQualityBar": true,
-    "license": "CC BY",
-    "licenseURL": "https://www.inaturalist.org/observations/293217256",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://www.inaturalist.org/observations/293217256",
-     "author": "Gabriel Augusto Faria"
+     "author": "Gabriel Augusto Faria",
+     "license": "CC BY"
     }
    }
   },
@@ -758002,14 +758030,15 @@
    },
    "sticker": {
     "file": "stickers/Passeriformes/Laniidae/Lanius_schach.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 81,
     "meetsQualityBar": true,
-    "license": "CC BY 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by/4.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/wiki/File:Long-tailed_Shrike_Lanius_schach_Velavadar_National_Park,_Gujarat,_India_DSCN7252.jpg",
-     "author": "Rohitjahnavi"
+     "author": "Rohitjahnavi",
+     "license": "CC BY 4.0"
     }
    }
   },
@@ -762033,14 +762062,15 @@
    },
    "sticker": {
     "file": "stickers/Passeriformes/Corvidae/Cyanocitta_cristata.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 81,
     "meetsQualityBar": true,
-    "license": "CC BY",
-    "licenseURL": "https://www.inaturalist.org/observations/144792422",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://www.inaturalist.org/observations/144792422",
-     "author": "Blake Ross"
+     "author": "Blake Ross",
+     "license": "CC BY"
     }
    }
   },
@@ -766607,14 +766637,15 @@
    },
    "sticker": {
     "file": "stickers/Passeriformes/Corvidae/Pica_serica.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 84,
     "meetsQualityBar": true,
-    "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/wiki/File:Oriental_magpie_in_Peking_University.jpg",
-     "author": "星外之神"
+     "author": "星外之神",
+     "license": "CC BY-SA 4.0"
     }
    }
   },
@@ -1016311,14 +1016342,14 @@
    },
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Myiomela_leucura.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 84,
     "meetsQualityBar": true,
-    "license": "CC0 1.0",
-    "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://www.inaturalist.org/observations/344694937",
-     "author": null
+     "license": "CC0 1.0"
     }
    }
   },
@@ -1027610,14 +1027641,15 @@
    },
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Phoenicurus_auroreus.webp",
-    "kind": "photo-cutout",
-    "reviewScore": null,
+    "kind": "ai-illustration",
+    "reviewScore": 83,
     "meetsQualityBar": true,
-    "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": {
+    "license": "PolyForm-Shield-1.0.0",
+    "reference": {
+     "type": "photo",
      "page": "https://commons.wikimedia.org/?curid=46502075",
-     "author": "Laitche"
+     "author": "Laitche",
+     "license": "CC BY-SA 4.0"
     }
    }
   },
