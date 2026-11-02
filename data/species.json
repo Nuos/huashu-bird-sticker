@@ -762063,14 +762063,14 @@
    "sticker": {
     "file": "stickers/Passeriformes/Corvidae/Cyanocitta_cristata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 81,
+    "reviewScore": 88,
     "meetsQualityBar": true,
     "license": "PolyForm-Shield-1.0.0",
     "reference": {
      "type": "photo",
-     "page": "https://www.inaturalist.org/observations/144792422",
-     "author": "Blake Ross",
-     "license": "CC BY"
+     "page": "https://commons.wikimedia.org/wiki/File:Bluejay_(Cyanocitta_cristata)_(1547)_-_Relic38.jpg",
+     "author": "Darren Swim",
+     "license": "CC BY-SA 3.0"
     }
    }
   },
