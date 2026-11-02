@@ -327615,7 +327615,7 @@
    "sticker": {
     "file": "stickers/Strigiformes/Tytonidae/Tyto_longimembris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 70,
+    "reviewScore": 77,
     "meetsQualityBar": false,
     "license": "PolyForm-Shield-1.0.0",
     "reference": {
@@ -331705,7 +331705,7 @@
    "sticker": {
     "file": "stickers/Strigiformes/Strigidae/Ninox_odiosa.webp",
     "kind": "ai-illustration",
-    "reviewScore": 83,
+    "reviewScore": 86,
     "meetsQualityBar": true,
     "license": "PolyForm-Shield-1.0.0",
     "reference": {
@@ -332266,8 +332266,8 @@
    "sticker": {
     "file": "stickers/Strigiformes/Strigidae/Micrathene_whitneyi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 88,
+    "meetsQualityBar": true,
     "license": "PolyForm-Shield-1.0.0",
     "reference": {
      "type": "photo",
@@ -332876,7 +332876,7 @@
    "sticker": {
     "file": "stickers/Strigiformes/Strigidae/Aegolius_harrisii.webp",
     "kind": "ai-illustration",
-    "reviewScore": 84,
+    "reviewScore": 88,
     "meetsQualityBar": true,
     "license": "PolyForm-Shield-1.0.0",
     "reference": {
@@ -334978,8 +334978,8 @@
    "sticker": {
     "file": "stickers/Strigiformes/Strigidae/Glaucidium_castanotum.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 86,
+    "meetsQualityBar": true,
     "license": "PolyForm-Shield-1.0.0",
     "reference": {
      "type": "photo",
@@ -340245,8 +340245,8 @@
    "sticker": {
     "file": "stickers/Strigiformes/Strigidae/Otus_feae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 81,
-    "meetsQualityBar": true,
+    "reviewScore": 74,
+    "meetsQualityBar": false,
     "license": "PolyForm-Shield-1.0.0",
     "reference": {
      "type": "reference-board",
@@ -351028,8 +351028,8 @@
    "sticker": {
     "file": "stickers/Strigiformes/Strigidae/Strix_seloputo.webp",
     "kind": "ai-illustration",
-    "reviewScore": 75,
-    "meetsQualityBar": false,
+    "reviewScore": 86,
+    "meetsQualityBar": true,
     "license": "PolyForm-Shield-1.0.0",
     "reference": {
      "type": "photo",
@@ -352225,7 +352225,7 @@
    "sticker": {
     "file": "stickers/Strigiformes/Strigidae/Strix_sartorii.webp",
     "kind": "ai-illustration",
-    "reviewScore": 83,
+    "reviewScore": 87,
     "meetsQualityBar": true,
     "license": "PolyForm-Shield-1.0.0",
     "reference": {

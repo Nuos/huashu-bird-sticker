@@ -143,8 +143,8 @@ So sieht ein Eintrag aus (Namen gekürzt):
 
 Jeder KI-Sticker wurde danach von einem eigenen Prüfer anhand der Referenz auf Bestimmungsmerkmale bewertet: Schnabel, Auge, Beine und Füße, Gefiederzeichnung und -farbe. In der letzten Runde wurden 852 Grenzfälle (80–82) zusätzlich blind ein zweites Mal geprüft; 211 davon fielen durch und wurden neu gezeichnet. Grenzfälle aus früheren Runden haben diese zweite Prüfung nicht durchlaufen.
 
-- **7.668 erfüllen unseren Qualitätsanspruch** (`"meetsQualityBar": true`): KI-Sticker mit mindestens 80 Punkten.
-- **3.396 erfüllen ihn nicht.** Sie wurden bis zur Obergrenze neu gezeichnet, und wir haben die am besten bewertete Fassung behalten, damit keine Art ohne Bild bleibt. 3.281 liegen bei 70–79 Punkten, 109 darunter, und 6 hatten 80 oder mehr, sind aber in der blinden Zweitprüfung durchgefallen.
+- **7.670 erfüllen unseren Qualitätsanspruch** (`"meetsQualityBar": true`): KI-Sticker mit mindestens 80 Punkten.
+- **3.394 erfüllen ihn nicht.** Sie wurden bis zur Obergrenze neu gezeichnet, und wir haben die am besten bewertete Fassung behalten, damit keine Art ohne Bild bleibt. 3.279 liegen bei 70–79 Punkten, 109 darunter, und 6 hatten 80 oder mehr, sind aber in der blinden Zweitprüfung durchgefallen.
 
 Das sind Illustrationen, keine Bestimmungsbuch-Tafeln. Sie sind als freundliches Bild des Vogels gedacht; bei feinen Details sollte man ein Bestimmungsbuch zurate ziehen. Wenn Sie einen Fehler entdecken, [eröffnen Sie bitte ein Issue](../../issues/new/choose): Korrekturen von Vogelbeobachtern sind der wertvollste Beitrag, den dieses Projekt bekommen kann.
 

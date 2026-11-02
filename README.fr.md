@@ -143,8 +143,8 @@ Voici à quoi ressemble une fiche (noms abrégés) :
 
 Chaque autocollant IA a ensuite été noté par un relecteur distinct, en le comparant à la référence sur les critères de terrain : bec, œil, pattes et pieds, motif et couleur du plumage. Au dernier tour, 852 autocollants limites (80–82) ont en plus subi une seconde relecture en aveugle ; 211 d'entre eux l'ont échouée et ont été redessinés. Les autocollants limites des tours précédents n'ont pas eu cette seconde relecture.
 
-- **7 668 atteignent notre seuil de qualité** (`"meetsQualityBar": true`) : les autocollants IA notés 80 ou plus.
-- **3 396 ne l'atteignent pas.** Ils ont été redessinés jusqu'à la limite fixée, et nous avons gardé la version la mieux notée pour qu'aucune espèce ne reste sans image. 3 281 sont notés entre 70 et 79, 109 en dessous de 70, et 6 ont obtenu 80 ou plus mais ont échoué à la seconde relecture en aveugle.
+- **7 670 atteignent notre seuil de qualité** (`"meetsQualityBar": true`) : les autocollants IA notés 80 ou plus.
+- **3 394 ne l'atteignent pas.** Ils ont été redessinés jusqu'à la limite fixée, et nous avons gardé la version la mieux notée pour qu'aucune espèce ne reste sans image. 3 279 sont notés entre 70 et 79, 109 en dessous de 70, et 6 ont obtenu 80 ou plus mais ont échoué à la seconde relecture en aveugle.
 
 Ce sont des illustrations, pas des planches de guide de terrain. Voyez-les comme une image sympathique de l'oiseau, et consultez un guide de terrain avant de vous fier à un détail fin. Si vous repérez une erreur, [ouvrez un ticket](../../issues/new/choose) : les corrections des ornithologues amateurs sont la contribution la plus précieuse que ce projet puisse recevoir.
 

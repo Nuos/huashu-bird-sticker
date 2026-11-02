@@ -143,8 +143,8 @@ Un registro tiene este aspecto (nombres abreviados):
 
 Después, un revisor independiente puntuó cada pegatina de IA frente a la referencia en cuanto a las marcas de campo: pico, ojo, patas y pies, patrón y color del plumaje. En la última ronda, 852 pegatinas límite (80–82) tuvieron además una segunda revisión a ciegas, y 211 de ellas no la superaron y se volvieron a dibujar. Las pegatinas límite de rondas anteriores no pasaron por esta segunda revisión.
 
-- **7668 cumplen nuestro nivel de calidad** (`"meetsQualityBar": true`): las pegatinas de IA con 80 puntos o más.
-- **3396 no lo cumplen.** Se volvieron a dibujar hasta el límite de intentos y nos quedamos con la versión de mayor puntuación para que ninguna especie quede sin imagen. 3281 puntúan entre 70 y 79, 109 puntúan por debajo de 70 y 6 obtuvieron 80 o más pero no superaron la segunda revisión a ciegas.
+- **7670 cumplen nuestro nivel de calidad** (`"meetsQualityBar": true`): las pegatinas de IA con 80 puntos o más.
+- **3394 no lo cumplen.** Se volvieron a dibujar hasta el límite de intentos y nos quedamos con la versión de mayor puntuación para que ninguna especie quede sin imagen. 3279 puntúan entre 70 y 79, 109 puntúan por debajo de 70 y 6 obtuvieron 80 o más pero no superaron la segunda revisión a ciegas.
 
 Son ilustraciones, no láminas de guía de campo. Tómelas como un dibujo amable del ave y consulte una guía de campo antes de fiarse de un detalle fino. Si encuentra un error, [abra una incidencia](../../issues/new/choose): las correcciones de observadores de aves son la contribución más valiosa que puede recibir este proyecto.
 
