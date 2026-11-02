@@ -4,6 +4,10 @@
 
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · **Português** · [Русский](README.ru.md) · [العربية](README.ar.md)
 
+<a href="https://birdalbum.com/pt-br/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker"><img src="previews/birdalbum.webp" alt="Bird Album: todas as aves do mundo, um adesivo para cada uma. birdalbum.com" width="100%"></a>
+
+**Veja a biblioteca inteira em uso em [birdalbum.com](https://birdalbum.com/pt-br/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker).** O Bird Album é um guia de aves gratuito feito com estes adesivos: procure qualquer espécie pelo nome em 15 idiomas, veja onde ela vive e em quais meses aparece, e abra um mapa com 8.171 pontos de observação de aves que mostra o que as pessoas estão vendo em cada um neste mês.
+
 11.064 espécies de aves, um adesivo para cada uma, em 44 ordens e 250 famílias. São todas as espécies vivas da IOC World Bird List v15.2 (as 163 espécies extintas não estão incluídas). Cada espécie vem com dados estruturados: taxonomia, nomes em até 43 idiomas, IDs em outras bases de dados e a origem de cada adesivo.
 
 ![40 adesivos de 15 ordens de aves](previews/hero.webp)

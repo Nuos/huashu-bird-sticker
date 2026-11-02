@@ -4,6 +4,10 @@
 
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · **한국어** · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)
 
+<a href="https://birdalbum.com/ko/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker"><img src="previews/birdalbum.webp" alt="Bird Album: 세계의 모든 새, 종마다 스티커 한 장. birdalbum.com" width="100%"></a>
+
+**라이브러리 전체가 실제로 쓰이는 모습은 [birdalbum.com](https://birdalbum.com/ko/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker)에서 볼 수 있습니다.** Bird Album은 이 스티커로 만든 무료 조류 가이드입니다. 15개 언어로 종 이름을 검색하고, 그 새가 어디에 살고 어느 달에 볼 수 있는지 확인할 수 있으며, 탐조지 8,171곳이 표시된 지도에서 각 장소에서 이번 달 사람들이 어떤 새를 보고 있는지 열어 볼 수 있습니다.
+
 새 11,064종, 종마다 스티커 한 장, 44개 목 250개 과에 걸쳐 있습니다. IOC World Bird List v15.2의 현생종 전부에 해당합니다(멸종한 163종은 포함하지 않았습니다). 각 종에는 분류, 최대 43개 언어의 이름, 여러 데이터베이스의 ID, 스티커별 출처 같은 구조화된 데이터가 함께 들어 있습니다.
 
 ![15개 목에서 고른 스티커 40장](previews/hero.webp)

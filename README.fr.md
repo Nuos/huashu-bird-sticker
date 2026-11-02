@@ -4,6 +4,10 @@
 
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · **Français** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)
 
+<a href="https://birdalbum.com/fr/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker"><img src="previews/birdalbum.webp" alt="Bird Album : tous les oiseaux du monde, un autocollant pour chacun. birdalbum.com" width="100%"></a>
+
+**Découvrez toute la bibliothèque en situation sur [birdalbum.com](https://birdalbum.com/fr/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker).** Bird Album est un guide des oiseaux gratuit construit sur ces autocollants : cherchez n'importe quelle espèce par son nom dans 15 langues, voyez où elle vit et à quels mois on peut la croiser, et ouvrez une carte de 8 171 sites d'observation qui montre ce que les gens observent ce mois-ci à chacun.
+
 11 064 espèces d'oiseaux, un autocollant pour chacune, réparties en 44 ordres et 250 familles. Ce sont toutes les espèces vivantes de la IOC World Bird List v15.2 (les 163 espèces éteintes ne sont pas incluses). Chaque espèce est accompagnée de données structurées : taxonomie, noms dans jusqu'à 43 langues, identifiants dans d'autres bases de données et provenance de chaque autocollant.
 
 ![40 autocollants de 15 ordres d’oiseaux](previews/hero.webp)

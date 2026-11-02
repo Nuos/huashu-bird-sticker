@@ -4,6 +4,10 @@
 
 [English](README.md) · [简体中文](README.zh-Hans.md) · **繁體中文** · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)
 
+<a href="https://birdalbum.com/zh-hant/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker"><img src="previews/birdalbum.webp" alt="Bird Album：世界上每一種鳥，一種一張貼紙。birdalbum.com" width="100%"></a>
+
+**這套貼紙的完整用法，請到 [birdalbum.com](https://birdalbum.com/zh-hant/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker) 看看。** Bird Album 是用這個貼紙庫做的免費鳥類網站：15 種語言都能搜尋鳥名，看每種鳥分布在哪裡、幾月看得到；地圖上有 8,171 個賞鳥點，每處都列出這個月大家常記錄到的鳥。
+
 11,064 種鳥，每種一張貼紙，共 44 目 250 科。這涵蓋 IOC 世界鳥類名錄 v15.2 的全部現生物種（163 個已滅絕的種不在其中）。每種鳥都附有結構化資料：分類、最多 43 種語言的鳥名、各大資料庫的編號，以及每張貼紙的來歷。
 
 ![40張貼紙，來自15個目](previews/hero.webp)

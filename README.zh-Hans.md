@@ -4,6 +4,10 @@
 
 [English](README.md) · **简体中文** · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)
 
+<a href="https://birdalbum.com/zh/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker"><img src="previews/birdalbum-zh.webp" alt="Bird Album：世界上每一种鸟，一种一张贴纸。birdalbum.com" width="100%"></a>
+
+**这套贴纸的完整用法，去[birdalbum.com](https://birdalbum.com/zh/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker)看。** Bird Album是用这个贴纸库做的免费鸟类网站：15种语言都能搜鸟名，看每种鸟分布在哪、几月能见到；地图上有8,171个观鸟点，每处都列出这个月大家常记录的鸟。
+
 [花叔](https://github.com/alchaincyf)开源的全球鸟类贴纸库，贴纸出自花叔做的观鸟App「鸣迹」。全世界现存的11064种鸟，每种一张白边贴纸，共44目250科，覆盖IOC世界鸟类名录v15.2里的全部现生物种（163个灭绝种不在其中）。每种鸟都配有结构化数据：分类、最多43种语言的鸟名、各大数据库的编号，以及每张贴纸的来历。
 
 ![40张贴纸，来自15个目](previews/hero.webp)

@@ -4,6 +4,10 @@
 
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · **Español** · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)
 
+<a href="https://birdalbum.com/es/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker"><img src="previews/birdalbum.webp" alt="Bird Album: todas las aves del mundo, una pegatina por cada una. birdalbum.com" width="100%"></a>
+
+**Vea toda la biblioteca en uso en [birdalbum.com](https://birdalbum.com/es/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker).** Bird Album es una guía de aves gratuita creada con estas pegatinas: busque cualquier especie por su nombre en 15 idiomas, consulte dónde vive y en qué meses se la puede ver, y abra un mapa de 8171 puntos de observación de aves que muestra lo que la gente está viendo en cada uno este mes.
+
 11 064 especies de aves, una pegatina por cada una, en 44 órdenes y 250 familias. Son todas las especies vivas de la IOC World Bird List v15.2 (las 163 especies extintas no se incluyen). Cada especie viene con datos estructurados: taxonomía, nombres en hasta 43 idiomas, identificadores de otras bases de datos y el origen de cada pegatina.
 
 ![40 pegatinas de 15 órdenes de aves](previews/hero.webp)

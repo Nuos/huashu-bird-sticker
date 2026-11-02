@@ -6,6 +6,10 @@
 
 **English** · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)
 
+<a href="https://birdalbum.com/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker"><img src="previews/birdalbum.webp" alt="Bird Album: every bird in the world, one sticker each. birdalbum.com" width="100%"></a>
+
+**See the whole library in use at [birdalbum.com](https://birdalbum.com/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker).** Bird Album is a free bird guide built on these stickers: look up any species by name in 15 languages, see where it lives and which months it is around, and open a map of 8,171 birding hotspots that shows what people are seeing at each one this month.
+
 By [Huashu (花叔)](https://github.com/alchaincyf), from the bird-watching app Mingji (鸣迹). 11,064 bird species, one sticker each, across 44 orders and 250 families: every living species in the IOC World Bird List v15.2 (the 163 extinct species are not included). Each species comes with structured data: taxonomy, names in up to 43 languages, cross-database IDs, and where every sticker came from.
 
 ![40 stickers from 15 bird orders](previews/hero.webp)

@@ -4,6 +4,10 @@
 
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Русский** · [العربية](README.ar.md)
 
+<a href="https://birdalbum.com/ru/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker"><img src="previews/birdalbum.webp" alt="Bird Album: все птицы мира, по одному стикеру на каждую. birdalbum.com" width="100%"></a>
+
+**Всю библиотеку в деле можно увидеть на [birdalbum.com](https://birdalbum.com/ru/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker).** Bird Album — бесплатный определитель птиц на основе этих стикеров: ищите любой вид по названию на 15 языках, смотрите, где он обитает и в какие месяцы его можно встретить, и открывайте карту из 8 171 места наблюдения за птицами, где для каждого показано, кого там видят в этом месяце.
+
 11 064 вида птиц, по одному стикеру на каждый, в 44 отрядах и 250 семействах. Это все ныне живущие виды из IOC World Bird List v15.2 (163 вымерших вида не включены). К каждому виду прилагаются структурированные данные: систематика, названия на 43 языках (максимум), идентификаторы в других базах данных и происхождение каждого стикера.
 
 ![40 стикеров из 15 отрядов птиц](previews/hero.webp)

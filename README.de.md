@@ -4,6 +4,10 @@
 
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · **Deutsch** · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)
 
+<a href="https://birdalbum.com/de/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker"><img src="previews/birdalbum.webp" alt="Bird Album: alle Vögel der Welt, ein Sticker pro Art. birdalbum.com" width="100%"></a>
+
+**Die ganze Bibliothek im Einsatz sehen Sie auf [birdalbum.com](https://birdalbum.com/de/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker).** Bird Album ist ein kostenloser Vogelführer auf Basis dieser Sticker: Jede Art lässt sich in 15 Sprachen nach ihrem Namen nachschlagen, dazu sieht man, wo sie lebt und in welchen Monaten sie anzutreffen ist, und eine Karte mit 8.171 Beobachtungs-Hotspots zeigt, was dort in diesem Monat gerade gesehen wird.
+
 11.064 Vogelarten, ein Sticker pro Art, verteilt auf 44 Ordnungen und 250 Familien. Das sind alle lebenden Arten der IOC World Bird List v15.2 (die 163 ausgestorbenen Arten sind nicht enthalten). Zu jeder Art gibt es strukturierte Daten: Taxonomie, Namen in bis zu 43 Sprachen, IDs aus anderen Datenbanken und die Herkunft jedes Stickers.
 
 ![40 Sticker aus 15 Vogelordnungen](previews/hero.webp)

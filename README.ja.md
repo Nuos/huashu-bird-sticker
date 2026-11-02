@@ -4,6 +4,10 @@
 
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · **日本語** · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)
 
+<a href="https://birdalbum.com/ja/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker"><img src="previews/birdalbum.webp" alt="Bird Album：世界中の鳥を、1種につき1枚のステッカーで。birdalbum.com" width="100%"></a>
+
+**ライブラリ全体の使われ方は[birdalbum.com](https://birdalbum.com/ja/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker)で見られます。** Bird Albumは、このステッカーを土台にした無料の野鳥図鑑サイトです。15言語で種名を検索でき、その鳥がどこにいて何月ごろ見られるかがわかります。地図には8,171か所の探鳥地が載っていて、各地点で今月どんな鳥がよく記録されているかを確認できます。
+
 鳥11,064種、1種につき1枚のステッカー。44目250科にわたります。IOC World Bird List v15.2の現生種すべてにあたります（絶滅した163種は含みません）。各種には、分類、最大43言語の名前、各データベースのID、そしてステッカーごとの由来といった構造化データが付いています。
 
 ![15の目から選んだ40枚のステッカー](previews/hero.webp)

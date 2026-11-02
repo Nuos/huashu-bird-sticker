@@ -4,6 +4,10 @@
 
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · **العربية**
 
+<a href="https://birdalbum.com/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker"><img src="previews/birdalbum.webp" alt="Bird Album: كل طيور العالم، ملصق واحد لكل نوع. birdalbum.com" width="100%"></a>
+
+**شاهد المكتبة كاملةً قيد الاستخدام على [birdalbum.com](https://birdalbum.com/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker).** Bird Album دليل مجاني للطيور مبني على هذه الملصقات: ابحث عن أي نوع باسمه بـ15 لغة، وتعرّف على موطنه والأشهر التي يظهر فيها، وافتح خريطة تضم 8,171 موقعًا لمراقبة الطيور تعرض ما يراه الناس في كل موقع خلال هذا الشهر. (يتوفر الموقع بـ15 لغة، ويفتح الرابط صفحته الإنجليزية.)
+
 11,064 نوعًا من الطيور، لكل نوع ملصق واحد، موزعة على 44 رتبة و250 فصيلة. وهي جميع الأنواع الحية في قائمة IOC World Bird List v15.2 (أما الأنواع المنقرضة وعددها 163 فغير مشمولة). ويأتي مع كل نوع بيانات منظمة: التصنيف، وأسماء بما يصل إلى 43 لغة، ومعرّفات من قواعد بيانات أخرى، ومصدر كل ملصق.
 
 ![40 ملصقًا من 15 رتبة من الطيور](previews/hero.webp)
