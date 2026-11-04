@@ -153,7 +153,11 @@ Ce sont des illustrations, pas des planches de guide de terrain. Voyez-les comme
 
 ## À propos des photos de référence
 
-Chaque autocollant est un nouveau dessin réalisé par IA, et ce dépôt ne contient aucune photo de référence. L'image à partir de laquelle chaque espèce a été dessinée (page, auteur et licence) est consignée dans `sticker.reference`, dans `data/species.json` : chaque autocollant peut donc être relié à sa source. Une répartition selon la licence des photos de référence se trouve dans [data/README.md](data/README.md#reference-photos).
+**À quoi sert une référence.** Un autocollant montre à quoi ressemble une espèce : les couleurs et les motifs du plumage, le bec, l'œil, les pattes et les proportions. Ce sont des faits sur l'oiseau, les mêmes qu'un guide de terrain décrit avec des mots. Une description écrite ne suffit souvent pas au modèle d'image pour les rendre correctement ; nous utilisons donc des photos de référence.
+
+**Comment nous l'utilisons.** Pour chaque espèce, on montre au modèle d'image une ou plusieurs photos de référence avec une description écrite des critères d'identification, et il dessine une nouvelle illustration. Nous ne reprenons ni la composition, ni l'arrière-plan, ni la lumière de la photo : les autocollants redessinés depuis novembre 2026 adoptent tous la même posture de profil standard, fixée par nous, sur un fond uni, quelle que soit l'attitude de l'oiseau sur la photo. Un relecteur distinct vérifie ensuite le dessin au regard des critères d'identification. Désormais, nous utilisons autant que possible des photos de plusieurs observateurs pour chaque espèce, afin qu'un autocollant reflète l'espèce plutôt qu'une image en particulier. Ce dépôt ne contient aucune photo de référence.
+
+**Crédits et retrait.** Les photos de référence de chaque autocollant (page, auteur et licence) sont listées dans `sticker.reference`, dans `data/species.json` : chaque autocollant peut donc être relié à ses sources. Une répartition selon la licence des photos de référence se trouve dans [data/README.md](data/README.md#reference-photos). Si l'une de vos photos a servi de référence et que vous préférez qu'elle ne le soit pas, ouvrez un ticket ou écrivez à alchaincyf@gmail.com : nous remplacerons l'autocollant sous 7 jours.
 
 ## Utilisation
 
@@ -186,4 +190,4 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 - Photographes des images de référence : mentionnés espèce par espèce dans `data/species.json`. Les photos de référence ne sont pas incluses dans ce dépôt.
 - Autocollants dessinés pour 鸣迹 (Mingji), un carnet d'observation des oiseaux pour iOS.
 
-Si un autocollant est basé sur votre photo et que vous préférez qu'il ne le soit pas, ouvrez un ticket ou écrivez à alchaincyf@gmail.com : nous le remplacerons ou le retirerons sous 7 jours.
+Si l'une de vos photos a servi de référence pour un autocollant et que vous préférez qu'elle ne le soit pas, ouvrez un ticket ou écrivez à alchaincyf@gmail.com : nous remplacerons l'autocollant sous 7 jours.

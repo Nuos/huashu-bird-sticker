@@ -155,7 +155,11 @@ These are illustrations, not field-guide plates. Treat them as a friendly pictur
 
 ## About the reference photos
 
-Every sticker is a new AI drawing, and no reference photo is included in this repository. The image each species was drawn from (page, author and license) is recorded in `sticker.reference` in `data/species.json`, so every sticker can be traced back to its source. A breakdown by reference license is in [data/README.md](data/README.md#reference-photos).
+**What a reference is for.** A sticker shows what a species looks like: its plumage colours and markings, bill, eye, legs and feet, and proportions. These are facts about the bird, the same things a field guide describes in words. A written description alone is often not enough for the image model to get them right, so we use reference photos.
+
+**How we use it.** For each species, the image model is shown one or more reference photos together with a written description of the field marks, and draws a new illustration. We do not use a photo's composition, background or lighting: stickers redrawn since November 2026 all use the same standard side-on pose that we set, on a plain background, whatever the bird is doing in the photo. A separate reviewer then checks the drawing against the field marks. From now on we use photos from several observers for each species where we can, so that a sticker reflects the species rather than any one picture. No reference photo is included in this repository.
+
+**Credit and removal.** The reference photos behind each sticker (page, author and license) are listed in `sticker.reference` in `data/species.json`, so every sticker can be traced. A breakdown by reference license is in [data/README.md](data/README.md#reference-photos). If one of your photos was used as a reference and you would rather it weren't, open an issue or email alchaincyf@gmail.com and we will replace the sticker within 7 days.
 
 ## Use it
 
@@ -188,4 +192,4 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 - Reference photographers: credited per species in `data/species.json`. Reference photos are not included in this repository.
 - Stickers drawn for 鸣迹 (Mingji), a bird-watching notebook app for iOS.
 
-If a sticker is based on your photo and you would rather it weren't, open an issue or email alchaincyf@gmail.com and we will replace or remove it within 7 days.
+If one of your photos was used as a reference for a sticker and you would rather it weren't, open an issue or email alchaincyf@gmail.com and we will replace the sticker within 7 days.

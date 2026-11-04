@@ -154,7 +154,11 @@ São ilustrações, não pranchas de guia de campo. Veja-as como um desenho simp
 
 ## Sobre as fotos de referência
 
-Cada adesivo é um desenho novo feito com IA, e este repositório não inclui nenhuma foto de referência. A imagem usada como base para desenhar cada espécie (página, autor e licença) está registrada em `sticker.reference`, em `data/species.json`, então todo adesivo pode ser rastreado até a sua fonte. Um detalhamento por licença das fotos de referência está em [data/README.md](data/README.md#reference-photos).
+**Para que serve uma referência.** Um adesivo mostra como é uma espécie: as cores e os padrões da plumagem, o bico, o olho, as pernas e os pés, e as proporções. São fatos sobre a ave, as mesmas coisas que um guia de campo descreve em palavras. Uma descrição escrita sozinha muitas vezes não basta para o modelo de imagem acertá-las, então usamos fotos de referência.
+
+**Como usamos.** Para cada espécie, o modelo de imagem vê uma ou mais fotos de referência junto com uma descrição escrita das marcas de identificação e desenha uma ilustração nova. Não usamos a composição, o fundo nem a iluminação da foto: os adesivos redesenhados desde novembro de 2026 usam todos a mesma pose padrão de perfil definida por nós, sobre um fundo liso, não importa o que a ave esteja fazendo na foto. Depois, um revisor separado confere o desenho com base nas marcas de identificação. De agora em diante, sempre que possível, usamos fotos de vários observadores para cada espécie, para que o adesivo reflita a espécie e não uma única imagem. Este repositório não inclui nenhuma foto de referência.
+
+**Créditos e remoção.** As fotos de referência de cada adesivo (página, autor e licença) estão listadas em `sticker.reference`, em `data/species.json`, então todo adesivo pode ser rastreado. Um detalhamento por licença das fotos de referência está em [data/README.md](data/README.md#reference-photos). Se uma foto sua foi usada como referência e você prefere que não seja assim, abra uma issue ou escreva para alchaincyf@gmail.com, e substituiremos o adesivo em até 7 dias.
 
 ## Como usar
 
@@ -187,4 +191,4 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 - Fotógrafos das imagens de referência: creditados por espécie em `data/species.json`. As fotos de referência não estão incluídas neste repositório.
 - Adesivos desenhados para o 鸣迹 (Mingji), um caderno de observação de aves para iOS.
 
-Se um adesivo se baseia em uma foto sua e você prefere que não seja assim, abra uma issue ou escreva para alchaincyf@gmail.com, e nós o substituiremos ou removeremos em até 7 dias.
+Se uma foto sua foi usada como referência para um adesivo e você prefere que não seja assim, abra uma issue ou escreva para alchaincyf@gmail.com, e substituiremos o adesivo em até 7 dias.

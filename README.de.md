@@ -153,7 +153,11 @@ Das sind Illustrationen, keine Bestimmungsbuch-Tafeln. Sie sind als freundliches
 
 ## Zu den Referenzfotos
 
-Jeder Sticker ist eine neue KI-Zeichnung, und dieses Repository enthält keine Referenzfotos. Welches Bild für welche Art als Vorlage diente (Seite, Urheber und Lizenz), steht in `sticker.reference` in `data/species.json`, sodass sich jeder Sticker bis zu seiner Quelle zurückverfolgen lässt. Eine Aufschlüsselung nach Lizenz der Referenzfotos steht in [data/README.md](data/README.md#reference-photos).
+**Wozu eine Referenz dient.** Ein Sticker zeigt, wie eine Art aussieht: Gefiederfarben und -zeichnung, Schnabel, Auge, Beine und Füße sowie Proportionen. Das sind Tatsachen über den Vogel, dieselben Dinge, die ein Feldführer in Worten beschreibt. Eine schriftliche Beschreibung allein reicht dem Bildmodell oft nicht, um sie richtig wiederzugeben, deshalb verwenden wir Referenzfotos.
+
+**Wie wir sie verwenden.** Für jede Art bekommt das Bildmodell ein oder mehrere Referenzfotos zusammen mit einer schriftlichen Beschreibung der Bestimmungsmerkmale gezeigt und zeichnet eine neue Illustration. Bildaufbau, Hintergrund und Licht eines Fotos übernehmen wir nicht: Alle seit November 2026 neu gezeichneten Sticker zeigen dieselbe von uns festgelegte Standardhaltung im Profil auf schlichtem Hintergrund, ganz gleich, was der Vogel auf dem Foto tut. Anschließend prüft ein separater Prüfer die Zeichnung anhand der Bestimmungsmerkmale. Künftig verwenden wir, wo immer möglich, Fotos mehrerer Beobachter pro Art, damit ein Sticker die Art wiedergibt und nicht ein einzelnes Bild. Dieses Repository enthält keine Referenzfotos.
+
+**Nennung und Entfernung.** Die Referenzfotos zu jedem Sticker (Seite, Urheber und Lizenz) stehen in `sticker.reference` in `data/species.json`, sodass sich jeder Sticker zurückverfolgen lässt. Eine Aufschlüsselung nach Lizenz der Referenzfotos steht in [data/README.md](data/README.md#reference-photos). Wenn eines Ihrer Fotos als Referenz verwendet wurde und Sie das nicht möchten, eröffnen Sie ein Issue oder schreiben Sie an alchaincyf@gmail.com. Wir ersetzen den Sticker innerhalb von 7 Tagen.
 
 ## Verwendung
 
@@ -186,4 +190,4 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 - Fotografen der Referenzfotos: pro Art in `data/species.json` genannt. Die Referenzfotos sind nicht Teil dieses Repositorys.
 - Die Sticker wurden für 鸣迹 (Mingji) gezeichnet, ein Vogelbeobachtungs-Notizbuch für iOS.
 
-Wenn ein Sticker auf Ihrem Foto beruht und Sie das nicht möchten, eröffnen Sie ein Issue oder schreiben Sie an alchaincyf@gmail.com. Wir ersetzen oder entfernen ihn innerhalb von 7 Tagen.
+Wenn eines Ihrer Fotos als Referenz für einen Sticker verwendet wurde und Sie das nicht möchten, eröffnen Sie ein Issue oder schreiben Sie an alchaincyf@gmail.com. Wir ersetzen den Sticker innerhalb von 7 Tagen.

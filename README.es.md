@@ -153,7 +153,11 @@ Son ilustraciones, no láminas de guía de campo. Tómelas como un dibujo amable
 
 ## Sobre las fotografías de referencia
 
-Cada pegatina es un dibujo nuevo hecho con IA, y este repositorio no incluye ninguna fotografía de referencia. La imagen a partir de la cual se dibujó cada especie (página, autor y licencia) está registrada en `sticker.reference`, dentro de `data/species.json`, así que cada pegatina se puede rastrear hasta su origen. Un desglose por licencia de las fotografías de referencia está en [data/README.md](data/README.md#reference-photos).
+**Para qué sirve una referencia.** Una pegatina muestra cómo es una especie: los colores y las marcas del plumaje, el pico, el ojo, las patas y las proporciones. Son hechos sobre el ave, lo mismo que una guía de campo describe con palabras. Una descripción escrita a menudo no basta para que el modelo de imagen los acierte, así que usamos fotografías de referencia.
+
+**Cómo la usamos.** Para cada especie, al modelo de imagen se le muestran una o varias fotografías de referencia junto con una descripción escrita de los rasgos de identificación, y dibuja una ilustración nueva. No usamos la composición, el fondo ni la iluminación de la foto: las pegatinas redibujadas desde noviembre de 2026 usan todas la misma postura estándar de perfil que fijamos nosotros, sobre un fondo liso, haga lo que haga el ave en la foto. Después, un revisor independiente comprueba el dibujo según los rasgos de identificación. A partir de ahora usamos, siempre que podemos, fotos de varios observadores para cada especie, de modo que la pegatina refleje la especie y no una imagen concreta. Este repositorio no incluye ninguna fotografía de referencia.
+
+**Créditos y retirada.** Las fotografías de referencia de cada pegatina (página, autor y licencia) figuran en `sticker.reference`, dentro de `data/species.json`, así que cada pegatina se puede rastrear. Un desglose por licencia de las fotografías de referencia está en [data/README.md](data/README.md#reference-photos). Si una de sus fotos se usó como referencia y prefiere que no sea así, abra una incidencia o escriba a alchaincyf@gmail.com y sustituiremos la pegatina en un plazo de 7 días.
 
 ## Cómo usarlo
 
@@ -186,4 +190,4 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 - Fotógrafos de las imágenes de referencia: se citan por especie en `data/species.json`. Las fotografías de referencia no se incluyen en este repositorio.
 - Pegatinas dibujadas para 鸣迹 (Mingji), una libreta de observación de aves para iOS.
 
-Si una pegatina se basa en una foto suya y prefiere que no sea así, abra una incidencia o escriba a alchaincyf@gmail.com y la sustituiremos o la retiraremos en un plazo de 7 días.
+Si una de sus fotos se usó como referencia para una pegatina y prefiere que no sea así, abra una incidencia o escriba a alchaincyf@gmail.com y sustituiremos la pegatina en un plazo de 7 días.
