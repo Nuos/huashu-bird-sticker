@@ -1045404,14 +1045404,14 @@
    "sticker": {
     "file": "stickers/Passeriformes/Leiothrichidae/Actinodura_ramsayi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "PolyForm-Shield-1.0.0",
     "reference": {
      "type": "photo",
-     "page": "https://www.inaturalist.org/observations/146808264",
-     "author": "Mengshuai Ge",
-     "license": "CC BY-NC"
+     "page": "https://www.inaturalist.org/observations/303116655",
+     "author": "Ian Dugdale",
+     "license": "CC BY"
     }
    },
    "previous": [
@@ -1253931,14 +1253931,14 @@
    "sticker": {
     "file": "stickers/Passeriformes/Fringillidae/Carpodacus_verreauxii.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "PolyForm-Shield-1.0.0",
     "reference": {
      "type": "photo",
-     "page": "https://www.inaturalist.org/observations/255305621",
-     "author": "Mengshuai Ge",
-     "license": "CC BY-NC"
+     "page": "https://www.inaturalist.org/observations/285972248",
+     "author": "Wang.QG",
+     "license": "CC BY"
     }
    },
    "previous": [
