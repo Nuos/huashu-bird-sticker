@@ -146,10 +146,10 @@ A record looks like this (names shortened):
 
 All 11,064 sticker files are AI illustrations. For each species we found a reference photo (or, for 453 species where no single photo was good enough, a board of several images plus a written description), drew the sticker with GPT-image, upscaled it, and cut it out.
 
-Every AI sticker was then scored by a separate reviewer against the reference for field marks: bill, eye, legs and feet, plumage pattern and colour. In the last round, 852 borderline stickers (80–82) also got a second, blind review, and 211 of them failed it and were redrawn. Borderline stickers from earlier rounds did not get this second review.
+Every AI sticker was then scored by a separate reviewer against the reference for field marks: bill, eye, legs and feet, plumage pattern and colour. In the last round, 852 borderline stickers (80–82) also got a second, blind review, and 211 of them failed it and were redrawn. Borderline stickers from earlier rounds did not get this second review. In November 2026 we re-checked the stickers to a stricter standard, as plates for a field guide, and redrew 3,038 of them. A redrawn sticker passes only if identification, plumage, bill and eye, legs and feet, and proportions each score at least 3 out of 4, identification scores 4, and the reviewer would accept it as a field-guide plate.
 
-- **7,670 meet our quality bar** (`"meetsQualityBar": true`): AI stickers scoring 80 or above.
-- **3,394 do not.** They were redrawn up to the limit, and we kept the best-scoring version so that no species is left without a picture. 3,279 score 70–79, 109 score below 70, and 6 scored 80+ but failed the blind second review. We are now working on a better method and will redraw these; see [issue #1](../../issues/1) for the kind of error we are fixing.
+- **9,438 meet our quality bar** (`"meetsQualityBar": true`): stickers that passed the stricter review above, or scored 80 or above in the earlier review.
+- **1,626 do not.** We kept the best-scoring version so that no species is left without a picture: 1,581 score 70–79 and 45 score below 70. We are redrawing these; see [issue #1](../../issues/1) and [issue #3](../../issues/3) for the kinds of error we are fixing.
 
 These are illustrations, not field-guide plates. Treat them as a friendly picture of the bird, and check a field guide before relying on a fine detail. If you spot a mistake, please [open an issue](../../issues/new/choose) — corrections from birders are the most valuable contribution this project can get.
 

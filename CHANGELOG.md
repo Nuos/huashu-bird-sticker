@@ -1,5 +1,18 @@
 # Changelog / 更新记录
 
+## 2.1.0 — 2026-11-05
+
+**3,038 stickers redrawn under a stricter review.** / **按更严的标准重画了3,038张贴纸。**
+
+We re-checked the stickers as plates for a field guide and redrew the ones that fell short. A redrawn sticker passes only if identification, plumage, bill and eye, legs and feet, and proportions each score at least 3 out of 4, identification scores 4, and the reviewer would accept it as a field-guide plate. Feet now stand flat on an invisible ground line instead of gripping the air. Thanks to everyone who pointed out errors in [#1](../../issues/1) and [#3](../../issues/3).
+
+按图鉴图版的标准重新审核，不达标的重画。重画的贴纸要辨识、羽色与斑纹、喙与眼、腿脚、比例五项都至少3分（满分4分）、辨识4分，并且审核员认可能当图鉴图版，才算过线。脚改为平踩在看不见的地面线上，不再悬空抓握。感谢在[#1](../../issues/1)、[#3](../../issues/3)指出错误的鸟友。
+
+- Stickers meeting the quality bar: 7,670 → 9,438 (of 11,064 files). / 达到质量线的贴纸：7,670 → 9,438（共11,064个文件）。
+- `sticker.reviewScore`, `meetsQualityBar` and `reference` are updated for the redrawn stickers. 152 were redrawn from a written description without a reference photo; their `reference` is `null`. / 重画的贴纸已更新`reviewScore`、`meetsQualityBar`、`reference`；其中152张不带参考照、只按文字说明重画，`reference`为`null`。
+- Three stickers were redrawn from new reference photos at their photographers' request: *Actinodura ramsayi*, *Carpodacus verreauxii*, *Phylloscopus bonelli*. / 应参考照作者要求，三张贴纸换了参考照重画。
+- The preview sheets in `previews/` have not been regenerated yet. / `previews/`里的预览图还没重新生成。
+
 ## 2.0.0 — 2026-11-03
 
 **Taxonomy moved from IOC World Bird List v15.2 to AviList v2026.** / **分类从IOC 15.2改为AviList v2026。**
