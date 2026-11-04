@@ -967863,14 +967863,14 @@
    "sticker": {
     "file": "stickers/Passeriformes/Phylloscopidae/Phylloscopus_bonelli.webp",
     "kind": "ai-illustration",
-    "reviewScore": 82,
-    "meetsQualityBar": true,
+    "reviewScore": 75,
+    "meetsQualityBar": false,
     "license": "PolyForm-Shield-1.0.0",
     "reference": {
      "type": "photo",
-     "page": "https://www.inaturalist.org/observations/135301003",
-     "author": "Andrea Battisti",
-     "license": "CC BY-NC"
+     "page": "https://www.inaturalist.org/observations/184315095",
+     "author": "Paulo Caseirito",
+     "license": "CC0"
     }
    },
    "previous": [
