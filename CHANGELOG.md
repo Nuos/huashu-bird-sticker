@@ -1,6 +1,6 @@
 # Changelog / 更新记录
 
-## 2.1.1 — 2026-11-04
+## 2.1.1 — 2026-11-05
 
 **523 more stickers redrawn under the stricter review.** / **又按严审标准重画了523张贴纸。**
 
