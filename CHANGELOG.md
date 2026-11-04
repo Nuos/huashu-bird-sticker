@@ -1,5 +1,12 @@
 # Changelog / 更新记录
 
+## 2.1.1 — 2026-11-04
+
+**523 more stickers redrawn under the stricter review.** / **又按严审标准重画了523张贴纸。**
+
+- Stickers meeting the quality bar: 9,438 → 9,939 (of 11,064 files). / 达到质量线的贴纸：9,438 → 9,939（共11,064个文件）。
+- Redrawn under the stricter review so far: 3,561. / 按严审标准累计重画3,561张。
+
 ## 2.1.0 — 2026-11-05
 
 **3,038 stickers redrawn under a stricter review.** / **按更严的标准重画了3,038张贴纸。**
