@@ -1,4 +1,4 @@
-# 現生の鳥11,064種すべてのステッカー
+# 世界の現生鳥類のステッカー
 
 <img src="previews/header.webp" alt="huashu-bird-sticker: specimen drawer, body-size lineup and family plates" width="100%">
 
@@ -8,7 +8,9 @@
 
 **ライブラリ全体の使われ方は[birdalbum.com](https://birdalbum.com/ja/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker)で見られます。** Bird Albumは、このステッカーを土台にした無料の野鳥図鑑サイトです。15言語で種名を検索でき、その鳥がどこにいて何月ごろ見られるかがわかります。地図には8,171か所の探鳥地が載っていて、各地点で今月どんな鳥がよく記録されているかを確認できます。
 
-鳥11,064種、1種につき1枚のステッカー。44目250科にわたります。IOC World Bird List v15.2の現生種すべてにあたります（絶滅した163種は含みません）。各種には、分類、最大43言語の名前、各データベースのID、そしてステッカーごとの由来といった構造化データが付いています。
+鳥11,011種、45目249科。全球統一の鳥類リスト[AviList v2026](https://www.avilist.org/)に沿って整理しています。AviListは、IOCとClementsの2つのリストを2025年に統合した合意リストです。現生種はすべて含み、AviListで絶滅・野生絶滅・絶滅の可能性ありとされながら、すでにステッカーのあった43種も残してあります（`extinctionStatus`を参照）。10,973種にステッカーがあり、残る38種は最近分割された種で、いま描いているところです。各種には、分類、最大43言語の名前、各データベースのID、そしてステッカーごとの由来といった構造化データが付いています。
+
+> **2.0版で、分類をIOC 15.2からAviList v2026に切り替えました。** 82種の学名が変わり（それに伴って`id`とステッカーのパスも変わりました）、従来は独立種だった91種が別種の亜種になり、30種が新たに分割されました。変更はすべて[`data/crosswalk-ioc15.2-avilist2026.csv`](data/crosswalk-ioc15.2-avilist2026.csv)に載せてあり、各レコードの`previous`には旧IOCのIDを残しています。[CHANGELOG](CHANGELOG.md)も参照してください。
 
 ![15の目から選んだ40枚のステッカー](previews/hero.webp)
 
@@ -18,27 +20,27 @@
 
 色彩が豊かで特徴のある18のグループを、それぞれ24枚ずつ、互いに似て見えないように選びました。ここに載せたステッカーはすべて品質基準を満たしています。
 
-### ハチドリ · *Trochilidae* — 365 種
+### ハチドリ · *Trochilidae* — 361 種
 
 ![ハチドリ](previews/families/trochilidae.webp)
 
-### オウム・インコ · *Psittaciformes* — 392 種
+### オウム・インコ · *Psittaciformes* — 391 種
 
 ![オウム・インコ](previews/families/parrots.webp)
 
-### カワセミ · *Alcedinidae* — 116 種
+### カワセミ · *Alcedinidae* — 123 種
 
 ![カワセミ](previews/families/alcedinidae.webp)
 
-### ハチクイ・ブッポウソウ・ハチクイモドキ · *Meropidae* · *Coraciidae* · *Brachypteraciidae* · *Momotidae* · *Todidae* — 68 種
+### ハチクイ・ブッポウソウ・ハチクイモドキ · *Meropidae* · *Coraciidae* · *Brachypteraciidae* · *Momotidae* · *Todidae* — 69 種
 
 ![ハチクイ・ブッポウソウ・ハチクイモドキ](previews/families/coraciiformes.webp)
 
-### オオハシ・ゴシキドリ · *Ramphastidae* · *Capitonidae* · *Semnornithidae* · *Megalaimidae* · *Lybiidae* — 134 種
+### オオハシ・ゴシキドリ · *Ramphastidae* · *Capitonidae* · *Semnornithidae* · *Megalaimidae* · *Lybiidae* — 132 種
 
 ![オオハシ・ゴシキドリ](previews/families/toucans.webp)
 
-### フウチョウ・ニワシドリ · *Paradisaeidae* · *Ptilonorhynchidae* — 69 種
+### フウチョウ・ニワシドリ · *Paradisaeidae* · *Ptilonorhynchidae* — 67 種
 
 ![フウチョウ・ニワシドリ](previews/families/paradisaeidae.webp)
 
@@ -46,15 +48,15 @@
 
 ![ヤイロチョウ](previews/families/pittidae.webp)
 
-### フウキンチョウ · *Thraupidae* — 393 種
+### フウキンチョウ · *Thraupidae* — 392 種
 
 ![フウキンチョウ](previews/families/thraupidae.webp)
 
-### タイヨウチョウ・ハナドリ · *Nectariniidae* · *Dicaeidae* — 208 種
+### タイヨウチョウ・ハナドリ · *Nectariniidae* · *Dicaeidae* — 207 種
 
 ![タイヨウチョウ・ハナドリ](previews/families/nectariniidae.webp)
 
-### カザリドリ・マイコドリ · *Cotingidae* · *Pipridae* — 121 種
+### カザリドリ・マイコドリ · *Cotingidae* · *Pipridae* — 120 種
 
 ![カザリドリ・マイコドリ](previews/families/cotingas.webp)
 
@@ -62,19 +64,19 @@
 
 ![キジ・ウズラ](previews/families/phasianidae.webp)
 
-### カモ・ガン・ハクチョウ · *Anatidae* — 166 種
+### カモ・ガン・ハクチョウ · *Anatidae* — 164 種
 
 ![カモ・ガン・ハクチョウ](previews/families/anatidae.webp)
 
-### ハト · *Columbidae* — 339 種
+### ハト · *Columbidae* — 338 種
 
 ![ハト](previews/families/columbidae.webp)
 
-### カエデチョウ · *Estrildidae* — 140 種
+### カエデチョウ · *Estrildidae* — 138 種
 
 ![カエデチョウ](previews/families/estrildidae.webp)
 
-### カケス・カササギ · *Corvidae* — 138 種
+### カケス・カササギ · *Corvidae* — 135 種
 
 ![カケス・カササギ](previews/families/corvidae.webp)
 
@@ -86,23 +88,24 @@
 
 ![サイチョウ](previews/families/bucerotidae.webp)
 
-### ムクドリ・キュウカンチョウ · *Sturnidae* — 120 種
+### ムクドリ・キュウカンチョウ · *Sturnidae* — 118 種
 
 ![ムクドリ・キュウカンチョウ](previews/families/sturnidae.webp)
 
-### 44の目から1枚ずつ
+### 目ごとに1枚ずつ
 
-![44の目から1枚ずつ](previews/orders.webp)
+![目ごとに1枚ずつ](previews/orders.webp)
 
 ## 収録内容
 
 | | |
 |---|---|
-| `stickers/<Order>/<Family>/<Genus_species>.webp` | 白い縁取り付きの透過ステッカー11,064枚。長辺は約1,000 px |
+| `stickers/<Order>/<Family>/<Genus_species>.webp` | 1種につき1枚の、白い縁取り付き透過ステッカー。長辺は約1,000 px。`<Genus_species>.<subspecies>.webp`は、かつて独立種だったものの亜種ステッカー91枚 |
 | `data/species.json` | 1種につき1レコード。完全なデータセットで、分類、名前、ID、分布と亜種、体の計測値と生態、保全状況、ステッカーとその出典を含みます。フィールドの説明は[data/README.md](data/README.md) |
 | `data/species.csv` | 同じ内容を表計算ソフト向けに平坦化したもの |
+| `data/crosswalk-ioc15.2-avilist2026.csv` | IOC 15.2の各種がAviList v2026でどうなったか：同じ、改名、統合、分割 |
 | `data/names.csv` | 43言語の名前（46列：中国語、フランス語、ポルトガル語はそれぞれ2種類ある） |
-| `data/languages.json` | 言語コードと、それぞれがIOCの表のどの列に由来するか |
+| `data/languages.json` | 言語コードと、それぞれがIOCの多言語表のどの列に由来するか |
 | `data/field-guide.zh-Hans.json` | 1,596種の簡体字中国語によるフィールドガイドの解説（外見、識別点、雌雄・年齢、似た種）、CC BY-SA 4.0 |
 
 レコードはこのような形です（名前は一部省略）。
@@ -112,13 +115,14 @@
   "id": "Accipiter_nisus",
   "scientificName": "Accipiter nisus",
   "authority": "(Linnaeus, 1758)",
-  "taxonomy": {"system": "IOC 15.2", "seq": 2872, "order": "Accipitriformes", "family": "Accipitridae", "genus": "Accipiter"},
+  "taxonomy": {"system": "AviList v2026", "seq": 3097, "order": "Accipitriformes", "family": "Accipitridae", "genus": "Accipiter"},
   "names": {"en": "Eurasian Sparrowhawk", "zh-Hans": "雀鹰", "ja": "ハイタカ", "es": "Gavilán común", "fr": "Épervier d'Europe", "…": "…"},
-  "ids": {"wikidata": "Q25380", "ebird": "eurspa1", "gbif": "2480637", "inaturalist": 5106},
-  "range": {"breedingRegion": "PAL", "breeding": "widespread", "nonbreeding": "OR, ne AF"},
-  "subspecies": [{"name": "nisus", "range": "Europe to sw Siberia and c Asia"}, "…"],
+  "ids": {"ebird": "eurspa1", "avibase": "avibase-DB376A66", "wikidata": "Q25380", "gbif": "2480637", "inaturalist": 5106},
+  "range": {"text": "lowland to treeline montane forest, open woodland, and urban and suburban parks, from Europe eastward to …", "…": "…"},
+  "subspecies": [{"name": "nisus", "authority": "(Linnaeus, 1758)", "range": "breeds Europe to Türkiye and Siberia; winters to Africa"}, "…"],
   "traits": {"massG": 220.8, "wingMm": 207.4, "tailMm": 155.5, "habitat": "Forest", "migration": "partially migratory", "trophicNiche": "Vertivore", "…": "…"},
-  "conservation": {"iucn": "LC", "cites": "II"},
+  "conservation": {"iucn": "LC", "cites": "II", "chinaProtection": "Class II"},
+  "taxonConcept": "same",
   "sticker": {
     "file": "stickers/Accipitriformes/Accipitridae/Accipiter_nisus.webp",
     "kind": "ai-illustration",
@@ -132,19 +136,19 @@
 
 ## 収録範囲
 
-- 名前：英語は全種をカバーし、フランス語と簡体字中国語もごくわずかな種を除いてカバーしています（簡体字中国語は、近年分割された23種の名前がまだありません）。日本語、繁体字中国語、ロシア語、ドイツ語、スペイン語、ポーランド語、オランダ語、スウェーデン語など、ほかにも十数のヨーロッパ言語は90%以上です。セルビア語、ハンガリー語、エストニア語は50〜75%です。韓国語、アラビア語、タイ語、ペルシア語などは、IOCのリストにある分だけなので、今のところ数百種から1,000種ほどにとどまります。詳しくは`data/names.csv`を見てください。
-- 日本語名はIOCのリストから直接取っており、11,064種のうち10,566種に付いています。
-- ID：Wikidata 10,939、GBIF 10,649、eBird 10,052。
-- ステッカー：11,064種中11,064種。
+- 名前：英語はAviListの英語名で、全種をカバーしています。ほかの言語はIOCの多言語リストに由来し、種の範囲が変わっていないものだけに引き継いでいます。統合・分割で範囲が変わった種と新種の計129種は、古い名前が別の鳥の集まりを指しているおそれがあるため、当てはめずに空けてあります。簡体字中国語は10,947種をカバーし、範囲が変わった種は1つずつ人の目で確認しました。フランス語、スペイン語、ドイツ語、ロシア語、日本語、繁体字中国語は94%以上です。韓国語、アラビア語、タイ語、ペルシア語などは、IOCのリストにある分だけなので、今のところ数百種から1,000種ほどにとどまります。詳しくは`data/names.csv`を見てください。
+- 日本語名はIOCのリストから直接取っており、11,011種のうち10,418種に付いています。
+- ID：eBird 10,983、Avibase 11,011（どちらもAviList由来）、Wikidata 10,757、GBIF 10,477。
+- ステッカー：11,011種中10,973種に加えて、亜種ステッカー91枚。ステッカーのない38種は`"sticker": null`としています。
 
 ## ステッカーの作り方と品質
 
-11,064枚はAIイラストです。種ごとに参考写真を探し（単独で十分な写真がない453種は、複数の画像を並べた参考ボードと文章での説明を用意）、GPT-imageでステッカーを描き、拡大して切り抜きました。
+ステッカーのファイル11,064枚はすべてAIイラストです。種ごとに参考写真を探し（単独で十分な写真がない453種は、複数の画像を並べた参考ボードと文章での説明を用意）、GPT-imageでステッカーを描き、拡大して切り抜きました。
 
 AIステッカーはすべて、別の審査者が参考資料と照らし合わせ、野外での識別点を採点しました。嘴、目、脚と足、羽色と模様です。最後のラウンドでは、境界線上（80〜82点）の852枚がさらに盲検でもう一度審査され、そのうち211枚が不合格となり描き直しました。それ以前のラウンドの境界線上のステッカーには、この二次審査は行っていません。
 
 - **7,670枚が品質基準を満たしています**（`"meetsQualityBar": true`）。80点以上のAIステッカーです。
-- **3,394枚は満たしていません。** 描き直しの上限まで繰り返したうえで、最高点の版を残しました。絵のない種を作らないためです。内訳は、70〜79点が3,279枚、70点未満が109枚、80点以上だったが盲検の二次審査で不合格になったものが6枚です。
+- **3,394枚は満たしていません。** 描き直しの上限まで繰り返したうえで、最高点の版を残しました。絵のない種を作らないためです。内訳は、70〜79点が3,279枚、70点未満が109枚、80点以上だったが盲検の二次審査で不合格になったものが6枚です。より良い描き方に取り組んでいて、これらは描き直す予定です。どんな誤りを直そうとしているかは[issue #1](../../issues/1)を見てください。
 
 これらはイラストであり、フィールドガイドの図版ではありません。鳥の雰囲気を伝える絵として扱い、細部に頼る場合は図鑑で確認してください。間違いを見つけたら[issueを立てて](../../issues/new/choose)ください。バードウォッチャーからの訂正は、このプロジェクトにとって何よりありがたい貢献です。
 
@@ -176,8 +180,9 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 
 ## クレジット
 
-- 分類と多言語の名前：IOC World Bird List v15.2、Gill、Donsker & Rasmussen（編）、CC BY 3.0。
-- データベース間のID：Wikidata（CC0）。
+- 分類、英語名、分布、eBirdとAvibaseのID：AviList Core Team. 2026. AviList: The Global Avian Checklist, v2026. https://doi.org/10.2173/avilist.v2026、CC BY 4.0。
+- ほかの言語の名前：IOC World Bird List v15.2、Gill、Donsker & Rasmussen（編）、CC BY 3.0。
+- ほかのデータベース間のID：Wikidata（CC0）。
 - 体の計測値と生態：AVONET、Tobias他、2022年、*Ecology Letters*、CC BY 4.0。
 - 参考写真の撮影者：種ごとに`data/species.json`に記載しています。参考写真はこのリポジトリには含まれていません。
 - ステッカーは、iOS向けのバードウォッチング記録アプリ「鸣迹（Mingji）」のために描いたものです。

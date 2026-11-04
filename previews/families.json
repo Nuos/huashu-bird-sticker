@@ -6,7 +6,7 @@
   ],
   "en": "Hummingbirds",
   "zh": "蜂鸟",
-  "species": 364,
+  "species": 361,
   "shown": [
    "Saucerottia_cyanifrons",
    "Aglaeactis_pamela",
@@ -28,7 +28,7 @@
    "Anthracothorax_dominicus",
    "Calypte_anna",
    "Mellisuga_helenae",
-   "Ocreatus_peruanus",
+   "Ocreatus_underwoodii",
    "Lophornis_pavoninus",
    "Phaethornis_stuarti",
    "Lesbia_nuna"
@@ -44,13 +44,13 @@
   ],
   "en": "Parrots & cockatoos",
   "zh": "鹦鹉",
-  "species": 389,
+  "species": 391,
   "shown": [
    "Ara_macao",
-   "Eos_histrio",
+   "Trichoglossus_histrio",
    "Aratinga_maculata",
    "Lorius_domicella",
-   "Charmosynoides_margarethae",
+   "Vini_margarethae",
    "Guaruba_guarouba",
    "Psephotellus_dissimilis",
    "Nannopsittacus_gulielmitertii",
@@ -66,7 +66,7 @@
    "Touit_costaricensis",
    "Purpureicephalus_spurius",
    "Psittacula_cyanocephala",
-   "Saudareos_iris",
+   "Trichoglossus_iris",
    "Prioniturus_montanus",
    "Neopsittacus_pullicauda",
    "Eolophus_roseicapilla"
@@ -79,7 +79,7 @@
   ],
   "en": "Kingfishers",
   "zh": "翠鸟",
-  "species": 116,
+  "species": 123,
   "shown": [
    "Corythornis_cristatus",
    "Ceyx_cyanopectus",
@@ -118,7 +118,7 @@
   ],
   "en": "Bee-eaters, rollers & motmots",
   "zh": "蜂虎、佛法僧与翠鴗",
-  "species": 68,
+  "species": 69,
   "shown": [
    "Coracias_garrulus",
    "Merops_nubicus",
@@ -157,7 +157,7 @@
   ],
   "en": "Toucans & barbets",
   "zh": "巨嘴鸟与拟啄木鸟",
-  "species": 134,
+  "species": 132,
   "shown": [
    "Eubucco_bourcierii",
    "Eubucco_tucinkae",
@@ -182,7 +182,7 @@
    "Selenidera_spectabilis",
    "Cryptolybia_olivacea",
    "Pteroglossus_erythropygius",
-   "Ramphastos_citreolaemus"
+   "Ramphastos_vitellinus"
   ]
  },
  {
@@ -193,7 +193,7 @@
   ],
   "en": "Birds-of-paradise & bowerbirds",
   "zh": "极乐鸟与园丁鸟",
-  "species": 69,
+  "species": 67,
   "shown": [
    "Sericulus_aureus",
    "Prionodura_newtoniana",
@@ -263,7 +263,7 @@
   ],
   "en": "Tanagers",
   "zh": "裸鼻雀",
-  "species": 391,
+  "species": 392,
   "shown": [
    "Calochaetes_coccineus",
    "Chrysothlypis_chrysomelas",
@@ -299,7 +299,7 @@
   ],
   "en": "Sunbirds & flowerpeckers",
   "zh": "太阳鸟与啄花鸟",
-  "species": 208,
+  "species": 207,
   "shown": [
    "Aethopyga_temminckii",
    "Prionochilus_percussus",
@@ -335,7 +335,7 @@
   ],
   "en": "Cotingas & manakins",
   "zh": "伞鸟与娇鹟",
-  "species": 121,
+  "species": 120,
   "shown": [
    "Cotinga_amabilis",
    "Cotinga_nattererii",
@@ -405,7 +405,7 @@
   ],
   "en": "Ducks, geese & swans",
   "zh": "鸭、雁与天鹅",
-  "species": 166,
+  "species": 164,
   "shown": [
    "Tadorna_ferruginea",
    "Tadorna_cana",
@@ -440,7 +440,7 @@
   ],
   "en": "Pigeons & doves",
   "zh": "鸠鸽",
-  "species": 339,
+  "species": 338,
   "shown": [
    "Gallicolumba_rufigula",
    "Ptilinopus_layardi",
@@ -475,11 +475,11 @@
   ],
   "en": "Waxbills & munias",
   "zh": "梅花雀与文鸟",
-  "species": 140,
+  "species": 138,
   "shown": [
    "Pyrenestes_ostrinus",
    "Erythrura_cyaneovirens",
-   "Erythrura_regia",
+   "Amadina_erythrocephala",
    "Chloebia_gouldiae",
    "Cryptospiza_shelleyi",
    "Nesocharis_shelleyi",
@@ -498,7 +498,7 @@
    "Oreostruthus_fuliginosus",
    "Granatina_ianthinogaster",
    "Estrilda_atricapilla",
-   "Taeniopygia_castanotis",
+   "Taeniopygia_guttata",
    "Neochmia_temporalis",
    "Stagonopleura_bella"
   ]
@@ -510,7 +510,7 @@
   ],
   "en": "Jays & magpies",
   "zh": "鸦科：松鸦与鹊",
-  "species": 138,
+  "species": 135,
   "shown": [
    "Cyanocorax_yucatanicus",
    "Cissa_hypoleuca",
@@ -615,7 +615,7 @@
   ],
   "en": "Starlings & mynas",
   "zh": "椋鸟与八哥",
-  "species": 120,
+  "species": 118,
   "shown": [
    "Enodes_erythrophris",
    "Lamprotornis_chalybaeus",
@@ -626,7 +626,7 @@
    "Lamprotornis_purpuroptera",
    "Hylopsar_cupreocauda",
    "Lamprotornis_shelleyi",
-   "Sturnia_blythii",
+   "Sturnia_malabarica",
    "Lamprotornis_iris",
    "Gracula_venerata",
    "Lamprotornis_splendidus",

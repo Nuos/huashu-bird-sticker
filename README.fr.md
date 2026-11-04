@@ -1,4 +1,4 @@
-# Des autocollants pour toutes les 11 064 espèces d'oiseaux actuelles
+# Des autocollants pour les espèces d'oiseaux actuelles du monde
 
 <img src="previews/header.webp" alt="huashu-bird-sticker: specimen drawer, body-size lineup and family plates" width="100%">
 
@@ -8,7 +8,9 @@
 
 **Découvrez toute la bibliothèque en situation sur [birdalbum.com](https://birdalbum.com/fr/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker).** Bird Album est un guide des oiseaux gratuit construit sur ces autocollants : cherchez n'importe quelle espèce par son nom dans 15 langues, voyez où elle vit et à quels mois on peut la croiser, et ouvrez une carte de 8 171 sites d'observation qui montre ce que les gens observent ce mois-ci à chacun.
 
-11 064 espèces d'oiseaux, un autocollant pour chacune, réparties en 44 ordres et 250 familles. Ce sont toutes les espèces vivantes de la IOC World Bird List v15.2 (les 163 espèces éteintes ne sont pas incluses). Chaque espèce est accompagnée de données structurées : taxonomie, noms dans jusqu'à 43 langues, identifiants dans d'autres bases de données et provenance de chaque autocollant.
+11 011 espèces d'oiseaux réparties en 45 ordres et 249 familles, d'après [AviList v2026](https://www.avilist.org/), la liste mondiale unifiée qui a remplacé en 2025 les listes de l'IOC et de Clements. Toutes les espèces vivantes sont incluses, plus 43 qu'AviList signale comme éteintes, éteintes à l'état sauvage ou possiblement éteintes mais qui avaient déjà un autocollant (voir `extinctionStatus`). 10 973 espèces ont un autocollant ; les 38 autres ont été scindées récemment et sont en cours de dessin. Chaque espèce est accompagnée de données structurées : taxonomie, noms dans jusqu'à 43 langues, identifiants dans d'autres bases de données et provenance de chaque autocollant.
+
+> **La version 2.0 a fait passer la taxonomie de l'IOC 15.2 à AviList v2026.** 82 espèces ont changé de nom scientifique (donc d'`id` et de chemin d'autocollant), 91 anciennes espèces sont désormais des sous-espèces d'une autre espèce et 30 nouvelles espèces ont été scindées. Tous les changements sont listés dans [`data/crosswalk-ioc15.2-avilist2026.csv`](data/crosswalk-ioc15.2-avilist2026.csv), et chaque fiche conserve son ancien identifiant IOC dans `previous`. Voir le [CHANGELOG](CHANGELOG.md).
 
 ![40 autocollants de 15 ordres d’oiseaux](previews/hero.webp)
 
@@ -18,27 +20,27 @@
 
 Dix-huit des groupes les plus colorés et les plus caractéristiques, 24 autocollants pour chacun, choisis pour que deux d'entre eux ne se ressemblent jamais. Tous les autocollants montrés ici atteignent le seuil de qualité.
 
-### Colibris · *Trochilidae* — 365 espèces
+### Colibris · *Trochilidae* — 361 espèces
 
 ![Colibris](previews/families/trochilidae.webp)
 
-### Perroquets et cacatoès · *Psittaciformes* — 392 espèces
+### Perroquets et cacatoès · *Psittaciformes* — 391 espèces
 
 ![Perroquets et cacatoès](previews/families/parrots.webp)
 
-### Martins-pêcheurs · *Alcedinidae* — 116 espèces
+### Martins-pêcheurs · *Alcedinidae* — 123 espèces
 
 ![Martins-pêcheurs](previews/families/alcedinidae.webp)
 
-### Guêpiers, rolliers et motmots · *Meropidae* · *Coraciidae* · *Brachypteraciidae* · *Momotidae* · *Todidae* — 68 espèces
+### Guêpiers, rolliers et motmots · *Meropidae* · *Coraciidae* · *Brachypteraciidae* · *Momotidae* · *Todidae* — 69 espèces
 
 ![Guêpiers, rolliers et motmots](previews/families/coraciiformes.webp)
 
-### Toucans et barbus · *Ramphastidae* · *Capitonidae* · *Semnornithidae* · *Megalaimidae* · *Lybiidae* — 134 espèces
+### Toucans et barbus · *Ramphastidae* · *Capitonidae* · *Semnornithidae* · *Megalaimidae* · *Lybiidae* — 132 espèces
 
 ![Toucans et barbus](previews/families/toucans.webp)
 
-### Paradisiers et jardiniers · *Paradisaeidae* · *Ptilonorhynchidae* — 69 espèces
+### Paradisiers et jardiniers · *Paradisaeidae* · *Ptilonorhynchidae* — 67 espèces
 
 ![Paradisiers et jardiniers](previews/families/paradisaeidae.webp)
 
@@ -46,15 +48,15 @@ Dix-huit des groupes les plus colorés et les plus caractéristiques, 24 autocol
 
 ![Brèves](previews/families/pittidae.webp)
 
-### Tangaras · *Thraupidae* — 393 espèces
+### Tangaras · *Thraupidae* — 392 espèces
 
 ![Tangaras](previews/families/thraupidae.webp)
 
-### Soui-mangas et dicées · *Nectariniidae* · *Dicaeidae* — 208 espèces
+### Soui-mangas et dicées · *Nectariniidae* · *Dicaeidae* — 207 espèces
 
 ![Soui-mangas et dicées](previews/families/nectariniidae.webp)
 
-### Cotingas et manakins · *Cotingidae* · *Pipridae* — 121 espèces
+### Cotingas et manakins · *Cotingidae* · *Pipridae* — 120 espèces
 
 ![Cotingas et manakins](previews/families/cotingas.webp)
 
@@ -62,19 +64,19 @@ Dix-huit des groupes les plus colorés et les plus caractéristiques, 24 autocol
 
 ![Faisans et perdrix](previews/families/phasianidae.webp)
 
-### Canards, oies et cygnes · *Anatidae* — 166 espèces
+### Canards, oies et cygnes · *Anatidae* — 164 espèces
 
 ![Canards, oies et cygnes](previews/families/anatidae.webp)
 
-### Pigeons et tourterelles · *Columbidae* — 339 espèces
+### Pigeons et tourterelles · *Columbidae* — 338 espèces
 
 ![Pigeons et tourterelles](previews/families/columbidae.webp)
 
-### Astrilds et capucins · *Estrildidae* — 140 espèces
+### Astrilds et capucins · *Estrildidae* — 138 espèces
 
 ![Astrilds et capucins](previews/families/estrildidae.webp)
 
-### Geais et pies · *Corvidae* — 138 espèces
+### Geais et pies · *Corvidae* — 135 espèces
 
 ![Geais et pies](previews/families/corvidae.webp)
 
@@ -86,23 +88,24 @@ Dix-huit des groupes les plus colorés et les plus caractéristiques, 24 autocol
 
 ![Calaos](previews/families/bucerotidae.webp)
 
-### Étourneaux et mainates · *Sturnidae* — 120 espèces
+### Étourneaux et mainates · *Sturnidae* — 118 espèces
 
 ![Étourneaux et mainates](previews/families/sturnidae.webp)
 
-### Un de chacun des 44 ordres
+### Un de chaque ordre
 
-![Un de chacun des 44 ordres](previews/orders.webp)
+![Un de chaque ordre](previews/orders.webp)
 
 ## Contenu
 
 | | |
 |---|---|
-| `stickers/<Order>/<Family>/<Genus_species>.webp` | 11 064 autocollants transparents avec contour blanc, d'environ 1 000 px sur le grand côté |
+| `stickers/<Order>/<Family>/<Genus_species>.webp` | Un autocollant transparent avec contour blanc par espèce, d'environ 1 000 px sur le grand côté. Les `<Genus_species>.<subspecies>.webp` sont 91 autocollants supplémentaires de sous-espèces qui étaient auparavant des espèces distinctes |
 | `data/species.json` | Une fiche par espèce, le jeu de données complet : taxonomie, noms, identifiants, aire de répartition et sous-espèces, mesures corporelles et écologie, statut de conservation, autocollant et sa provenance. Description des champs : [data/README.md](data/README.md) |
+| `data/crosswalk-ioc15.2-avilist2026.csv` | Comment chaque espèce de l'IOC 15.2 correspond à AviList v2026 : identique, renommée, regroupée, scindée |
 | `data/species.csv` | La même chose, mise à plat pour les tableurs |
 | `data/names.csv` | Les noms dans 43 langues (46 colonnes : le chinois, le français et le portugais ont chacun deux variantes) |
-| `data/languages.json` | Les codes de langue et la colonne de l'IOC dont chacun provient |
+| `data/languages.json` | Les codes de langue et la colonne multilingue de l'IOC dont chacun provient |
 | `data/field-guide.zh-Hans.json` | Notes de guide de terrain en chinois simplifié (aspect, critères de terrain, sexes et âges, espèces proches) pour 1 596 espèces, CC BY-SA 4.0 |
 
 Voici à quoi ressemble une fiche (noms abrégés) :
@@ -112,13 +115,14 @@ Voici à quoi ressemble une fiche (noms abrégés) :
   "id": "Accipiter_nisus",
   "scientificName": "Accipiter nisus",
   "authority": "(Linnaeus, 1758)",
-  "taxonomy": {"system": "IOC 15.2", "seq": 2872, "order": "Accipitriformes", "family": "Accipitridae", "genus": "Accipiter"},
+  "taxonomy": {"system": "AviList v2026", "seq": 3097, "order": "Accipitriformes", "family": "Accipitridae", "genus": "Accipiter"},
   "names": {"en": "Eurasian Sparrowhawk", "zh-Hans": "雀鹰", "ja": "ハイタカ", "es": "Gavilán común", "fr": "Épervier d'Europe", "…": "…"},
-  "ids": {"wikidata": "Q25380", "ebird": "eurspa1", "gbif": "2480637", "inaturalist": 5106},
-  "range": {"breedingRegion": "PAL", "breeding": "widespread", "nonbreeding": "OR, ne AF"},
-  "subspecies": [{"name": "nisus", "range": "Europe to sw Siberia and c Asia"}, "…"],
+  "ids": {"ebird": "eurspa1", "avibase": "avibase-DB376A66", "wikidata": "Q25380", "gbif": "2480637", "inaturalist": 5106},
+  "range": {"text": "lowland to treeline montane forest, open woodland, and urban and suburban parks, from Europe eastward to …", "…": "…"},
+  "subspecies": [{"name": "nisus", "authority": "(Linnaeus, 1758)", "range": "breeds Europe to Türkiye and Siberia; winters to Africa"}, "…"],
   "traits": {"massG": 220.8, "wingMm": 207.4, "tailMm": 155.5, "habitat": "Forest", "migration": "partially migratory", "trophicNiche": "Vertivore", "…": "…"},
-  "conservation": {"iucn": "LC", "cites": "II"},
+  "conservation": {"iucn": "LC", "cites": "II", "chinaProtection": "Class II"},
+  "taxonConcept": "same",
   "sticker": {
     "file": "stickers/Accipitriformes/Accipitridae/Accipiter_nisus.webp",
     "kind": "ai-illustration",
@@ -132,19 +136,18 @@ Voici à quoi ressemble une fiche (noms abrégés) :
 
 ## Couverture
 
-- Noms : l'anglais couvre toutes les espèces, le français et le chinois simplifié toutes sauf quelques-unes (le chinois simplifié n'a pas encore de nom pour 23 espèces récemment scindées) ; le japonais, le chinois traditionnel, le russe, l'allemand, l'espagnol, le polonais, le néerlandais, le suédois et une douzaine d'autres langues européennes dépassent 90 %. Le serbe, le hongrois et l'estonien se situent entre 50 % et 75 %. Le coréen, l'arabe, le thaï, le persan et quelques autres ne couvrent pour l'instant que de quelques centaines à environ mille espèces, car c'est ce que contient la liste de l'IOC. Voir `data/names.csv`.
-- Les noms français, directement issus de l'IOC, couvrent 11 055 des 11 064 espèces.
-- Identifiants : Wikidata 10 939, GBIF 10 649, eBird 10 052.
-- Autocollants : 11 064 sur 11 064.
+- Noms : l'anglais (AviList) couvre toutes les espèces. Les autres langues viennent de la liste multilingue de l'IOC et ne sont conservées que là où le concept d'espèce n'a pas changé ; pour les 129 espèces dont les limites ont changé (regroupements et scissions) ou qui sont nouvelles, un ancien nom peut désigner un autre ensemble d'oiseaux, nous l'avons donc omis plutôt que de deviner. Le chinois simplifié couvre 10 947 espèces (chaque espèce modifiée a été vérifiée à la main) ; le français, l'espagnol, l'allemand, le russe, le japonais et le chinois traditionnel dépassent 94 %. Le coréen, l'arabe, le thaï, le persan et quelques autres ne couvrent que de quelques centaines à environ mille espèces, car c'est ce que contient la liste de l'IOC. Voir `data/names.csv`.
+- Identifiants : eBird 10 983 et Avibase 11 011, tous deux repris d'AviList ; Wikidata 10 757, GBIF 10 477.
+- Autocollants : 10 973 sur 11 011 espèces, plus 91 autocollants de sous-espèces. Les 38 espèces qui n'en ont pas encore sont listées avec `"sticker": null`.
 
 ## Comment les autocollants ont été faits, et leur qualité
 
-11 064 autocollants sont des illustrations générées par IA. Pour chaque espèce, nous avons trouvé une photo de référence (ou, pour les 453 espèces où aucune photo seule n'était assez bonne, une planche de plusieurs images accompagnée d'une description écrite), dessiné l'autocollant avec GPT-image, l'avons agrandi puis détouré.
+Les 11 064 fichiers d'autocollants sont des illustrations générées par IA. Pour chaque espèce, nous avons trouvé une photo de référence (ou, pour les 453 espèces où aucune photo seule n'était assez bonne, une planche de plusieurs images accompagnée d'une description écrite), dessiné l'autocollant avec GPT-image, l'avons agrandi puis détouré.
 
 Chaque autocollant IA a ensuite été noté par un relecteur distinct, en le comparant à la référence sur les critères de terrain : bec, œil, pattes et pieds, motif et couleur du plumage. Au dernier tour, 852 autocollants limites (80–82) ont en plus subi une seconde relecture en aveugle ; 211 d'entre eux l'ont échouée et ont été redessinés. Les autocollants limites des tours précédents n'ont pas eu cette seconde relecture.
 
 - **7 670 atteignent notre seuil de qualité** (`"meetsQualityBar": true`) : les autocollants IA notés 80 ou plus.
-- **3 394 ne l'atteignent pas.** Ils ont été redessinés jusqu'à la limite fixée, et nous avons gardé la version la mieux notée pour qu'aucune espèce ne reste sans image. 3 279 sont notés entre 70 et 79, 109 en dessous de 70, et 6 ont obtenu 80 ou plus mais ont échoué à la seconde relecture en aveugle.
+- **3 394 ne l'atteignent pas.** Ils ont été redessinés jusqu'à la limite fixée, et nous avons gardé la version la mieux notée pour qu'aucune espèce ne reste sans image. 3 279 sont notés entre 70 et 79, 109 en dessous de 70, et 6 ont obtenu 80 ou plus mais ont échoué à la seconde relecture en aveugle. Nous travaillons à une meilleure méthode et les redessinerons ; voir le [ticket n° 1](../../issues/1) pour le type d'erreur que nous corrigeons.
 
 Ce sont des illustrations, pas des planches de guide de terrain. Voyez-les comme une image sympathique de l'oiseau, et consultez un guide de terrain avant de vous fier à un détail fin. Si vous repérez une erreur, [ouvrez un ticket](../../issues/new/choose) : les corrections des ornithologues amateurs sont la contribution la plus précieuse que ce projet puisse recevoir.
 
@@ -176,8 +179,9 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 
 ## Crédits
 
-- Taxonomie et noms multilingues : IOC World Bird List v15.2, Gill, Donsker et Rasmussen (dir.), CC BY 3.0.
-- Identifiants entre bases de données : Wikidata (CC0).
+- Taxonomie, noms anglais, aires de répartition et identifiants eBird et Avibase : AviList Core Team. 2026. AviList: The Global Avian Checklist, v2026. https://doi.org/10.2173/avilist.v2026, CC BY 4.0.
+- Noms dans les autres langues : IOC World Bird List v15.2, Gill, Donsker et Rasmussen (dir.), CC BY 3.0.
+- Autres identifiants entre bases de données : Wikidata (CC0).
 - Mesures corporelles et écologie : AVONET, Tobias et al., 2022, *Ecology Letters*, CC BY 4.0.
 - Photographes des images de référence : mentionnés espèce par espèce dans `data/species.json`. Les photos de référence ne sont pas incluses dans ce dépôt.
 - Autocollants dessinés pour 鸣迹 (Mingji), un carnet d'observation des oiseaux pour iOS.

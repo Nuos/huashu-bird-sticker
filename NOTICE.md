@@ -6,17 +6,21 @@ AI绘制的贴纸按PolyForm Shield 1.0.0授权，本项目整理的数据按MIT
 
 ## Taxonomy and names / 分类与鸟名
 
-Order, family, species, sequence and the names in 43 languages (46 columns) come from the **IOC World Bird List v15.2** (multilingual edition), by Frank Gill, David Donsker & Pamela Rasmussen (Eds), licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). Source: <https://worldbirdnames.org/>. Names were copied as published, with only surrounding whitespace removed.
+Species, scientific names, authorities, order, family, sequence, English names, range statements, subspecies, IUCN categories (as given for BirdLife v10), eBird species codes and Avibase IDs come from **AviList: The Global Avian Checklist, v2026** (AviList Core Team, 2026, <https://doi.org/10.2173/avilist.v2026>), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). We reorganised the fields; we did not change the taxonomy.
 
-目、科、种、排序和43种语言（46列）的鸟名来自**IOC世界鸟类名录v15.2**（多语种版），编者Frank Gill、David Donsker与Pamela Rasmussen，许可为[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)。除去首尾空白外按原样收录。
+种、学名、命名人、目科、排序、英文名、分布描述、亚种、IUCN等级（BirdLife v10）、eBird物种代码和Avibase编号来自**AviList全球鸟类名录v2026**（AviList Core Team，2026），许可为[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。我们只重组了字段，未改动分类。
 
-Wikidata, eBird and GBIF identifiers were looked up on [Wikidata](https://www.wikidata.org/) (CC0). iNaturalist taxon IDs come from the iNaturalist taxonomy.
+Names in languages other than English, and the IOC breeding ranges kept under `range.ioc`, come from the **IOC World Bird List v15.2** (multilingual edition), by Frank Gill, David Donsker & Pamela Rasmussen (Eds), licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). Source: <https://worldbirdnames.org/>. Names were copied as published, with only surrounding whitespace and stray private-use characters removed, and are used only for species whose boundaries did not change between IOC 15.2 and AviList. The Simplified Chinese names of species whose boundaries changed were chosen by this project (see `data/README.md`).
+
+英文以外的鸟名，以及`range.ioc`里的IOC繁殖分布，来自**IOC世界鸟类名录v15.2**（多语种版），编者Frank Gill、David Donsker与Pamela Rasmussen，许可为[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)。除去首尾空白和个别乱码字符外按原样收录，且只用于分类范围在两份名录间没有变化的种；范围有变化的种，简体中文名由本项目逐条判定（见`data/README.md`）。
+
+Wikidata, GBIF and iNaturalist identifiers were looked up on [Wikidata](https://www.wikidata.org/) (CC0) and the iNaturalist taxonomy.
 
 ## Traits, conservation and Chinese notes / 形态生态、保护与中文资料
 
-Body measurements and ecology in `traits` come from **AVONET** (Tobias et al. 2022, *Ecology Letters*, doi:10.1111/ele.13898), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). IUCN and CITES categories, Chinese aliases and order/family names come from Wikidata (CC0). The Chinese field-guide notes in `data/field-guide.zh-Hans.json` are rewritten from Chinese Wikipedia and other sources and are shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Details: [data/README.md](data/README.md).
+Body measurements and ecology in `traits` come from **AVONET** (Tobias et al. 2022, *Ecology Letters*, doi:10.1111/ele.13898), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). CITES appendices, Chinese aliases and order/family names come from Wikidata (CC0). The Chinese field-guide notes in `data/field-guide.zh-Hans.json` are rewritten from Chinese Wikipedia and other sources and are shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Details: [data/README.md](data/README.md).
 
-`traits`里的形态与生态数据来自**AVONET**（Tobias等，2022，CC BY 4.0）；IUCN、CITES等级和中文别名、目科中文名来自Wikidata（CC0）；`data/field-guide.zh-Hans.json`里的中文图鉴文字依据中文维基等资料改写，按CC BY-SA 4.0共享。详见[data/README.md](data/README.md)。
+`traits`里的形态与生态数据来自**AVONET**（Tobias等，2022，CC BY 4.0）；CITES附录和中文别名、目科中文名来自Wikidata（CC0）；`data/field-guide.zh-Hans.json`里的中文图鉴文字依据中文维基等资料改写，按CC BY-SA 4.0共享。详见[data/README.md](data/README.md)。
 
 ## Reference photos / 参考照片
 

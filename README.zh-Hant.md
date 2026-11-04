@@ -1,4 +1,4 @@
-# 全世界現存 11,064 種鳥的貼紙
+# 全世界現存鳥類的貼紙
 
 <img src="previews/header.webp" alt="huashu-bird-sticker: specimen drawer, body-size lineup and family plates" width="100%">
 
@@ -8,7 +8,9 @@
 
 **這套貼紙的完整用法，請到 [birdalbum.com](https://birdalbum.com/zh-hant/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker) 看看。** Bird Album 是用這個貼紙庫做的免費鳥類網站：15 種語言都能搜尋鳥名，看每種鳥分布在哪裡、幾月看得到；地圖上有 8,171 個賞鳥點，每處都列出這個月大家常記錄到的鳥。
 
-11,064 種鳥，每種一張貼紙，共 44 目 250 科。這涵蓋 IOC 世界鳥類名錄 v15.2 的全部現生物種（163 個已滅絕的種不在其中）。每種鳥都附有結構化資料：分類、最多 43 種語言的鳥名、各大資料庫的編號，以及每張貼紙的來歷。
+11,011 種鳥，每種一張貼紙，共 45 目 249 科，依全球統一鳥類名錄 [AviList v2026](https://www.avilist.org/) 整理。AviList 是 IOC 與 Clements 兩份名錄在 2025 年合併而成的共識名錄。全部現生物種都在其中，另有 43 種已有貼紙、但被 AviList 標為滅絕、野外滅絕或可能滅絕的種也保留了（見 `extinctionStatus`）。10,973 種已有貼紙，其餘 38 種是近年新拆分的物種，還在繪製中。每種鳥都附有結構化資料：分類、最多 43 種語言的鳥名、各大資料庫的編號，以及每張貼紙的來歷。
+
+> **2.0 版把分類從 IOC 15.2 換成了 AviList v2026。** 82 個物種改了學名（`id` 與貼紙路徑隨之改變），91 個原本獨立的種現在成了別種的亞種，另有 30 個新種從原有物種中拆出。每一處變動都列在 [`data/crosswalk-ioc15.2-avilist2026.csv`](data/crosswalk-ioc15.2-avilist2026.csv)，每筆紀錄的 `previous` 保留了舊的 IOC 編號。詳見 [CHANGELOG](CHANGELOG.md)。
 
 ![40張貼紙，來自15個目](previews/hero.webp)
 
@@ -18,27 +20,27 @@
 
 十八個最鮮豔、最有特色的類群，每個類群 24 張貼紙，挑選時力求彼此看起來不重複。這裡展示的貼紙全都達到品質標準。
 
-### 蜂鳥 · *Trochilidae* — 365 種
+### 蜂鳥 · *Trochilidae* — 361 種
 
 ![蜂鳥](previews/families/trochilidae.webp)
 
-### 鸚鵡與鳳頭鸚鵡 · *Psittaciformes* — 392 種
+### 鸚鵡與鳳頭鸚鵡 · *Psittaciformes* — 391 種
 
 ![鸚鵡與鳳頭鸚鵡](previews/families/parrots.webp)
 
-### 翠鳥 · *Alcedinidae* — 116 種
+### 翠鳥 · *Alcedinidae* — 123 種
 
 ![翠鳥](previews/families/alcedinidae.webp)
 
-### 蜂虎、佛法僧與翠鴗 · *Meropidae* · *Coraciidae* · *Brachypteraciidae* · *Momotidae* · *Todidae* — 68 種
+### 蜂虎、佛法僧與翠鴗 · *Meropidae* · *Coraciidae* · *Brachypteraciidae* · *Momotidae* · *Todidae* — 69 種
 
 ![蜂虎、佛法僧與翠鴗](previews/families/coraciiformes.webp)
 
-### 巨嘴鳥與擬啄木 · *Ramphastidae* · *Capitonidae* · *Semnornithidae* · *Megalaimidae* · *Lybiidae* — 134 種
+### 巨嘴鳥與擬啄木 · *Ramphastidae* · *Capitonidae* · *Semnornithidae* · *Megalaimidae* · *Lybiidae* — 132 種
 
 ![巨嘴鳥與擬啄木](previews/families/toucans.webp)
 
-### 天堂鳥與園丁鳥 · *Paradisaeidae* · *Ptilonorhynchidae* — 69 種
+### 天堂鳥與園丁鳥 · *Paradisaeidae* · *Ptilonorhynchidae* — 67 種
 
 ![天堂鳥與園丁鳥](previews/families/paradisaeidae.webp)
 
@@ -46,15 +48,15 @@
 
 ![八色鳥](previews/families/pittidae.webp)
 
-### 唐納雀 · *Thraupidae* — 393 種
+### 唐納雀 · *Thraupidae* — 392 種
 
 ![唐納雀](previews/families/thraupidae.webp)
 
-### 太陽鳥與啄花鳥 · *Nectariniidae* · *Dicaeidae* — 208 種
+### 太陽鳥與啄花鳥 · *Nectariniidae* · *Dicaeidae* — 207 種
 
 ![太陽鳥與啄花鳥](previews/families/nectariniidae.webp)
 
-### 傘鳥與侏儒鳥 · *Cotingidae* · *Pipridae* — 121 種
+### 傘鳥與侏儒鳥 · *Cotingidae* · *Pipridae* — 120 種
 
 ![傘鳥與侏儒鳥](previews/families/cotingas.webp)
 
@@ -62,19 +64,19 @@
 
 ![雉與鷓鴣](previews/families/phasianidae.webp)
 
-### 鴨、鵝與天鵝 · *Anatidae* — 166 種
+### 鴨、鵝與天鵝 · *Anatidae* — 164 種
 
 ![鴨、鵝與天鵝](previews/families/anatidae.webp)
 
-### 鴿與鳩 · *Columbidae* — 339 種
+### 鴿與鳩 · *Columbidae* — 338 種
 
 ![鴿與鳩](previews/families/columbidae.webp)
 
-### 梅花雀與文鳥 · *Estrildidae* — 140 種
+### 梅花雀與文鳥 · *Estrildidae* — 138 種
 
 ![梅花雀與文鳥](previews/families/estrildidae.webp)
 
-### 松鴉與喜鵲 · *Corvidae* — 138 種
+### 松鴉與喜鵲 · *Corvidae* — 135 種
 
 ![松鴉與喜鵲](previews/families/corvidae.webp)
 
@@ -86,23 +88,24 @@
 
 ![犀鳥](previews/families/bucerotidae.webp)
 
-### 椋鳥與八哥 · *Sturnidae* — 120 種
+### 椋鳥與八哥 · *Sturnidae* — 118 種
 
 ![椋鳥與八哥](previews/families/sturnidae.webp)
 
-### 44 個目各一張
+### 每個目各一張
 
-![44 個目各一張](previews/orders.webp)
+![每個目各一張](previews/orders.webp)
 
 ## 內容
 
 | | |
 |---|---|
-| `stickers/<Order>/<Family>/<Genus_species>.webp` | 11,064 張帶白邊的透明貼紙，長邊約 1,000 px |
+| `stickers/<Order>/<Family>/<Genus_species>.webp` | 每個物種一張帶白邊的透明貼紙，長邊約 1,000 px。`<Genus_species>.<subspecies>.webp` 是 91 張亞種貼紙，這些亞種原本是獨立的種 |
 | `data/species.json` | 每個物種一筆紀錄，完整資料集：分類、鳥名、編號、分布與亞種、體型測量與生態、保育狀態、貼紙及其來源。欄位說明見 [data/README.md](data/README.md) |
 | `data/species.csv` | 同上，攤平成適合試算表開啟的格式 |
+| `data/crosswalk-ioc15.2-avilist2026.csv` | IOC 15.2 的每個物種在 AviList v2026 裡對應什麼：不變、改名、併入、拆分 |
 | `data/names.csv` | 43 種語言的鳥名（共 46 欄：中文、法文、葡萄牙文各有兩種版本） |
-| `data/languages.json` | 語言代碼，以及每種語言對應 IOC 表格的哪一欄 |
+| `data/languages.json` | 語言代碼，以及每種語言對應 IOC 多語名錄的哪一欄 |
 | `data/field-guide.zh-Hans.json` | 1,596 種鳥的簡體中文野外圖鑑筆記（外觀、野外辨識特徵、性別與年齡、相似種），CC BY-SA 4.0 |
 
 一筆紀錄長這樣（鳥名有刪節）：
@@ -112,13 +115,14 @@
   "id": "Accipiter_nisus",
   "scientificName": "Accipiter nisus",
   "authority": "(Linnaeus, 1758)",
-  "taxonomy": {"system": "IOC 15.2", "seq": 2872, "order": "Accipitriformes", "family": "Accipitridae", "genus": "Accipiter"},
+  "taxonomy": {"system": "AviList v2026", "seq": 3097, "order": "Accipitriformes", "family": "Accipitridae", "genus": "Accipiter"},
   "names": {"en": "Eurasian Sparrowhawk", "zh-Hans": "雀鹰", "ja": "ハイタカ", "es": "Gavilán común", "fr": "Épervier d'Europe", "…": "…"},
-  "ids": {"wikidata": "Q25380", "ebird": "eurspa1", "gbif": "2480637", "inaturalist": 5106},
-  "range": {"breedingRegion": "PAL", "breeding": "widespread", "nonbreeding": "OR, ne AF"},
-  "subspecies": [{"name": "nisus", "range": "Europe to sw Siberia and c Asia"}, "…"],
+  "ids": {"ebird": "eurspa1", "avibase": "avibase-DB376A66", "wikidata": "Q25380", "gbif": "2480637", "inaturalist": 5106},
+  "range": {"text": "lowland to treeline montane forest, open woodland, and urban and suburban parks, from Europe eastward to …", "…": "…"},
+  "subspecies": [{"name": "nisus", "authority": "(Linnaeus, 1758)", "range": "breeds Europe to Türkiye and Siberia; winters to Africa"}, "…"],
   "traits": {"massG": 220.8, "wingMm": 207.4, "tailMm": 155.5, "habitat": "Forest", "migration": "partially migratory", "trophicNiche": "Vertivore", "…": "…"},
-  "conservation": {"iucn": "LC", "cites": "II"},
+  "conservation": {"iucn": "LC", "cites": "II", "chinaProtection": "Class II"},
+  "taxonConcept": "same",
   "sticker": {
     "file": "stickers/Accipitriformes/Accipitridae/Accipiter_nisus.webp",
     "kind": "ai-illustration",
@@ -132,19 +136,19 @@
 
 ## 涵蓋範圍
 
-- 鳥名：英文涵蓋全部物種，法文和簡體中文只缺寥寥數種（簡體中文尚缺 23 個近年拆分物種的鳥名）；日文、繁體中文、俄文、德文、西班牙文、波蘭文、荷蘭文、瑞典文及其他十幾種歐洲語言超過 90%。塞爾維亞文、匈牙利文和愛沙尼亞文介於 50% 到 75% 之間。韓文、阿拉伯文、泰文、波斯文等目前只有幾百到一千種左右，因為 IOC 名錄只有這麼多。詳見 `data/names.csv`。
-- 繁體中文鳥名直接取自 IOC，涵蓋 11,064 種中的 10,536 種；台灣、香港慣用的鳥名有時並不相同，歡迎補充。
-- 編號：Wikidata 10,939、GBIF 10,649、eBird 10,052。
-- 貼紙：11,064／11,064。
+- 鳥名：英文採用 AviList 的英文名，涵蓋全部物種。其他語言來自 IOC 多語名錄，只在分類範圍沒變的種上沿用；有 129 個物種因合併、拆分改變了範圍，或是新種，舊名可能指的是另一群鳥，我們寧可留白也不硬套。簡體中文涵蓋 10,947 種，範圍變動的種逐一人工核對過；法文、西班牙文、德文、俄文、日文和繁體中文都超過 94%。韓文、阿拉伯文、泰文、波斯文等目前只有幾百到一千種左右，因為 IOC 名錄只有這麼多。詳見 `data/names.csv`。
+- 繁體中文鳥名直接取自 IOC，涵蓋 11,011 種中的 10,375 種；中國臺灣、中國香港慣用的鳥名有時並不相同，歡迎補充。
+- 編號：eBird 10,983 種、Avibase 11,011 種，皆取自 AviList；Wikidata 10,757、GBIF 10,477。
+- 貼紙：11,011 種中的 10,973 種，另有 91 張亞種貼紙。還沒有貼紙的 38 種，紀錄裡寫 `"sticker": null`。
 
 ## 貼紙怎麼做的，品質如何
 
-11,064 張貼紙是 AI 插畫。我們為每個物種找一張參考照片（有 453 個物種找不到夠好的單張照片，就改用數張圖片拼成的參考板，再加上文字描述），用 GPT-image 畫出貼紙，放大後去背。
+全部 11,064 個貼紙檔案都是 AI 插畫。我們為每個物種找一張參考照片（有 453 個物種找不到夠好的單張照片，就改用數張圖片拼成的參考板，再加上文字描述），用 GPT-image 畫出貼紙，放大後去背。
 
 每張 AI 貼紙之後都由另一位審查者對照參考資料評分，檢查野外辨識特徵：嘴喙、眼睛、腳與趾、羽色與斑紋。最後一輪中，852 張臨界（80–82 分）的貼紙又做了一次盲審，其中 211 張未通過，已重畫。更早幾輪的臨界貼紙沒有做這次覆審。
 
 - **7,670 張達到我們的品質標準**（`"meetsQualityBar": true`）：得分 80 以上的 AI 貼紙。
-- **3,394 張未達標。** 這些貼紙已重畫到次數上限，我們留下得分最高的版本，不讓任何物種沒有圖。其中 3,279 張得分 70–79，109 張低於 70，另有 6 張得分 80 以上但未通過盲審覆審。
+- **3,394 張未達標。** 這些貼紙已重畫到次數上限，我們留下得分最高的版本，不讓任何物種沒有圖。其中 3,279 張得分 70–79，109 張低於 70，另有 6 張得分 80 以上但未通過盲審覆審。我們正在改進畫法，會重畫這些貼紙；要修正的是哪一類錯誤，請見 [issue #1](../../issues/1)。
 
 這些是插畫，不是野外圖鑑的圖版。請把它們當作鳥的親切示意圖；需要仰賴細節時，請再對照圖鑑。如果你發現錯誤，歡迎[開一個 issue](../../issues/new/choose)——賞鳥人的指正，是這個專案最珍貴的貢獻。
 
@@ -176,8 +180,9 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 
 ## 致謝
 
-- 分類與多語鳥名：IOC World Bird List v15.2，Gill、Donsker 與 Rasmussen 編，CC BY 3.0。
-- 跨資料庫編號：Wikidata（CC0）。
+- 分類、英文名、分布、eBird 與 Avibase 編號：AviList Core Team. 2026. AviList: The Global Avian Checklist, v2026. https://doi.org/10.2173/avilist.v2026，CC BY 4.0。
+- 其他語言的鳥名：IOC World Bird List v15.2，Gill、Donsker 與 Rasmussen 編，CC BY 3.0。
+- 其他跨資料庫編號：Wikidata（CC0）。
 - 體型測量與生態：AVONET，Tobias 等，2022，*Ecology Letters*，CC BY 4.0。
 - 參考照片的攝影者：逐物種標示於 `data/species.json`。本儲存庫不包含參考照片。
 - 貼紙為 鸣迹（Mingji）所繪，這是一款 iOS 賞鳥筆記 App。

@@ -1,0 +1,40 @@
+# Changelog / 更新记录
+
+## 2.0.0 — 2026-11-03
+
+**Taxonomy moved from IOC World Bird List v15.2 to AviList v2026.** / **分类从IOC 15.2改为AviList v2026。**
+
+Why: IOC 15.2 was the last IOC list. In 2025 the IOC, Clements/eBird and BirdLife teams merged their work into AviList, the consensus global checklist, which updates every October. Reported in [#2](../../issues/2).
+
+原因：IOC 15.2是IOC的最后一版。2025年IOC、Clements/eBird与BirdLife合并为全球统一名录AviList，每年10月更新。由[#2](../../issues/2)提出。
+
+Breaking changes / 不兼容的变化:
+
+- 82 species have a new scientific name, so a new `id` and sticker path (e.g. `Emberiza_elegans` → `Schoeniclus_elegans`). Old IDs are in each record's `previous` and in `data/crosswalk-ioc15.2-avilist2026.csv`.
+  82种学名变了，`id`和贴纸路径随之改变；旧id见各记录的`previous`和对照表。
+- 91 former species are now subspecies. Their stickers moved to `<Genus_species>.<subspecies>.webp` and appear under the parent species' `forms`.
+  91个原独立种现为亚种，贴纸改名为`<属_种>.<亚种>.webp`，挂在所属种的`forms`下。
+- 38 species are new (30 splits, 7 newly recognised, and *Todiramphus gambieri*, which version 0.1 left out by mistake). They have `"sticker": null` until drawn.
+  新增38种（30个拆分、7个新确认的种，以及0.1版漏收的土岛翡翠），贴纸画好前为`null`。
+- Five stickers moved from a parent species to the species split from it, because their reference photo was taken in the new species' range. The parent is waiting for a new drawing. See `data/README.md`.
+  5张贴纸按参考照拍摄地改挂到拆出的新种，母种待重画，见`data/README.md`。
+- Total: 11,011 species (was 11,064).
+  共11,011种（原11,064种）。
+
+Data fixes / 数据修正:
+
+- eBird species codes now come from AviList and match eBird v2026. Before, 306 of the codes taken from Wikidata were no longer valid eBird species codes, and 921 species had none.
+  eBird代码改取AviList，与eBird v2026一致。原先从Wikidata转抄的代码有306个已失效，921种缺代码。
+- Added Avibase IDs, AviList range statements and subspecies, `extinctionStatus`, `taxonConcept`, `previous`, `dataNotes`, `otherEnglishNames`.
+  新增Avibase编号、AviList分布描述与亚种、灭绝状态、分类概念等字段。
+- IUCN categories now come from AviList (BirdLife v10) instead of Wikidata.
+  IUCN等级改取AviList（BirdLife v10）。
+- For species whose boundaries changed, data that described the old set of birds (non-English names other than Simplified Chinese, Wikidata/GBIF/iNaturalist IDs, AVONET traits, body size) was not carried over.
+  分类范围变了的种，不再沿用描述旧范围的数据。
+- Chinese range summaries use 藏南地区 instead of 阿鲁纳恰尔邦; stray private-use characters removed from a few IOC names.
+  中文分布摘要改用「藏南地区」；清理了IOC原表个别鸟名里的乱码字符。
+
+## 0.1.0 — 2026-10-31
+
+First release: 11,064 species following IOC World Bird List v15.2.
+首次发布：按IOC 15.2整理的11,064种。

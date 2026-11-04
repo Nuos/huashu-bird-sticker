@@ -1,4 +1,4 @@
-# Sticker für alle 11.064 lebenden Vogelarten
+# Sticker für die lebenden Vogelarten der Welt
 
 <img src="previews/header.webp" alt="huashu-bird-sticker: specimen drawer, body-size lineup and family plates" width="100%">
 
@@ -8,7 +8,9 @@
 
 **Die ganze Bibliothek im Einsatz sehen Sie auf [birdalbum.com](https://birdalbum.com/de/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker).** Bird Album ist ein kostenloser Vogelführer auf Basis dieser Sticker: Jede Art lässt sich in 15 Sprachen nach ihrem Namen nachschlagen, dazu sieht man, wo sie lebt und in welchen Monaten sie anzutreffen ist, und eine Karte mit 8.171 Beobachtungs-Hotspots zeigt, was dort in diesem Monat gerade gesehen wird.
 
-11.064 Vogelarten, ein Sticker pro Art, verteilt auf 44 Ordnungen und 250 Familien. Das sind alle lebenden Arten der IOC World Bird List v15.2 (die 163 ausgestorbenen Arten sind nicht enthalten). Zu jeder Art gibt es strukturierte Daten: Taxonomie, Namen in bis zu 43 Sprachen, IDs aus anderen Datenbanken und die Herkunft jedes Stickers.
+11.011 Vogelarten in 45 Ordnungen und 249 Familien, nach [AviList v2026](https://www.avilist.org/), der einheitlichen globalen Checkliste, die 2025 die Listen der IOC und von Clements abgelöst hat. Enthalten sind alle lebenden Arten sowie 43, die AviList als ausgestorben, in der Wildnis ausgestorben oder möglicherweise ausgestorben führt und für die es schon einen Sticker gab (siehe `extinctionStatus`). 10.973 Arten haben einen Sticker; die übrigen 38 wurden erst kürzlich abgespalten und werden noch gezeichnet. Zu jeder Art gibt es strukturierte Daten: Taxonomie, Namen in bis zu 43 Sprachen, IDs aus anderen Datenbanken und die Herkunft jedes Stickers.
+
+> **Version 2.0 hat die Taxonomie von IOC 15.2 auf AviList v2026 umgestellt.** 82 Arten haben ihren wissenschaftlichen Namen geändert (und damit ihre `id` und den Pfad ihres Stickers), 91 frühere Arten sind jetzt Unterarten einer anderen Art, und 30 neue Arten wurden abgespalten. Alle Änderungen stehen in [`data/crosswalk-ioc15.2-avilist2026.csv`](data/crosswalk-ioc15.2-avilist2026.csv), und jeder Eintrag behält seine alte IOC-ID unter `previous`. Siehe [CHANGELOG](CHANGELOG.md).
 
 ![40 Sticker aus 15 Vogelordnungen](previews/hero.webp)
 
@@ -18,27 +20,27 @@
 
 Achtzehn der farbenprächtigsten und markantesten Gruppen, je 24 Sticker, so ausgewählt, dass keine zwei gleich aussehen. Alle hier gezeigten Sticker erfüllen den Qualitätsanspruch.
 
-### Kolibris · *Trochilidae* — 365 Arten
+### Kolibris · *Trochilidae* — 361 Arten
 
 ![Kolibris](previews/families/trochilidae.webp)
 
-### Papageien und Kakadus · *Psittaciformes* — 392 Arten
+### Papageien und Kakadus · *Psittaciformes* — 391 Arten
 
 ![Papageien und Kakadus](previews/families/parrots.webp)
 
-### Eisvögel · *Alcedinidae* — 116 Arten
+### Eisvögel · *Alcedinidae* — 123 Arten
 
 ![Eisvögel](previews/families/alcedinidae.webp)
 
-### Bienenfresser, Racken und Sägeracken · *Meropidae* · *Coraciidae* · *Brachypteraciidae* · *Momotidae* · *Todidae* — 68 Arten
+### Bienenfresser, Racken und Sägeracken · *Meropidae* · *Coraciidae* · *Brachypteraciidae* · *Momotidae* · *Todidae* — 69 Arten
 
 ![Bienenfresser, Racken und Sägeracken](previews/families/coraciiformes.webp)
 
-### Tukane und Bartvögel · *Ramphastidae* · *Capitonidae* · *Semnornithidae* · *Megalaimidae* · *Lybiidae* — 134 Arten
+### Tukane und Bartvögel · *Ramphastidae* · *Capitonidae* · *Semnornithidae* · *Megalaimidae* · *Lybiidae* — 132 Arten
 
 ![Tukane und Bartvögel](previews/families/toucans.webp)
 
-### Paradiesvögel und Laubenvögel · *Paradisaeidae* · *Ptilonorhynchidae* — 69 Arten
+### Paradiesvögel und Laubenvögel · *Paradisaeidae* · *Ptilonorhynchidae* — 67 Arten
 
 ![Paradiesvögel und Laubenvögel](previews/families/paradisaeidae.webp)
 
@@ -46,15 +48,15 @@ Achtzehn der farbenprächtigsten und markantesten Gruppen, je 24 Sticker, so aus
 
 ![Pittas](previews/families/pittidae.webp)
 
-### Tangaren · *Thraupidae* — 393 Arten
+### Tangaren · *Thraupidae* — 392 Arten
 
 ![Tangaren](previews/families/thraupidae.webp)
 
-### Nektarvögel und Blütenpicker · *Nectariniidae* · *Dicaeidae* — 208 Arten
+### Nektarvögel und Blütenpicker · *Nectariniidae* · *Dicaeidae* — 207 Arten
 
 ![Nektarvögel und Blütenpicker](previews/families/nectariniidae.webp)
 
-### Schmuckvögel und Manakins · *Cotingidae* · *Pipridae* — 121 Arten
+### Schmuckvögel und Manakins · *Cotingidae* · *Pipridae* — 120 Arten
 
 ![Schmuckvögel und Manakins](previews/families/cotingas.webp)
 
@@ -62,19 +64,19 @@ Achtzehn der farbenprächtigsten und markantesten Gruppen, je 24 Sticker, so aus
 
 ![Fasane und Rebhühner](previews/families/phasianidae.webp)
 
-### Enten, Gänse und Schwäne · *Anatidae* — 166 Arten
+### Enten, Gänse und Schwäne · *Anatidae* — 164 Arten
 
 ![Enten, Gänse und Schwäne](previews/families/anatidae.webp)
 
-### Tauben · *Columbidae* — 339 Arten
+### Tauben · *Columbidae* — 338 Arten
 
 ![Tauben](previews/families/columbidae.webp)
 
-### Prachtfinken · *Estrildidae* — 140 Arten
+### Prachtfinken · *Estrildidae* — 138 Arten
 
 ![Prachtfinken](previews/families/estrildidae.webp)
 
-### Häher und Elstern · *Corvidae* — 138 Arten
+### Häher und Elstern · *Corvidae* — 135 Arten
 
 ![Häher und Elstern](previews/families/corvidae.webp)
 
@@ -86,23 +88,24 @@ Achtzehn der farbenprächtigsten und markantesten Gruppen, je 24 Sticker, so aus
 
 ![Nashornvögel](previews/families/bucerotidae.webp)
 
-### Stare und Beos · *Sturnidae* — 120 Arten
+### Stare und Beos · *Sturnidae* — 118 Arten
 
 ![Stare und Beos](previews/families/sturnidae.webp)
 
-### Je eine aus allen 44 Ordnungen
+### Je eine aus jeder Ordnung
 
-![Je eine aus allen 44 Ordnungen](previews/orders.webp)
+![Je eine aus jeder Ordnung](previews/orders.webp)
 
 ## Inhalt
 
 | | |
 |---|---|
-| `stickers/<Order>/<Family>/<Genus_species>.webp` | 11.064 transparente Sticker mit weißem Rand, etwa 1.000 px an der langen Seite |
+| `stickers/<Order>/<Family>/<Genus_species>.webp` | Ein transparenter Sticker mit weißem Rand pro Art, etwa 1.000 px an der langen Seite. Die Dateien `<Genus_species>.<subspecies>.webp` sind 91 zusätzliche Sticker für Unterarten, die früher eigene Arten waren |
 | `data/species.json` | Ein Eintrag pro Art, der vollständige Datensatz: Taxonomie, Namen, IDs, Verbreitung und Unterarten, Körpermaße und Ökologie, Gefährdungsstatus, Sticker und dessen Herkunft. Feldbeschreibung: [data/README.md](data/README.md) |
+| `data/crosswalk-ioc15.2-avilist2026.csv` | Wie jede Art der IOC 15.2 auf AviList v2026 abgebildet wird: gleich, umbenannt, zusammengelegt, aufgespalten |
 | `data/species.csv` | Dasselbe, für Tabellenkalkulationen abgeflacht |
 | `data/names.csv` | Namen in 43 Sprachen (46 Spalten: Chinesisch, Französisch und Portugiesisch haben jeweils zwei Varianten) |
-| `data/languages.json` | Sprachcodes und die IOC-Spalte, aus der jede Sprache stammt |
+| `data/languages.json` | Sprachcodes und die mehrsprachige IOC-Spalte, aus der jede Sprache stammt |
 | `data/field-guide.zh-Hans.json` | Bestimmungsführer-Notizen auf vereinfachtem Chinesisch (Aussehen, Bestimmungsmerkmale, Geschlechter und Alter, ähnliche Arten) für 1.596 Arten, CC BY-SA 4.0 |
 
 So sieht ein Eintrag aus (Namen gekürzt):
@@ -112,13 +115,14 @@ So sieht ein Eintrag aus (Namen gekürzt):
   "id": "Accipiter_nisus",
   "scientificName": "Accipiter nisus",
   "authority": "(Linnaeus, 1758)",
-  "taxonomy": {"system": "IOC 15.2", "seq": 2872, "order": "Accipitriformes", "family": "Accipitridae", "genus": "Accipiter"},
+  "taxonomy": {"system": "AviList v2026", "seq": 3097, "order": "Accipitriformes", "family": "Accipitridae", "genus": "Accipiter"},
   "names": {"en": "Eurasian Sparrowhawk", "zh-Hans": "雀鹰", "ja": "ハイタカ", "es": "Gavilán común", "fr": "Épervier d'Europe", "…": "…"},
-  "ids": {"wikidata": "Q25380", "ebird": "eurspa1", "gbif": "2480637", "inaturalist": 5106},
-  "range": {"breedingRegion": "PAL", "breeding": "widespread", "nonbreeding": "OR, ne AF"},
-  "subspecies": [{"name": "nisus", "range": "Europe to sw Siberia and c Asia"}, "…"],
+  "ids": {"ebird": "eurspa1", "avibase": "avibase-DB376A66", "wikidata": "Q25380", "gbif": "2480637", "inaturalist": 5106},
+  "range": {"text": "lowland to treeline montane forest, open woodland, and urban and suburban parks, from Europe eastward to …", "…": "…"},
+  "subspecies": [{"name": "nisus", "authority": "(Linnaeus, 1758)", "range": "breeds Europe to Türkiye and Siberia; winters to Africa"}, "…"],
   "traits": {"massG": 220.8, "wingMm": 207.4, "tailMm": 155.5, "habitat": "Forest", "migration": "partially migratory", "trophicNiche": "Vertivore", "…": "…"},
-  "conservation": {"iucn": "LC", "cites": "II"},
+  "conservation": {"iucn": "LC", "cites": "II", "chinaProtection": "Class II"},
+  "taxonConcept": "same",
   "sticker": {
     "file": "stickers/Accipitriformes/Accipitridae/Accipiter_nisus.webp",
     "kind": "ai-illustration",
@@ -132,19 +136,18 @@ So sieht ein Eintrag aus (Namen gekürzt):
 
 ## Abdeckung
 
-- Namen: Englisch deckt alle Arten ab, Französisch und vereinfachtes Chinesisch bis auf wenige (für 23 kürzlich abgespaltene Arten fehlen im vereinfachten Chinesisch noch Namen); Japanisch, traditionelles Chinesisch, Russisch, Deutsch, Spanisch, Polnisch, Niederländisch, Schwedisch und etwa ein Dutzend weitere europäische Sprachen liegen über 90 %. Serbisch, Ungarisch und Estnisch liegen zwischen 50 % und 75 %. Koreanisch, Arabisch, Thailändisch, Persisch und einige weitere decken bisher nur einige hundert bis rund tausend Arten ab, weil die IOC-Liste nicht mehr hergibt. Siehe `data/names.csv`.
-- Deutsche Namen gibt es für 10.840 der 11.064 Arten, sie stammen direkt aus der IOC-Liste.
-- IDs: Wikidata 10.939, GBIF 10.649, eBird 10.052.
-- Sticker: 11.064 von 11.064.
+- Namen: Englisch (AviList) deckt alle Arten ab. Die anderen Sprachen stammen aus der mehrsprachigen IOC-Liste und werden nur dort übernommen, wo sich das Artkonzept nicht geändert hat; bei den 129 Arten, deren Grenzen sich geändert haben (Zusammenlegungen und Abspaltungen) oder die neu sind, kann ein alter Name eine andere Gruppe von Vögeln meinen, deshalb haben wir ihn weggelassen, statt zu raten. Vereinfachtes Chinesisch deckt 10.947 Arten ab (jede geänderte Art wurde von Hand geprüft); Französisch, Spanisch, Deutsch, Russisch, Japanisch und traditionelles Chinesisch liegen über 94 %. Koreanisch, Arabisch, Thailändisch, Persisch und einige weitere decken nur einige hundert bis rund tausend Arten ab, weil die IOC-Liste nicht mehr hergibt. Siehe `data/names.csv`.
+- IDs: eBird 10.983 und Avibase 11.011, beide aus AviList übernommen; Wikidata 10.757, GBIF 10.477.
+- Sticker: 10.973 von 11.011 Arten, dazu 91 Unterarten-Sticker. Die 38 Arten ohne Sticker stehen mit `"sticker": null` in den Daten.
 
 ## Wie die Sticker entstanden sind und wie gut sie sind
 
-11.064 Sticker sind KI-Illustrationen. Für jede Art haben wir ein Referenzfoto gesucht (bei 453 Arten, für die kein einzelnes Foto gut genug war, stattdessen eine Tafel aus mehreren Bildern samt schriftlicher Beschreibung), den Sticker mit GPT-image gezeichnet, hochskaliert und freigestellt.
+Alle 11.064 Sticker-Dateien sind KI-Illustrationen. Für jede Art haben wir ein Referenzfoto gesucht (bei 453 Arten, für die kein einzelnes Foto gut genug war, stattdessen eine Tafel aus mehreren Bildern samt schriftlicher Beschreibung), den Sticker mit GPT-image gezeichnet, hochskaliert und freigestellt.
 
 Jeder KI-Sticker wurde danach von einem eigenen Prüfer anhand der Referenz auf Bestimmungsmerkmale bewertet: Schnabel, Auge, Beine und Füße, Gefiederzeichnung und -farbe. In der letzten Runde wurden 852 Grenzfälle (80–82) zusätzlich blind ein zweites Mal geprüft; 211 davon fielen durch und wurden neu gezeichnet. Grenzfälle aus früheren Runden haben diese zweite Prüfung nicht durchlaufen.
 
 - **7.670 erfüllen unseren Qualitätsanspruch** (`"meetsQualityBar": true`): KI-Sticker mit mindestens 80 Punkten.
-- **3.394 erfüllen ihn nicht.** Sie wurden bis zur Obergrenze neu gezeichnet, und wir haben die am besten bewertete Fassung behalten, damit keine Art ohne Bild bleibt. 3.279 liegen bei 70–79 Punkten, 109 darunter, und 6 hatten 80 oder mehr, sind aber in der blinden Zweitprüfung durchgefallen.
+- **3.394 erfüllen ihn nicht.** Sie wurden bis zur Obergrenze neu gezeichnet, und wir haben die am besten bewertete Fassung behalten, damit keine Art ohne Bild bleibt. 3.279 liegen bei 70–79 Punkten, 109 darunter, und 6 hatten 80 oder mehr, sind aber in der blinden Zweitprüfung durchgefallen. Wir arbeiten an einer besseren Methode und zeichnen diese neu; welche Art von Fehler wir beheben, zeigt [Issue #1](../../issues/1).
 
 Das sind Illustrationen, keine Bestimmungsbuch-Tafeln. Sie sind als freundliches Bild des Vogels gedacht; bei feinen Details sollte man ein Bestimmungsbuch zurate ziehen. Wenn Sie einen Fehler entdecken, [eröffnen Sie bitte ein Issue](../../issues/new/choose): Korrekturen von Vogelbeobachtern sind der wertvollste Beitrag, den dieses Projekt bekommen kann.
 
@@ -176,8 +179,9 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 
 ## Quellen
 
-- Taxonomie und mehrsprachige Namen: IOC World Bird List v15.2, Gill, Donsker & Rasmussen (Hrsg.), CC BY 3.0.
-- Datenbankübergreifende IDs: Wikidata (CC0).
+- Taxonomie, englische Namen, Verbreitung sowie eBird- und Avibase-IDs: AviList Core Team. 2026. AviList: The Global Avian Checklist, v2026. https://doi.org/10.2173/avilist.v2026, CC BY 4.0.
+- Namen in anderen Sprachen: IOC World Bird List v15.2, Gill, Donsker & Rasmussen (Hrsg.), CC BY 3.0.
+- Weitere datenbankübergreifende IDs: Wikidata (CC0).
 - Körpermaße und Ökologie: AVONET, Tobias et al., 2022, *Ecology Letters*, CC BY 4.0.
 - Fotografen der Referenzfotos: pro Art in `data/species.json` genannt. Die Referenzfotos sind nicht Teil dieses Repositorys.
 - Die Sticker wurden für 鸣迹 (Mingji) gezeichnet, ein Vogelbeobachtungs-Notizbuch für iOS.
