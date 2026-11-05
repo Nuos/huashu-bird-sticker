@@ -1,5 +1,5 @@
 {
- "version": "2.2.1",
+ "version": "2.2.2",
  "taxonomy": "AviList v2026",
  "count": 11011,
  "species": [
@@ -770837,8 +770837,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Campephagidae/Ceblepyris_caesius.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -782349,8 +782349,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Artamidae/Artamus_minor.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -782960,8 +782960,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Artamidae/Artamus_mentalis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -784431,8 +784431,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Artamidae/Cracticus_louisiadensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -804526,8 +804526,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Vireonidae/Hylophilus_poicilotis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -804641,8 +804641,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Vireonidae/Hylophilus_amaurocephalus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -806339,8 +806339,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Vireonidae/Tunchiornis_ochraceiceps.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -807925,8 +807925,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Vireonidae/Vireo_flavoviridis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -808912,8 +808912,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Vireonidae/Vireo_huttoni.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 80,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -811598,8 +811598,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Oriolidae/Pitohui_dichrous.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -814048,8 +814048,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Oriolidae/Oriolus_isabellae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -817099,8 +817099,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pachycephalidae/Colluricincla_boweri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -818230,8 +818230,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pachycephalidae/Pachycephala_inornata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -820391,8 +820391,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pachycephalidae/Pachycephala_jacquinoti.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -823363,8 +823363,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pachycephalidae/Pachycephala_philippinensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -823983,8 +823983,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Rhipiduridae/Chaetorhynchus_papuensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -824312,15 +824312,9 @@
    "sticker": {
     "file": "stickers/Passeriformes/Rhipiduridae/Lamprolia_klinesmithi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 68,
-    "meetsQualityBar": false,
-    "license": "CC-BY-4.0",
-    "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/441525269",
-     "author": "Jonathan Newman",
-     "license": "CC BY-NC"
-    }
+    "reviewScore": 90,
+    "meetsQualityBar": true,
+    "license": "CC-BY-4.0"
    },
    "previous": [
     {
@@ -825552,8 +825546,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Rhipiduridae/Rhipidura_albogularis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -825973,8 +825967,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Rhipiduridae/Rhipidura_atra.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -827807,8 +827801,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Rhipiduridae/Rhipidura_drownei.webp",
     "kind": "ai-illustration",
-    "reviewScore": 79,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -830462,8 +830456,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Rhipiduridae/Rhipidura_semirubra.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -832295,8 +832289,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Dicruridae/Dicrurus_sumatranus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 80,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -833072,8 +833066,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Dicruridae/Dicrurus_bracteatus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -835136,8 +835130,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Dicruridae/Dicrurus_forficatus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -836362,8 +836356,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Monarchidae/Terpsiphone_floris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -843634,8 +843628,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Monarchidae/Symposiachrus_malaitae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -846933,8 +846927,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Monarchidae/Mayrornis_lessoni.webp",
     "kind": "ai-illustration",
-    "reviewScore": 74,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -848930,15 +848924,9 @@
    "sticker": {
     "file": "stickers/Passeriformes/Paradisaeidae/Pteridophora_alberti.webp",
     "kind": "ai-illustration",
-    "reviewScore": 59,
-    "meetsQualityBar": false,
-    "license": "CC-BY-4.0",
-    "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/67592295",
-     "author": "Nick Athanas",
-     "license": "CC BY-NC-SA"
-    }
+    "reviewScore": 85,
+    "meetsQualityBar": true,
+    "license": "CC-BY-4.0"
    },
    "previous": [
     {
@@ -850218,8 +850206,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Paradisaeidae/Lophorina_minor.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
@@ -850459,15 +850447,9 @@
    "sticker": {
     "file": "stickers/Passeriformes/Paradisaeidae/Lophorina_latipennis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 64,
-    "meetsQualityBar": false,
-    "license": "CC-BY-4.0",
-    "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/10775185",
-     "author": "Markus  Lilje",
-     "license": "CC BY-NC-ND"
-    }
+    "reviewScore": 85,
+    "meetsQualityBar": true,
+    "license": "CC-BY-4.0"
    },
    "previous": [
     {
@@ -850799,8 +850781,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Paradisaeidae/Ptiloris_intercedens.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -852137,8 +852119,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Paradisaeidae/Cicinnurus_regius.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -852739,14 +852721,9 @@
    "sticker": {
     "file": "stickers/Passeriformes/Paradisaeidae/Paradisaea_rubra.webp",
     "kind": "ai-illustration",
-    "reviewScore": 68,
-    "meetsQualityBar": false,
-    "license": "CC-BY-4.0",
-    "reference": {
-     "type": "photo",
-     "page": "https://macaulaylibrary.org/asset/274929301",
-     "license": "Macaulay Library terms"
-    }
+    "reviewScore": 80,
+    "meetsQualityBar": true,
+    "license": "CC-BY-4.0"
    },
    "previous": [
     {
@@ -853125,15 +853102,9 @@
    "sticker": {
     "file": "stickers/Passeriformes/Paradisaeidae/Paradisaea_apoda.webp",
     "kind": "ai-illustration",
-    "reviewScore": 72,
-    "meetsQualityBar": false,
-    "license": "CC-BY-4.0",
-    "reference": {
-     "type": "photo",
-     "page": "https://www.flickr.com/photos/40135642@N00/2899438344",
-     "author": "chee.hong",
-     "license": "CC BY 2.0"
-    }
+    "reviewScore": 90,
+    "meetsQualityBar": true,
+    "license": "CC-BY-4.0"
    },
    "previous": [
     {
@@ -853498,8 +853469,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Melampittidae/Megalampitta_gigantea.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -853635,8 +853606,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Platylophidae/Platylophus_galericulatus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -860682,8 +860653,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Corvidae/Urocissa_ornata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -863537,8 +863508,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Corvidae/Cyanocitta_stelleri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -868286,8 +868257,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Corvidae/Pica_hudsonia.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -870845,8 +870816,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Corvidae/Corvus_capensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -874413,8 +874384,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Corvidae/Corvus_violaceus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 80,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
@@ -877851,8 +877822,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Eupetidae/Eupetes_macrocerus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -879688,8 +879659,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Petroicidae/Petroica_rodinogaster.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -882126,8 +882097,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Petroicidae/Heteromyias_cinereifrons.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -882484,8 +882455,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Petroicidae/Plesiodryas_albonotata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -884584,8 +884555,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Hyliotidae/Hyliota_violacea.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -885210,8 +885181,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Stenostiridae/Stenostira_scita.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -885997,8 +885968,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Stenostiridae/Elminia_albiventris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -891915,8 +891886,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Paridae/Periparus_elegans.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -897474,8 +897445,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Alaudidae/Certhilauda_curvirostris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -903856,8 +903827,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Alaudidae/Spizocorys_personata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 75,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -905237,8 +905208,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Alaudidae/Galerida_magnirostris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -911055,8 +911026,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Macrosphenidae/Sylvietta_whytii.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -911422,8 +911393,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Macrosphenidae/Sylvietta_denti.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -912379,8 +912350,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cisticolidae/Eremomela_flavicrissalis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 80,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -916053,8 +916024,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cisticolidae/Spiloptila_clamans.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -916585,8 +916556,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cisticolidae/Apalis_flavigularis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -918419,8 +918390,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cisticolidae/Apalis_porphyrolaema.webp",
     "kind": "ai-illustration",
-    "reviewScore": 79,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -920070,8 +920041,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cisticolidae/Orthotomus_sepium.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -928719,8 +928690,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cisticolidae/Cisticola_cantans.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -931395,8 +931366,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cisticolidae/Cisticola_cinereolus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -939982,8 +939953,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Bernieridae/Xanthomixis_cinereiceps.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -943362,8 +943333,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Locustellidae/Locustella_caudata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -944545,8 +944516,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Locustellidae/Locustella_montis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 79,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -946630,8 +946601,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Locustellidae/Bradypterus_graueri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -947392,8 +947363,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Locustellidae/Poodytes_gramineus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -950494,8 +950465,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Hirundinidae/Psalidoprocne_pristoptera.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -952111,8 +952082,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Hirundinidae/Tachycineta_bicolor.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -953319,8 +953290,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Hirundinidae/Progne_modesta.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
@@ -953832,8 +953803,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Hirundinidae/Progne_dominicensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 74,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -963399,8 +963370,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Erythrocercidae/Erythrocercus_holochlorus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -973827,8 +973798,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Phylloscopidae/Phylloscopus_nitidus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -978383,8 +978354,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Neolestes_torquatus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 80,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -979327,8 +979298,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Arizelocichla_masukuensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -985863,8 +985834,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Rubigula_cyaniventris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -985972,8 +985943,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Rubigula_squamata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -992003,8 +991974,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Alophoixus_ochraceus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -992504,8 +992475,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Iole_palawanensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -995096,8 +995067,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Hypsipetes_madagascariensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1000825,8 +1000796,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sylviidae/Curruca_ruppeli.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1011104,8 +1011075,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Zosteropidae/Zosterops_chloronothos.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1015267,8 +1015238,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Zosteropidae/Zosterops_everetti.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1015566,8 +1015537,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Zosteropidae/Zosterops_emiliae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 79,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1019761,8 +1019732,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Zosteropidae/Zosterops_hypoxanthus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1020335,8 +1020306,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Zosteropidae/Zosterops_murphyi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1040555,8 +1040526,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Leiothrichidae/Cutia_legalleni.webp",
     "kind": "ai-illustration",
-    "reviewScore": 74,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1044266,8 +1044237,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Leiothrichidae/Heterophasia_melanoleuca.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1054037,8 +1054008,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Leiothrichidae/Pterorhinus_delesserti.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1057572,8 +1057543,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Ptiliogonatidae/Phainopepla_nitens.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1060971,8 +1060942,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sittidae/Sitta_krueperi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1065564,8 +1065535,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Polioptilidae/Polioptila_paraensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
@@ -1068655,8 +1068626,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Troglodytidae/Thryomanes_bewickii.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1072061,8 +1072032,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Troglodytidae/Ferminia_cerverai.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1073326,8 +1073297,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Troglodytidae/Troglodytes_aedon.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1078212,8 +1078183,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Troglodytidae/Henicorhina_leucoptera.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1078402,8 +1078373,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Troglodytidae/Henicorhina_leucosticta.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1085523,8 +1085494,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sturnidae/Scissirostrum_dubium.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1090014,8 +1089985,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sturnidae/Aplonis_tabuensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1093401,8 +1093372,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sturnidae/Acridotheres_cinereus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1096245,8 +1096216,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sturnidae/Arizelopsar_femoralis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1096356,8 +1096327,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sturnidae/Poeoptera_lugubris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1098753,8 +1098724,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sturnidae/Lamprotornis_bicolor.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1102225,8 +1102196,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Turdidae/Myadestes_genibarbis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1105654,8 +1105625,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Turdidae/Cochoa_azurea.webp",
     "kind": "ai-illustration",
-    "reviewScore": 79,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1106168,8 +1106139,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Turdidae/Entomodestes_coracinus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1107146,8 +1107117,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Turdidae/Catharus_fuscater.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1111191,8 +1111162,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Turdidae/Turdus_simensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1125586,8 +1125557,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Copsychus_sechellarum.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1132053,8 +1132024,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Muscicapa_flavirostris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1136685,8 +1136656,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Cyornis_pallidipes.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1138619,8 +1138590,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Cyornis_banyumas.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1141168,8 +1141139,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Cossypha_albicapillus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1142969,8 +1142940,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Sheppardia_montana.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1155008,8 +1154979,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Ficedula_basilanica.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1159284,8 +1159255,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Monticola_rufocinereus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1159835,8 +1159806,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Monticola_rupestris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1162313,8 +1162284,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Emarginata_tractrac.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1162808,8 +1162779,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Myrmecocichla_arnotti.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1163863,8 +1163834,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Oenanthe_hispanica.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1174247,8 +1174218,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Dicaeidae/Dicaeum_pectorale.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1174768,8 +1174739,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Dicaeidae/Dicaeum_geelvinkianum.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1175270,8 +1175241,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Nectariniidae/Arachnothera_flammifera.webp",
     "kind": "ai-illustration",
-    "reviewScore": 79,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1183241,8 +1183212,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Nectariniidae/Cyanomitra_bannermani.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1183638,8 +1183609,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Nectariniidae/Cyanomitra_alinae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1184182,8 +1184153,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Nectariniidae/Deleornis_fraseri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1185408,8 +1185379,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Nectariniidae/Chalcomitra_fuliginosa.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1187344,8 +1187315,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Nectariniidae/Cinnyris_afer.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1188262,8 +1188233,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Nectariniidae/Cinnyris_pulchellus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1195611,8 +1195582,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Ploceidae/Amblyospiza_albifrons.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1200134,8 +1200105,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Ploceidae/Ploceus_spekei.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1200765,8 +1200736,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Ploceidae/Ploceus_bannermani.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1203612,8 +1203583,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Ploceidae/Ploceus_galbula.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1205631,8 +1205602,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Ploceidae/Quelea_cardinalis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1205870,8 +1205841,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Ploceidae/Foudia_flavicans.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1209971,8 +1209942,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Ploceidae/Malimbus_rubricollis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1211409,8 +1211380,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Viduidae/Vidua_fischeri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1213765,8 +1213736,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Estrildidae/Emblema_ruficauda.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1222482,8 +1222453,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Estrildidae/Parmoptila_woodhousei.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1233367,8 +1233338,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Passeridae/Gymnoris_dentata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1234245,8 +1234216,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Passeridae/Passer_diffusus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1234872,8 +1234843,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Passeridae/Passer_shelleyi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1239830,8 +1239801,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Motacillidae/Macronyx_croceus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 74,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1240068,8 +1240039,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Motacillidae/Macronyx_flavicollis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 74,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1250224,8 +1250195,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Fringillidae/Euphonia_violacea.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1258248,8 +1258219,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Fringillidae/Loxops_mana.webp",
     "kind": "ai-illustration",
-    "reviewScore": 73,
-    "meetsQualityBar": false,
+    "reviewScore": 80,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1264068,8 +1264039,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Fringillidae/Crithagra_capistrata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 74,
-    "meetsQualityBar": false,
+    "reviewScore": 80,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1286180,8 +1286151,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Passerellidae/Arremon_nigriceps.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1287750,8 +1287721,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Passerellidae/Arremon_costaricensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1292580,8 +1292551,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Passerellidae/Melospiza_lincolnii.webp",
     "kind": "ai-illustration",
-    "reviewScore": 73,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1294065,8 +1294036,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Passerellidae/Melozone_aberti.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1299141,8 +1299112,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Passerellidae/Atlapetes_latinuchus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1300735,8 +1300706,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Teretistridae/Teretistris_fernandinae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1302262,8 +1302233,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Icteridae/Leistes_loyca.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1311007,8 +1310978,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Icteridae/Euphagus_cyanocephalus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1312620,8 +1312591,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Icteridae/Hypopyrrhus_pyrohypogaster.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 80,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1316793,8 +1316764,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Oporornis_agilis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1318461,8 +1318432,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Geothlypis_trichas.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1322912,8 +1322883,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Setophaga_graciae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1323562,8 +1323533,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Myiothlypis_bivittata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1326953,8 +1326924,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Basileuterus_punctipectus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 79,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1331334,8 +1331305,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cardinalidae/Amaurospiza_aequatorialis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1335198,8 +1335169,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cardinalidae/Piranga_roseogularis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1335328,8 +1335299,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cardinalidae/Piranga_rubra.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1338710,8 +1338681,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Dacnis_cayana.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1342137,8 +1342108,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Coryphospingus_pileatus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1347138,8 +1347109,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Melanodera_xanthogramma.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1349222,8 +1349193,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Idiopsar_speculifer.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1355422,8 +1355393,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Embernagra_longicauda.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1356342,8 +1356313,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Rhopospina_carbonaria.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1357088,8 +1357059,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Incaspiza_watkinsi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1373593,8 +1373564,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Dubusia_taeniata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1375118,8 +1375089,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Anisognathus_igniventris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1375990,8 +1375961,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Lophospingus_pusillus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1377217,8 +1377188,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Paroaria_baeri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1379879,8 +1379850,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Tangara_johannae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1381509,8 +1381480,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Tangara_chilensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1383792,8 +1383763,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Stilpnia_larvata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1384593,8 +1384564,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Stilpnia_peruviana.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1384711,8 +1384682,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Stilpnia_heinei.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
