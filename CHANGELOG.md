@@ -1,5 +1,12 @@
 # Changelog / 更新记录
 
+## 2.2.3 — 2026-11-05
+
+**Every sticker file now says it is AI-generated.** / **每张贴纸文件里都写明了「AI生成」。**
+
+- All 11,064 WebP files carry XMP metadata: IPTC Digital Source Type `trainedAlgorithmicMedia` (the standard "AI-generated" label that Google Images and other tools read), the AI system used, a title with the species name, the CC BY 4.0 license and credit line, and where to report errors. Pixels are unchanged. / 全部11,064个WebP文件都写入了XMP元数据：IPTC数字来源类型 `trainedAlgorithmicMedia`（Google图片等工具识别「AI生成」用的标准字段）、所用AI系统、带鸟种名的标题、CC BY 4.0授权与署名方式、报错地址。图像像素没有改动。
+- Check with `exiftool -XMP:all <file>.webp`. / 可以用 `exiftool -XMP:all <文件>.webp` 查看。
+
 ## 2.2.2 — 2026-11-05
 
 **179 more stickers redrawn under the stricter review.** / **又按严审标准重画了179张贴纸。**
