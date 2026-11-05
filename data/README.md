@@ -60,17 +60,17 @@ Notes:
 
 ## Reference photos
 
-Each AI sticker was drawn from one reference photo, or from a board of several images; 211 redrawn stickers were drawn from a written description alone. Its page, author and license are in `sticker.reference`; the photos themselves are not distributed. By sticker (including `forms`):
+Each AI sticker was drawn from one reference photo, or from a board of several images; 250 redrawn stickers were drawn from a written description alone. Its page, author and license are in `sticker.reference`; the photos themselves are not distributed. By sticker (including `forms`):
 
 | Reference | Stickers |
 |---|---|
-| Openly licensed photo (CC0, public domain, CC BY, CC BY-SA) | 1,644 |
-| Board of openly licensed images, or a written description only | 1,951 |
-| Photo under a non-commercial or no-derivatives license (CC BY-NC, -ND, …) | 3,893 |
-| Photo with all rights reserved, or under Macaulay Library terms | 1,121 |
-| Photo whose license we did not record | 1,559 |
-| Board mixing images under different terms | 685 |
-| Redrawn from a written description, without a reference photo (`"reference": null`) | 211 |
+| Openly licensed photo (CC0, public domain, CC BY, CC BY-SA) | 1,610 |
+| Board of openly licensed images, or a written description only | 2,192 |
+| Photo under a non-commercial or no-derivatives license (CC BY-NC, -ND, …) | 3,781 |
+| Photo with all rights reserved, or under Macaulay Library terms | 1,079 |
+| Photo whose license we did not record | 1,477 |
+| Board mixing images under different terms | 675 |
+| Redrawn from a written description, without a reference photo (`"reference": null`) | 250 |
 
 The stickers are new drawings, not copies. Whether a drawing made from a photo is bound by that photo's license is not settled law; if it matters for your use, filter on `sticker.reference.license`.
 
