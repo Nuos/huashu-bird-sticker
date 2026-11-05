@@ -1,8 +1,8 @@
 # Notice / 第三方来源说明
 
-The AI-illustrated stickers are licensed under PolyForm Shield 1.0.0 and the data compiled by this project under MIT, to the extent that we hold rights in them (see [LICENSE.md](LICENSE.md)). The items below come from third parties and keep their own terms.
+The AI-illustrated stickers are licensed under CC BY 4.0 and the data compiled by this project under MIT, to the extent that we hold rights in them (see [LICENSE.md](LICENSE.md)). The items below come from third parties and keep their own terms.
 
-AI绘制的贴纸按PolyForm Shield 1.0.0授权，本项目整理的数据按MIT授权，均限于我们拥有的权利（见[LICENSE.md](LICENSE.md)）。下面这些来自第三方，沿用各自的条款。
+AI绘制的贴纸按CC BY 4.0授权，本项目整理的数据按MIT授权，均限于我们拥有的权利（见[LICENSE.md](LICENSE.md)）。下面这些来自第三方，沿用各自的条款。
 
 ## Taxonomy and names / 分类与鸟名
 
@@ -24,10 +24,10 @@ Body measurements and ecology in `traits` come from **AVONET** (Tobias et al. 20
 
 ## Reference photos / 参考照片
 
-Each AI-illustrated sticker was drawn with one reference photo, or a reference board of several images, for posture and field marks. **The reference images are not included in this repository.** Their pages, authors and licenses are listed per species in `data/species.json` so the source can always be traced. Rights in those photographs remain with their photographers.
+Reference photos, one per species or a board of several images, were used to get each species' field marks right; see [About the reference photos](README.md#about-the-reference-photos). **The reference images are not included in this repository.** Their pages, authors and licenses are listed per species in `data/species.json` so the source can always be traced. Rights in those photographs remain with their photographers.
 
-每张AI贴纸都参照一张照片（或几张图拼成的参考板）来确定姿态和辨识特征。**参考图本身不在仓库里**，出处、作者和许可逐种写在`data/species.json`里。照片的权利归原摄影师。
+每种鸟用一张参考照片（或几张图拼成的参考板）来把辨识特征画对，见README的「参考照片」一节。**参考图本身不在仓库里**，出处、作者和许可逐种写在`data/species.json`里。照片的权利归原摄影师。
 
-If you are the author of a reference photo and object to a sticker based on it, open an issue or email alchaincyf@gmail.com. We will replace or remove it within 7 days.
+If one of your photos was used as a reference for a sticker and you would rather it weren't, open an issue or email alchaincyf@gmail.com. We will replace the sticker within 7 days.
 
-如果你是某张参考照的作者，不希望我们使用据此绘制的贴纸，请提issue或发邮件到alchaincyf@gmail.com，我们会在7天内替换或撤下。
+如果你的照片被用作某张贴纸的参考，而你不希望这样，请提issue或发邮件到alchaincyf@gmail.com，我们会在7天内替换这张贴纸。

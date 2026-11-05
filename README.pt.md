@@ -14,7 +14,7 @@
 
 ![40 adesivos de 15 ordens de aves](previews/hero.webp)
 
-**Licença em resumo:** você pode usar os adesivos para qualquer fim, inclusive comercial, e também editá-los e redistribuí-los. A única exceção é um aplicativo, site ou serviço de observação de aves, identificação de aves ou guia de campo de aves. Cite huashu-bird-sticker com um link para este repositório e pronto. O texto legal é a [PolyForm Shield 1.0.0](LICENSE.md). Os dados são MIT, e as partes de terceiros estão listadas no [NOTICE](NOTICE.md).
+**Licença em resumo:** os adesivos estão sob a licença [CC BY 4.0](LICENSE.md): você pode usá-los para qualquer fim, inclusive comercial, e também editá-los e redistribuí-los, desde que cite huashu-bird-sticker com um link para este repositório. Os dados são MIT, e as partes de terceiros estão listadas no [NOTICE](NOTICE.md).
 
 ## Galeria
 
@@ -128,7 +128,7 @@ Um registro tem este formato (nomes abreviados):
     "kind": "ai-illustration",
     "reviewScore": 91,
     "meetsQualityBar": true,
-    "license": "PolyForm-Shield-1.0.0",
+    "license": "CC-BY-4.0",
     "reference": {"type": "photo", "page": "https://commons.wikimedia.org/wiki/File:…", "author": "Dion Art", "license": "CC BY-SA 4.0"}
   }
 }

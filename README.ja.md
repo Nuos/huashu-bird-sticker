@@ -14,7 +14,7 @@
 
 ![15の目から選んだ40枚のステッカー](previews/hero.webp)
 
-**ライセンスを一言で:** ステッカーは商用を含むどんな用途にも使え、加工や再配布もできます。例外は、バードウォッチング、鳥の識別、野鳥図鑑のアプリ・サイト・サービスだけです。huashu-bird-stickerの名前とこのリポジトリへのリンクを添えれば問題ありません。法的な文面は[PolyForm Shield 1.0.0](LICENSE.md)です。データはMITで、第三者に由来する部分は[NOTICE](NOTICE.md)に記載しています。
+**ライセンスを一言で:** ステッカーは[CC BY 4.0](LICENSE.md)です。huashu-bird-stickerの名前とこのリポジトリへのリンクを添えれば、商用を含むどんな用途にも使え、加工や再配布もできます。データはMITで、第三者に由来する部分は[NOTICE](NOTICE.md)に記載しています。
 
 ## ギャラリー
 
@@ -128,7 +128,7 @@
     "kind": "ai-illustration",
     "reviewScore": 91,
     "meetsQualityBar": true,
-    "license": "PolyForm-Shield-1.0.0",
+    "license": "CC-BY-4.0",
     "reference": {"type": "photo", "page": "https://commons.wikimedia.org/wiki/File:…", "author": "Dion Art", "license": "CC BY-SA 4.0"}
   }
 }

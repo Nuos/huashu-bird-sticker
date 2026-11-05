@@ -14,7 +14,7 @@
 
 ![40 ملصقًا من 15 رتبة من الطيور](previews/hero.webp)
 
-**الرخصة باختصار:** يمكنك استخدام الملصقات في أي غرض، بما في ذلك الاستخدام التجاري والتعديل وإعادة التوزيع. الاستثناء الوحيد هو تطبيق أو موقع أو خدمة لمراقبة الطيور أو التعرّف عليها أو دليل ميداني للطيور. اذكر huashu-bird-sticker مع رابط هذا المستودع وهذا يكفي. النص القانوني هو [PolyForm Shield 1.0.0](LICENSE.md). البيانات برخصة MIT، والأجزاء التي تعود إلى أطراف ثالثة مذكورة في [NOTICE](NOTICE.md).
+**الرخصة باختصار:** الملصقات مرخّصة بموجب [CC BY 4.0](LICENSE.md): يمكنك استخدامها في أي غرض، بما في ذلك الاستخدام التجاري والتعديل وإعادة التوزيع، بشرط أن تذكر huashu-bird-sticker مع رابط هذا المستودع. البيانات برخصة MIT، والأجزاء التي تعود إلى أطراف ثالثة مذكورة في [NOTICE](NOTICE.md).
 
 ## المعرض
 
@@ -128,7 +128,7 @@
     "kind": "ai-illustration",
     "reviewScore": 91,
     "meetsQualityBar": true,
-    "license": "PolyForm-Shield-1.0.0",
+    "license": "CC-BY-4.0",
     "reference": {"type": "photo", "page": "https://commons.wikimedia.org/wiki/File:…", "author": "Dion Art", "license": "CC BY-SA 4.0"}
   }
 }

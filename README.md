@@ -16,7 +16,7 @@ By [Huashu (花叔)](https://github.com/alchaincyf), from the bird-watching app 
 
 ![40 stickers from 15 bird orders](previews/hero.webp)
 
-**License in short:** use the stickers for anything, including commercial work, editing and redistribution. The one exception is a birding, bird-ID or field-guide app, site or service. Credit huashu-bird-sticker with a link to this repository and you're set. The legal text is [PolyForm Shield 1.0.0](LICENSE.md). The data is MIT, and third-party parts are listed in [NOTICE](NOTICE.md).
+**License in short:** the stickers are licensed under [CC BY 4.0](LICENSE.md): use them for anything, including commercial work, editing and redistribution, as long as you credit huashu-bird-sticker with a link to this repository. The data is MIT, and third-party parts are listed in [NOTICE](NOTICE.md).
 
 ## Gallery
 
@@ -130,7 +130,7 @@ A record looks like this (names shortened):
     "kind": "ai-illustration",
     "reviewScore": 91,
     "meetsQualityBar": true,
-    "license": "PolyForm-Shield-1.0.0",
+    "license": "CC-BY-4.0",
     "reference": {"type": "photo", "page": "https://commons.wikimedia.org/wiki/File:…", "author": "Dion Art", "license": "CC BY-SA 4.0"}
   }
 }

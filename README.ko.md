@@ -14,7 +14,7 @@
 
 ![15개 목에서 고른 스티커 40장](previews/hero.webp)
 
-**라이선스 한눈에 보기:** 스티커는 상업적 이용을 포함해 어떤 용도로든 쓸 수 있고, 수정과 재배포도 가능합니다. 예외는 탐조, 새 식별, 조류 도감 앱·사이트·서비스뿐입니다. huashu-bird-sticker를 밝히고 이 저장소 링크를 달면 충분합니다. 법적 문서는 [PolyForm Shield 1.0.0](LICENSE.md)입니다. 데이터는 MIT이며, 제3자에게서 온 부분은 [NOTICE](NOTICE.md)에 정리되어 있습니다.
+**라이선스 한눈에 보기:** 스티커는 [CC BY 4.0](LICENSE.md)입니다. huashu-bird-sticker를 밝히고 이 저장소 링크를 달면 상업적 이용을 포함해 어떤 용도로든 쓸 수 있고, 수정과 재배포도 가능합니다. 데이터는 MIT이며, 제3자에게서 온 부분은 [NOTICE](NOTICE.md)에 정리되어 있습니다.
 
 ## 갤러리
 
@@ -128,7 +128,7 @@
     "kind": "ai-illustration",
     "reviewScore": 91,
     "meetsQualityBar": true,
-    "license": "PolyForm-Shield-1.0.0",
+    "license": "CC-BY-4.0",
     "reference": {"type": "photo", "page": "https://commons.wikimedia.org/wiki/File:…", "author": "Dion Art", "license": "CC BY-SA 4.0"}
   }
 }

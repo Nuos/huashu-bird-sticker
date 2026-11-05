@@ -14,7 +14,7 @@
 
 ![40 Sticker aus 15 Vogelordnungen](previews/hero.webp)
 
-**Lizenz in Kürze:** Die Sticker dürfen für alles genutzt werden, auch kommerziell, ebenso bearbeitet und weitergegeben. Die einzige Ausnahme sind Apps, Websites oder Dienste zur Vogelbeobachtung, zur Vogelbestimmung oder als Vogelführer. Nennen Sie huashu-bird-sticker mit einem Link auf dieses Repository, dann ist alles in Ordnung. Der Rechtstext ist [PolyForm Shield 1.0.0](LICENSE.md). Die Daten stehen unter MIT, Teile von Dritten sind in [NOTICE](NOTICE.md) aufgeführt.
+**Lizenz in Kürze:** Die Sticker stehen unter [CC BY 4.0](LICENSE.md): Sie dürfen für alles genutzt werden, auch kommerziell, ebenso bearbeitet und weitergegeben, sofern Sie huashu-bird-sticker mit einem Link auf dieses Repository nennen. Die Daten stehen unter MIT, Teile von Dritten sind in [NOTICE](NOTICE.md) aufgeführt.
 
 ## Galerie
 
@@ -128,7 +128,7 @@ So sieht ein Eintrag aus (Namen gekürzt):
     "kind": "ai-illustration",
     "reviewScore": 91,
     "meetsQualityBar": true,
-    "license": "PolyForm-Shield-1.0.0",
+    "license": "CC-BY-4.0",
     "reference": {"type": "photo", "page": "https://commons.wikimedia.org/wiki/File:…", "author": "Dion Art", "license": "CC BY-SA 4.0"}
   }
 }

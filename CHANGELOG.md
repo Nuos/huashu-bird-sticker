@@ -1,5 +1,16 @@
 # Changelog / 更新记录
 
+## 2.2.0 — 2026-11-05
+
+**The stickers are now licensed under CC BY 4.0.** / **贴纸改为CC BY 4.0授权。**
+
+You can now use the stickers for any purpose, including in birding, bird-ID and field-guide apps, sites and services, as long as you give credit. This applies to every sticker file in the repository, including those first published under PolyForm Shield 1.0.0. The data stays MIT.
+
+现在贴纸可以用于任何用途，包括观鸟、识鸟和鸟类图鉴类的App、网站和服务，只要署名。这适用于仓库里的所有贴纸文件，包括此前以PolyForm Shield 1.0.0发布的。数据仍按MIT授权。
+
+- `sticker.license` is now `CC-BY-4.0` for all 11,064 stickers. / 11,064张贴纸的`sticker.license`都改为`CC-BY-4.0`。
+- The license text is in `LICENSES/CC-BY-4.0.txt`. / 许可证原文见`LICENSES/CC-BY-4.0.txt`。
+
 ## 2.1.1 — 2026-11-05
 
 **523 more stickers redrawn under the stricter review.** / **又按严审标准重画了523张贴纸。**

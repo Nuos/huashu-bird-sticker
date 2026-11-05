@@ -14,7 +14,7 @@
 
 ![40張貼紙，來自15個目](previews/hero.webp)
 
-**授權一句話：** 貼紙可以免費用於任何用途，包括商業用途、修改與再散布；唯一不行的是拿去做賞鳥、鳥類辨識或鳥類圖鑑類的 App、網站或服務。使用時請標明來自 huashu-bird-sticker 並附上本儲存庫連結即可。法律文本為 [PolyForm Shield 1.0.0](LICENSE.md)，資料採用 MIT，第三方部分請見 [NOTICE](NOTICE.md)。
+**授權一句話：** 貼紙採用 [CC BY 4.0](LICENSE.md) 授權，可以免費用於任何用途，包括商業用途、修改與再散布，只要標明來自 huashu-bird-sticker 並附上本儲存庫連結。資料採用 MIT，第三方部分請見 [NOTICE](NOTICE.md)。
 
 ## 圖鑑一覽
 
@@ -128,7 +128,7 @@
     "kind": "ai-illustration",
     "reviewScore": 91,
     "meetsQualityBar": true,
-    "license": "PolyForm-Shield-1.0.0",
+    "license": "CC-BY-4.0",
     "reference": {"type": "photo", "page": "https://commons.wikimedia.org/wiki/File:…", "author": "Dion Art", "license": "CC BY-SA 4.0"}
   }
 }

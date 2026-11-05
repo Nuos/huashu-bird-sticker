@@ -14,7 +14,7 @@
 
 ![40 pegatinas de 15 órdenes de aves](previews/hero.webp)
 
-**Licencia en breve:** puede usar las pegatinas para cualquier fin, incluido el comercial, y también editarlas y redistribuirlas. La única excepción es una aplicación, sitio o servicio de observación de aves, identificación de aves o guía de campo de aves. Mencione huashu-bird-sticker con un enlace a este repositorio y listo. El texto legal es [PolyForm Shield 1.0.0](LICENSE.md). Los datos están bajo licencia MIT y las partes de terceros figuran en [NOTICE](NOTICE.md).
+**Licencia en breve:** las pegatinas tienen licencia [CC BY 4.0](LICENSE.md): puede usarlas para cualquier fin, incluido el comercial, y también editarlas y redistribuirlas, siempre que mencione huashu-bird-sticker con un enlace a este repositorio. Los datos están bajo licencia MIT y las partes de terceros figuran en [NOTICE](NOTICE.md).
 
 ## Galería
 
@@ -128,7 +128,7 @@ Un registro tiene este aspecto (nombres abreviados):
     "kind": "ai-illustration",
     "reviewScore": 91,
     "meetsQualityBar": true,
-    "license": "PolyForm-Shield-1.0.0",
+    "license": "CC-BY-4.0",
     "reference": {"type": "photo", "page": "https://commons.wikimedia.org/wiki/File:…", "author": "Dion Art", "license": "CC BY-SA 4.0"}
   }
 }

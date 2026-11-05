@@ -14,7 +14,7 @@
 
 ![40 autocollants de 15 ordres d’oiseaux](previews/hero.webp)
 
-**Licence en bref :** vous pouvez utiliser les autocollants pour tout, y compris en usage commercial, les modifier et les redistribuer. La seule exception est une application, un site ou un service d'observation des oiseaux, d'identification des oiseaux ou de guide de terrain ornithologique. Citez huashu-bird-sticker avec un lien vers ce dépôt et c'est bon. Le texte juridique est la [PolyForm Shield 1.0.0](LICENSE.md). Les données sont sous licence MIT, et les éléments provenant de tiers sont listés dans [NOTICE](NOTICE.md).
+**Licence en bref :** les autocollants sont sous licence [CC BY 4.0](LICENSE.md) : vous pouvez les utiliser pour tout, y compris en usage commercial, les modifier et les redistribuer, à condition de citer huashu-bird-sticker avec un lien vers ce dépôt. Les données sont sous licence MIT, et les éléments provenant de tiers sont listés dans [NOTICE](NOTICE.md).
 
 ## Galerie
 
@@ -128,7 +128,7 @@ Voici à quoi ressemble une fiche (noms abrégés) :
     "kind": "ai-illustration",
     "reviewScore": 91,
     "meetsQualityBar": true,
-    "license": "PolyForm-Shield-1.0.0",
+    "license": "CC-BY-4.0",
     "reference": {"type": "photo", "page": "https://commons.wikimedia.org/wiki/File:…", "author": "Dion Art", "license": "CC BY-SA 4.0"}
   }
 }

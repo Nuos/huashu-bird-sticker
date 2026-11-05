@@ -14,7 +14,7 @@
 
 ![40张贴纸，来自15个目](previews/hero.webp)
 
-**授权一句话：** 贴纸可以免费用于任何用途，包括商用、修改和再分发；唯一不行的是拿去做观鸟、识鸟或鸟类图鉴类的App、网站或服务。使用时注明来自huashu-bird-sticker并附上仓库链接就可以。法律文本是[PolyForm Shield 1.0.0](LICENSE.md)，数据按MIT授权，第三方部分见[NOTICE](NOTICE.md)。
+**授权一句话：** 贴纸按[CC BY 4.0](LICENSE.md)授权，可以免费用于任何用途，包括商用、修改和再分发，只要注明来自huashu-bird-sticker并附上仓库链接。数据按MIT授权，第三方部分见[NOTICE](NOTICE.md)。
 
 ## 画廊
 
