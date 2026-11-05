@@ -2,24 +2,24 @@
 
 ## 2.2.6 — 2026-11-06
 
-**357 more stickers redrawn under the stricter review.** / **又按严审标准重画了357张贴纸。**
+**357 more stickers regenerated under the stricter review.** / **又按严审标准重新生成了357张贴纸。**
 
 - Stickers meeting the quality bar: 10,870 → 10,870 (of 11,064 files). / 达到质量线的贴纸：10,870 → 10,870（共11,064个文件）。
-- Redrawn under the stricter review so far: 6,804. / 按严审标准累计重画6,804张。
+- Regenerated under the stricter review so far: 6,804. / 按严审标准累计重新生成6,804张。
 
 ## 2.2.5 — 2026-11-06
 
-**298 more stickers redrawn under the stricter review.** / **又按严审标准重画了298张贴纸。**
+**298 more stickers regenerated under the stricter review.** / **又按严审标准重新生成了298张贴纸。**
 
 - Stickers meeting the quality bar: 10,870 → 10,870 (of 11,064 files). / 达到质量线的贴纸：10,870 → 10,870（共11,064个文件）。
-- Redrawn under the stricter review so far: 6,447. / 按严审标准累计重画6,447张。
+- Regenerated under the stricter review so far: 6,447. / 按严审标准累计重新生成6,447张。
 
 ## 2.2.4 — 2026-11-06
 
-**1,975 more stickers redrawn under the stricter review.** / **又按严审标准重画了1,975张贴纸。**
+**1,975 more stickers regenerated under the stricter review.** / **又按严审标准重新生成了1,975张贴纸。**
 
 - Stickers meeting the quality bar: 10,677 → 10,870 (of 11,064 files). / 达到质量线的贴纸：10,677 → 10,870（共11,064个文件）。
-- Redrawn under the stricter review so far: 6,149. / 按严审标准累计重画6,149张。
+- Regenerated under the stricter review so far: 6,149. / 按严审标准累计重新生成6,149张。
 
 ## 2.2.3 — 2026-11-05
 
@@ -30,17 +30,17 @@
 
 ## 2.2.2 — 2026-11-05
 
-**179 more stickers redrawn under the stricter review.** / **又按严审标准重画了179张贴纸。**
+**179 more stickers regenerated under the stricter review.** / **又按严审标准重新生成了179张贴纸。**
 
 - Stickers meeting the quality bar: 10,498 → 10,677 (of 11,064 files). / 达到质量线的贴纸：10,498 → 10,677（共11,064个文件）。
-- Redrawn under the stricter review so far: 4,299. / 按严审标准累计重画4,299张。
+- Regenerated under the stricter review so far: 4,299. / 按严审标准累计重新生成4,299张。
 
 ## 2.2.1 — 2026-11-05
 
-**559 more stickers redrawn under the stricter review.** / **又按严审标准重画了559张贴纸。**
+**559 more stickers regenerated under the stricter review.** / **又按严审标准重新生成了559张贴纸。**
 
 - Stickers meeting the quality bar: 9,939 → 10,498 (of 11,064 files). / 达到质量线的贴纸：9,939 → 10,498（共11,064个文件）。
-- Redrawn under the stricter review so far: 4,120. / 按严审标准累计重画4,120张。
+- Regenerated under the stricter review so far: 4,120. / 按严审标准累计重新生成4,120张。
 
 ## 2.2.0 — 2026-11-05
 
@@ -55,22 +55,22 @@ You can now use the stickers for any purpose, including in birding, bird-ID and 
 
 ## 2.1.1 — 2026-11-05
 
-**523 more stickers redrawn under the stricter review.** / **又按严审标准重画了523张贴纸。**
+**523 more stickers regenerated under the stricter review.** / **又按严审标准重新生成了523张贴纸。**
 
 - Stickers meeting the quality bar: 9,438 → 9,939 (of 11,064 files). / 达到质量线的贴纸：9,438 → 9,939（共11,064个文件）。
-- Redrawn under the stricter review so far: 3,561. / 按严审标准累计重画3,561张。
+- Regenerated under the stricter review so far: 3,561. / 按严审标准累计重新生成3,561张。
 
 ## 2.1.0 — 2026-11-05
 
-**3,038 stickers redrawn under a stricter review.** / **按更严的标准重画了3,038张贴纸。**
+**3,038 stickers regenerated under a stricter review.** / **按更严的标准重新生成了3,038张贴纸。**
 
-We re-checked the stickers as plates for a field guide and redrew the ones that fell short. A redrawn sticker passes only if identification, plumage, bill and eye, legs and feet, and proportions each score at least 3 out of 4, identification scores 4, and the reviewer would accept it as a field-guide plate. Feet now stand flat on an invisible ground line instead of gripping the air. Thanks to everyone who pointed out errors in [#1](../../issues/1) and [#3](../../issues/3).
+We re-checked the stickers as plates for a field guide and generated new versions of the ones that fell short. A regenerated sticker passes only if identification, plumage, bill and eye, legs and feet, and proportions each score at least 3 out of 4, identification scores 4, and the reviewer would accept it as a field-guide plate. Feet now stand flat on an invisible ground line instead of gripping the air. Thanks to everyone who pointed out errors in [#1](../../issues/1) and [#3](../../issues/3).
 
-按图鉴图版的标准重新审核，不达标的重画。重画的贴纸要辨识、羽色与斑纹、喙与眼、腿脚、比例五项都至少3分（满分4分）、辨识4分，并且审核员认可能当图鉴图版，才算过线。脚改为平踩在看不见的地面线上，不再悬空抓握。感谢在[#1](../../issues/1)、[#3](../../issues/3)指出错误的鸟友。
+按图鉴图版的标准重新审核，不达标的重新生成。重新生成的贴纸要辨识、羽色与斑纹、喙与眼、腿脚、比例五项都至少3分（满分4分）、辨识4分，并且审核员认可能当图鉴图版，才算过线。脚改为平踩在看不见的地面线上，不再悬空抓握。感谢在[#1](../../issues/1)、[#3](../../issues/3)指出错误的鸟友。
 
 - Stickers meeting the quality bar: 7,670 → 9,438 (of 11,064 files). / 达到质量线的贴纸：7,670 → 9,438（共11,064个文件）。
-- `sticker.reviewScore`, `meetsQualityBar` and `reference` are updated for the redrawn stickers. 152 were redrawn from a written description without a reference photo; their `reference` is `null`. / 重画的贴纸已更新`reviewScore`、`meetsQualityBar`、`reference`；其中152张不带参考照、只按文字说明重画，`reference`为`null`。
-- Three stickers were redrawn from new reference photos at their photographers' request: *Actinodura ramsayi*, *Carpodacus verreauxii*, *Phylloscopus bonelli*. / 应参考照作者要求，三张贴纸换了参考照重画。
+- `sticker.reviewScore`, `meetsQualityBar` and `reference` are updated for the regenerated stickers. 152 were generated from a written description without a reference photo; their `reference` is `null`. / 重新生成的贴纸已更新`reviewScore`、`meetsQualityBar`、`reference`；其中152张不带参考照、只按文字说明重新生成，`reference`为`null`。
+- Three stickers were generated again from new reference photos at their photographers' request: *Actinodura ramsayi*, *Carpodacus verreauxii*, *Phylloscopus bonelli*. / 应参考照作者要求，三张贴纸换了参考照重新生成。
 - The preview sheets in `previews/` have not been regenerated yet. / `previews/`里的预览图还没重新生成。
 
 ## 2.0.0 — 2026-11-03
@@ -90,7 +90,7 @@ Breaking changes / 不兼容的变化:
 - 38 species are new (30 splits, 7 newly recognised, and *Todiramphus gambieri*, which version 0.1 left out by mistake). They have `"sticker": null` until drawn.
   新增38种（30个拆分、7个新确认的种，以及0.1版漏收的土岛翡翠），贴纸画好前为`null`。
 - Five stickers moved from a parent species to the species split from it, because their reference photo was taken in the new species' range. The parent is waiting for a new drawing. See `data/README.md`.
-  5张贴纸按参考照拍摄地改挂到拆出的新种，母种待重画，见`data/README.md`。
+  5张贴纸按参考照拍摄地改挂到拆出的新种，母种待重新生成，见`data/README.md`。
 - Total: 11,011 species (was 11,064).
   共11,011种（原11,064种）。
 
