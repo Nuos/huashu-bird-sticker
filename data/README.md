@@ -60,7 +60,7 @@ Notes:
 
 ## Reference photos
 
-Each AI sticker was drawn from one reference photo, or from a board of several images; 250 redrawn stickers were drawn from a written description alone. Its page, author and license are in `sticker.reference`; the photos themselves are not distributed. By sticker (including `forms`):
+Each AI sticker was drawn from one reference photo, or from a board of several images; 250 regenerated stickers were generated from a written description alone. Its page, author and license are in `sticker.reference`; the photos themselves are not distributed. By sticker (including `forms`):
 
 | Reference | Stickers |
 |---|---|
@@ -70,7 +70,7 @@ Each AI sticker was drawn from one reference photo, or from a board of several i
 | Photo with all rights reserved, or under Macaulay Library terms | 1,079 |
 | Photo whose license we did not record | 1,477 |
 | Board mixing images under different terms | 675 |
-| Redrawn from a written description, without a reference photo (`"reference": null`) | 250 |
+| Generated from a written description only, without a reference photo (`"reference": null`) | 250 |
 
 The stickers are new drawings, not copies. Whether a drawing made from a photo is bound by that photo's license is not settled law; if it matters for your use, filter on `sticker.reference.license`.
 
