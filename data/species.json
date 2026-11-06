@@ -1,5 +1,5 @@
 {
- "version": "2.2.14",
+ "version": "2.2.15",
  "taxonomy": "AviList v2026",
  "count": 11011,
  "species": [
@@ -9632,7 +9632,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Dendrocygna_guttata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 95,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -10191,7 +10191,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Biziura_lobata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 95,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -10744,7 +10744,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Stictonetta_naevosa.webp",
     "kind": "ai-illustration",
-    "reviewScore": 95,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -11252,7 +11252,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Oxyura_australis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 95,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -11367,7 +11367,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Oxyura_maccoa.webp",
     "kind": "ai-illustration",
-    "reviewScore": 90,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -11606,7 +11606,7 @@
      "sticker": {
       "file": "stickers/Anseriformes/Anatidae/Oxyura_jamaicensis.ferruginea.webp",
       "kind": "ai-illustration",
-      "reviewScore": 95,
+      "reviewScore": 85,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
@@ -11892,7 +11892,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Malacorhynchus_membranaceus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 95,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -12471,7 +12471,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Cygnus_olor.webp",
     "kind": "ai-illustration",
-    "reviewScore": 100,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -16105,7 +16105,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Aix_galericulata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 100,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -18348,7 +18348,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Polysticta_stelleri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 100,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -18617,7 +18617,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Somateria_spectabilis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 90,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -19189,9 +19189,15 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Melanitta_americana.webp",
     "kind": "ai-illustration",
-    "reviewScore": 100,
+    "reviewScore": 95,
     "meetsQualityBar": true,
-    "license": "CC-BY-4.0"
+    "license": "CC-BY-4.0",
+    "reference": {
+     "type": "photo",
+     "page": "https://www.inaturalist.org/observations/325390174",
+     "author": "Radd Icenoggle",
+     "license": "CC BY-NC"
+    }
    },
    "previous": [
     {
@@ -19311,7 +19317,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Melanitta_perspicillata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 90,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -20287,7 +20293,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Mergellus_albellus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 95,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -20823,7 +20829,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Mergus_octosetaceus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 95,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -23169,7 +23175,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Aythya_ferina.webp",
     "kind": "ai-illustration",
-    "reviewScore": 90,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -25366,7 +25372,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Sibirionetta_formosa.webp",
     "kind": "ai-illustration",
-    "reviewScore": 100,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -26336,7 +26342,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Spatula_cyanoptera.webp",
     "kind": "ai-illustration",
-    "reviewScore": 90,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -26615,7 +26621,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Spatula_clypeata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 95,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -28020,9 +28026,15 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Anas_luzonica.webp",
     "kind": "ai-illustration",
-    "reviewScore": 90,
+    "reviewScore": 95,
     "meetsQualityBar": true,
-    "license": "CC-BY-4.0"
+    "license": "CC-BY-4.0",
+    "reference": {
+     "type": "photo",
+     "page": "https://www.featherbase.info/en/species/anas/luzonica",
+     "author": "Markus Sobotka",
+     "license": "Not recorded"
+    }
    },
    "previous": [
     {
@@ -28554,7 +28566,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Anas_zonorhyncha.webp",
     "kind": "ai-illustration",
-    "reviewScore": 100,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -28700,7 +28712,13 @@
     "kind": "ai-illustration",
     "reviewScore": 95,
     "meetsQualityBar": true,
-    "license": "CC-BY-4.0"
+    "license": "CC-BY-4.0",
+    "reference": {
+     "type": "photo",
+     "page": "https://www.inaturalist.org/observations/207689008",
+     "author": "Ashim Gogoi",
+     "license": "All rights reserved"
+    }
    },
    "previous": [
     {
@@ -29683,7 +29701,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Anas_erythrorhyncha.webp",
     "kind": "ai-illustration",
-    "reviewScore": 95,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -30199,7 +30217,7 @@
    "sticker": {
     "file": "stickers/Anseriformes/Anatidae/Anas_crecca.webp",
     "kind": "ai-illustration",
-    "reviewScore": 95,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -91216,14 +91234,23 @@
      "sticker": {
       "file": "stickers/Cuculiformes/Cuculidae/Centropus_phasianinus.spilopterus.webp",
       "kind": "ai-illustration",
-      "reviewScore": 81,
+      "reviewScore": 95,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/329054310",
-       "author": "(c) John Sterling, some rights reserved (CC BY-NC)",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/144178532",
+         "author": "desertnaturalist",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/246730997",
+         "author": "James Eaton",
+         "license": "CC0 1.0"
+        }
+       ]
       }
      }
     }
@@ -111308,16 +111335,31 @@
      "sticker": {
       "file": "stickers/Columbiformes/Columbidae/Leptotila_plumbeiceps.battyi.webp",
       "kind": "ai-illustration",
-      "reviewScore": 83,
+      "reviewScore": 90,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
        "type": "reference-board",
        "items": [
         {
-         "page": "https://commons.wikimedia.org/wiki/File:Leptotila_battyi_(5802609315).jpg",
-         "author": "Zach（Flickr）",
-         "license": "CC BY-SA 2.0"
+         "page": "https://www.inaturalist.org/observations/240448979",
+         "author": "Luis G Restrepo",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/152306839",
+         "author": "Roger A. Morales-Flores",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/200247765",
+         "author": "Don Wellmann",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/255938109",
+         "author": "Dan Vickers",
+         "license": "CC BY"
         }
        ]
       }
@@ -115801,14 +115843,33 @@
    "sticker": {
     "file": "stickers/Columbiformes/Columbidae/Macropygia_albicapilla.webp",
     "kind": "ai-illustration",
-    "reviewScore": 83,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/41896970",
-     "author": "HUANG QIN",
-     "license": "Not recorded"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/192502127",
+       "author": "Joseph Morlan",
+       "license": "CC BY-SA"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/192301030",
+       "author": "Jean-Paul Boerekamps",
+       "license": "CC0 1.0"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/328320782",
+       "author": "Ben Costamagna",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/180056846",
+       "author": "avocat",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -130148,10 +130209,29 @@
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/346825691",
-       "author": "S. Dowell",
-       "license": "All rights reserved"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/306707843",
+         "author": "Stephen Matthews",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/190561778",
+         "author": "Sundar Lakshmanan",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/361075555",
+         "author": "Saryu Mae 前 朝琉",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/239620063",
+         "author": "Wouter Koch",
+         "license": "CC0 1.0"
+        }
+       ]
       }
      }
     }
@@ -169329,14 +169409,28 @@
      "sticker": {
       "file": "stickers/Gruiformes/Rallidae/Porphyrio_porphyrio.pulverulentus.webp",
       "kind": "ai-illustration",
-      "reviewScore": 87,
+      "reviewScore": 95,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/photos/578394005",
-       "author": "nopenot",
-       "license": "Not recorded"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/29615810",
+         "author": "Leonard Worthington",
+         "license": "CC BY-SA"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/151789386",
+         "author": "Forest Botial-Jarvis",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/350018530",
+         "author": "Jim Moore (Maryland)",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     },
@@ -169355,14 +169449,33 @@
      "sticker": {
       "file": "stickers/Gruiformes/Rallidae/Porphyrio_porphyrio.melanotus.webp",
       "kind": "ai-illustration",
-      "reviewScore": 85,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/photos/6689475",
-       "author": "andrew_mc",
-       "license": "Not recorded"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/377108339",
+         "author": "Crazycaracal 993",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/289456134",
+         "author": "Barb",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/318582934",
+         "author": "Natasha Taylor",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/283315532",
+         "author": "Mark Clarke",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -177464,14 +177577,33 @@
      "sticker": {
       "file": "stickers/Charadriiformes/Recurvirostridae/Himantopus_mexicanus.melanurus.webp",
       "kind": "ai-illustration",
-      "reviewScore": 82,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/411073995",
-       "author": "Geovane Pereira",
-       "license": "All rights reserved"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/329988104",
+         "author": "Kaz Born",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/269223416",
+         "author": "Luciano Silveira",
+         "license": "CC BY-SA"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/350113481",
+         "author": "Donald Davesne",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/21030489",
+         "author": "RAP",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -216144,14 +216276,33 @@
      "sticker": {
       "file": "stickers/Charadriiformes/Laridae/Thalasseus_sandvicensis.acuflavidus.webp",
       "kind": "ai-illustration",
-      "reviewScore": 83,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/136489196",
-       "author": "Aaron Stoll",
-       "license": "All rights reserved"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/89795166",
+         "author": "Eva Uzdilova",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/182490642",
+         "author": "Henry de Lange",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/224498785",
+         "author": "José Javier Barrios Flores",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/143732873",
+         "author": "Roy Lowry",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -247628,14 +247779,23 @@
      "sticker": {
       "file": "stickers/Procellariiformes/Procellariidae/Pterodroma_cervicalis.occulta.webp",
       "kind": "ai-illustration",
-      "reviewScore": 87,
+      "reviewScore": 95,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.birdsandwildlife.com/vanuatu-petrel",
-       "author": "Chris Collins",
-       "license": "Not recorded"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/265941925",
+         "author": "Rémi Bigonneau",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/272666773",
+         "author": "Simon Gorta",
+         "license": "CC BY-NC"
+        }
+       ]
       }
      }
     }
@@ -321054,14 +321214,33 @@
      "sticker": {
       "file": "stickers/Apodiformes/Trochilidae/Ocreatus_underwoodii.peruanus.webp",
       "kind": "ai-illustration",
-      "reviewScore": 84,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/photos/155780374",
-       "author": "Rudy Gelis",
-       "license": "Not recorded"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/147174485",
+         "author": "biped_cub",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/232231812",
+         "author": "Attila Oláh",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/8425237",
+         "author": "CH Hemphill",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/99537392",
+         "author": "Christoph Moning",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     },
@@ -348039,14 +348218,28 @@
      "sticker": {
       "file": "stickers/Apodiformes/Trochilidae/Ramosomyia_viridifrons.wagneri.webp",
       "kind": "ai-illustration",
-      "reviewScore": 83,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/44221285",
-       "author": "Alberto Ramírez",
-       "license": "All rights reserved"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/230624776",
+         "author": "Carlos Domínguez-Rodríguez",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/58330569",
+         "author": "Christoph Moning",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/91567989",
+         "author": "Sandino Guerrero",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -354555,8 +354748,8 @@
      "sticker": {
       "file": "stickers/Strigiformes/Tytonidae/Tyto_javanica.nigrobrunnea.webp",
       "kind": "ai-illustration",
-      "reviewScore": 77,
-      "meetsQualityBar": false,
+      "reviewScore": 90,
+      "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
        "type": "photo",
@@ -354581,14 +354774,23 @@
      "sticker": {
       "file": "stickers/Strigiformes/Tytonidae/Tyto_javanica.rosenbergii.webp",
       "kind": "ai-illustration",
-      "reviewScore": 84,
+      "reviewScore": 90,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/photos/30139921",
-       "author": "Christian Artuso",
-       "license": "CC BY-NC-ND"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/198381427",
+         "author": "libby hepburn",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/408528480",
+         "author": "Don Wellmann",
+         "license": "CC0 1.0"
+        }
+       ]
       }
      }
     }
@@ -355706,8 +355908,8 @@
      "sticker": {
       "file": "stickers/Strigiformes/Tytonidae/Tyto_tenebricosa.multipunctata.webp",
       "kind": "ai-illustration",
-      "reviewScore": 77,
-      "meetsQualityBar": false,
+      "reviewScore": 95,
+      "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
        "type": "photo",
@@ -356004,14 +356206,33 @@
      "sticker": {
       "file": "stickers/Strigiformes/Tytonidae/Tyto_novaehollandiae.sororcula.webp",
       "kind": "ai-illustration",
-      "reviewScore": 83,
+      "reviewScore": 90,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/photos/65316392",
-       "author": "Carlos N. G. Bocos",
-       "license": "Not recorded"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/192423912",
+         "author": "James Eaton",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/57300357",
+         "author": "Nick Lambert",
+         "license": "CC BY-NC-SA"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/147254108",
+         "author": "jakeh2022",
+         "license": "CC BY-NC"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/38380445",
+         "author": "Josh Bowell",
+         "license": "CC BY-NC"
+        }
+       ]
       }
      }
     },
@@ -356030,28 +356251,9 @@
      "sticker": {
       "file": "stickers/Strigiformes/Tytonidae/Tyto_novaehollandiae.manusi.webp",
       "kind": "ai-illustration",
-      "reviewScore": 82,
+      "reviewScore": 100,
       "meetsQualityBar": true,
-      "license": "CC-BY-4.0",
-      "reference": {
-       "type": "reference-board",
-       "items": [
-        {
-         "page": "https://macaulaylibrary.org/asset/390038691",
-         "license": "Macaulay Library terms"
-        },
-        {
-         "page": "https://macaulaylibrary.org/asset/525668271",
-         "author": "Indra Bone",
-         "license": "Macaulay Library terms"
-        },
-        {
-         "page": "https://macaulaylibrary.org/asset/418662171",
-         "author": "Indra Bone",
-         "license": "Macaulay Library terms"
-        }
-       ]
-      }
+      "license": "CC-BY-4.0"
      }
     }
    ],
@@ -363943,14 +364145,33 @@
      "sticker": {
       "file": "stickers/Strigiformes/Strigidae/Glaucidium_gnoma.californicum.webp",
       "kind": "ai-illustration",
-      "reviewScore": 83,
+      "reviewScore": 90,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/107720324",
-       "author": "dplawrance",
-       "license": "CC BY-NC-ND"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/43771383",
+         "author": "Blair Dudeck",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/141022609",
+         "author": "Justin Flint",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/36780080",
+         "author": "Braden J. Judson",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/328128267",
+         "author": "Daniel Patterson",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     },
@@ -363969,14 +364190,33 @@
      "sticker": {
       "file": "stickers/Strigiformes/Strigidae/Glaucidium_gnoma.hoskinsii.webp",
       "kind": "ai-illustration",
-      "reviewScore": 82,
+      "reviewScore": 85,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/225655172",
-       "author": "MarvalPhotography19",
-       "license": "CC BY"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/259350862",
+         "author": "MarvalPhotography19",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/11453528",
+         "author": "Daniel Galindo Espinosa",
+         "license": "CC BY-SA"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/259304989",
+         "author": "steve b",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/2099740",
+         "author": "Nigel Voaden",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     },
@@ -363995,14 +364235,28 @@
      "sticker": {
       "file": "stickers/Strigiformes/Strigidae/Glaucidium_gnoma.cobanense.webp",
       "kind": "ai-illustration",
-      "reviewScore": 82,
+      "reviewScore": 90,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/35903639",
-       "author": "ColinDJones",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/331706704",
+         "author": "Tommy Andriollo",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/144860562",
+         "author": "Nancy Overholtz",
+         "license": "CC BY-SA"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/111479481",
+         "author": "Abraham A. Gómez Landero",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -372938,8 +373192,8 @@
      "sticker": {
       "file": "stickers/Strigiformes/Strigidae/Otus_senegalensis.feae.webp",
       "kind": "ai-illustration",
-      "reviewScore": 74,
-      "meetsQualityBar": false,
+      "reviewScore": 95,
+      "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
        "type": "reference-board",
@@ -374480,8 +374734,8 @@
      "sticker": {
       "file": "stickers/Strigiformes/Strigidae/Otus_rutilus.madagascariensis.webp",
       "kind": "ai-illustration",
-      "reviewScore": 77,
-      "meetsQualityBar": false,
+      "reviewScore": 95,
+      "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
        "type": "photo",
@@ -384912,14 +385166,33 @@
      "sticker": {
       "file": "stickers/Strigiformes/Strigidae/Strix_aluco.mauritanica.webp",
       "kind": "ai-illustration",
-      "reviewScore": 80,
+      "reviewScore": 90,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/257113133",
-       "author": "Carlos N. G. Bocos",
-       "license": "All rights reserved"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/16787077",
+         "author": "Karim Haddad",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/105668172",
+         "author": "Mourad Harzallah",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/206674732",
+         "author": "Adrien Jailloux",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/331343364",
+         "author": "Demian Hiß",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -386861,14 +387134,33 @@
    "sticker": {
     "file": "stickers/Cathartiformes/Cathartidae/Gymnogyps_californianus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 81,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/observations/304654041",
-     "author": "Brooke J.",
-     "license": "CC BY"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/147864266",
+       "author": "Cricket Raspet",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/266647520",
+       "author": "Irene",
+       "license": "CC0 1.0"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/345609014",
+       "author": "Brooke J.",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/93802125",
+       "author": "Clay Gibbons",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -387228,14 +387520,33 @@
    "sticker": {
     "file": "stickers/Cathartiformes/Cathartidae/Coragyps_atratus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 88,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/176419188",
-     "author": "eduardovieira17",
-     "license": "CC BY-NC"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/139917793",
+       "author": "Anthony Batista",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/33767177",
+       "author": "Aitor",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/194868533",
+       "author": "Cricket Raspet",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/237673102",
+       "author": "Jim",
+       "license": "CC0 1.0"
+      }
+     ]
     }
    },
    "previous": [
@@ -387613,14 +387924,33 @@
    "sticker": {
     "file": "stickers/Cathartiformes/Cathartidae/Cathartes_burrovianus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 89,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/12560047",
-     "author": "Juan Bou Riquer",
-     "license": "CC BY-NC-SA"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/139917795",
+       "author": "Anthony Batista",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/193546224",
+       "author": "Néri Andrades",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/317752053",
+       "author": "Cole Wolf",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/166436460",
+       "author": "Jan Ebr & Ivana Ebrová",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -400598,13 +400928,33 @@
    "sticker": {
     "file": "stickers/Accipitriformes/Accipitridae/Aquila_audax.webp",
     "kind": "ai-illustration",
-    "reviewScore": 86,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://macaulaylibrary.org/asset/121658151",
-     "license": "Macaulay Library terms"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/396603977",
+       "author": "graeme lunt",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/406046491",
+       "author": "Patrick Connolly",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/103170863",
+       "author": "Rosalie Lawrence",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/383246870",
+       "author": "Liam Sultana",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -407148,14 +407498,33 @@
      "sticker": {
       "file": "stickers/Accipitriformes/Accipitridae/Accipiter_striatus.chionogaster.webp",
       "kind": "ai-illustration",
-      "reviewScore": 83,
+      "reviewScore": 95,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.cayaya-birding.com/photomonth/White-breasted-Hawk_perched.htm",
-       "author": "Knut Eisermann",
-       "license": "Not recorded"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/18434547",
+         "author": "Eric Hernández Molina",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/81442868",
+         "author": "Grete Pasch",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/195702541",
+         "author": "Adam Jackson",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/212760125",
+         "author": "Abraham A. Gómez Landero",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     },
@@ -407174,14 +407543,33 @@
      "sticker": {
       "file": "stickers/Accipitriformes/Accipitridae/Accipiter_striatus.ventralis.webp",
       "kind": "ai-illustration",
-      "reviewScore": 84,
+      "reviewScore": 85,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/344766331",
-       "author": "edkwater",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/175453255",
+         "author": "Thibaud Aronson",
+         "license": "CC BY-SA"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/70084840",
+         "author": "Luis Ángel Niño Barreat",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/152900010",
+         "author": "RJ Baltierra",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/47664574",
+         "author": "Álvaro Rivas Godin",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     },
@@ -420677,8 +421065,8 @@
      "sticker": {
       "file": "stickers/Accipitriformes/Accipitridae/Buteo_buteo.bannermani.webp",
       "kind": "ai-illustration",
-      "reviewScore": 76,
-      "meetsQualityBar": false,
+      "reviewScore": 95,
+      "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
        "type": "photo",
@@ -429169,14 +429557,28 @@
    "sticker": {
     "file": "stickers/Bucerotiformes/Phoeniculidae/Rhinopomastus_castaneiceps.webp",
     "kind": "ai-illustration",
-    "reviewScore": 82,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://ebird.org/species/forwoo1",
-     "author": "Per Smith",
-     "license": "Not recorded"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/306170961",
+       "author": "Zac Peterson",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/340794803",
+       "author": "Antoine Thivolle",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/252770851",
+       "author": "Don Wellmann",
+       "license": "CC0 1.0"
+      }
+     ]
     }
    },
    "previous": [
@@ -476128,14 +476530,33 @@
      "sticker": {
       "file": "stickers/Piciformes/Lybiidae/Trachyphonus_darnaudii.usambiro.webp",
       "kind": "ai-illustration",
-      "reviewScore": 82,
+      "reviewScore": 90,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/146127052",
-       "author": "Pål A. Olsvik",
-       "license": "CC BY"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/246738890",
+         "author": "desertnaturalist",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/40704381",
+         "author": "Diogo Luiz",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/146127052",
+         "author": "Pål A. Olsvik",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/252435954",
+         "author": "Valentin Moser",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -483977,14 +484398,33 @@
      "sticker": {
       "file": "stickers/Piciformes/Ramphastidae/Ramphastos_vitellinus.citreolaemus.webp",
       "kind": "ai-illustration",
-      "reviewScore": 83,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/70981144",
-       "author": "ecohotellosmikos",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/160544020",
+         "author": "Christoph Moning",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/63172327",
+         "author": "desertnaturalist",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/280457131",
+         "author": "cello caruso-turiello",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/19001729",
+         "author": "Alejandro Cárdenas",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -506025,14 +506465,33 @@
      "sticker": {
       "file": "stickers/Piciformes/Picidae/Colaptes_rubiginosus.aeruginosus.webp",
       "kind": "ai-illustration",
-      "reviewScore": 81,
+      "reviewScore": 90,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/347397673",
-       "author": "Joren van Schie",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/267122637",
+         "author": "avocat",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/347397673",
+         "author": "Joren van Schie",
+         "license": "CC BY-NC"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/66850415",
+         "author": "Oscar Ortega Gómez",
+         "license": "CC BY-NC"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/204074461",
+         "author": "Isaías Caamaño Rodríguez",
+         "license": "CC BY-NC"
+        }
+       ]
       }
      }
     }
@@ -513219,7 +513678,7 @@
    "sticker": {
     "file": "stickers/Piciformes/Picidae/Picoides_tridactylus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 90,
+    "reviewScore": 85,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -542568,14 +543027,33 @@
      "sticker": {
       "file": "stickers/Psittaciformes/Psittacidae/Pionus_tumultuosus.seniloides.webp",
       "kind": "ai-illustration",
-      "reviewScore": 80,
+      "reviewScore": 85,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://ebird.org/species/spfpar1",
-       "author": "Jorge Muñoz García CAQUETA BIRDING",
-       "license": "Not recorded"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/7598427",
+         "author": "Daniel van der Post",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/66448368",
+         "author": "Dan Riley",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/240925827",
+         "author": "David F. Belmonte",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/289961968",
+         "author": "Julien Renoult",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -576071,23 +576549,14 @@
    "sticker": {
     "file": "stickers/Psittaciformes/Psittaculidae/Vini_margarethae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 84,
+    "reviewScore": 85,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "reference-board",
-     "items": [
-      {
-       "page": "https://ebird.org/species/duclor1",
-       "author": "Ashley Banwell",
-       "license": "Not recorded"
-      },
-      {
-       "page": "https://ebird.org/species/duclor1",
-       "author": "John C. Mittermeier",
-       "license": "Not recorded"
-      }
-     ]
+     "type": "photo",
+     "page": "https://commons.wikimedia.org/wiki/File:NML-VZ_T12204_Charmosyna_margarethae.jpg",
+     "author": "Vertebrate Zoology Curator",
+     "license": "CC BY-SA"
     }
    },
    "previous": [
@@ -578822,14 +579291,33 @@
    "sticker": {
     "file": "stickers/Psittaciformes/Psittaculidae/Chalcopsitta_cardinalis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/33709573",
-     "author": "Rand Rudland",
-     "license": "Not recorded"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/37678963",
+       "author": "Kai Squires",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/212836084",
+       "author": "Noam Markus",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/151159194",
+       "author": "Steve Murray",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/307701759",
+       "author": "Fenri",
+       "license": "CC BY-NC"
+      }
+     ]
     }
    },
    "previous": [
@@ -578936,14 +579424,23 @@
    "sticker": {
     "file": "stickers/Psittaciformes/Psittaculidae/Chalcopsitta_fuscata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 84,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/observations/136398185",
-     "author": "Maryse",
-     "license": "CC BY-NC"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/192156289",
+       "author": "Jay Pruett",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/192313774",
+       "author": "gee912",
+       "license": "CC BY-NC"
+      }
+     ]
     }
    },
    "previous": [
@@ -579696,14 +580193,23 @@
    "sticker": {
     "file": "stickers/Psittaciformes/Psittaculidae/Trichoglossus_iris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 82,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/60030040",
-     "author": "SandyCole",
-     "license": "CC BY-SA"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/66921644",
+       "author": "Christoph Moning",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/319527497",
+       "author": "James Eaton",
+       "license": "CC0 1.0"
+      }
+     ]
     }
    },
    "previous": [
@@ -580539,14 +581045,33 @@
    "sticker": {
     "file": "stickers/Psittaciformes/Psittaculidae/Trichoglossus_squamatus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 86,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/159046670",
-     "author": "Doug Janson",
-     "license": "CC BY-SA"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/102345430",
+       "author": "Dr. Guido Bohne",
+       "license": "CC BY-SA"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/121710696",
+       "author": "ꦥꦤ꧀ꦗꦶꦒꦸꦱ꧀ꦠꦶꦄꦏ꧀ꦧꦂ",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/2843923",
+       "author": "Nigel Voaden",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/265799995",
+       "author": "Justin Philbois",
+       "license": "CC0 1.0"
+      }
+     ]
     }
    },
    "previous": [
@@ -580653,14 +581178,33 @@
    "sticker": {
     "file": "stickers/Psittaciformes/Psittaculidae/Trichoglossus_cyanogenius.webp",
     "kind": "ai-illustration",
-    "reviewScore": 80,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/observations/296068796",
-     "author": "Jonathan Newman",
-     "license": "CC BY-NC"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/367738969",
+       "author": "Zara",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/296068796",
+       "author": "Jonathan Newman",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/251294482",
+       "author": "Marc Thibault",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/67924310",
+       "author": "Mikael Bauer",
+       "license": "CC BY-NC"
+      }
+     ]
     }
    },
    "previous": [
@@ -580781,14 +581325,33 @@
    "sticker": {
     "file": "stickers/Psittaciformes/Psittaculidae/Trichoglossus_histrio.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://commons.wikimedia.org/wiki/File:Eos_histrio_talautensis_1.jpg",
-     "author": "Drägüs",
-     "license": "CC BY-SA 3.0"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/57633133",
+       "author": "Mehd Halaouate",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/194895355",
+       "author": "Dillen Ng",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/284988718",
+       "author": "Yovie Jehabut",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/349140181",
+       "author": "MUH IDRIS",
+       "license": "CC BY-NC"
+      }
+     ]
     }
    },
    "previous": [
@@ -591658,14 +592221,28 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pipridae/Protopelma_chrysolophum.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/observations/250223593",
-     "author": "AGNALDO CORREA DE ASSIS",
-     "license": "CC BY-NC"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/190566196",
+       "author": "Ricardo Mitidieri",
+       "license": "CC0 1.0"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/237970346",
+       "author": "Miguel",
+       "license": "CC BY-SA"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/1192872",
+       "author": "Nigel Voaden",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -601670,8 +602247,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cotingidae/Phibalura_flavirostris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 74,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -617016,14 +617593,33 @@
      "sticker": {
       "file": "stickers/Passeriformes/Tyrannidae/Mionectes_olivaceus.galbinus.webp",
       "kind": "ai-illustration",
-      "reviewScore": 88,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/photos/346159277",
-       "author": "Don Marsille",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/105093148",
+         "author": "Kai Squires",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/17582209",
+         "author": "Ben Hayden",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/145590818",
+         "author": "Dario Taraborelli",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/162287595",
+         "author": "Maria Janeiro",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -639124,14 +639720,33 @@
      "sticker": {
       "file": "stickers/Passeriformes/Tyrannidae/Elaenia_albiceps.chilensis.webp",
       "kind": "ai-illustration",
-      "reviewScore": 80,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/21856057",
-       "author": "Mariano Ordoñez",
-       "license": "All rights reserved"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/141983455",
+         "author": "ivesklein",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/266927306",
+         "author": "Frank Dietze",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/325061784",
+         "author": "Ricardo Barrientos",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/147278879",
+         "author": "Sofía Rojas",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -639782,15 +640397,9 @@
    "sticker": {
     "file": "stickers/Passeriformes/Tyrannidae/Elaenia_cherriei.webp",
     "kind": "ai-illustration",
-    "reviewScore": 82,
+    "reviewScore": 100,
     "meetsQualityBar": true,
-    "license": "CC-BY-4.0",
-    "reference": {
-     "type": "photo",
-     "page": "https://macaulaylibrary.org/asset/162369151",
-     "author": "Jay McGowan",
-     "license": "Macaulay Library terms"
-    }
+    "license": "CC-BY-4.0"
    },
    "previous": [
     {
@@ -654775,14 +655384,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Tyrannidae/Empidonomus_aurantioatrocristatus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/5580583",
-     "author": "Jorge Schlemmer",
-     "license": "Not recorded"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/412851199",
+       "author": "Analía Belaus",
+       "license": "CC0 1.0"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/177079318",
+       "author": "Kathy Richardson",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/121314735",
+       "author": "Hugo Hulsberg",
+       "license": "CC0 1.0"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/342481901",
+       "author": "Rosario Douglas",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -657981,14 +658609,33 @@
      "sticker": {
       "file": "stickers/Passeriformes/Tyrannidae/Silvicultrix_frontalis.spodionota.webp",
       "kind": "ai-illustration",
-      "reviewScore": 90,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.flickr.com/photos/antpitta/36230109991/",
-       "author": "Nick Athanas",
-       "license": "CC BY-SA 2.0"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://commons.wikimedia.org/wiki/File:Kalinowski%27s_Chat-Tyrant_-_Silvicultrix_spodionota_boliviana.jpg",
+         "author": "Nick Athanas",
+         "license": "CC BY-SA"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/66095606",
+         "author": "Thibaud Aronson",
+         "license": "CC BY-SA"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/106279049",
+         "author": "javatru",
+         "license": "CC BY-NC"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/341970232",
+         "author": "Jeff Harding",
+         "license": "CC BY-NC"
+        }
+       ]
       }
      }
     }
@@ -658688,14 +659335,23 @@
    "sticker": {
     "file": "stickers/Passeriformes/Tyrannidae/Ochthoeca_salvini.webp",
     "kind": "ai-illustration",
-    "reviewScore": 88,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/observations/202069619",
-     "author": "Josh van der Meulen",
-     "license": "CC BY-NC-ND"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/35000406",
+       "author": "Thibaud Aronson",
+       "license": "CC BY-SA"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/327446683",
+       "author": "Don Wellmann",
+       "license": "CC0 1.0"
+      }
+     ]
     }
    },
    "previous": [
@@ -773245,8 +773901,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Atrichornithidae/Atrichornis_rufescens.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -782889,8 +783545,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Acanthizidae/Pachycare_flavogriseum.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -796601,8 +797257,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Pinarostola_cinerea.webp",
     "kind": "ai-illustration",
-    "reviewScore": 72,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -805826,8 +806482,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Guadalcanaria_inexpectata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
@@ -807092,14 +807748,28 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Lichmera_lombokia.webp",
     "kind": "ai-illustration",
-    "reviewScore": 88,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/248465175",
-     "author": "Carlos N. G. Bocos",
-     "license": "Not recorded"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/189892052",
+       "author": "River Ahlquist",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/189072563",
+       "author": "Forest Botial-Jarvis",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/51101214",
+       "author": "ꦥꦤ꧀ꦗꦶꦒꦸꦱ꧀ꦠꦶꦄꦏ꧀ꦧꦂ",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -810527,14 +811197,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Meliphaga_albilineata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/observations/225649027",
-     "author": "Alan Bell",
-     "license": "CC BY"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/225649027",
+       "author": "Alan Bell",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/196291707",
+       "author": "Oscar Dove",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/144650054",
+       "author": "Fernando Pérez Peralta",
+       "license": "CC0 1.0"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/129626116",
+       "author": "Paul Whitington",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -810634,14 +811323,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Meliphaga_fordiana.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/34868950",
-     "author": "Ray Turnbull",
-     "license": "CC BY-NC"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/305465100",
+       "author": "Stella Fish",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/365343862",
+       "author": "margot_oorebeek",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/22507028",
+       "author": "Ray Turnbull",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/394070800",
+       "author": "p00t",
+       "license": "CC BY-NC"
+      }
+     ]
     }
    },
    "previous": [
@@ -810747,14 +811455,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Meliphaga_chrysogenys.webp",
     "kind": "ai-illustration",
-    "reviewScore": 84,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/3074287",
-     "author": "Nigel Voaden",
-     "license": "CC BY"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/2724121",
+       "author": "Nigel Voaden",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/106297441",
+       "author": "Mehd Halaouate",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/336528119",
+       "author": "Eidiu",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/251836362",
+       "author": "wisnuprabowo83",
+       "license": "CC BY-NC"
+      }
+     ]
     }
    },
    "previous": [
@@ -810871,7 +811598,7 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Meliphaga_flavirictus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 84,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -810883,9 +811610,9 @@
        "license": "CC BY-NC"
       },
       {
-       "page": "https://www.inaturalist.org/observations/261522209",
-       "author": "Rangga Indonesia",
-       "license": "All rights reserved"
+       "page": "https://www.inaturalist.org/observations/262617395",
+       "author": "Hakim",
+       "license": "CC BY-NC"
       }
      ]
     }
@@ -810991,15 +811718,9 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Meliphaga_vicina.webp",
     "kind": "ai-illustration",
-    "reviewScore": 82,
+    "reviewScore": 95,
     "meetsQualityBar": true,
-    "license": "CC-BY-4.0",
-    "reference": {
-     "type": "photo",
-     "page": "https://macaulaylibrary.org/asset/659951149",
-     "author": "Julien Mazenauer | Ornis Birding Expeditions",
-     "license": "Macaulay Library terms"
-    }
+    "license": "CC-BY-4.0"
    },
    "previous": [
     {
@@ -811103,26 +811824,26 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Meliphaga_mimikae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 80,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
      "items": [
       {
-       "page": "https://macaulaylibrary.org/asset/659751413",
-       "author": "Benjamin Freeman",
-       "license": "Macaulay Library terms"
+       "page": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_RMNH.AVES.133916_1_-_Meliphaga_mimikae_mimikae_(Ogilvie-Grant,_1911)_-_Meliphagidae_-_bird_skin_specimen.jpeg",
+       "author": "Naturalis Biodiversity Center",
+       "license": "CC0 1.0"
       },
       {
-       "page": "https://macaulaylibrary.org/asset/659751438",
-       "author": "Benjamin Freeman",
-       "license": "Macaulay Library terms"
+       "page": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_RMNH.AVES.133916_2_-_Meliphaga_mimikae_mimikae_(Ogilvie-Grant,_1911)_-_Meliphagidae_-_bird_skin_specimen.jpeg",
+       "author": "Naturalis Biodiversity Center",
+       "license": "CC0 1.0"
       },
       {
-       "page": "https://macaulaylibrary.org/asset/659751439",
-       "author": "Benjamin Freeman",
-       "license": "Macaulay Library terms"
+       "page": "https://www.inaturalist.org/observations/337218101",
+       "author": "Leandro Rezende",
+       "license": "CC BY-NC"
       }
      ]
     }
@@ -811241,7 +811962,7 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Meliphaga_montana.webp",
     "kind": "ai-illustration",
-    "reviewScore": 82,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -811249,12 +811970,13 @@
      "items": [
       {
        "page": "https://www.inaturalist.org/observations/338075165",
+       "author": "Светлана Царахова",
        "license": "CC0 1.0"
       },
       {
-       "page": "https://www.inaturalist.org/observations/364589522",
-       "author": "Carlos N. G. Bocos",
-       "license": "All rights reserved"
+       "page": "https://www.inaturalist.org/observations/309880917",
+       "author": "Ahmad Yasin Chumaedi",
+       "license": "CC BY-NC"
       }
      ]
     }
@@ -811470,14 +812192,23 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Meliphaga_analoga.webp",
     "kind": "ai-illustration",
-    "reviewScore": 89,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/observations/41113018",
-     "author": "Carlos N. G. Bocos",
-     "license": "All rights reserved"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/328545303",
+       "author": "Ben Costamagna",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/192300929",
+       "author": "Jean-Paul Boerekamps",
+       "license": "CC0 1.0"
+      }
+     ]
     }
    },
    "previous": [
@@ -811602,14 +812333,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Meliphaga_orientalis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 82,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/observations/383397136",
-     "author": "photokeen",
-     "license": "CC BY-NC-ND"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/237229308",
+       "author": "fajardarwis",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/194119302",
+       "author": "Eric Carpenter",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/105834728",
+       "author": "Mehd Halaouate",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/32786630",
+       "author": "Nik Borrow",
+       "license": "CC BY-NC"
+      }
+     ]
     }
    },
    "previous": [
@@ -811714,14 +812464,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Meliphaga_albonotata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 84,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/9538667",
-     "author": "markus lilje",
-     "license": "CC BY-NC-ND"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/190663780",
+       "author": "Ahmad Yasin Chumaedi",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/41227328",
+       "author": "Ganjar Cahyadi",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/188745280",
+       "author": "gee912",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/72638281",
+       "author": "Benoît Segerer",
+       "license": "CC BY-NC"
+      }
+     ]
     }
    },
    "previous": [
@@ -811826,14 +812595,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Meliphaga_gracilis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 88,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/observations/269543680",
-     "author": "Josh Lennon",
-     "license": "All rights reserved"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/33168643",
+       "author": "Andrew Allen",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/383627323",
+       "author": "Lawrence Hylton",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/225846349",
+       "author": "Alan Bell",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/388089132",
+       "author": "Matt B",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -811930,14 +812718,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Meliphagidae/Meliphaga_imitatrix.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/observations/145711912",
-     "author": "zebsphotography",
-     "license": "CC BY-NC"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/33115175",
+       "author": "Graham Winterflood",
+       "license": "CC BY-SA"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/117116104",
+       "author": "Jane C Frost",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/182400486",
+       "author": "Donald Davesne",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/385635418",
+       "author": "Jan Ebr & Ivana Ebrová",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -821454,8 +822261,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Campephagidae/Ceblepyris_pectoralis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -823107,8 +823914,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Campephagidae/Coracina_welchmani.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -832725,8 +833532,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Campephagidae/Edolisoma_amboinense.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -834500,8 +835307,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Artamidae/Artamus_insignis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -854437,8 +855244,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Neosittidae/Daphoenositta_papuensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -859243,8 +860050,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Vireonidae/Vireolanius_melitophrys.webp",
     "kind": "ai-illustration",
-    "reviewScore": 79,
-    "meetsQualityBar": false,
+    "reviewScore": 80,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -866025,8 +866832,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Oriolidae/Pitohui_kirhocephalus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -869532,8 +870339,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Oriolidae/Oriolus_crassirostris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -873651,14 +874458,33 @@
      "sticker": {
       "file": "stickers/Passeriformes/Pachycephalidae/Pachycephala_pectoralis.fuliginosa.webp",
       "kind": "ai-illustration",
-      "reviewScore": 88,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/33939214",
-       "author": "anthonypaul",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/221258723",
+         "author": "julie burgher",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/141642342",
+         "author": "lallen",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/80440124",
+         "author": "Kym Nicolson",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/60939167",
+         "author": "Paul Coddington",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -877140,14 +877966,23 @@
      "sticker": {
       "file": "stickers/Passeriformes/Pachycephalidae/Pachycephala_griseonota.johni.webp",
       "kind": "ai-illustration",
-      "reviewScore": 89,
+      "reviewScore": 95,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/143957961",
-       "author": "Carlos N. G. Bocos",
-       "license": "All rights reserved"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/234486122",
+         "author": "James Eaton",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/259676427",
+         "author": "Marc Thibault",
+         "license": "CC BY-NC"
+        }
+       ]
       }
      }
     }
@@ -881703,14 +882538,23 @@
      "sticker": {
       "file": "stickers/Passeriformes/Rhipiduridae/Rhipidura_rufiventris.kordensis.webp",
       "kind": "ai-illustration",
-      "reviewScore": 82,
+      "reviewScore": 90,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.birdquest-tours.com/birding-tours/west-papua-ultimate-indonesia/",
-       "author": "Pete Morris",
-       "license": "Not recorded"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/126845764",
+         "author": "Jonathan M",
+         "license": "CC BY-NC"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/125972381",
+         "author": "Jonathan M",
+         "license": "CC BY-NC"
+        }
+       ]
       }
      }
     }
@@ -882353,8 +883197,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Rhipiduridae/Rhipidura_superciliaris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -882708,8 +883552,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Rhipiduridae/Rhipidura_sauli.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -884421,8 +885265,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Rhipiduridae/Rhipidura_rennelliana.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -885898,8 +886742,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Rhipiduridae/Rhipidura_teysmanni.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -886325,8 +887169,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Rhipiduridae/Rhipidura_torrida.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -886633,8 +887477,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Rhipiduridae/Rhipidura_kubaryi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -888958,15 +889802,9 @@
    "sticker": {
     "file": "stickers/Passeriformes/Dicruridae/Dicrurus_palawanensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 75,
-    "meetsQualityBar": false,
-    "license": "CC-BY-4.0",
-    "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/337620147",
-     "author": "matthewkwan",
-     "license": "CC BY-NC-ND"
-    }
+    "reviewScore": 90,
+    "meetsQualityBar": true,
+    "license": "CC-BY-4.0"
    },
    "previous": [
     {
@@ -896547,8 +897385,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Monarchidae/Myiagra_cervinicauda.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -905444,7 +906282,7 @@
      "sticker": {
       "file": "stickers/Passeriformes/Paradisaeidae/Manucodia_ater.alter.webp",
       "kind": "ai-illustration",
-      "reviewScore": 82,
+      "reviewScore": 95,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
@@ -905453,17 +906291,12 @@
         {
          "page": "https://www.inaturalist.org/observations/195351042",
          "author": "peter maaskant",
-         "license": "CC BY-NC 4.0"
+         "license": "CC BY-NC"
         },
         {
-         "page": "https://macaulaylibrary.org/asset/188498321",
-         "author": "Anonymous（Macaulay Library 188498321）",
-         "license": "Macaulay Library terms"
-        },
-        {
-         "page": "https://macaulaylibrary.org/asset/611656020",
-         "author": "Macaulay Library 611656020",
-         "license": "Macaulay Library terms"
+         "page": "https://commons.wikimedia.org/wiki/File:Manucodia_ater_-_July_2020.jpg",
+         "author": "Daniel Levitis",
+         "license": "CC BY"
         }
        ]
       }
@@ -909903,8 +910736,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Paradisaeidae/Paradisaea_decora.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -917056,8 +917889,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Corvidae/Dendrocitta_cinerascens.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -931575,14 +932408,28 @@
      "sticker": {
       "file": "stickers/Passeriformes/Corvidae/Corvus_macrorhynchos.culminatus.webp",
       "kind": "ai-illustration",
-      "reviewScore": 81,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/103884953",
-       "author": "Puttaraju Kenchappa",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/20671953",
+         "author": "Matthew Blissett",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/21613149",
+         "author": "Vijay Barve",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/9087461",
+         "author": "Ashwin Srinivasan",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -957122,15 +957969,9 @@
    "sticker": {
     "file": "stickers/Passeriformes/Alaudidae/Chersomanes_beesleyi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 74,
-    "meetsQualityBar": false,
-    "license": "CC-BY-4.0",
-    "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/observations/318254841",
-     "author": "Tobin Sparling (he/him)",
-     "license": "CC BY-NC"
-    }
+    "reviewScore": 90,
+    "meetsQualityBar": true,
+    "license": "CC-BY-4.0"
    },
    "previous": [
     {
@@ -957713,15 +958554,9 @@
    "sticker": {
     "file": "stickers/Passeriformes/Alaudidae/Certhilauda_semitorquata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 73,
-    "meetsQualityBar": false,
-    "license": "CC-BY-4.0",
-    "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/15675712",
-     "author": "Michael McSweeney",
-     "license": "CC BY-NC"
-    }
+    "reviewScore": 95,
+    "meetsQualityBar": true,
+    "license": "CC-BY-4.0"
    },
    "previous": [
     {
@@ -964027,8 +964862,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Alaudidae/Corypha_somalica.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -965375,8 +966210,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Alaudidae/Spizocorys_obbiensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
@@ -965627,8 +966462,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Alaudidae/Alauda_razae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -970977,8 +971812,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Macrosphenidae/Macrosphenus_pulitzeri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 74,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -971952,8 +972787,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Macrosphenidae/Sylvietta_ruficapilla.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -972443,8 +973278,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Macrosphenidae/Sylvietta_virens.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -973335,8 +974170,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cisticolidae/Micromacronus_leytensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -977443,14 +978278,33 @@
      "sticker": {
       "file": "stickers/Passeriformes/Cisticolidae/Camaroptera_brachyura.brevicaudata.webp",
       "kind": "ai-illustration",
-      "reviewScore": 84,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/203388463",
-       "author": "Milan Svoboda",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/298399773",
+         "author": "Paul Hoekman",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/271245459",
+         "author": "Rosario Douglas",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/197987546",
+         "author": "Christiaan Viljoen",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/10875571",
+         "author": "Wynand Uys",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -979080,14 +979934,28 @@
      "sticker": {
       "file": "stickers/Passeriformes/Cisticolidae/Apalis_flavida.flavocincta.webp",
       "kind": "ai-illustration",
-      "reviewScore": 84,
+      "reviewScore": 95,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/311898518",
-       "author": "Luke Berg",
-       "license": "All rights reserved"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/154064347",
+         "author": "Thibaud Aronson",
+         "license": "CC BY-SA"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/103297900",
+         "author": "Niall Perrins",
+         "license": "CC BY-NC"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/194722017",
+         "author": "jakeh2022",
+         "license": "CC BY-NC"
+        }
+       ]
       }
      }
     }
@@ -982832,8 +983700,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cisticolidae/Orthotomus_nigriceps.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -983806,8 +984674,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cisticolidae/Prinia_socialis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -985322,8 +986190,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cisticolidae/Prinia_bairdii.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -994867,8 +995735,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cisticolidae/Cisticola_restrictus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
@@ -995724,31 +996592,21 @@
      "sticker": {
       "file": "stickers/Passeriformes/Acrocephalidae/Nesillas_typica.longicaudata.webp",
       "kind": "ai-illustration",
-      "reviewScore": 84,
+      "reviewScore": 80,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
        "type": "reference-board",
        "items": [
         {
-         "page": "https://macaulaylibrary.org/asset/386676911",
-         "author": "Pete Morris (Birdquest)",
-         "license": "Macaulay Library terms"
+         "page": "https://www.inaturalist.org/observations/63839165",
+         "author": "Xavier Rufray",
+         "license": "CC BY-NC"
         },
         {
-         "page": "https://macaulaylibrary.org/asset/386676901",
-         "author": "Pete Morris (Birdquest)",
-         "license": "Macaulay Library terms"
-        },
-        {
-         "page": "https://macaulaylibrary.org/asset/386677091",
-         "author": "Pete Morris (Birdquest)",
-         "license": "Macaulay Library terms"
-        },
-        {
-         "page": "https://macaulaylibrary.org/asset/205885391",
-         "author": "Pete Morris (Birdquest)",
-         "license": "Macaulay Library terms"
+         "page": "https://www.inaturalist.org/observations/369198598",
+         "author": "alanvannorman",
+         "license": "CC BY-NC"
         }
        ]
       }
@@ -996017,8 +996875,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Acrocephalidae/Hippolais_icterina.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1001164,8 +1002022,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Acrocephalidae/Acrocephalus_aequinoctialis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1006757,8 +1007615,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Locustellidae/Locustella_musculus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
@@ -1008467,8 +1009325,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Locustellidae/Schoenicola_platyurus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1013434,8 +1014292,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Hirundinidae/Psalidoprocne_nitens.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1014260,8 +1015118,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Hirundinidae/Pseudhirundo_griseopyga.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1016502,8 +1017360,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Hirundinidae/Tachycineta_stolzmanni.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1018310,8 +1019168,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Hirundinidae/Stelgidopteryx_serripennis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1023811,8 +1024669,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Hirundinidae/Cecropis_melanocrissus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1024665,8 +1025523,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Hirundinidae/Petrochelidon_rufigula.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1028066,14 +1028924,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cettiidae/Scotocerca_inquieta.webp",
     "kind": "ai-illustration",
-    "reviewScore": 84,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/56461384",
-     "author": "Bird Explorers",
-     "license": "CC BY-NC"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/46771854",
+       "author": "Karim Haddad",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/294818908",
+       "author": "Mahomed Desai",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/223311885",
+       "author": "Andrew Bazdyrev",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/268795349",
+       "author": "Demian Hiß",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -1032067,8 +1032944,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cettiidae/Horornis_haddeni.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
@@ -1041623,14 +1042500,23 @@
      "sticker": {
       "file": "stickers/Passeriformes/Phylloscopidae/Phylloscopus_presbytes.floresianus.webp",
       "kind": "ai-illustration",
-      "reviewScore": 88,
+      "reviewScore": 90,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://macaulaylibrary.org/asset/204043871",
-       "author": "Yovie Jehabut",
-       "license": "Not recorded"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.gbif.org/occurrence/2434185892",
+         "author": "Naturalis Biodiversity Center",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.gbif.org/occurrence/2434189979",
+         "author": "Naturalis Biodiversity Center",
+         "license": "CC0 1.0"
+        }
+       ]
       }
      }
     }
@@ -1049781,15 +1050667,9 @@
      "sticker": {
       "file": "stickers/Passeriformes/Pycnonotidae/Phyllastrephus_flavostriatus.alfredi.webp",
       "kind": "ai-illustration",
-      "reviewScore": 90,
+      "reviewScore": 95,
       "meetsQualityBar": true,
-      "license": "CC-BY-4.0",
-      "reference": {
-       "type": "photo",
-       "page": "https://ebird.org/species/yesgre2",
-       "author": "Nik Borrow",
-       "license": "Not recorded"
-      }
+      "license": "CC-BY-4.0"
      }
     }
    ],
@@ -1050284,14 +1051164,28 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Microtarsus_eutilotus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 84,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/11058749",
-     "author": "Tan Kok Hui",
-     "license": "CC BY-NC"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/70616504",
+       "author": "Jan Ebr & Ivana Ebrová",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/303665422",
+       "author": "Ian Dugdale",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/198970210",
+       "author": "Victor Heng",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -1050533,8 +1051427,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Microtarsus_urostictus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1051059,14 +1051953,28 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Rubigula_erythropthalmos.webp",
     "kind": "ai-illustration",
-    "reviewScore": 87,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/110003961",
-     "author": "Chan Chee Keong",
-     "license": "Not recorded"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/254273913",
+       "author": "wildreturn",
+       "license": "CC0 1.0"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/303367238",
+       "author": "Ian Dugdale",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/228615787",
+       "author": "lunarjade",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -1051801,8 +1052709,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Rubigula_montis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1054593,8 +1055501,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Pycnonotus_penicillatus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1058498,8 +1059406,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Iole_crypta.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1060778,8 +1061686,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Hypsipetes_borbonicus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1061487,8 +1062395,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Hypsipetes_moheliensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1061729,8 +1062637,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pycnonotidae/Hypsipetes_mindorensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1066845,8 +1067753,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sylviidae/Curruca_sarda.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1076917,8 +1077825,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Zosteropidae/Heleia_dohertyi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1080986,13 +1081894,23 @@
      "sticker": {
       "file": "stickers/Passeriformes/Zosteropidae/Zosterops_maderaspatanus.anjuanensis.webp",
       "kind": "ai-illustration",
-      "reviewScore": 86,
+      "reviewScore": 90,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://ebird.org/species/anjwhe1",
-       "license": "Not recorded"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/54440382",
+         "author": "Manuel Ruedi",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/54440413",
+         "author": "Manuel Ruedi",
+         "license": "CC BY-NC"
+        }
+       ]
       }
      }
     },
@@ -1081011,12 +1081929,12 @@
      "sticker": {
       "file": "stickers/Passeriformes/Zosteropidae/Zosterops_maderaspatanus.aldabrensis.webp",
       "kind": "ai-illustration",
-      "reviewScore": 87,
+      "reviewScore": 95,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
        "type": "photo",
-       "page": "https://www.inaturalist.org/photos/460819658",
+       "page": "https://www.inaturalist.org/observations/256950507",
        "author": "Matthew Morgan",
        "license": "CC BY"
       }
@@ -1081037,15 +1081955,9 @@
      "sticker": {
       "file": "stickers/Passeriformes/Zosteropidae/Zosterops_maderaspatanus.comorensis.webp",
       "kind": "ai-illustration",
-      "reviewScore": 82,
+      "reviewScore": 100,
       "meetsQualityBar": true,
-      "license": "CC-BY-4.0",
-      "reference": {
-       "type": "photo",
-       "page": "https://macaulaylibrary.org/photo/628474142",
-       "author": "Kasper R. Berg",
-       "license": "Not recorded"
-      }
+      "license": "CC-BY-4.0"
      }
     }
    ],
@@ -1084697,8 +1085609,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Zosteropidae/Zosterops_flavissimus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 79,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1085454,14 +1086366,23 @@
      "sticker": {
       "file": "stickers/Passeriformes/Zosteropidae/Zosterops_minor.chrysolaemus.webp",
       "kind": "ai-illustration",
-      "reviewScore": 83,
+      "reviewScore": 95,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/40907347",
-       "author": "Carlos N. G. Bocos",
-       "license": "All rights reserved"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/318490421",
+         "author": "themaskedlapwing",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/342830161",
+         "author": "Zara",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -1088443,8 +1089364,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Zosteropidae/Zosterops_stresemanni.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
@@ -1093933,8 +1094854,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Timaliidae/Spelaeornis_chocolatinus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 75,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1094278,8 +1095199,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Timaliidae/Melanocichla_lugubris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1098918,8 +1099839,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Pellorneidae/Turdinus_macrodactylus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1116152,8 +1117073,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Leiothrichidae/Argya_altirostris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1117157,8 +1118078,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Leiothrichidae/Turdoides_atripennis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1117666,8 +1118587,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Leiothrichidae/Turdoides_leucocephala.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1136227,8 +1137148,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Troglodytidae/Hylorchilus_sumichrasti.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1139549,14 +1140470,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Troglodytidae/Nannus_pacificus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/observations/138576944",
-     "author": "S.Wolf",
-     "license": "CC BY-NC"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/226830075",
+       "author": "louisiv826",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/107455380",
+       "author": "Megan Blackmore",
+       "license": "CC0 1.0"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/205655494",
+       "author": "Marcel_Pepin",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/61438974",
+       "author": "Justin Flint",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -1140363,8 +1141303,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Troglodytidae/Cistothorus_apolinari.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1142206,8 +1143146,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Troglodytidae/Troglodytes_grenadensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1143097,8 +1144037,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Troglodytidae/Pheugopedius_spadix.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1154349,8 +1155289,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sturnidae/Rhabdornis_grandis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
@@ -1155751,8 +1156691,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sturnidae/Streptocitta_albicollis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1156809,14 +1157749,28 @@
      "sticker": {
       "file": "stickers/Passeriformes/Sturnidae/Gracula_religiosa.robusta.webp",
       "kind": "ai-illustration",
-      "reviewScore": 83,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://ebird.org/species/niamyn1",
-       "author": "Ross Gallardy",
-       "license": "Not recorded"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_RMNH.AVES.150146_1_-_Prescula_religiosa_robusta_Salvadori,_1887_-_Sturnidae_-_bird_skin_specimen.jpeg",
+         "author": "Naturalis Biodiversity Center",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_RMNH.AVES.150162_2_-_Prescula_religiosa_robusta_Salvadori%2C_1887_-_Sturnidae_-_bird_skin_specimen.jpeg",
+         "author": "Naturalis Biodiversity Center",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_RMNH.AVES.150163_2_-_Prescula_religiosa_robusta_Salvadori%2C_1887_-_Sturnidae_-_bird_skin_specimen.jpeg",
+         "author": "Naturalis Biodiversity Center",
+         "license": "CC0 1.0"
+        }
+       ]
       }
      }
     }
@@ -1161660,14 +1162614,33 @@
      "sticker": {
       "file": "stickers/Passeriformes/Sturnidae/Sturnia_malabarica.blythii.webp",
       "kind": "ai-illustration",
-      "reviewScore": 87,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/photos/12044863",
-       "author": "Prajwalkm",
-       "license": "CC BY-SA"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/188234079",
+         "author": "Tejas M",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/243352158",
+         "author": "Ashwin A",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/142746200",
+         "author": "Manoj Karingamadathil",
+         "license": "CC BY-SA"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/374557768",
+         "author": "Nikhil R R",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -1164444,8 +1165417,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sturnidae/Onychognathus_fulgidus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1165492,8 +1166465,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sturnidae/Hylopsar_purpureiceps.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1166677,8 +1167650,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sturnidae/Poeoptera_kenricki.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1171228,8 +1172201,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Turdidae/Stizorhina_finschi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1174866,8 +1175839,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Turdidae/Zoothera_andromedae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 75,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1174979,8 +1175952,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Turdidae/Zoothera_margaretae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1175089,8 +1176062,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Turdidae/Zoothera_turipavae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
@@ -1179832,8 +1180805,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Turdidae/Geokichla_princei.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1181869,8 +1182842,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Turdidae/Geokichla_joiceyi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
@@ -1189953,8 +1190926,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Turdidae/Turdus_rufitorques.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1194490,8 +1195463,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Turdidae/Turdus_hauxwelli.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1196452,8 +1197425,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Tychaedon_quadrivirgata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1201943,8 +1202916,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Artomyias_ussheri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1206328,8 +1207301,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Eumyias_sanfordi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1206976,8 +1207949,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Eumyias_albicaudatus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1212354,14 +1213327,28 @@
      "sticker": {
       "file": "stickers/Passeriformes/Muscicapidae/Stiphrornis_erythrothorax.xanthogaster.webp",
       "kind": "ai-illustration",
-      "reviewScore": 85,
+      "reviewScore": 95,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/185700510",
-       "author": "Easy Rogers",
-       "license": "All rights reserved"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/32472510",
+         "author": "annikaml",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/150403876",
+         "author": "tommy_andriollo",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/222496845",
+         "author": "rafaelw",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -1240307,14 +1241294,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Muscicapidae/Oenanthe_halophila.webp",
     "kind": "ai-illustration",
-    "reviewScore": 86,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/58928584",
-     "author": "Habib Latif Boultif",
-     "license": "Not recorded"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/38031166",
+       "author": "datadan",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/128866402",
+       "author": "Dmitry Babin",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/58316444",
+       "author": "Christoph Moning",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/103892150",
+       "author": "Jacek Pietruszewski",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -1241783,8 +1242789,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Dicaeidae/Prionochilus_thoracicus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1242312,8 +1243318,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Dicaeidae/Pachyglossa_olivacea.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1242400,8 +1243406,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Dicaeidae/Pachyglossa_propria.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1243422,8 +1244428,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Dicaeidae/Dicaeum_bicolor.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1246768,8 +1247774,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Dicaeidae/Dicaeum_monticolum.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1246867,8 +1247873,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Dicaeidae/Dicaeum_beccarii.webp",
     "kind": "ai-illustration",
-    "reviewScore": 75,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1246966,8 +1247972,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Dicaeidae/Dicaeum_cambodianum.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1251061,8 +1252067,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Nectariniidae/Anthreptes_simplex.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1251878,8 +1252884,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Nectariniidae/Anthreptes_orientalis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1256242,8 +1257248,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Nectariniidae/Aethopyga_boltoni.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1259397,8 +1260403,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Nectariniidae/Nectarinia_famosa.webp",
     "kind": "ai-illustration",
-    "reviewScore": 75,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1261571,15 +1262577,9 @@
      "sticker": {
       "file": "stickers/Passeriformes/Nectariniidae/Cinnyris_stuhlmanni.whytei.webp",
       "kind": "ai-illustration",
-      "reviewScore": 81,
+      "reviewScore": 100,
       "meetsQualityBar": true,
-      "license": "CC-BY-4.0",
-      "reference": {
-       "type": "photo",
-       "page": "https://www.oiseaux.net/photos/raphael.jordan/souimanga.de.whyte.1.html",
-       "author": "Raphaël Jordan",
-       "license": "All rights reserved"
-      }
+      "license": "CC-BY-4.0"
      }
     }
    ],
@@ -1263650,8 +1264650,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Nectariniidae/Cinnyris_erythrocercus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 75,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1267044,8 +1268044,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Nectariniidae/Cinnyris_clementiae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1270044,8 +1271044,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Chloropseidae/Chloropsis_cyanopogon.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1276307,8 +1277307,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Ploceidae/Ploceus_nigrimentus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1277661,8 +1278661,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Ploceidae/Ploceus_burnieri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1280667,8 +1281667,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Ploceidae/Ploceus_brachypterus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1283558,14 +1284558,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Ploceidae/Euplectes_anomalus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 86,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/57128496",
-     "author": "Mathias D'haen",
-     "license": "CC BY-NC-ND"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/35245975",
+       "author": "Mathias D'haen",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/9073767",
+       "author": "Dérozier Violette",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/66851244",
+       "author": "Philippe Lécuyer",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/377434991",
+       "author": "David Graham",
+       "license": "CC BY-NC"
+      }
+     ]
     }
    },
    "previous": [
@@ -1287194,8 +1288213,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Viduidae/Vidua_hypocherina.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1290024,8 +1291043,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Estrildidae/Stizoptera_bichenovii.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1290116,14 +1291135,33 @@
      "sticker": {
       "file": "stickers/Passeriformes/Estrildidae/Taeniopygia_guttata.castanotis.webp",
       "kind": "ai-illustration",
-      "reviewScore": 85,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/181818810",
-       "author": "Ellura Sanctuary",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/388161848",
+         "author": "bitsandbugs",
+         "license": "CC0 1.0"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/190850905",
+         "author": "Alan Bell",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/68834395",
+         "author": "Kerri-Lee Harris",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/401457805",
+         "author": "Stuart",
+         "license": "CC0 1.0"
+        }
+       ]
       }
      }
     }
@@ -1290645,8 +1291683,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Estrildidae/Spermestes_griseicapilla.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1297087,8 +1298125,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Estrildidae/Erythrura_coloria.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1298182,8 +1299220,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Estrildidae/Mandingoa_nitidula.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1305245,8 +1306283,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Estrildidae/Hypargos_niveoguttatus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1306577,8 +1307615,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Estrildidae/Lagonosticta_virata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1316880,8 +1317918,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Motacillidae/Macronyx_capensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 74,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1318806,8 +1319844,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Motacillidae/Anthus_nyassae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1319070,8 +1320108,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Motacillidae/Anthus_novaeseelandiae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1319182,8 +1320220,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Motacillidae/Anthus_australis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 72,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1321001,8 +1322039,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Motacillidae/Anthus_chii.webp",
     "kind": "ai-illustration",
-    "reviewScore": 75,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1322202,15 +1323240,9 @@
    "sticker": {
     "file": "stickers/Passeriformes/Motacillidae/Anthus_correndera.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
-    "license": "CC-BY-4.0",
-    "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/898458",
-     "author": "Cláudio Dias Timm",
-     "license": "CC BY-SA"
-    }
+    "reviewScore": 95,
+    "meetsQualityBar": true,
+    "license": "CC-BY-4.0"
    },
    "previous": [
     {
@@ -1323778,8 +1324810,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Motacillidae/Anthus_petrosus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1325920,8 +1326952,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Fringillidae/Chlorophonia_flavirostris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1336957,8 +1337989,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Fringillidae/Pyrrhula_leucogenis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1340927,24 +1341959,9 @@
      "sticker": {
       "file": "stickers/Passeriformes/Fringillidae/Chloris_sinica.kittlitzi.webp",
       "kind": "ai-illustration",
-      "reviewScore": 80,
+      "reviewScore": 95,
       "meetsQualityBar": true,
-      "license": "CC-BY-4.0",
-      "reference": {
-       "type": "reference-board",
-       "items": [
-        {
-         "page": "https://commons.wikimedia.org/wiki/File:Carduelis_sinica_minor.JPG",
-         "author": "Alpsdake",
-         "license": "CC BY-SA 3.0"
-        },
-        {
-         "page": "https://commons.wikimedia.org/wiki/File:Carduelis_sinica_minor_eating.JPG",
-         "author": "Alpsdake",
-         "license": "CC BY-SA 3.0"
-        }
-       ]
-      }
+      "license": "CC-BY-4.0"
      }
     }
    ],
@@ -1345940,8 +1346957,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Fringillidae/Crithagra_tristriata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1353444,8 +1354461,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Calcariidae/Calcarius_pictus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 72,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1353842,14 +1354859,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Emberizidae/Fringillaria_flaviventris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 89,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/751699452",
-     "author": "Ian N. White",
-     "license": "Not recorded"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/11296869",
+       "author": "Shaun Swanepoel",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/380970849",
+       "author": "Wouter Möller",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/57662868",
+       "author": "Christiaan Viljoen",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/302889426",
+       "author": "Timothy Whitehead",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -1354098,14 +1355134,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Emberizidae/Fringillaria_affinis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 86,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/116830121",
-     "author": "Mathias D'haen",
-     "license": "CC BY-NC-ND"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/222521161",
+       "author": "Rafael Würtemberger",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/144018883",
+       "author": "Don Wellmann",
+       "license": "CC0 1.0"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/59771037",
+       "author": "Christoph Moning",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/150931960",
+       "author": "Daniel S. Katz",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -1354277,14 +1355332,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Emberizidae/Fringillaria_capensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 89,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/142969290",
-     "author": "Derek Keats",
-     "license": "CC BY"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/122493376",
+       "author": "Shaun Swanepoel",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/236943352",
+       "author": "Jo Roberts",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/187997074",
+       "author": "Noeleen du Toit",
+       "license": "CC BY-SA"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/393291386",
+       "author": "Kobus Meyer",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -1354519,14 +1355593,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Emberizidae/Fringillaria_socotrana.webp",
     "kind": "ai-illustration",
-    "reviewScore": 86,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/1802048",
-     "author": "Roberto Sindaco",
-     "license": "CC BY-NC-SA"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/148516362",
+       "author": "Morten Ross",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/402845407",
+       "author": "Rob Leslie",
+       "license": "CC BY-NC"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/1453901",
+       "author": "Roberto Sindaco",
+       "license": "CC BY-NC-SA"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/208735167",
+       "author": "James Bailey",
+       "license": "CC BY-NC"
+      }
+     ]
     }
    },
    "previous": [
@@ -1354654,14 +1355747,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Emberizidae/Fringillaria_sahari.webp",
     "kind": "ai-illustration",
-    "reviewScore": 87,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/605222253",
-     "author": "capracornelius",
-     "license": "Not recorded"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/47906798",
+       "author": "Karim Haddad",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/330448463",
+       "author": "Diego González Dopico",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/254040459",
+       "author": "bogsuckers",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/336976724",
+       "author": "Mourad Harzallah",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -1354904,14 +1356016,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Emberizidae/Fringillaria_goslingi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 86,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/183165333",
-     "author": "Nik Borrow",
-     "license": "CC BY-NC"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/150607082",
+       "author": "Daniel S. Katz",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/259103719",
+       "author": "martin ingemansson",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/200389134",
+       "author": "Ben Keen",
+       "license": "CC0 1.0"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/66191795",
+       "author": "Dan Riley",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -1355047,14 +1356178,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Emberizidae/Fringillaria_tahapisi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 89,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/339262179",
-     "author": "Fanis Theofanopoulos (ASalafa Deri)",
-     "license": "Not recorded"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/333025148",
+       "author": "Irene",
+       "license": "CC0 1.0"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/11248420",
+       "author": "Shaun Swanepoel",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/57308692",
+       "author": "Christoph Moning",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/151242025",
+       "author": "Jan Ebr & Ivana Ebrová",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -1364654,8 +1365804,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Passerellidae/Peucaea_mystacalis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1367876,8 +1369026,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Passerellidae/Arremon_basilicus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1368327,14 +1369477,33 @@
      "sticker": {
       "file": "stickers/Passeriformes/Passerellidae/Passerella_iliaca.unalaschcensis.webp",
       "kind": "ai-illustration",
-      "reviewScore": 87,
+      "reviewScore": 90,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/234601817",
-       "author": "adnanimus",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/141840116",
+         "author": "Kevin Krebs",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/105188753",
+         "author": "sprcrkwild",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/406634478",
+         "author": "Thomas Boe",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/205956501",
+         "author": "Marcel_Pepin",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     },
@@ -1368353,14 +1369522,33 @@
      "sticker": {
       "file": "stickers/Passeriformes/Passerellidae/Passerella_iliaca.schistacea.webp",
       "kind": "ai-illustration",
-      "reviewScore": 88,
+      "reviewScore": 95,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/230682132",
-       "author": "Mike Clarke",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/141840116",
+         "author": "Kevin Krebs",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/105188753",
+         "author": "sprcrkwild",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/406634478",
+         "author": "Thomas Boe",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/205956501",
+         "author": "Marcel_Pepin",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     },
@@ -1379814,8 +1381002,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Phaenicophilidae/Nesospingus_speculiferus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1381923,8 +1383111,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Icteridae/Leistes_defilippii.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1383979,8 +1385167,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Icteridae/Cacicus_koepckeae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 76,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "reference-board",
@@ -1384407,8 +1385595,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Icteridae/Cacicus_chrysonotus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1384660,8 +1385848,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Icteridae/Cacicus_latirostris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 85,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1387387,8 +1388575,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Icteridae/Icterus_wagleri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1392111,8 +1393299,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Icteridae/Quiscalus_major.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1395596,8 +1396784,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Mniotilta_varia.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1397249,8 +1398437,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Leiothlypis_luciae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1400273,8 +1401461,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Setophaga_ruticilla.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1402538,14 +1403726,33 @@
      "sticker": {
       "file": "stickers/Passeriformes/Parulidae/Setophaga_coronata.auduboni.webp",
       "kind": "ai-illustration",
-      "reviewScore": 83,
+      "reviewScore": 95,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/156789877",
-       "author": "Michael Pidwirny",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/211979759",
+         "author": "sprcrkwild",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/146577032",
+         "author": "Jonathan Eisen",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/106093159",
+         "author": "John Rosford",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/12421695",
+         "author": "Robbie Hannawacker",
+         "license": "CC0 1.0"
+        }
+       ]
       }
      }
     },
@@ -1402564,14 +1403771,23 @@
      "sticker": {
       "file": "stickers/Passeriformes/Parulidae/Setophaga_coronata.goldmani.webp",
       "kind": "ai-illustration",
-      "reviewScore": 83,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/157339725",
-       "author": "stanlilley",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/331861926",
+         "author": "Tommy Andriollo",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/269887562",
+         "author": "Laurel Meredyk",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -1404867,8 +1406083,8 @@
      "sticker": {
       "file": "stickers/Passeriformes/Parulidae/Myiothlypis_bivittata.roraimae.webp",
       "kind": "ai-illustration",
-      "reviewScore": 77,
-      "meetsQualityBar": false,
+      "reviewScore": 90,
+      "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
        "type": "photo",
@@ -1405121,8 +1406337,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Myiothlypis_chlorophrys.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1406229,8 +1407445,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Myiothlypis_signata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1406799,8 +1408015,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Myiothlypis_leucoblephara.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1407060,14 +1408276,33 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Euthlypis_lachrymosa.webp",
     "kind": "ai-illustration",
-    "reviewScore": 81,
+    "reviewScore": 100,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/observations/258616294",
-     "author": "Trevor Van Loon",
-     "license": "CC BY"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/336644723",
+       "author": "datadan",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/258616294",
+       "author": "Trevor Van Loon",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/142030724",
+       "author": "Mike Ostrowski",
+       "license": "CC BY-SA"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/162099108",
+       "author": "Sinaloa Silvestre",
+       "license": "CC0 1.0"
+      }
+     ]
     }
    },
    "previous": [
@@ -1407603,8 +1408838,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Basileuterus_ignotus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1408072,8 +1409307,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Basileuterus_melanotis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1410441,8 +1411676,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Myioborus_flavivertex.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1410561,8 +1411796,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Parulidae/Myioborus_albifrons.webp",
     "kind": "ai-illustration",
-    "reviewScore": 75,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1415005,8 +1416240,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cardinalidae/Chlorothraupis_frenata.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1416544,8 +1417779,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Cardinalidae/Piranga_erythrocephala.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1417219,14 +1418454,33 @@
      "sticker": {
       "file": "stickers/Passeriformes/Cardinalidae/Piranga_flava.lutea.webp",
       "kind": "ai-illustration",
-      "reviewScore": 85,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/119699826",
-       "author": "Mason Maron",
-       "license": "All rights reserved"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/37082040",
+         "author": "danygl",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/61407088",
+         "author": "Nina P. C.",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/70568483",
+         "author": "Thibaud Aronson",
+         "license": "CC BY-SA"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/13653076",
+         "author": "Pedro Henrique Maloso Ramos",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     },
@@ -1417245,14 +1418499,33 @@
      "sticker": {
       "file": "stickers/Passeriformes/Cardinalidae/Piranga_flava.hepatica.webp",
       "kind": "ai-illustration",
-      "reviewScore": 83,
+      "reviewScore": 100,
       "meetsQualityBar": true,
       "license": "CC-BY-4.0",
       "reference": {
-       "type": "photo",
-       "page": "https://www.inaturalist.org/observations/12550684",
-       "author": "aideeisayama85",
-       "license": "CC BY-NC"
+       "type": "reference-board",
+       "items": [
+        {
+         "page": "https://www.inaturalist.org/observations/37082040",
+         "author": "danygl",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/61407088",
+         "author": "Nina P. C.",
+         "license": "CC BY"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/70568483",
+         "author": "Thibaud Aronson",
+         "license": "CC BY-SA"
+        },
+        {
+         "page": "https://www.inaturalist.org/observations/13653076",
+         "author": "Pedro Henrique Maloso Ramos",
+         "license": "CC BY"
+        }
+       ]
       }
      }
     }
@@ -1417782,8 +1419055,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Mitrospingidae/Orthogonys_chloricterus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1419354,8 +1420627,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Cyanerpes_nitidus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1419958,8 +1421231,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Dacnis_berlepschi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1425160,8 +1426433,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Tachyphonus_surinamus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1427695,8 +1428968,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Conirostrum_albifrons.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1428714,8 +1429987,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Phrygilus_punensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1431386,8 +1432659,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Sicalis_raimondii.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1432902,8 +1434175,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Catamenia_analis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1435310,8 +1436583,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Diglossa_brunneiventris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1437324,8 +1438597,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Saltator_atriceps.webp",
     "kind": "ai-illustration",
-    "reviewScore": 75,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1438582,8 +1439855,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Embernagra_platensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1439001,8 +1440274,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Emberizoides_herbicola.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1444310,8 +1445583,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Sporophila_frontalis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 75,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1445703,8 +1446976,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Sporophila_albogularis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1445969,8 +1447242,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Piezorina_cinerea.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1447260,8 +1448533,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Poospiza_goeringi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1448766,8 +1450039,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Nephelornis_oneilli.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1451362,8 +1452635,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Thlypopsis_pyrrhocoma.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1457322,8 +1458595,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Iridosornis_porphyrocephalus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 100,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1458578,8 +1459851,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Dubusia_carrikeri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1459823,8 +1461096,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Anisognathus_melanogenys.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1461351,8 +1462624,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Cissopis_leverianus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 80,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1463311,8 +1464584,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Tangara_cyanotis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1466463,8 +1467736,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Tangara_mexicana.webp",
     "kind": "ai-illustration",
-    "reviewScore": 77,
-    "meetsQualityBar": false,
+    "reviewScore": 95,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1467524,8 +1468797,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Thraupis_cyanoptera.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
@@ -1468654,8 +1469927,8 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Poecilostreptus_cabanisi.webp",
     "kind": "ai-illustration",
-    "reviewScore": 78,
-    "meetsQualityBar": false,
+    "reviewScore": 90,
+    "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",

@@ -1,5 +1,12 @@
 # Changelog / 更新记录
 
+## 2.2.15 — 2026-11-07
+
+**320 more stickers regenerated under the stricter review.** / **又按严审标准重新生成了320张贴纸。**
+
+- Stickers meeting the quality bar: 10,870 → 11,043 (of 11,064 files). / 达到质量线的贴纸：10,870 → 11,043（共11,064个文件）。
+- Regenerated under the stricter review so far: 10,114. / 按严审标准累计重新生成10,114张。
+
 ## 2.2.14 — 2026-11-07
 
 **1 more stickers regenerated under the stricter review.** / **又按严审标准重新生成了1张贴纸。**
