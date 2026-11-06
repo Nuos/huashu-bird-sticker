@@ -1,5 +1,5 @@
 {
- "version": "2.2.13",
+ "version": "2.2.14",
  "taxonomy": "AviList v2026",
  "count": 11011,
  "species": [
@@ -1455822,14 +1455822,28 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Geospiza_difficilis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 82,
+    "reviewScore": 80,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.darwinfoundation.org/en/documents/414/fcd_field_guide_landbirds_2022.pdf#page=12",
-     "author": "Michael Dvorak",
-     "license": "All rights reserved"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_RMNH.AVES.151645_1_-_Geospiza_difficilis_debilirostris_Ridgway,_1894_-_Emberizidae_-_bird_skin_specimen.jpeg",
+       "author": "Naturalis Biodiversity Center",
+       "license": "CC0 1.0"
+      },
+      {
+       "page": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_RMNH.AVES.151645_2_-_Geospiza_difficilis_debilirostris_Ridgway,_1894_-_Emberizidae_-_bird_skin_specimen.jpeg",
+       "author": "Naturalis Biodiversity Center",
+       "license": "CC0 1.0"
+      },
+      {
+       "page": "https://commons.wikimedia.org/wiki/File:Geospiza_difficilis_-_Hessisches_Landesmuseum_Darmstadt_-_Darmstadt%2C_Germany_-_DSC00096.jpg",
+       "author": "Daderot",
+       "license": "CC0 1.0"
+      }
+     ]
     }
    },
    "previous": [

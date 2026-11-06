@@ -65,9 +65,9 @@ Each AI sticker was drawn from one reference photo, or from a board of several i
 | Reference | Stickers |
 |---|---|
 | Openly licensed photo (CC0, public domain, CC BY, CC BY-SA) | 1,237 |
-| Board of openly licensed images, or a written description only | 4,431 |
+| Board of openly licensed images, or a written description only | 4,432 |
 | Photo under a non-commercial or no-derivatives license (CC BY-NC, -ND, …) | 2,401 |
-| Photo with all rights reserved, or under Macaulay Library terms | 718 |
+| Photo with all rights reserved, or under Macaulay Library terms | 717 |
 | Photo whose license we did not record | 873 |
 | Board mixing images under different terms | 1,033 |
 | Generated from a written description only, without a reference photo (`"reference": null`) | 371 |
