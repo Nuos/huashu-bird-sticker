@@ -16,6 +16,26 @@
 
 **Licença em resumo:** os adesivos estão sob a licença [CC BY 4.0](LICENSE.md): você pode usá-los para qualquer fim, inclusive comercial, e também editá-los e redistribuí-los, desde que cite huashu-bird-sticker com um link para este repositório. Os dados são MIT, e as partes de terceiros estão listadas no [NOTICE](NOTICE.md).
 
+## Usar um adesivo em uma linha
+
+Todos os adesivos são servidos pela CDN jsDelivr (com CORS), então você pode colocá-los direto numa página:
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="Guarda-rios-comum" width="240">
+```
+
+Para achar uma ave pelo nome, carregue [`data/stickers.json`](data/stickers.json) (2,7 MB: nome científico, inglês e chinês, caminho do arquivo e a página da espécie em birdalbum.com para cada adesivo). Os nomes em 43 idiomas estão em [`data/names.csv`](data/names.csv).
+
+```js
+const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
+const s = idx.stickers.find(x => x.en === "Eurasian Magpie");
+const url = idx.cdn + s.file;  // URL do adesivo
+```
+
+Dê o crédito ao lado da imagem assim, com o link para a página da espécie:
+
+`Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
 ## Galeria
 
 Dezoito dos grupos mais coloridos e característicos, 24 adesivos de cada um, escolhidos para que não haja dois parecidos. Todos os adesivos mostrados aqui atingem o padrão de qualidade.

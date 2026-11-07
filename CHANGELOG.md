@@ -1,5 +1,12 @@
 # Changelog / 更新记录
 
+## 2026-11-07 — one-line use / 一行代码用上
+
+**Every sticker now has a CDN link and a small name index.** / **每张贴纸都有CDN直链和一个小索引。**
+
+- New `data/stickers.json` (2.7 MB): scientific, English and Chinese name, sticker path and the species page on birdalbum.com for all 10,973 stickers. / 新增`data/stickers.json`（2.7 MB），含全部10,973张贴纸的学名、英文名、中文名、路径和birdalbum.com鸟种页。
+- README: a short "Use a sticker in one line" section with jsDelivr links and a suggested credit line, in all 11 languages. / README十一种语言都加了「一行代码用上」，含jsDelivr直链和推荐署名。
+
 ## 2.2.15 — 2026-11-07
 
 **320 more stickers regenerated under the stricter review.** / **又按严审标准重新生成了320张贴纸。**

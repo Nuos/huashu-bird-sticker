@@ -16,6 +16,26 @@
 
 **Лицензия кратко:** стикеры распространяются по лицензии [CC BY 4.0](LICENSE.md): их можно использовать для чего угодно, в том числе в коммерческих целях, а также изменять и распространять, если указать huashu-bird-sticker со ссылкой на этот репозиторий. Данные распространяются по лицензии MIT, а части от третьих лиц перечислены в [NOTICE](NOTICE.md).
 
+## Стикер одной строкой
+
+Все стикеры раздаются через CDN jsDelivr (CORS включён), их можно сразу вставить на страницу:
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="Обыкновенный зимородок" width="240">
+```
+
+Чтобы найти птицу по названию, загрузите [`data/stickers.json`](data/stickers.json) (2,7 МБ: научное, английское и китайское название, путь к файлу и страница вида на birdalbum.com для каждого стикера). Названия на 43 языках — в [`data/names.csv`](data/names.csv).
+
+```js
+const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
+const s = idx.stickers.find(x => x.en === "Eurasian Magpie");
+const url = idx.cdn + s.file;  // адрес стикера
+```
+
+Укажите авторство рядом с изображением так, со ссылкой на страницу вида:
+
+`Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
 ## Галерея
 
 Восемнадцать самых ярких и характерных групп, по 24 стикера из каждой, подобранных так, чтобы никакие два не были похожи. Все показанные здесь стикеры соответствуют порогу качества.

@@ -16,6 +16,26 @@
 
 **授权一句话：** 贴纸按[CC BY 4.0](LICENSE.md)授权，可以免费用于任何用途，包括商用、修改和再分发，只要注明来自huashu-bird-sticker并附上仓库链接。数据按MIT授权，第三方部分见[NOTICE](NOTICE.md)。
 
+## 一行代码用上
+
+每张贴纸都能直接从jsDelivr CDN加载（已开跨域），放进网页即可：
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="普通翠鸟" width="240">
+```
+
+要按鸟名查贴纸，加载[`data/stickers.json`](data/stickers.json)（2.7 MB，每张贴纸的学名、英文名、中文名、文件路径和birdalbum.com上的鸟种页）。43种语言的鸟名在[`data/names.csv`](data/names.csv)。
+
+```js
+const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
+const s = idx.stickers.find(x => x.zh === "欧亚喜鹊");
+const url = idx.cdn + s.file;  // 贴纸网址
+```
+
+在图片旁边这样署名，并链接到鸟种页：
+
+`Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
 ## 画廊
 
 18个最多彩、长相最有特点的类群，每组24张，尽量挑彼此长得不一样的。这里展示的都是达到质量线的贴纸。

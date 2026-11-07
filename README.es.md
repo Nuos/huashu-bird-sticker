@@ -16,6 +16,26 @@
 
 **Licencia en breve:** las pegatinas tienen licencia [CC BY 4.0](LICENSE.md): puede usarlas para cualquier fin, incluido el comercial, y también editarlas y redistribuirlas, siempre que mencione huashu-bird-sticker con un enlace a este repositorio. Los datos están bajo licencia MIT y las partes de terceros figuran en [NOTICE](NOTICE.md).
 
+## Usar una pegatina en una línea
+
+Todas las pegatinas se sirven desde la CDN de jsDelivr (con CORS), así que puede ponerlas directamente en una página:
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="Martín pescador común" width="240">
+```
+
+Para buscar un ave por su nombre, cargue [`data/stickers.json`](data/stickers.json) (2,7 MB: nombre científico, inglés y chino, ruta del archivo y la página de la especie en birdalbum.com para cada pegatina). Los nombres en 43 idiomas están en [`data/names.csv`](data/names.csv).
+
+```js
+const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
+const s = idx.stickers.find(x => x.en === "Eurasian Magpie");
+const url = idx.cdn + s.file;  // URL de la pegatina
+```
+
+Cite la fuente junto a la imagen así, con el enlace a la página de la especie:
+
+`Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
 ## Galería
 
 Dieciocho de los grupos más coloridos y característicos, 24 pegatinas de cada uno, elegidas para que no haya dos que se parezcan. Todas las pegatinas que se muestran aquí cumplen el nivel de calidad.

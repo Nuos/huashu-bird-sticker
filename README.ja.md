@@ -16,6 +16,26 @@
 
 **ライセンスを一言で:** ステッカーは[CC BY 4.0](LICENSE.md)です。huashu-bird-stickerの名前とこのリポジトリへのリンクを添えれば、商用を含むどんな用途にも使え、加工や再配布もできます。データはMITで、第三者に由来する部分は[NOTICE](NOTICE.md)に記載しています。
 
+## 1行で使う
+
+ステッカーはすべてjsDelivr CDNから直接読み込めます（CORS対応）。そのままページに貼れます：
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="カワセミ" width="240">
+```
+
+名前でステッカーを探すには[`data/stickers.json`](data/stickers.json)を読み込みます（2.7 MB。全ステッカーの学名、英名、中国語名、ファイルパス、birdalbum.comの種ページ）。43言語の名前は[`data/names.csv`](data/names.csv)にあります。
+
+```js
+const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
+const s = idx.stickers.find(x => x.en === "Eurasian Magpie");
+const url = idx.cdn + s.file;  // ステッカーのURL
+```
+
+画像の近くに、種ページへのリンクを付けてこう表記してください：
+
+`Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
 ## ギャラリー
 
 色彩が豊かで特徴のある18のグループを、それぞれ24枚ずつ、互いに似て見えないように選びました。ここに載せたステッカーはすべて品質基準を満たしています。

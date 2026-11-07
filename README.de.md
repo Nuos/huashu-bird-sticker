@@ -16,6 +16,26 @@
 
 **Lizenz in Kürze:** Die Sticker stehen unter [CC BY 4.0](LICENSE.md): Sie dürfen für alles genutzt werden, auch kommerziell, ebenso bearbeitet und weitergegeben, sofern Sie huashu-bird-sticker mit einem Link auf dieses Repository nennen. Die Daten stehen unter MIT, Teile von Dritten sind in [NOTICE](NOTICE.md) aufgeführt.
 
+## Einen Sticker mit einer Zeile einbinden
+
+Jeder Sticker wird über das jsDelivr-CDN ausgeliefert (mit CORS), Sie können ihn also direkt in eine Seite setzen:
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="Eisvogel" width="240">
+```
+
+Um einen Vogel nach Namen zu finden, laden Sie [`data/stickers.json`](data/stickers.json) (2,7 MB: wissenschaftlicher, englischer und chinesischer Name, Dateipfad und die Artseite auf birdalbum.com für jeden Sticker). Namen in 43 Sprachen stehen in [`data/names.csv`](data/names.csv).
+
+```js
+const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
+const s = idx.stickers.find(x => x.en === "Eurasian Magpie");
+const url = idx.cdn + s.file;  // Sticker-URL
+```
+
+Nennen Sie die Quelle neben dem Bild so, mit Link zur Artseite:
+
+`Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
 ## Galerie
 
 Achtzehn der farbenprächtigsten und markantesten Gruppen, je 24 Sticker, so ausgewählt, dass keine zwei gleich aussehen. Alle hier gezeigten Sticker erfüllen den Qualitätsanspruch.

@@ -16,6 +16,26 @@
 
 **授權一句話：** 貼紙採用 [CC BY 4.0](LICENSE.md) 授權，可以免費用於任何用途，包括商業用途、修改與再散布，只要標明來自 huashu-bird-sticker 並附上本儲存庫連結。資料採用 MIT，第三方部分請見 [NOTICE](NOTICE.md)。
 
+## 一行程式碼用上
+
+每張貼紙都能直接從 jsDelivr CDN 載入（已開跨網域），放進網頁即可：
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="普通翠鳥" width="240">
+```
+
+要按鳥名查貼紙，載入 [`data/stickers.json`](data/stickers.json)（2.7 MB，每張貼紙的學名、英文名、簡體中文名、檔案路徑和 birdalbum.com 上的鳥種頁）。43 種語言的鳥名在 [`data/names.csv`](data/names.csv)。
+
+```js
+const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
+const s = idx.stickers.find(x => x.en === "Eurasian Magpie");
+const url = idx.cdn + s.file;  // 貼紙網址
+```
+
+在圖片旁邊這樣署名，並連結到鳥種頁：
+
+`Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
 ## 圖鑑一覽
 
 十八個最鮮豔、最有特色的類群，每個類群 24 張貼紙，挑選時力求彼此看起來不重複。這裡展示的貼紙全都達到品質標準。

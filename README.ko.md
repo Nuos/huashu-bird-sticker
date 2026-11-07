@@ -16,6 +16,26 @@
 
 **라이선스 한눈에 보기:** 스티커는 [CC BY 4.0](LICENSE.md)입니다. huashu-bird-sticker를 밝히고 이 저장소 링크를 달면 상업적 이용을 포함해 어떤 용도로든 쓸 수 있고, 수정과 재배포도 가능합니다. 데이터는 MIT이며, 제3자에게서 온 부분은 [NOTICE](NOTICE.md)에 정리되어 있습니다.
 
+## 한 줄로 쓰기
+
+모든 스티커는 jsDelivr CDN에서 바로 불러올 수 있습니다(CORS 허용). 페이지에 그대로 넣으면 됩니다:
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="물총새" width="240">
+```
+
+이름으로 스티커를 찾으려면 [`data/stickers.json`](data/stickers.json)을 불러오세요(2.7 MB. 모든 스티커의 학명, 영어명, 중국어명, 파일 경로, birdalbum.com 종 페이지). 43개 언어의 이름은 [`data/names.csv`](data/names.csv)에 있습니다.
+
+```js
+const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
+const s = idx.stickers.find(x => x.en === "Eurasian Magpie");
+const url = idx.cdn + s.file;  // 스티커 URL
+```
+
+이미지 옆에 종 페이지 링크와 함께 이렇게 표기해 주세요:
+
+`Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
 ## 갤러리
 
 가장 색이 화려하고 특징 있는 18개 무리를 무리마다 24장씩, 서로 비슷해 보이지 않도록 골랐습니다. 여기 실린 스티커는 모두 품질 기준을 충족합니다.

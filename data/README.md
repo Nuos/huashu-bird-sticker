@@ -7,6 +7,7 @@
 | `species.json` | Everything below except the Chinese field-guide text | MIT for our compilation; third-party fields keep their terms (see Sources) |
 | `species.csv` | Taxonomy, main names, IDs, sticker and reference info | as above |
 | `names.csv` | Names in 43 languages, one column per language | English: CC BY 4.0 (AviList); others: CC BY 3.0 (IOC) |
+| `stickers.json` | Small index for apps and web pages: scientific, English and Chinese name, sticker path, the species page on birdalbum.com, and the jsDelivr CDN prefix | MIT |
 | `languages.json` | Language codes and the IOC multilingual column each comes from | MIT |
 | `crosswalk-ioc15.2-avilist2026.csv` | How each IOC 15.2 species (the taxonomy of version 0.1) maps to AviList v2026 | MIT |
 | `field-guide.zh-Hans.json` | Chinese field-guide notes for 1,596 taxa | CC BY-SA 4.0 |

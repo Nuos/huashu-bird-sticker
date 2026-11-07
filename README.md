@@ -18,6 +18,26 @@ By [Huashu (花叔)](https://github.com/alchaincyf), from the bird-watching app 
 
 **License in short:** the stickers are licensed under [CC BY 4.0](LICENSE.md): use them for anything, including commercial work, editing and redistribution, as long as you credit huashu-bird-sticker with a link to this repository. The data is MIT, and third-party parts are listed in [NOTICE](NOTICE.md).
 
+## Use a sticker in one line
+
+Every sticker is served by the jsDelivr CDN (CORS enabled), so you can put it straight into a page:
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="Common Kingfisher" width="240">
+```
+
+To look a bird up by name, load [`data/stickers.json`](data/stickers.json) (2.7 MB: scientific, English and Chinese name, file path and the species page on birdalbum.com for every sticker). Names in 43 languages are in [`data/names.csv`](data/names.csv).
+
+```js
+const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
+const s = idx.stickers.find(x => x.en === "Eurasian Magpie");
+const url = idx.cdn + s.file;  // the sticker URL
+```
+
+Credit it next to the image like this, with the link to the species page:
+
+`Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
 ## Gallery
 
 Eighteen of the most colourful and distinctive groups, 24 stickers each, picked so that no two look alike. Every sticker shown here meets the quality bar.

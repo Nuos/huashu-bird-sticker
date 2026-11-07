@@ -16,6 +16,26 @@
 
 **Licence en bref :** les autocollants sont sous licence [CC BY 4.0](LICENSE.md) : vous pouvez les utiliser pour tout, y compris en usage commercial, les modifier et les redistribuer, à condition de citer huashu-bird-sticker avec un lien vers ce dépôt. Les données sont sous licence MIT, et les éléments provenant de tiers sont listés dans [NOTICE](NOTICE.md).
 
+## Utiliser un autocollant en une ligne
+
+Chaque autocollant est servi par le CDN jsDelivr (CORS activé) : vous pouvez l’insérer directement dans une page :
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="Martin-pêcheur d’Europe" width="240">
+```
+
+Pour chercher un oiseau par son nom, chargez [`data/stickers.json`](data/stickers.json) (2,7 Mo : nom scientifique, anglais et chinois, chemin du fichier et page de l’espèce sur birdalbum.com pour chaque autocollant). Les noms en 43 langues sont dans [`data/names.csv`](data/names.csv).
+
+```js
+const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
+const s = idx.stickers.find(x => x.en === "Eurasian Magpie");
+const url = idx.cdn + s.file;  // URL de l’autocollant
+```
+
+Créditez-le à côté de l’image ainsi, avec le lien vers la page de l’espèce :
+
+`Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
 ## Galerie
 
 Dix-huit des groupes les plus colorés et les plus caractéristiques, 24 autocollants pour chacun, choisis pour que deux d'entre eux ne se ressemblent jamais. Tous les autocollants montrés ici atteignent le seuil de qualité.

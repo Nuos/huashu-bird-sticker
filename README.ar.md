@@ -16,6 +16,26 @@
 
 **الرخصة باختصار:** الملصقات مرخّصة بموجب [CC BY 4.0](LICENSE.md): يمكنك استخدامها في أي غرض، بما في ذلك الاستخدام التجاري والتعديل وإعادة التوزيع، بشرط أن تذكر huashu-bird-sticker مع رابط هذا المستودع. البيانات برخصة MIT، والأجزاء التي تعود إلى أطراف ثالثة مذكورة في [NOTICE](NOTICE.md).
 
+## استخدم ملصقًا بسطر واحد
+
+كل الملصقات متاحة عبر شبكة jsDelivr لتوزيع المحتوى (مع تفعيل CORS)، فيمكنك وضعها مباشرة في أي صفحة:
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="Common Kingfisher" width="240">
+```
+
+للبحث عن طائر باسمه، حمّل [`data/stickers.json`](data/stickers.json) (2.7 ميغابايت: الاسم العلمي والإنجليزي والصيني ومسار الملف وصفحة النوع على birdalbum.com لكل ملصق). الأسماء بـ43 لغة موجودة في [`data/names.csv`](data/names.csv).
+
+```js
+const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
+const s = idx.stickers.find(x => x.en === "Eurasian Magpie");
+const url = idx.cdn + s.file;  // رابط الملصق
+```
+
+انسب الملصق بجانب الصورة هكذا، مع رابط إلى صفحة النوع:
+
+`Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
 ## المعرض
 
 ثماني عشرة من أكثر المجموعات ألوانًا وتميّزًا، في كل منها 24 ملصقًا، اخترناها بحيث لا يتشابه اثنان منها. جميع الملصقات المعروضة هنا تستوفي معيار الجودة.
