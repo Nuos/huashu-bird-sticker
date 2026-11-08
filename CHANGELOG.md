@@ -1,5 +1,16 @@
 # Changelog / 更新记录
 
+## 2.3.0 — 2026-11-09
+
+**Every species has a sticker, and every sticker passed the stricter review.** / **每个种都有了贴纸，每张贴纸都通过了更严的审核。**
+
+- The 38 species that had no sticker (species involved in AviList splits, and species new to the list) now have one: all 11,011 species, 11,102 files with the subspecies. / 此前没有贴纸的38种（涉及AviList拆分的种和新收录的种）补上了：11,011种全部有贴纸，含亚种共11,102个文件。
+- The 1,622 stickers left from earlier reviews were checked again to the stricter standard: 542 passed as they were, 1,080 were generated again until a new version passed. Stickers meeting the quality bar: 11,043 → 11,102 (all). / 早期审核留下的1,622张按更严的标准重审：542张原样通过，1,080张重新生成到新版过线。达到质量线的贴纸：11,043 → 11,102（全部）。
+- Since 5 November we no longer give the image model reference photos with all rights reserved, under Macaulay Library terms, or without a recorded license. 68 stickers generated after that date had been given such photos by mistake; they were generated again with Creative Commons or public-domain photos. The White Tern (*Gygis alba*) reference was also changed from CC BY-NC to CC0 and CC BY photos. / 11月5日起，不再把保留所有权利、Macaulay Library条款或没记录授权的照片交给生图模型。此后生成的贴纸里有68张误用了这类照片，已换CC授权或公有领域照片重新生成。白燕鸥（*Gygis alba*）的参考照也从CC BY-NC换成了CC0和CC BY照片。
+- `data/species.json`: stickers made without a reference photo now always have `"reference": null` (369 had left the field out); review scores of 455 stickers updated to the latest review; e-mail addresses removed from three photographer names. / `data/species.json`：没参考照的贴纸一律写`"reference": null`（此前369条省略了这个字段）；455张贴纸的审核分数更新为最近一次审核；3处摄影师署名里的邮箱地址已去掉。
+- New: [how the stickers are made](docs/how-the-stickers-are-made.md) (the loop, an example prompt, what we learned), a [family review](../../issues/new?template=family-review.yml) issue template and [CONTRIBUTORS.md](CONTRIBUTORS.md). Takedown requests now go through the [takedown form](../../issues/new?template=takedown.yml) only. / 新增[贴纸是怎么生成的](docs/how-the-stickers-are-made.zh-Hans.md)（流程、提示词案例、经验）、「审一个科」issue模板和[CONTRIBUTORS.md](CONTRIBUTORS.md)。撤图申请统一走[撤图表单](../../issues/new?template=takedown.yml)。
+- `data/stickers.json` now covers all 11,011 species. / `data/stickers.json`覆盖全部11,011种。
+
 ## 2026-11-07 — one-line use / 一行代码用上
 
 **Every sticker now has a CDN link and a small name index.** / **每张贴纸都有CDN直链和一个小索引。**

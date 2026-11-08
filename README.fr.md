@@ -8,7 +8,7 @@
 
 **Découvrez toute la bibliothèque en situation sur [birdalbum.com](https://birdalbum.com/fr/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker).** Bird Album est un guide des oiseaux gratuit construit sur ces autocollants : cherchez n'importe quelle espèce par son nom dans 15 langues, voyez où elle vit et à quels mois on peut la croiser, et ouvrez une carte de 8 171 sites d'observation qui montre ce que les gens observent ce mois-ci à chacun.
 
-11 011 espèces d'oiseaux réparties en 45 ordres et 249 familles, d'après [AviList v2026](https://www.avilist.org/), la liste mondiale unifiée qui a remplacé en 2025 les listes de l'IOC et de Clements. Toutes les espèces vivantes sont incluses, plus 43 qu'AviList signale comme éteintes, éteintes à l'état sauvage ou possiblement éteintes mais qui avaient déjà un autocollant (voir `extinctionStatus`). 10 973 espèces ont un autocollant ; les 38 autres ont été scindées récemment et sont en cours de dessin. Chaque espèce est accompagnée de données structurées : taxonomie, noms dans jusqu'à 43 langues, identifiants dans d'autres bases de données et provenance de chaque autocollant.
+11 011 espèces d'oiseaux réparties en 45 ordres et 249 familles, d'après [AviList v2026](https://www.avilist.org/), la liste mondiale unifiée qui a remplacé en 2025 les listes de l'IOC et de Clements. Toutes les espèces vivantes sont incluses, plus 43 qu'AviList signale comme éteintes, éteintes à l'état sauvage ou possiblement éteintes mais qui avaient déjà un autocollant (voir `extinctionStatus`). Chaque espèce a un autocollant. Chaque espèce est accompagnée de données structurées : taxonomie, noms dans jusqu'à 43 langues, identifiants dans d'autres bases de données et provenance de chaque autocollant.
 
 > **La version 2.0 a fait passer la taxonomie de l'IOC 15.2 à AviList v2026.** 82 espèces ont changé de nom scientifique (donc d'`id` et de chemin d'autocollant), 91 anciennes espèces sont désormais des sous-espèces d'une autre espèce et 30 nouvelles espèces ont été scindées. Tous les changements sont listés dans [`data/crosswalk-ioc15.2-avilist2026.csv`](data/crosswalk-ioc15.2-avilist2026.csv), et chaque fiche conserve son ancien identifiant IOC dans `previous`. Voir le [CHANGELOG](CHANGELOG.md).
 
@@ -24,7 +24,7 @@ Chaque autocollant est servi par le CDN jsDelivr (CORS activé) : vous pouvez l�
 <img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="Martin-pêcheur d’Europe" width="240">
 ```
 
-Pour chercher un oiseau par son nom, chargez [`data/stickers.json`](data/stickers.json) (2,7 Mo : nom scientifique, anglais et chinois, chemin du fichier et page de l’espèce sur birdalbum.com pour chaque autocollant). Les noms en 43 langues sont dans [`data/names.csv`](data/names.csv).
+Pour chercher un oiseau par son nom, chargez [`data/stickers.json`](data/stickers.json) (2,7 Mo : nom scientifique, anglais et chinois, chemin du fichier et page de l’espèce sur birdalbum.com pour chacune des 11 011 espèces ; les 91 autocollants de sous-espèces sont listés sous `forms` dans `data/species.json`). Les noms en 43 langues sont dans [`data/names.csv`](data/names.csv).
 
 ```js
 const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
@@ -35,6 +35,16 @@ const url = idx.cdn + s.file;  // URL de l’autocollant
 Créditez-le à côté de l’image ainsi, avec le lien vers la page de l’espèce :
 
 `Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
+## L’oiseau du jour
+
+Un oiseau différent chaque jour sur votre profil GitHub, blog ou page Notion. Collez cette ligne dans n’importe quel Markdown (`?lang=` pour 15 langues, `?theme=dark` ou `auto`) :
+
+```markdown
+[![L’oiseau du jour](https://birdalbum.com/today.svg?lang=fr)](https://birdalbum.com/today/?lang=fr)
+```
+
+[![L’oiseau du jour](https://birdalbum.com/today.svg?lang=fr)](https://birdalbum.com/today/?lang=fr)
 
 ## Galerie
 
@@ -158,27 +168,28 @@ Voici à quoi ressemble une fiche (noms abrégés) :
 
 - Noms : l'anglais (AviList) couvre toutes les espèces. Les autres langues viennent de la liste multilingue de l'IOC et ne sont conservées que là où le concept d'espèce n'a pas changé ; pour les 129 espèces dont les limites ont changé (regroupements et scissions) ou qui sont nouvelles, un ancien nom peut désigner un autre ensemble d'oiseaux, nous l'avons donc omis plutôt que de deviner. Le chinois simplifié couvre 10 947 espèces (chaque espèce modifiée a été vérifiée à la main) ; le français, l'espagnol, l'allemand, le russe, le japonais et le chinois traditionnel dépassent 94 %. Le coréen, l'arabe, le thaï, le persan et quelques autres ne couvrent que de quelques centaines à environ mille espèces, car c'est ce que contient la liste de l'IOC. Voir `data/names.csv`.
 - Identifiants : eBird 10 983 et Avibase 11 011, tous deux repris d'AviList ; Wikidata 10 757, GBIF 10 477.
-- Autocollants : 10 973 sur 11 011 espèces, plus 91 autocollants de sous-espèces. Les 38 espèces qui n'en ont pas encore sont listées avec `"sticker": null`.
+- Autocollants : les 11 011 espèces, plus 91 autocollants de sous-espèces, soit 11 102 fichiers au total.
 
 ## Comment les autocollants ont été faits, et leur qualité
 
-Les 11 064 fichiers d'autocollants sont des illustrations générées par IA. Pour chaque espèce, nous avons trouvé une photo de référence (ou, pour les 453 espèces où aucune photo seule n'était assez bonne, une planche de plusieurs images accompagnée d'une description écrite), dessiné l'autocollant avec GPT-image, l'avons agrandi puis détouré.
+Les 11 102 fichiers d'autocollants sont des illustrations générées par IA. Pour chaque espèce, nous avons trouvé des photos de référence (depuis novembre 2026, quand nous avons pu en trouver, une planche de photos de plusieurs photographes), dessiné l'autocollant avec GPT-image, l'avons agrandi puis détouré. Pour qui veut faire quelque chose de semblable, les prompts, les règles de pose et les critères d’évaluation sont dans [docs/how-the-stickers-are-made.md](docs/how-the-stickers-are-made.md) (en anglais).
 
-Chaque autocollant IA a ensuite été noté par un relecteur distinct, en le comparant à la référence sur les critères de terrain : bec, œil, pattes et pieds, motif et couleur du plumage. Au dernier tour, 852 autocollants limites (80–82) ont en plus subi une seconde relecture en aveugle ; 211 d'entre eux l'ont échouée et ont été générés à nouveau. Les autocollants limites des tours précédents n'ont pas eu cette seconde relecture. En novembre 2026, nous avons réexaminé les autocollants selon un critère plus strict, comme des planches de guide de terrain, et en avons généré à nouveau 10 114. Un autocollant généré à nouveau ne réussit la relecture que si chacun des cinq critères — identification, plumage, bec et œil, pattes et pieds, proportions — obtient au moins 3 sur 4, si l'identification obtient 4 et si le relecteur l'accepterait comme planche de guide de terrain.
+Chaque autocollant a ensuite été noté par un relecteur IA distinct. En novembre 2026, nous avons réexaminé tous les autocollants selon un critère plus strict, comme des planches de guide de terrain : un autocollant ne réussit la relecture que si chacun des cinq critères — identification, plumage, bec et œil, pattes et pieds, proportions — obtient au moins 3 sur 4, si l'identification obtient 4 et si le relecteur l'accepterait comme planche de guide de terrain. 77 autocollants l'ont réussie tels quels ; les 11 025 autres ont été générés à nouveau jusqu'à ce qu'une nouvelle version la réussisse.
 
-- **11 043 atteignent notre seuil de qualité** (`"meetsQualityBar": true`) : les autocollants qui ont réussi la relecture plus stricte décrite ci-dessus ou ont obtenu une note de 80 ou plus lors de la relecture précédente.
-- **21 ne l'atteignent pas.** Nous avons gardé la version la mieux notée pour qu'aucune espèce ne reste sans image : 17 sont notés entre 70 et 79 et 4 en dessous de 70. Nous sommes en train de les générer à nouveau ; voir le [ticket n° 1](../../issues/1) et le [ticket n° 3](../../issues/3) pour les types d'erreurs que nous corrigeons.
-- **Certains ont été générés à partir d’une description écrite seulement**, sans photo de référence (`"reference": null` dans `data/species.json` ; le nombre figure dans [data/README.md](data/README.md#reference-photos)). Ils risquent davantage de contenir des erreurs que les stickers comparés à une photo. Sur [birdalbum.com](https://birdalbum.com/), la page de l’espèce porte un avertissement supplémentaire pour ces stickers, comme pour ceux qui n’atteignent pas le seuil de qualité.
+- **Les 11 102 atteignent notre seuil de qualité** (`"meetsQualityBar": true`) : tous ont réussi la relecture plus stricte décrite ci-dessus. Le relecteur est une IA, pas un spécialiste des oiseaux : réussir ne veut donc pas dire qu'un autocollant est sans erreur ; voir le [ticket n° 1](../../issues/1) et le [ticket n° 3](../../issues/3) pour les types d'erreurs relevées par des ornithologues amateurs.
+- **Certains ont été générés à partir d’une description écrite seulement**, sans photo de référence (`"reference": null` dans `data/species.json` ; le nombre figure dans [data/README.md](data/README.md#reference-photos)). Ils risquent davantage de contenir des erreurs que les stickers comparés à une photo. Sur [birdalbum.com](https://birdalbum.com/), la page de l’espèce porte un avertissement supplémentaire pour ces stickers.
 
 Ce sont des illustrations, pas des planches de guide de terrain. Voyez-les comme une image sympathique de l'oiseau, et consultez un guide de terrain avant de vous fier à un détail fin. Si vous repérez une erreur, [ouvrez un ticket](../../issues/new/choose) : les corrections des ornithologues amateurs sont la contribution la plus précieuse que ce projet puisse recevoir.
+
+**Vous connaissez bien un groupe d’oiseaux ?** [Relisez une famille](../../issues/new?template=family-review.yml) et dites-nous quels stickers sont faux. Chaque sticker signalé est régénéré et revu, et votre nom figure dans [CONTRIBUTORS.md](CONTRIBUTORS.md).
 
 ## À propos des photos de référence
 
 **À quoi sert une référence.** Un autocollant montre à quoi ressemble une espèce : les couleurs et les motifs du plumage, le bec, l'œil, les pattes et les proportions. Ce sont des faits sur l'oiseau, les mêmes qu'un guide de terrain décrit avec des mots. Une description écrite ne suffit souvent pas au modèle d'image pour les rendre correctement ; nous utilisons donc des photos de référence.
 
-**Comment nous l'utilisons.** Pour chaque espèce, on montre au modèle d'image une ou plusieurs photos de référence avec une description écrite des critères d'identification, et il dessine une nouvelle illustration. Nous ne reprenons ni la composition, ni l'arrière-plan, ni la lumière de la photo : les autocollants générés à nouveau depuis novembre 2026 adoptent tous la même posture de profil standard, fixée par nous, sur un fond uni, quelle que soit l'attitude de l'oiseau sur la photo. Un relecteur distinct vérifie ensuite le dessin au regard des critères d'identification. Désormais, nous utilisons autant que possible des photos de plusieurs observateurs pour chaque espèce, afin qu'un autocollant reflète l'espèce plutôt qu'une image en particulier. Ce dépôt ne contient aucune photo de référence.
+**Comment nous l'utilisons.** Pour chaque espèce, on montre au modèle d'image une ou plusieurs photos de référence avec une description écrite des critères d'identification, et il dessine une nouvelle illustration. La façon dont les photos ont servi dépend de la date de l'autocollant. Les premiers autocollants, générés avant novembre 2026, s'appuyaient sur une photo par espèce, et l'apparence de l'oiseau comme sa posture sur cette photo servaient de référence. Depuis novembre 2026, les photos servent uniquement à vérifier l'apparence de l'oiseau ; nous ne reprenons ni la posture, ni la composition, ni l'arrière-plan, ni la lumière de la photo. Chaque oiseau est dessiné dans une posture standard fixée par nous, sur un fond uni (debout et de profil pour la plupart des groupes ; les oiseaux qui nagent, ceux qui volent et quelques autres groupes ont leurs propres postures). Quand nous avons pu en trouver, les photos proviennent de plusieurs photographes, afin qu'un autocollant reflète l'espèce plutôt qu'une image en particulier (6 369 autocollants ont été faits avec une planche de plusieurs images). Depuis, tous les premiers autocollants sauf 77 ont été générés à nouveau de cette façon ; ces 77 ont réussi tels quels la relecture plus stricte. Un relecteur distinct vérifie ensuite le dessin au regard des critères d'identification. Ce dépôt ne contient aucune photo de référence.
 
-**Crédits et retrait.** Les photos de référence de chaque autocollant (page, auteur et licence) sont listées dans `sticker.reference`, dans `data/species.json` : chaque autocollant peut donc être relié à ses sources. Une répartition selon la licence des photos de référence se trouve dans [data/README.md](data/README.md#reference-photos). Si l'une de vos photos a servi de référence et que vous préférez qu'elle ne le soit pas, ouvrez un ticket ou écrivez à alchaincyf@gmail.com : nous remplacerons l'autocollant sous 7 jours.
+**Crédits et retrait.** Les photos de référence que nous avons notées pour chaque autocollant (page et, quand ils sont connus, auteur et licence) sont listées dans `sticker.reference`, dans `data/species.json` ; les autocollants générés à partir d'une description écrite seulement ont `"reference": null`. Une répartition selon la licence des photos de référence se trouve dans [data/README.md](data/README.md#reference-photos). Si l'une de vos photos a servi de référence et que vous préférez qu'elle ne le soit pas, [faites une demande de retrait](../../issues/new?template=takedown.yml) : nous remplacerons l'autocollant sous 7 jours.
 
 ## Utilisation
 
@@ -202,6 +213,14 @@ git clone --filter=blob:none --sparse https://github.com/alchaincyf/huashu-bird-
 cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 ```
 
+## Ils l’utilisent
+
+- [水杉输入法 MSIME](https://github.com/metasequoiaime/msime) : une méthode de saisie du chinois multiplateforme ; son dictionnaire de noms d’oiseaux est généré à partir de `data/species.json`.
+- [Everybird](https://github.com/yusuftaleb/everybird-stickers), de Yusuf Taleb : les stickers, réduits et nommés par code eBird.
+- Référencé dans [Awesome Public Datasets](https://github.com/awesomedata/apd-core), catégorie Biology.
+
+Vous l’utilisez quelque part ? Ouvrez une issue et nous vous ajouterons ici.
+
 ## Crédits
 
 - Taxonomie, noms anglais, aires de répartition et identifiants eBird et Avibase : AviList Core Team. 2026. AviList: The Global Avian Checklist, v2026. https://doi.org/10.2173/avilist.v2026, CC BY 4.0.
@@ -211,4 +230,4 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 - Photographes des images de référence : mentionnés espèce par espèce dans `data/species.json`. Les photos de référence ne sont pas incluses dans ce dépôt.
 - Autocollants dessinés pour 鸣迹 (Mingji), un carnet d'observation des oiseaux pour iOS.
 
-Si l'une de vos photos a servi de référence pour un autocollant et que vous préférez qu'elle ne le soit pas, ouvrez un ticket ou écrivez à alchaincyf@gmail.com : nous remplacerons l'autocollant sous 7 jours.
+Si l'une de vos photos a servi de référence pour un autocollant et que vous préférez qu'elle ne le soit pas, [faites une demande de retrait](../../issues/new?template=takedown.yml) : nous remplacerons l'autocollant sous 7 jours.

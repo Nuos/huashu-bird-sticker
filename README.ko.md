@@ -8,7 +8,7 @@
 
 **라이브러리 전체가 실제로 쓰이는 모습은 [birdalbum.com](https://birdalbum.com/ko/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker)에서 볼 수 있습니다.** Bird Album은 이 스티커로 만든 무료 조류 가이드입니다. 15개 언어로 종 이름을 검색하고, 그 새가 어디에 살고 어느 달에 볼 수 있는지 확인할 수 있으며, 탐조지 8,171곳이 표시된 지도에서 각 장소에서 이번 달 사람들이 어떤 새를 보고 있는지 열어 볼 수 있습니다.
 
-새 11,011종, 45개 목 249개 과. 전 세계 통합 조류 목록 [AviList v2026](https://www.avilist.org/)을 따라 정리했습니다. AviList는 IOC와 Clements 두 목록을 2025년에 합쳐 만든 합의 목록입니다. 현생종은 모두 들어 있고, AviList가 멸종·야생 절멸·멸종 가능성으로 분류했지만 이미 스티커가 있던 43종도 남겨 두었습니다(`extinctionStatus` 참고). 10,973종에 스티커가 있고, 나머지 38종은 최근 새로 분할된 종으로 지금 그리는 중입니다. 각 종에는 분류, 최대 43개 언어의 이름, 여러 데이터베이스의 ID, 스티커별 출처 같은 구조화된 데이터가 함께 들어 있습니다.
+새 11,011종, 45개 목 249개 과. 전 세계 통합 조류 목록 [AviList v2026](https://www.avilist.org/)을 따라 정리했습니다. AviList는 IOC와 Clements 두 목록을 2025년에 합쳐 만든 합의 목록입니다. 현생종은 모두 들어 있고, AviList가 멸종·야생 절멸·멸종 가능성으로 분류했지만 이미 스티커가 있던 43종도 남겨 두었습니다(`extinctionStatus` 참고). 모든 종에 스티커가 있습니다. 각 종에는 분류, 최대 43개 언어의 이름, 여러 데이터베이스의 ID, 스티커별 출처 같은 구조화된 데이터가 함께 들어 있습니다.
 
 > **2.0 버전에서 분류를 IOC 15.2에서 AviList v2026으로 바꿨습니다.** 82종의 학명이 바뀌었고(그에 따라 `id`와 스티커 경로도 바뀝니다), 독립종이었던 91종이 다른 종의 아종이 되었으며, 30종이 새로 분할되었습니다. 모든 변경 사항은 [`data/crosswalk-ioc15.2-avilist2026.csv`](data/crosswalk-ioc15.2-avilist2026.csv)에 정리했고, 각 레코드의 `previous`에는 예전 IOC ID를 남겨 두었습니다. [CHANGELOG](CHANGELOG.md)도 참고하세요.
 
@@ -24,7 +24,7 @@
 <img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="물총새" width="240">
 ```
 
-이름으로 스티커를 찾으려면 [`data/stickers.json`](data/stickers.json)을 불러오세요(2.7 MB. 모든 스티커의 학명, 영어명, 중국어명, 파일 경로, birdalbum.com 종 페이지). 43개 언어의 이름은 [`data/names.csv`](data/names.csv)에 있습니다.
+이름으로 스티커를 찾으려면 [`data/stickers.json`](data/stickers.json)을 불러오세요(2.7 MB. 11,011종 각각의 학명, 영어명, 중국어명, 파일 경로, birdalbum.com 종 페이지. 아종 스티커 91장은 `data/species.json`의 `forms`에 있습니다). 43개 언어의 이름은 [`data/names.csv`](data/names.csv)에 있습니다.
 
 ```js
 const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
@@ -35,6 +35,16 @@ const url = idx.cdn + s.file;  // 스티커 URL
 이미지 옆에 종 페이지 링크와 함께 이렇게 표기해 주세요:
 
 `Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
+## 오늘의 새
+
+GitHub 프로필, 블로그, Notion에 매일 바뀌는 새 카드를 넣어 보세요. 이 한 줄을 Markdown에 붙이면 됩니다(`?lang=`으로 15개 언어, `?theme=dark` 또는 `auto`):
+
+```markdown
+[![오늘의 새](https://birdalbum.com/today.svg?lang=ko)](https://birdalbum.com/today/?lang=ko)
+```
+
+[![오늘의 새](https://birdalbum.com/today.svg?lang=ko)](https://birdalbum.com/today/?lang=ko)
 
 ## 갤러리
 
@@ -159,27 +169,28 @@ const url = idx.cdn + s.file;  // 스티커 URL
 - 이름: 영어는 AviList의 영어 이름으로 모든 종을 포함합니다. 다른 언어는 IOC 다국어 목록에서 왔고, 종의 범위가 달라지지 않은 경우에만 이어받았습니다. 통합·분할로 범위가 바뀌었거나 새로 생긴 129종은 옛 이름이 다른 새 무리를 가리킬 수 있어서, 억지로 끼워 맞추지 않고 비워 두었습니다. 중국어 간체는 10,947종을 포함하며 범위가 바뀐 종은 하나씩 사람이 확인했습니다. 프랑스어, 스페인어, 독일어, 러시아어, 일본어, 중국어 번체는 94%를 넘습니다. 한국어, 아랍어, 태국어, 페르시아어 등은 IOC 목록에 있는 만큼만 담겨 있어서 아직은 수백 종에서 1,000종 안팎입니다. 자세한 내용은 `data/names.csv`를 보세요.
 - 한국어 이름은 11,011종 중 554종에만 있어 아직 적습니다. 보태 주시는 기여를 환영합니다.
 - ID: eBird 10,983, Avibase 11,011(둘 다 AviList에서 가져왔습니다), Wikidata 10,757, GBIF 10,477.
-- 스티커: 11,011종 중 10,973종, 그리고 아종 스티커 91장. 스티커가 아직 없는 38종은 레코드에 `"sticker": null`로 적혀 있습니다.
+- 스티커: 11,011종 전부, 그리고 아종 스티커 91장. 파일은 모두 11,102장입니다.
 
 ## 스티커를 만든 방법과 품질
 
-스티커 파일 11,064장은 모두 AI 일러스트입니다. 종마다 참고 사진을 찾고(사진 한 장으로 충분하지 않은 453종은 여러 이미지를 모은 참고판과 글로 된 설명을 사용), GPT-image로 스티커를 그린 뒤 해상도를 키우고 오려 냈습니다.
+스티커 파일 11,102장은 모두 AI 일러스트입니다. 종마다 참고 사진을 찾고(2026년 11월부터는 찾을 수 있는 경우 여러 촬영자의 사진을 모은 참고판을 사용), GPT-image로 스티커를 그린 뒤 해상도를 키우고 오려 냈습니다. 비슷한 것을 만들고 싶다면, 프롬프트와 자세 규칙, 검수 기준을 [docs/how-the-stickers-are-made.md](docs/how-the-stickers-are-made.md)(영어)에 정리해 두었습니다.
 
-모든 AI 스티커는 이후 별도의 검수자가 참고 자료와 대조해 야외 식별 특징을 채점했습니다. 부리, 눈, 다리와 발, 깃털의 색과 무늬입니다. 마지막 라운드에서는 경계선(80~82점)의 스티커 852장이 블라인드로 한 번 더 검수를 받았고, 그중 211장이 탈락해 다시 생성했습니다. 이전 라운드의 경계선 스티커는 이 두 번째 검수를 받지 않았습니다. 2026년 11월에는 도감의 도판으로 쓸 수 있는지를 기준으로 더 엄격하게 스티커를 재검수하고, 그중 10,114장을 다시 생성했습니다. 다시 생성한 스티커가 통과하려면 종 식별, 깃털, 부리와 눈, 다리와 발, 비율의 각 항목에서 4점 만점에 3점 이상을 받아야 하고, 종 식별은 4점이어야 하며, 검수자가 도감의 도판으로 받아들일 수 있다고 판단해야 합니다.
+모든 스티커는 이후 별도의 AI 검수자가 채점했습니다. 2026년 11월에는 도감의 도판으로 쓸 수 있는지를 기준으로 더 엄격하게 모든 스티커를 재검수했습니다. 통과하려면 종 식별, 깃털, 부리와 눈, 다리와 발, 비율의 각 항목에서 4점 만점에 3점 이상을 받아야 하고, 종 식별은 4점이어야 하며, 검수자가 도감의 도판으로 받아들일 수 있다고 판단해야 합니다. 77장은 그대로 통과했고, 나머지 11,025장은 새 버전이 통과할 때까지 다시 생성했습니다.
 
-- **11,043장이 품질 기준을 충족합니다**(`"meetsQualityBar": true`). 위의 더 엄격한 검수를 통과했거나 이전 검수에서 80점 이상을 받은 스티커입니다.
-- **21장은 충족하지 못합니다.** 그림이 없는 종이 생기지 않도록 가장 높은 점수의 버전을 남겼습니다. 17장은 70~79점이고 4장은 70점 미만입니다. 이 스티커들은 현재 다시 생성하고 있습니다. 어떤 오류를 고치려는지는 [이슈 #1](../../issues/1)과 [이슈 #3](../../issues/3)을 보세요.
-- **일부 스티커는 참고 사진 없이 글로 된 설명만으로 생성했습니다**(`data/species.json`의 `"reference": null`, 개수는 [data/README.md](data/README.md#reference-photos) 참고). 사진과 대조한 스티커보다 틀린 부분이 있을 가능성이 큽니다. [birdalbum.com](https://birdalbum.com/)에서는 이런 스티커와 품질 기준에 못 미치는 스티커의 종 페이지에 따로 안내를 붙입니다.
+- **11,102장 모두 품질 기준을 충족합니다**(`"meetsQualityBar": true`). 모두 위의 더 엄격한 검수를 통과했습니다. 다만 검수자는 조류 전문가가 아니라 AI이므로, 통과했다고 해서 틀린 부분이 없다는 뜻은 아닙니다. 탐조인들이 찾아낸 오류의 종류는 [이슈 #1](../../issues/1)과 [이슈 #3](../../issues/3)을 보세요.
+- **일부 스티커는 참고 사진 없이 글로 된 설명만으로 생성했습니다**(`data/species.json`의 `"reference": null`, 개수는 [data/README.md](data/README.md#reference-photos) 참고). 사진과 대조한 스티커보다 틀린 부분이 있을 가능성이 큽니다. [birdalbum.com](https://birdalbum.com/)에서는 이런 스티커의 종 페이지에 따로 안내를 붙입니다.
 
 이것은 일러스트이지 도감의 도판이 아닙니다. 새의 모습을 친근하게 보여 주는 그림으로 보시고, 세부 특징에 의존할 때는 도감으로 확인해 주세요. 잘못된 부분을 발견하면 [이슈를 열어](../../issues/new/choose) 주세요. 탐조인의 정정은 이 프로젝트가 받을 수 있는 가장 값진 기여입니다.
+
+**특정 조류 무리를 잘 아신다면** [한 과를 검토](../../issues/new?template=family-review.yml)해 어떤 스티커가 틀렸는지 알려 주세요. 지적해 주신 스티커는 모두 다시 생성해 재검토하고, 이름을 [CONTRIBUTORS.md](CONTRIBUTORS.md)에 올립니다.
 
 ## 참고 사진 안내
 
 **참고 사진의 용도.** 스티커가 보여 주는 것은 그 종의 생김새입니다. 깃털 색과 무늬, 부리, 눈, 다리와 발, 몸의 비율이 그것입니다. 이것들은 그 새에 관한 사실이며, 야외 도감이 글로 설명하는 바로 그 내용입니다. 글로 된 설명만으로는 이미지 생성 모델이 정확하게 그리지 못하는 경우가 많아서 참고 사진을 사용합니다.
 
-**참고 사진을 쓰는 방법.** 각 종을 그릴 때 이미지 생성 모델에 참고 사진 한 장 또는 여러 장과 식별 특징을 적은 설명을 함께 보여 주고, 새 일러스트를 그리게 합니다. 사진의 구도, 배경, 조명은 사용하지 않습니다. 2026년 11월부터 다시 생성한 스티커는 사진 속 새가 어떤 자세이든 모두 우리가 정한 같은 옆모습 표준 자세로, 배경 없이 그렸습니다. 그린 뒤에는 별도의 검토 모델이 식별 특징을 기준으로 확인합니다. 앞으로는 가능한 한 종마다 여러 관찰자의 사진을 사용해, 스티커가 특정한 사진 한 장이 아니라 그 종을 반영하도록 하겠습니다. 이 저장소에는 참고 사진이 들어 있지 않습니다.
+**참고 사진을 쓰는 방법.** 각 종을 그릴 때 이미지 생성 모델에 참고 사진 한 장 또는 여러 장과 식별 특징을 적은 설명을 함께 보여 주고, 새 일러스트를 그리게 합니다. 사진을 어떻게 썼는지는 스티커를 만든 시기에 따라 다릅니다. 2026년 11월 이전에 생성한 초기 스티커는 종마다 사진 한 장을 썼고, 그 사진 속 새의 생김새와 자세를 모두 참고했습니다. 2026년 11월부터는 사진을 새의 생김새를 확인하는 데만 쓰고, 사진의 자세, 구도, 배경, 조명은 사용하지 않습니다. 모든 새는 우리가 정한 표준 자세로, 배경 없이 그렸습니다(대부분의 무리는 서 있는 옆모습이고, 헤엄치는 새, 나는 새 등 몇몇 무리는 따로 정한 자세가 있습니다). 찾을 수 있는 경우에는 여러 촬영자의 사진을 사용해, 스티커가 특정한 사진 한 장이 아니라 그 종을 반영하도록 했습니다(여러 이미지를 모은 참고판으로 만든 스티커는 6,369장). 초기 스티커도 77장을 빼고는 모두 이 방식으로 다시 생성했고, 그 77장은 더 엄격한 검수를 그대로 통과했습니다. 그린 뒤에는 별도의 검토 모델이 식별 특징을 기준으로 확인합니다. 이 저장소에는 참고 사진이 들어 있지 않습니다.
 
-**출처 표기와 삭제 요청.** 각 스티커에 쓰인 참고 사진(페이지, 작성자, 라이선스)은 `data/species.json`의 `sticker.reference`에 기록되어 있어, 모든 스티커의 출처를 추적할 수 있습니다. 참고 사진 라이선스별 집계는 [data/README.md](data/README.md#reference-photos)에서 볼 수 있습니다. 당신의 사진이 참고 자료로 쓰였고 그것을 원하지 않는다면, 이슈를 열거나 alchaincyf@gmail.com으로 메일을 보내 주세요. 7일 안에 그 스티커를 교체하겠습니다.
+**출처 표기와 삭제 요청.** 저희가 기록해 둔 각 스티커의 참고 사진(페이지, 그리고 알려진 경우 작성자와 라이선스)은 `data/species.json`의 `sticker.reference`에 있습니다. 글로 된 설명만으로 생성한 스티커는 `"reference": null`입니다. 참고 사진 라이선스별 집계는 [data/README.md](data/README.md#reference-photos)에서 볼 수 있습니다. 본인이 촬영한 사진이 참고 자료로 사용되는 것을 원하지 않으시면, [삭제 요청](../../issues/new?template=takedown.yml)을 남겨 주세요. 7일 안에 그 스티커를 교체하겠습니다.
 
 ## 사용하기
 
@@ -203,6 +214,14 @@ git clone --filter=blob:none --sparse https://github.com/alchaincyf/huashu-bird-
 cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 ```
 
+## 사용 사례
+
+- [水杉输入法 MSIME](https://github.com/metasequoiaime/msime): 크로스플랫폼 중국어 입력기. 새 이름 사전 팩을 `data/species.json`으로 만듭니다.
+- [Everybird](https://github.com/yusuftaleb/everybird-stickers) (Yusuf Taleb): 스티커를 축소해 eBird 코드로 관리해 사용합니다.
+- [Awesome Public Datasets](https://github.com/awesomedata/apd-core)의 Biology 분류에 수록.
+
+사용하고 계신다면 issue로 알려 주세요. 여기에 추가하겠습니다.
+
 ## 출처 표기
 
 - 분류, 영어 이름, 분포, eBird·Avibase ID: AviList Core Team. 2026. AviList: The Global Avian Checklist, v2026. https://doi.org/10.2173/avilist.v2026, CC BY 4.0.
@@ -212,4 +231,4 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 - 참고 사진 촬영자: 종별로 `data/species.json`에 표기했습니다. 참고 사진은 이 저장소에 포함되어 있지 않습니다.
 - 스티커는 iOS용 탐조 기록 앱 鸣迹(Mingji)를 위해 그렸습니다.
 
-당신의 사진이 어떤 스티커의 참고 자료로 쓰였고 그것을 원하지 않는다면, 이슈를 열거나 alchaincyf@gmail.com으로 메일을 보내 주세요. 7일 안에 그 스티커를 교체하겠습니다.
+본인이 촬영한 사진이 참고 자료로 사용되는 것을 원하지 않으시면, [삭제 요청](../../issues/new?template=takedown.yml)을 남겨 주세요. 7일 안에 그 스티커를 교체하겠습니다.

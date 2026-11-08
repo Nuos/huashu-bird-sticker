@@ -5,7 +5,7 @@
 | File | Contents | License |
 |---|---|---|
 | `species.json` | Everything below except the Chinese field-guide text | MIT for our compilation; third-party fields keep their terms (see Sources) |
-| `species.csv` | Taxonomy, main names, IDs, sticker and reference info | as above |
+| `species.csv` | Taxonomy, main names, IDs, sticker and reference info (for a reference board, only its type; the images are listed in `species.json`) | as above |
 | `names.csv` | Names in 43 languages, one column per language | English: CC BY 4.0 (AviList); others: CC BY 3.0 (IOC) |
 | `stickers.json` | Small index for apps and web pages: scientific, English and Chinese name, sticker path, the species page on birdalbum.com, and the jsDelivr CDN prefix | MIT |
 | `languages.json` | Language codes and the IOC multilingual column each comes from | MIT |
@@ -28,7 +28,7 @@ Each row of the crosswalk has a `relation`:
 
 A same name does not always mean the same birds. Each record has `taxonConcept`: `same`, `broadened` (other species were merged into it), `narrowed` (species were split off it), `split` or `new`. Data that described the old set of birds is not carried over to a species whose boundaries changed: names in languages other than English and Simplified Chinese, Wikidata/GBIF/iNaturalist IDs, AVONET traits and body size. We left them empty rather than attach numbers that belong to a different set of birds; `dataNotes` says what was dropped and why.
 
-For five split species we checked where the sticker's reference photo was taken. It turned out to show the population that is now the new species, so the sticker moved there and the parent species is waiting for a new drawing: *Macropygia doreya* → *M. albicapilla*, *Tringa semipalmata* → *T. inornata*, *Oenanthe lugens* → *O. halophila*, *Enicurus leschenaulti* → *E. sinensis*, *Cistothorus palustris* → *C. paludicola* (the last by location only).
+For five split species we checked where the sticker's reference photo was taken. It turned out to show the population that is now the new species, so the sticker moved there and the parent species got a new sticker of its own: *Macropygia doreya* → *M. albicapilla*, *Tringa semipalmata* → *T. inornata*, *Oenanthe lugens* → *O. halophila*, *Enicurus leschenaulti* → *E. sinensis*, *Cistothorus palustris* → *C. paludicola* (the last by location only).
 
 ## Fields in `species.json`
 
@@ -47,7 +47,7 @@ For five split species we checked where the sticker's reference photo was taken.
 | `size` | Body length and wingspan in cm, as `[min, max]`, with where the length came from | Wikidata, Wikipedia text | about 4,700 |
 | `conservation` | IUCN Red List category, CITES appendix, China's national protection class | AviList (BirdLife v10); Wikidata P7603; China's 2021 list of protected wild animals | IUCN 10,140 |
 | `zh` | Pinyin, Chinese aliases, Chinese order and family names, Chinese Wikipedia page; `formerName` where the IOC Chinese name no longer fits | IOC 15.2 Chinese; Wikidata; Chinese Wikipedia | Chinese name 10,947 |
-| `sticker` | File, kind, review score, whether it meets the quality bar, license, and the reference it was drawn from. `null` for the 38 species not drawn yet | this project | 10,973 |
+| `sticker` | File, kind, review score, whether it meets the quality bar, license, and the reference it was made from | this project | all |
 | `forms` | Stickers of subspecies that were separate species in IOC 15.2, with their former names | this project | 91 stickers |
 | `taxonConcept`, `previous`, `dataNotes` | What changed in the move to AviList; see Taxonomy above | this project | all |
 
@@ -61,19 +61,19 @@ Notes:
 
 ## Reference photos
 
-Each AI sticker was drawn from one reference photo, or from a board of several images; 379 regenerated stickers were generated from a written description alone. Its page, author and license are in `sticker.reference`; the photos themselves are not distributed. By sticker (including `forms`):
+Except for 398 generated from a written description alone, each AI sticker was made with one reference photo or with a board of several images. The pages, and the author and license where known, are in `sticker.reference`; the photos themselves are not distributed. By sticker (including `forms`):
 
 | Reference | Stickers |
 |---|---|
-| Openly licensed photo (CC0, public domain, CC BY, CC BY-SA) | 1,225 |
-| Board of openly licensed images, or a written description only | 4,494 |
-| Photo under a non-commercial or no-derivatives license (CC BY-NC, -ND, …) | 2,365 |
-| Photo with all rights reserved, or under Macaulay Library terms | 701 |
-| Photo whose license we did not record | 851 |
-| Board mixing images under different terms | 1,049 |
-| Generated from a written description only, without a reference photo (`"reference": null`) | 379 |
+| Openly licensed photo (CC0, public domain, CC BY, CC BY-SA) | 1,128 |
+| Board of openly licensed images | 5,216 |
+| Photo under a non-commercial or no-derivatives license (CC BY-NC, -ND, …) | 1,982 |
+| Photo with all rights reserved, or under Macaulay Library terms | 548 |
+| Photo whose license we did not record | 677 |
+| Board mixing images under different terms | 1,153 |
+| Generated from a written description only, without a reference photo (`"reference": null`) | 398 |
 
-The stickers are new drawings, not copies. Whether a drawing made from a photo is bound by that photo's license is not settled law; if it matters for your use, filter on `sticker.reference.license`.
+The stickers are new drawings, not copies. Whether a drawing made from a photo is bound by that photo's license is not settled law; if it matters for your use, filter on the reference licenses: `sticker.reference.license` for a single photo, `sticker.reference.items[].license` for a board, and treat `"reference": null` and missing licenses separately.
 
 ## Sources
 

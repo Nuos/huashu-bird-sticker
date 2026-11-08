@@ -8,7 +8,7 @@
 
 **Veja a biblioteca inteira em uso em [birdalbum.com](https://birdalbum.com/pt-br/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker).** O Bird Album é um guia de aves gratuito feito com estes adesivos: procure qualquer espécie pelo nome em 15 idiomas, veja onde ela vive e em quais meses aparece, e abra um mapa com 8.171 pontos de observação de aves que mostra o que as pessoas estão vendo em cada um neste mês.
 
-11.011 espécies de aves em 45 ordens e 249 famílias, segundo a [AviList v2026](https://www.avilist.org/), a lista global unificada que substituiu as listas do IOC e do Clements em 2025. Todas as espécies vivas estão incluídas, além de 43 que a AviList marca como extintas, extintas na natureza ou possivelmente extintas, mas que já tinham adesivo (veja `extinctionStatus`). 10.973 espécies têm adesivo; as outras 38 foram divididas recentemente e estão sendo desenhadas. Cada espécie vem com dados estruturados: taxonomia, nomes em até 43 idiomas, IDs em outras bases de dados e a origem de cada adesivo.
+11.011 espécies de aves em 45 ordens e 249 famílias, segundo a [AviList v2026](https://www.avilist.org/), a lista global unificada que substituiu as listas do IOC e do Clements em 2025. Todas as espécies vivas estão incluídas, além de 43 que a AviList marca como extintas, extintas na natureza ou possivelmente extintas, mas que já tinham adesivo (veja `extinctionStatus`). Todas as espécies têm adesivo. Cada espécie vem com dados estruturados: taxonomia, nomes em até 43 idiomas, IDs em outras bases de dados e a origem de cada adesivo.
 
 > **A versão 2.0 passou a taxonomia do IOC 15.2 para a AviList v2026.** 82 espécies mudaram de nome científico (e, com ele, de `id` e de caminho do adesivo), 91 antigas espécies agora são subespécies de outra espécie e 30 espécies novas foram separadas. Todas as mudanças estão listadas em [`data/crosswalk-ioc15.2-avilist2026.csv`](data/crosswalk-ioc15.2-avilist2026.csv), e cada registro guarda o antigo ID do IOC em `previous`. Veja o [CHANGELOG](CHANGELOG.md).
 
@@ -24,7 +24,7 @@ Todos os adesivos são servidos pela CDN jsDelivr (com CORS), então você pode 
 <img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="Guarda-rios-comum" width="240">
 ```
 
-Para achar uma ave pelo nome, carregue [`data/stickers.json`](data/stickers.json) (2,7 MB: nome científico, inglês e chinês, caminho do arquivo e a página da espécie em birdalbum.com para cada adesivo). Os nomes em 43 idiomas estão em [`data/names.csv`](data/names.csv).
+Para achar uma ave pelo nome, carregue [`data/stickers.json`](data/stickers.json) (2,7 MB: nome científico, inglês e chinês, caminho do arquivo e a página da espécie em birdalbum.com para cada uma das 11.011 espécies; os 91 adesivos de subespécies estão em `forms`, em `data/species.json`). Os nomes em 43 idiomas estão em [`data/names.csv`](data/names.csv).
 
 ```js
 const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
@@ -35,6 +35,16 @@ const url = idx.cdn + s.file;  // URL do adesivo
 Dê o crédito ao lado da imagem assim, com o link para a página da espécie:
 
 `Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
+## Ave do dia
+
+Uma ave diferente por dia no seu perfil do GitHub, blog ou Notion. Cole esta linha em qualquer Markdown (`?lang=` para 15 idiomas, `?theme=dark` ou `auto`):
+
+```markdown
+[![Ave do dia](https://birdalbum.com/today.svg?lang=pt-BR)](https://birdalbum.com/today/?lang=pt-BR)
+```
+
+[![Ave do dia](https://birdalbum.com/today.svg?lang=pt-BR)](https://birdalbum.com/today/?lang=pt-BR)
 
 ## Galeria
 
@@ -159,27 +169,28 @@ Um registro tem este formato (nomes abreviados):
 - Nomes: o inglês (AviList) cobre todas as espécies. Os outros idiomas vêm da lista multilíngue do IOC e foram mantidos apenas onde o conceito da espécie não mudou; nas 129 espécies cujos limites mudaram (agrupamentos e divisões) ou que são novas, um nome antigo pode se referir a outro conjunto de aves, então preferimos omiti-lo a adivinhar. O chinês simplificado cobre 10.947 espécies (cada espécie alterada foi conferida à mão); francês, espanhol, alemão, russo, japonês e chinês tradicional passam de 94%. Coreano, árabe, tailandês, persa e alguns outros cobrem de algumas centenas a cerca de mil espécies, porque é isso que a lista do IOC oferece. Veja `data/names.csv`.
 - Os nomes em português do Brasil (coluna `pt-x-lusophone` do IOC) cobrem 10.857 das 11.011 espécies.
 - IDs: eBird 10.983 e Avibase 11.011, ambos vindos da AviList; Wikidata 10.757, GBIF 10.477.
-- Adesivos: 10.973 de 11.011 espécies, mais 91 adesivos de subespécies. As 38 espécies sem adesivo aparecem com `"sticker": null`.
+- Adesivos: todas as 11.011 espécies, mais 91 adesivos de subespécies, 11.102 arquivos no total.
 
 ## Como os adesivos foram feitos e qual é a qualidade
 
-Todos os 11.064 arquivos de adesivo são ilustrações feitas por IA. Para cada espécie, procuramos uma foto de referência (ou, nas 453 espécies em que nenhuma foto isolada era boa o bastante, uma prancha com várias imagens e uma descrição escrita), desenhamos o adesivo com o GPT-image, ampliamos e recortamos.
+Todos os 11.102 arquivos de adesivo são ilustrações feitas por IA. Para cada espécie, procuramos fotos de referência (desde novembro de 2026, quando conseguimos encontrá-las, uma prancha com fotos de vários fotógrafos), desenhamos o adesivo com o GPT-image, ampliamos e recortamos. Para quem quer fazer algo parecido, os prompts, as regras de pose e os critérios de revisão estão em [docs/how-the-stickers-are-made.md](docs/how-the-stickers-are-made.md) (em inglês).
 
-Depois, cada adesivo de IA recebeu a nota de um revisor independente, que o comparou com a referência quanto às marcas de campo: bico, olho, pernas e pés, padrão e cor da plumagem. Na última rodada, 852 adesivos limítrofes (80–82) passaram também por uma segunda revisão às cegas, e 211 deles foram reprovados e gerados de novo. Os adesivos limítrofes de rodadas anteriores não passaram por essa segunda revisão. Em novembro de 2026, reavaliamos os adesivos com um critério mais rigoroso, como pranchas de guia de campo, e geramos de novo 10.114 deles. Um adesivo gerado de novo só passa na revisão se identificação, plumagem, bico e olho, pernas e pés, e proporções receberem pelo menos 3 pontos de 4 em cada item, a identificação receber 4 e o revisor o aceitar como prancha de guia de campo.
+Depois, cada adesivo recebeu a nota de um revisor de IA independente. Em novembro de 2026, reavaliamos todos os adesivos com um critério mais rigoroso, como pranchas de guia de campo: um adesivo só passa na revisão se identificação, plumagem, bico e olho, pernas e pés, e proporções receberem pelo menos 3 pontos de 4 em cada item, a identificação receber 4 e o revisor o aceitar como prancha de guia de campo. 77 adesivos passaram como estavam; os outros 11.025 foram gerados de novo até que uma nova versão passasse.
 
-- **11.043 atingem nosso padrão de qualidade** (`"meetsQualityBar": true`): adesivos que passaram pela revisão mais rigorosa descrita acima ou receberam nota 80 ou mais na revisão anterior.
-- **21 não atingem.** Ficamos com a versão de maior nota para que nenhuma espécie fique sem imagem: 17 têm nota de 70 a 79 e 4 ficam abaixo de 70. Estamos gerando de novo esses adesivos; veja a [issue #1](../../issues/1) e a [issue #3](../../issues/3) para conhecer os tipos de erro que estamos corrigindo.
-- **Alguns foram gerados só a partir de uma descrição escrita**, sem foto de referência (`"reference": null` em `data/species.json`; o número está em [data/README.md](data/README.md#reference-photos)). Eles têm mais chance de conter erros do que os adesivos conferidos com uma foto. No [birdalbum.com](https://birdalbum.com/), a página da espécie traz um aviso extra para esses adesivos e para os que não atingem o padrão de qualidade.
+- **Todos os 11.102 atingem nosso padrão de qualidade** (`"meetsQualityBar": true`): todos passaram pela revisão mais rigorosa descrita acima. O revisor é uma IA, não um especialista em aves, então passar não significa que o adesivo não tenha erros; veja a [issue #1](../../issues/1) e a [issue #3](../../issues/3) para conhecer os tipos de erro que observadores de aves encontraram.
+- **Alguns foram gerados só a partir de uma descrição escrita**, sem foto de referência (`"reference": null` em `data/species.json`; o número está em [data/README.md](data/README.md#reference-photos)). Eles têm mais chance de conter erros do que os adesivos conferidos com uma foto. No [birdalbum.com](https://birdalbum.com/), a página da espécie traz um aviso extra para esses adesivos.
 
 São ilustrações, não pranchas de guia de campo. Veja-as como um desenho simpático da ave e consulte um guia de campo antes de confiar em algum detalhe fino. Se encontrar um erro, [abra uma issue](../../issues/new/choose): correções de observadores de aves são a contribuição mais valiosa que este projeto pode receber.
+
+**Conhece bem um grupo de aves?** [Revise uma família](../../issues/new?template=family-review.yml) e diga quais stickers estão errados. Cada um que você apontar é gerado de novo e revisado, e seu nome entra em [CONTRIBUTORS.md](CONTRIBUTORS.md).
 
 ## Sobre as fotos de referência
 
 **Para que serve uma referência.** Um adesivo mostra como é uma espécie: as cores e os padrões da plumagem, o bico, o olho, as pernas e os pés, e as proporções. São fatos sobre a ave, as mesmas coisas que um guia de campo descreve em palavras. Uma descrição escrita sozinha muitas vezes não basta para o modelo de imagem acertá-las, então usamos fotos de referência.
 
-**Como usamos.** Para cada espécie, o modelo de imagem vê uma ou mais fotos de referência junto com uma descrição escrita das marcas de identificação e desenha uma ilustração nova. Não usamos a composição, o fundo nem a iluminação da foto: os adesivos gerados de novo desde novembro de 2026 usam todos a mesma pose padrão de perfil definida por nós, sobre um fundo liso, não importa o que a ave esteja fazendo na foto. Depois, um revisor separado confere o desenho com base nas marcas de identificação. De agora em diante, sempre que possível, usamos fotos de vários observadores para cada espécie, para que o adesivo reflita a espécie e não uma única imagem. Este repositório não inclui nenhuma foto de referência.
+**Como usamos.** Para cada espécie, o modelo de imagem vê uma ou mais fotos de referência junto com uma descrição escrita das marcas de identificação e desenha uma ilustração nova. O modo como as fotos foram usadas depende de quando o adesivo foi feito. Os adesivos antigos, gerados antes de novembro de 2026, usaram uma foto por espécie, e tanto a aparência da ave quanto a sua pose nessa foto serviram de referência. Desde novembro de 2026, as fotos servem só para conferir como a ave é; não usamos a pose, a composição, o fundo nem a iluminação da foto. Cada ave é desenhada numa pose padrão definida por nós, sobre um fundo liso (em pé e de perfil na maioria dos grupos; aves que nadam, aves em voo e alguns outros grupos têm poses próprias). Quando conseguimos encontrá-las, as fotos vêm de vários fotógrafos, para que o adesivo reflita a espécie e não uma única imagem (6.369 adesivos foram feitos com uma prancha de várias imagens). Desde então, todos os adesivos antigos, exceto 77, foram gerados de novo dessa forma; esses 77 passaram na revisão mais rigorosa como estavam. Depois, um revisor separado confere o desenho com base nas marcas de identificação. Este repositório não inclui nenhuma foto de referência.
 
-**Créditos e remoção.** As fotos de referência de cada adesivo (página, autor e licença) estão listadas em `sticker.reference`, em `data/species.json`, então todo adesivo pode ser rastreado. Um detalhamento por licença das fotos de referência está em [data/README.md](data/README.md#reference-photos). Se uma foto sua foi usada como referência e você prefere que não seja assim, abra uma issue ou escreva para alchaincyf@gmail.com, e substituiremos o adesivo em até 7 dias.
+**Créditos e remoção.** As fotos de referência que registramos para cada adesivo (página e, quando conhecidos, autor e licença) estão listadas em `sticker.reference`, em `data/species.json`; os adesivos gerados só a partir de uma descrição escrita têm `"reference": null`. Um detalhamento por licença das fotos de referência está em [data/README.md](data/README.md#reference-photos). Se uma foto sua foi usada como referência e você prefere que não seja assim, [envie um pedido de remoção](../../issues/new?template=takedown.yml), e substituiremos o adesivo em até 7 dias.
 
 ## Como usar
 
@@ -203,6 +214,14 @@ git clone --filter=blob:none --sparse https://github.com/alchaincyf/huashu-bird-
 cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 ```
 
+## Quem usa
+
+- [水杉输入法 MSIME](https://github.com/metasequoiaime/msime): um método de entrada de chinês multiplataforma; o dicionário de nomes de aves é gerado a partir de `data/species.json`.
+- [Everybird](https://github.com/yusuftaleb/everybird-stickers), de Yusuf Taleb: os stickers, reduzidos e nomeados pelo código do eBird.
+- Listado em [Awesome Public Datasets](https://github.com/awesomedata/apd-core), na categoria Biology.
+
+Usa em algum lugar? Abra uma issue e adicionamos você aqui.
+
 ## Créditos
 
 - Taxonomia, nomes em inglês, distribuição e IDs do eBird e do Avibase: AviList Core Team. 2026. AviList: The Global Avian Checklist, v2026. https://doi.org/10.2173/avilist.v2026, CC BY 4.0.
@@ -212,4 +231,4 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 - Fotógrafos das imagens de referência: creditados por espécie em `data/species.json`. As fotos de referência não estão incluídas neste repositório.
 - Adesivos desenhados para o 鸣迹 (Mingji), um caderno de observação de aves para iOS.
 
-Se uma foto sua foi usada como referência para um adesivo e você prefere que não seja assim, abra uma issue ou escreva para alchaincyf@gmail.com, e substituiremos o adesivo em até 7 dias.
+Se uma foto sua foi usada como referência para um adesivo e você prefere que não seja assim, [envie um pedido de remoção](../../issues/new?template=takedown.yml), e substituiremos o adesivo em até 7 dias.

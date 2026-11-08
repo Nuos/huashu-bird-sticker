@@ -8,7 +8,7 @@
 
 **这套贴纸的完整用法，去[birdalbum.com](https://birdalbum.com/zh/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker)看。** Bird Album是用这个贴纸库做的免费鸟类网站：15种语言都能搜鸟名，看每种鸟分布在哪、几月能见到；地图上有8,171个观鸟点，每处都列出这个月大家常记录的鸟。
 
-[花叔](https://github.com/alchaincyf)开源的全球鸟类贴纸库，贴纸出自花叔做的观鸟App「鸣迹」。按全球统一鸟类名录[AviList v2026](https://www.avilist.org/)整理，共11011种鸟、45目249科。AviList是IOC与Clements两份名录在2025年合并而成的共识名录。全部现生种都在其中，另有43种已有贴纸、但被AviList标为灭绝、野外灭绝或可能灭绝的种也保留了。10973种已有贴纸，另外38种是近年新拆分的种，正在画。每种鸟都配有结构化数据：分类、最多43种语言的鸟名、各大数据库的编号，以及每张贴纸的来历。
+[花叔](https://github.com/alchaincyf)开源的全球鸟类贴纸库，贴纸出自花叔做的观鸟App「鸣迹」。按全球统一鸟类名录[AviList v2026](https://www.avilist.org/)整理，共11011种鸟、45目249科。AviList是IOC与Clements两份名录在2025年合并而成的共识名录。全部现生种都在其中，另有43种已有贴纸、但被AviList标为灭绝、野外灭绝或可能灭绝的种也保留了。每种鸟都有贴纸。每种鸟都配有结构化数据：分类、最多43种语言的鸟名、各大数据库的编号，以及每张贴纸的来历。
 
 > **2.0版把分类从IOC 15.2换成了AviList v2026。** 82种改了学名（`id`和贴纸路径随之改变），91个原独立种现在是别种的亚种，另有30个新种从原有物种中拆出。每一处变化都列在[`data/crosswalk-ioc15.2-avilist2026.csv`](data/crosswalk-ioc15.2-avilist2026.csv)里，每条记录的`previous`保留了旧的IOC编号。详见[更新记录](CHANGELOG.md)。
 
@@ -24,7 +24,7 @@
 <img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="普通翠鸟" width="240">
 ```
 
-要按鸟名查贴纸，加载[`data/stickers.json`](data/stickers.json)（2.7 MB，每张贴纸的学名、英文名、中文名、文件路径和birdalbum.com上的鸟种页）。43种语言的鸟名在[`data/names.csv`](data/names.csv)。
+要按鸟名查贴纸，加载[`data/stickers.json`](data/stickers.json)（2.7 MB，11011种各一条：学名、英文名、中文名、文件路径和birdalbum.com上的鸟种页；91张亚种贴纸在`data/species.json`的`forms`里）。43种语言的鸟名在[`data/names.csv`](data/names.csv)。
 
 ```js
 const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
@@ -35,6 +35,16 @@ const url = idx.cdn + s.file;  // 贴纸网址
 在图片旁边这样署名，并链接到鸟种页：
 
 `Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
+## 每日一鸟
+
+在 GitHub 个人主页、博客或 Notion 里放一张每天换一只的鸟卡片，把这行贴进任意 Markdown（`?lang=` 支持15种语言，`?theme=dark` 或 `auto` 切深色）：
+
+```markdown
+[![今日一鸟](https://birdalbum.com/today.svg?lang=zh-Hans)](https://birdalbum.com/zh/today/)
+```
+
+[![今日一鸟](https://birdalbum.com/today.svg?lang=zh-Hans)](https://birdalbum.com/zh/today/)
 
 ## 画廊
 
@@ -135,27 +145,28 @@ const url = idx.cdn + s.file;  // 贴纸网址
 - 鸟名：英文用AviList的英文名，覆盖全部物种。其他语种来自IOC多语种名录，只在分类范围没变的种上沿用；有129种因为合并、拆分改变了范围或是新种，旧名可能指的是另一群鸟，我们宁可空着也不硬套。简体中文覆盖10947种，范围变了的种逐条人工核过；法文、西班牙文、德文、俄文、日文、繁体中文都超过94%；韩文、阿拉伯文、泰文、波斯文等只有几百到一千来种，因为IOC名录里只有这么多。
 - 繁体中文直接取自IOC，中国台湾、中国香港的常用鸟名有时不同，欢迎补充。
 - 编号：eBird 10983种、Avibase 11011种，都取自AviList；Wikidata 10757种，GBIF 10477种。
-- 贴纸：11011种里有10973种，另有91张亚种贴纸。还没有贴纸的38种，记录里写`"sticker": null`。
+- 贴纸：11011种全部都有，另有91张亚种贴纸，共11102个文件。
 
 ## 贴纸怎么来的，质量如何
 
-全部11064个贴纸文件都是AI绘制。每种鸟先找一张参考照片（有453种找不到一张合用的照片，就用几张图拼成参考板，加上文字描述），用GPT-image画成贴纸，再放大、抠图。
+全部11102个贴纸文件都是AI绘制。每种鸟先找参考照片（2026年11月起，在能找到的情况下，用几位拍摄者的照片拼成参考板），用GPT-image画成贴纸，再放大、抠图。想做类似东西的话，提示词、姿势规范和审核标准都写在[docs/how-the-stickers-are-made.zh-Hans.md](docs/how-the-stickers-are-made.zh-Hans.md)。
 
-每张AI贴纸画完后，由另一位审核员对照参考照逐项核对辨识特征并打分：喙、眼、腿脚、羽色和斑纹。最后一轮里，852张80到82分压线的贴纸又由另一人盲审一遍，其中211张没通过，打回重新生成。更早几轮的压线贴纸没有做这道盲审。2026年11月，我们按图鉴图版的更严标准重新审核了这些贴纸，并重新生成了10114张。重新生成的贴纸只有在辨识、羽色与斑纹、喙与眼、腿脚、比例五项评分均至少3分（每项满分4分），辨识项达到4分，且审核员认可其可用作图鉴图版时，才算过线。
+每张贴纸生成后，都由另一个AI审核员打分。2026年11月，我们按图鉴图版的更严标准把全部贴纸重新审核了一遍：辨识、羽色与斑纹、喙与眼、腿脚、比例五项评分均至少3分（每项满分4分），辨识项达到4分，且审核员认可其可用作图鉴图版，才算过线。77张原样通过，其余11025张重新生成，直到新版过线为止。
 
-- **11043张达到我们的质量线**（`"meetsQualityBar": true`）：通过上述更严审核，或在此前审核中达到80分及以上的贴纸。
-- **21张没有达到。** 为了不让任何一种鸟没有图，我们保留了得分最高的那一版：其中17张在70到79分，4张低于70分。我们正在重新生成这些贴纸；要修的是哪类错误，可以看[issue #1](../../issues/1)和[issue #3](../../issues/3)。
-- **少数贴纸只依据文字描述生成**，没有用参考照片（`data/species.json` 里 `"reference": null`，数量见 [data/README.md](data/README.md#reference-photos)）。它们比对照过照片的贴纸更容易画错。在 [birdalbum.com](https://birdalbum.com/) 上，这些贴纸和没达到质量线的贴纸，鸟种页面都会另外提示。
+- **全部11102张都达到我们的质量线**（`"meetsQualityBar": true`）：每一张都通过了上述更严审核。审核员是AI，不是鸟类专家，过线不等于没有错；鸟友发现过哪类错误，可以看[issue #1](../../issues/1)和[issue #3](../../issues/3)。
+- **少数贴纸只依据文字描述生成**，没有用参考照片（`data/species.json` 里 `"reference": null`，数量见 [data/README.md](data/README.md#reference-photos)）。它们比对照过照片的贴纸更容易画错。在 [birdalbum.com](https://birdalbum.com/) 上，这些贴纸的鸟种页面都会另外提示。
 
 这些是插画，不是图鉴图版。当作一张友好的鸟的画像来用；涉及细节辨识，请以图鉴为准。发现画错了，欢迎[提issue](../../issues/new/choose)。鸟友的纠错，是这个项目最需要的贡献。
+
+**熟悉某一类鸟？**欢迎[帮忙审一个科](../../issues/new?template=family-review.yml)，告诉我们这个科里哪些贴纸画错了。你指出的每一张都会重新生成、重新审核，你的名字会写进 [CONTRIBUTORS.md](CONTRIBUTORS.md)。
 
 ## 参考照片
 
 **参考照用来做什么**。一张贴纸要表现的是这种鸟长什么样：羽色与斑纹、喙、眼、腿脚和身体比例。这些是关于这种鸟的事实，也是野外图鉴用文字描述的同一批内容。只靠文字说明，生图模型常常画不准，所以我们使用参考照片。
 
-**我们怎么用参考照**。画每一种鸟时，生图模型会看到一张或几张参考照片和一段辨识特征的文字说明，然后画出一张新的插画。我们不使用照片的构图、背景和光线：2026年11月起重新生成的贴纸，不管照片里的鸟是什么姿态，一律画成我们定的同一种正侧面标准姿势，背景留空。画完后由另一个审核模型按辨识特征检查。今后我们会尽量为每种鸟采用多位观测者的照片，让贴纸反映的是这个物种，而不是某一张照片。仓库里不含任何参考照片。
+**我们怎么用参考照**。画每一种鸟时，生图模型会看到一张或几张参考照片和一段辨识特征的文字说明，然后画出一张新的插画。照片怎么用，取决于贴纸是什么时候生成的。2026年11月以前生成的早期贴纸，每种鸟用一张照片，照片里鸟的样貌和姿势都作为参考。2026年11月起，照片只用来核对鸟的样貌，不用照片里的姿势、构图、背景和光线；每只鸟都画成我们定的标准姿势，背景留空（多数类群是站立的正侧面，游水、飞行等少数类群有各自的姿势）。在能找到的情况下，照片来自多位拍摄者（6369张贴纸用了几张图拼成的参考板），让贴纸反映的是这个物种，而不是某一张照片。早期贴纸除77张外都已按这种方式重新生成，这77张在更严审核下原样通过。画完后由另一个审核模型按辨识特征检查。仓库里不含任何参考照片。
 
-**署名与撤下**。每张贴纸用到的参考照片（页面、作者、许可）写在`data/species.json`的`sticker.reference`里，每张都能追溯来源；按参考照许可的分类统计见[data/README.md](data/README.md#reference-photos)。如果你的照片被用作参考，而你不希望这样，请提issue或发邮件到alchaincyf@gmail.com，我们会在7天内替换这张贴纸。
+**署名与撤下**。我们记录下来的每张贴纸的参考照片（页面，以及已知的作者和许可）写在`data/species.json`的`sticker.reference`里；只凭文字描述生成的贴纸写`"reference": null`。按参考照许可的分类统计见[data/README.md](data/README.md#reference-photos)。如果你的照片被用作参考，而你不希望这样，请[提交撤图申请](../../issues/new?template=takedown.yml)，我们会在7天内替换这张贴纸。
 
 ## 怎么用
 
@@ -172,6 +183,14 @@ git clone --filter=blob:none --sparse https://github.com/alchaincyf/huashu-bird-
 cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 ```
 
+## 谁在用
+
+- [水杉输入法 MSIME](https://github.com/metasequoiaime/msime)：跨平台中文输入法，鸟名词库由 `data/species.json` 生成。
+- [Everybird](https://github.com/yusuftaleb/everybird-stickers)（Yusuf Taleb）：把贴纸缩小后按 eBird 代码命名使用。
+- 收录于 [Awesome Public Datasets](https://github.com/awesomedata/apd-core) 的 Biology 分类。
+
+你也在用？开个 issue 告诉我们，我们加到这里。
+
 ## 致谢
 
 - 分类、英文名、分布、eBird与Avibase编号：AviList Core Team. 2026. AviList: The Global Avian Checklist, v2026. https://doi.org/10.2173/avilist.v2026，CC BY 4.0。
@@ -181,4 +200,4 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 - 参考照片的摄影师：逐种写在`data/species.json`里。参考照片本身不在仓库中。
 - 贴纸为观鸟记录App「鸣迹」绘制。
 
-如果你的照片被用作某张贴纸的参考，而你不希望这样，请提issue或发邮件到alchaincyf@gmail.com，我们会在7天内替换这张贴纸。
+如果你的照片被用作某张贴纸的参考，而你不希望这样，请[提交撤图申请](../../issues/new?template=takedown.yml)，我们会在7天内替换这张贴纸。

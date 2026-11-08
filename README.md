@@ -2,7 +2,7 @@
 
 <img src="previews/header.webp" alt="huashu-bird-sticker: specimen drawer, body-size lineup and family plates" width="100%">
 
-**花叔开源的全球鸟类贴纸库：按全球统一鸟类名录AviList整理的11011种现生鸟，每种一张白边贴纸（38种新拆分的种还在画），附多语种鸟名和分布、形态、保护等级数据。贴纸出自花叔做的观鸟App「鸣迹」。[中文说明 →](README.zh-Hans.md)**
+**花叔开源的全球鸟类贴纸库：按全球统一鸟类名录AviList整理的11011种鸟，每种一张白边贴纸，附多语种鸟名和分布、形态、保护等级数据。贴纸出自花叔做的观鸟App「鸣迹」。[中文说明 →](README.zh-Hans.md)**
 
 **English** · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [العربية](README.ar.md)
 
@@ -10,7 +10,7 @@
 
 **See the whole library in use at [birdalbum.com](https://birdalbum.com/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker).** Bird Album is a free bird guide built on these stickers: look up any species by name in 15 languages, see where it lives and which months it is around, and open a map of 8,171 birding hotspots that shows what people are seeing at each one this month.
 
-By [Huashu (花叔)](https://github.com/alchaincyf), from the bird-watching app Mingji (鸣迹). 11,011 bird species across 45 orders and 249 families, following [AviList v2026](https://www.avilist.org/), the unified global checklist that replaced the IOC and Clements lists in 2025. Every living species is included, plus 43 that AviList flags as extinct, extinct in the wild or possibly extinct but that already had a sticker (see `extinctionStatus`). 10,973 species have a sticker; the other 38 were recently split and are being drawn. Each species comes with structured data: taxonomy, names in up to 43 languages, cross-database IDs, and where every sticker came from.
+By [Huashu (花叔)](https://github.com/alchaincyf), from the bird-watching app Mingji (鸣迹). 11,011 bird species across 45 orders and 249 families, following [AviList v2026](https://www.avilist.org/), the unified global checklist that replaced the IOC and Clements lists in 2025. Every living species is included, plus 43 that AviList flags as extinct, extinct in the wild or possibly extinct but that already had a sticker (see `extinctionStatus`). Every species has a sticker. Each species comes with structured data: taxonomy, names in up to 43 languages, cross-database IDs, and where every sticker came from.
 
 > **Version 2.0 moved the taxonomy from IOC 15.2 to AviList v2026.** 82 species changed their scientific name (and so their `id` and sticker path), 91 former species are now subspecies of another species, and 30 new species were split off. Every change is listed in [`data/crosswalk-ioc15.2-avilist2026.csv`](data/crosswalk-ioc15.2-avilist2026.csv), and each record keeps its old IOC ID under `previous`. See [CHANGELOG](CHANGELOG.md).
 
@@ -26,7 +26,7 @@ Every sticker is served by the jsDelivr CDN (CORS enabled), so you can put it st
 <img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="Common Kingfisher" width="240">
 ```
 
-To look a bird up by name, load [`data/stickers.json`](data/stickers.json) (2.7 MB: scientific, English and Chinese name, file path and the species page on birdalbum.com for every sticker). Names in 43 languages are in [`data/names.csv`](data/names.csv).
+To look a bird up by name, load [`data/stickers.json`](data/stickers.json) (2.7 MB: scientific, English and Chinese name, file path and the species page on birdalbum.com for each of the 11,011 species; the 91 subspecies stickers are listed under `forms` in `data/species.json`). Names in 43 languages are in [`data/names.csv`](data/names.csv).
 
 ```js
 const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
@@ -37,6 +37,16 @@ const url = idx.cdn + s.file;  // the sticker URL
 Credit it next to the image like this, with the link to the species page:
 
 `Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
+## Bird of the day
+
+A new bird on your GitHub profile, blog or Notion page every day. Paste this line into any Markdown file (`?lang=` for 15 languages, `?theme=dark` or `auto`):
+
+```markdown
+[![Bird of the day](https://birdalbum.com/today.svg)](https://birdalbum.com/today/)
+```
+
+[![Bird of the day](https://birdalbum.com/today.svg)](https://birdalbum.com/today/)
 
 ## Gallery
 
@@ -160,27 +170,28 @@ A record looks like this (names shortened):
 
 - Names: English (AviList) covers every species. Other languages come from the IOC multilingual list and are kept only where the species concept did not change; for the 129 species whose boundaries changed (lumps and splits) or that are new, an old name may refer to a different set of birds, so we left it out rather than guess. Simplified Chinese covers 10,947 species (each changed species was checked by hand); French, Spanish, German, Russian, Japanese and Traditional Chinese cover over 94%. Korean, Arabic, Thai, Persian and some others cover only a few hundred to about a thousand species, because that is what the IOC list has. See `data/names.csv`.
 - IDs: eBird 10,983 and Avibase 11,011, both taken from AviList; Wikidata 10,757, GBIF 10,477.
-- Stickers: 10,973 of 11,011 species, plus 91 subspecies stickers. The 38 species without one are listed with `"sticker": null`.
+- Stickers: all 11,011 species, plus 91 subspecies stickers, 11,102 files in all.
 
 ## How the stickers were made, and how good they are
 
-All 11,064 sticker files are AI-generated illustrations, and every file says so in its metadata (IPTC Digital Source Type `trainedAlgorithmicMedia`). For each species we wrote down its field marks and found reference photos (or, for 453 species where no single photo was good enough, a board of several images plus a written description), generated the sticker with GPT-image, upscaled it, and cut it out. A step-by-step explanation with a flowchart and FAQ, in 15 languages: [How the stickers are made](https://birdalbum.com/how-stickers-are-made/).
+All 11,102 sticker files are AI-generated illustrations, and every file says so in its metadata (IPTC Digital Source Type `trainedAlgorithmicMedia`). For each species we wrote down its field marks and found reference photos (since November 2026, where we could find them, a board of photos by several photographers), generated the sticker with GPT-image, upscaled it, and cut it out. A step-by-step explanation with a flowchart and FAQ, in 15 languages: [How the stickers are made](https://birdalbum.com/how-stickers-are-made/). If you want to make something similar, see the prompts, pose rules and review rubric in [docs/how-the-stickers-are-made.md](docs/how-the-stickers-are-made.md).
 
-Every AI sticker was then scored by a separate reviewer against the reference for field marks: bill, eye, legs and feet, plumage pattern and colour. In the last round, 852 borderline stickers (80–82) also got a second, blind review, and 211 of them failed it and were generated again. Borderline stickers from earlier rounds did not get this second review. In November 2026 we re-checked the stickers to a stricter standard, as plates for a field guide, and generated new versions of 10,114 of them. A regenerated sticker passes only if identification, plumage, bill and eye, legs and feet, and proportions each score at least 3 out of 4, identification scores 4, and the reviewer would accept it as a field-guide plate.
+Every sticker was then scored by a separate AI reviewer. In November 2026 we re-checked all of them to a stricter standard, as plates for a field guide: a sticker passes only if identification, plumage, bill and eye, legs and feet, and proportions each score at least 3 out of 4, identification scores 4, and the reviewer would accept it as a field-guide plate. 77 stickers passed as they were; the other 11,025 were generated again until a new version passed.
 
-- **11,043 meet our quality bar** (`"meetsQualityBar": true`): stickers that passed the stricter review above, or scored 80 or above in the earlier review.
-- **21 do not.** We kept the best-scoring version so that no species is left without a picture: 17 score 70–79 and 4 score below 70. We are generating these again; see [issue #1](../../issues/1) and [issue #3](../../issues/3) for the kinds of error we are fixing.
-- **Some were drawn from a written description alone**, without any reference photo (`"reference": null` in `data/species.json`; the count is in [data/README.md](data/README.md#reference-photos)). They are more likely to contain mistakes than stickers checked against a photo. On [birdalbum.com](https://birdalbum.com/), the species page of each of these stickers, and of each sticker that does not meet the quality bar, carries an extra notice.
+- **All 11,102 meet our quality bar** (`"meetsQualityBar": true`): every one passed the stricter review above. The reviewer is an AI, not a bird expert, so passing does not mean a sticker has no mistakes; [issue #1](../../issues/1) and [issue #3](../../issues/3) show the kinds of error birders have found.
+- **Some were drawn from a written description alone**, without any reference photo (`"reference": null` in `data/species.json`; the count is in [data/README.md](data/README.md#reference-photos)). They are more likely to contain mistakes than stickers checked against a photo. On [birdalbum.com](https://birdalbum.com/), the species page of each of these stickers carries an extra notice.
 
 These are illustrations, not field-guide plates. Treat them as a friendly picture of the bird, and check a field guide before relying on a fine detail. If you spot a mistake, please [open an issue](../../issues/new/choose) — corrections from birders are the most valuable contribution this project can get.
+
+**Know a group of birds well?** [Review one family](../../issues/new?template=family-review.yml): tell us which of its stickers are wrong. Each one you flag is regenerated and reviewed again, and you are credited in [CONTRIBUTORS.md](CONTRIBUTORS.md).
 
 ## About the reference photos
 
 **What a reference is for.** A sticker shows what a species looks like: its plumage colours and markings, bill, eye, legs and feet, and proportions. These are facts about the bird, the same things a field guide describes in words. A written description alone is often not enough for the image model to get them right, so we use reference photos.
 
-**How we use it.** The image model is given a written description of the species' field marks together with reference photos, and generates a new illustration. How the photos were used depends on when a sticker was made. Early stickers, generated before November 2026, used one photo per species, and both the bird's appearance and its pose in that photo served as reference. Since November 2026, each species gets photos by several photographers, used only to check what the bird looks like, and every bird is drawn in the same standard side-on pose that we set, on a plain background; the early stickers are being generated again this way, batch by batch. A separate reviewer then checks the result against the field marks. No reference photo is included in this repository.
+**How we use it.** The image model is given a written description of the species' field marks together with reference photos, and generates a new illustration. How the photos were used depends on when a sticker was made. Early stickers, generated before November 2026, used one photo per species, and both the bird's appearance and its pose in that photo served as reference. Since November 2026, the photos are used only to check what the bird looks like, and every bird is drawn in a standard pose that we set, on a plain background (standing side-on for most groups; swimming, flying and a few other groups have poses of their own); where we could find them, the photos come from several photographers (6,369 stickers were made with a board of several images). All but 77 of the early stickers have since been generated again this way; those 77 passed the stricter review as they were. A separate reviewer then checks the result against the field marks. No reference photo is included in this repository.
 
-**Credit and removal.** The reference photos behind each sticker (page, author and license) are listed in `sticker.reference` in `data/species.json`, so every sticker can be traced. A breakdown by reference license is in [data/README.md](data/README.md#reference-photos). If one of your photos was used as a reference and you would rather it weren't, open an issue or email alchaincyf@gmail.com and we will replace the sticker within 7 days.
+**Credit and removal.** The reference photos we recorded for each sticker (page, and the author and license where known) are listed in `sticker.reference` in `data/species.json`; stickers generated from a written description alone have `"reference": null`. A breakdown by reference license is in [data/README.md](data/README.md#reference-photos). If one of your photos was used as a reference and you would rather it weren't, [open a takedown request](../../issues/new?template=takedown.yml) and we will replace the sticker within 7 days.
 
 ## Use it
 
@@ -204,6 +215,14 @@ git clone --filter=blob:none --sparse https://github.com/alchaincyf/huashu-bird-
 cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 ```
 
+## Used by
+
+- [水杉输入法 MSIME](https://github.com/metasequoiaime/msime) — a cross-platform Chinese input method; its bird-name dictionary pack is built from `data/species.json`.
+- [Everybird](https://github.com/yusuftaleb/everybird-stickers) by Yusuf Taleb — the stickers, resized and keyed by eBird code.
+- Listed in [Awesome Public Datasets](https://github.com/awesomedata/apd-core) under Biology.
+
+Using it somewhere? Open an issue and we will add you here.
+
 ## Credits
 
 - Taxonomy, English names, ranges, eBird and Avibase IDs: AviList Core Team. 2026. AviList: The Global Avian Checklist, v2026. https://doi.org/10.2173/avilist.v2026, CC BY 4.0.
@@ -213,4 +232,4 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 - Reference photographers: credited per species in `data/species.json`. Reference photos are not included in this repository.
 - Stickers drawn for 鸣迹 (Mingji), a bird-watching notebook app for iOS.
 
-If one of your photos was used as a reference for a sticker and you would rather it weren't, open an issue or email alchaincyf@gmail.com and we will replace the sticker within 7 days.
+If one of your photos was used as a reference for a sticker and you would rather it weren't, [open a takedown request](../../issues/new?template=takedown.yml) and we will replace the sticker within 7 days.

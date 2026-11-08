@@ -24,10 +24,10 @@ Body measurements and ecology in `traits` come from **AVONET** (Tobias et al. 20
 
 ## Reference photos / 参考照片
 
-Reference photos, one per species or a board of several images, were used to get each species' field marks right; see [About the reference photos](README.md#about-the-reference-photos). **The reference images are not included in this repository.** Their pages, authors and licenses are listed per species in `data/species.json` so the source can always be traced. Rights in those photographs remain with their photographers.
+For most stickers, a reference photo or a board of several images was used to get the species' field marks right; 398 were generated from a written description alone; see [About the reference photos](README.md#about-the-reference-photos). **The reference images are not included in this repository.** The pages, and the authors and licenses where known, are listed per species in `data/species.json`; for some early stickers part of this information was not recorded. Rights in those photographs remain with their photographers.
 
-每种鸟用一张参考照片（或几张图拼成的参考板）来把辨识特征画对，见README的「参考照片」一节。**参考图本身不在仓库里**，出处、作者和许可逐种写在`data/species.json`里。照片的权利归原摄影师。
+多数贴纸用一张参考照片（或几张图拼成的参考板）来把辨识特征画对，398张只依据文字描述生成，见README的「参考照片」一节。**参考图本身不在仓库里**，已记录的出处，以及已知的作者和许可，逐种写在`data/species.json`里；部分早期贴纸的来源信息没有记全。照片的权利归原摄影师。
 
-If one of your photos was used as a reference for a sticker and you would rather it weren't, open an issue or email alchaincyf@gmail.com. We will replace the sticker within 7 days.
+If one of your photos was used as a reference for a sticker and you would rather it weren't, [open a takedown request](../../issues/new?template=takedown.yml). We will replace the sticker within 7 days.
 
-如果你的照片被用作某张贴纸的参考，而你不希望这样，请提issue或发邮件到alchaincyf@gmail.com，我们会在7天内替换这张贴纸。
+如果你的照片被用作某张贴纸的参考，而你不希望这样，请[提交撤图申请](../../issues/new?template=takedown.yml)，我们会在7天内替换这张贴纸。

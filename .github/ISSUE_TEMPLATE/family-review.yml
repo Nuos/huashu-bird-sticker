@@ -1,0 +1,34 @@
+name: Review a family / 帮忙审一个科
+description: You know a group of birds well and checked its stickers / 你熟悉某一类鸟，帮我们把这个科的贴纸看一遍
+labels: [family-review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Pick one family you know well, open its folder under `stickers/<order>/<family>/`, and tell us which stickers are wrong. Every sticker you flag is regenerated and checked again, and your name is added to CONTRIBUTORS.md.
+        挑一个你熟悉的科，打开 `stickers/<目>/<科>/` 文件夹看一遍，告诉我们哪些画错了。你指出的每一张都会重新生成、重新审核，你的名字会写进 CONTRIBUTORS.md。
+  - type: input
+    id: family
+    attributes:
+      label: Family / 科
+      placeholder: Scolopacidae
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: Stickers that are wrong / 画错的贴纸
+      description: One per line — scientific name, what is wrong, and a link that shows the correct feature if you have one. / 每行一种：学名、哪里不对，有的话附上能说明正确特征的链接。
+      placeholder: |
+        Tringa totanus — legs should be orange-red, not yellow
+    validations:
+      required: true
+  - type: textarea
+    id: ok
+    attributes:
+      label: Stickers you checked and found fine (optional) / 看过没问题的（可选）
+  - type: input
+    id: credit
+    attributes:
+      label: How should we credit you? / 怎么署名？
+      description: Defaults to your GitHub username. / 默认用你的 GitHub 用户名。

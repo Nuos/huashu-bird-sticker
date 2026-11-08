@@ -8,7 +8,7 @@
 
 **Vea toda la biblioteca en uso en [birdalbum.com](https://birdalbum.com/es/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker).** Bird Album es una guía de aves gratuita creada con estas pegatinas: busque cualquier especie por su nombre en 15 idiomas, consulte dónde vive y en qué meses se la puede ver, y abra un mapa de 8171 puntos de observación de aves que muestra lo que la gente está viendo en cada uno este mes.
 
-11 011 especies de aves en 45 órdenes y 249 familias, según [AviList v2026](https://www.avilist.org/), la lista global unificada que en 2025 sustituyó a las listas de la IOC y de Clements. Están todas las especies vivas, más 43 que AviList marca como extintas, extintas en estado silvestre o posiblemente extintas pero que ya tenían pegatina (véase `extinctionStatus`). 10 973 especies tienen pegatina; las otras 38 se separaron hace poco y se están dibujando. Cada especie viene con datos estructurados: taxonomía, nombres en hasta 43 idiomas, identificadores de otras bases de datos y el origen de cada pegatina.
+11 011 especies de aves en 45 órdenes y 249 familias, según [AviList v2026](https://www.avilist.org/), la lista global unificada que en 2025 sustituyó a las listas de la IOC y de Clements. Están todas las especies vivas, más 43 que AviList marca como extintas, extintas en estado silvestre o posiblemente extintas pero que ya tenían pegatina (véase `extinctionStatus`). Todas las especies tienen pegatina. Cada especie viene con datos estructurados: taxonomía, nombres en hasta 43 idiomas, identificadores de otras bases de datos y el origen de cada pegatina.
 
 > **La versión 2.0 pasó la taxonomía de la IOC 15.2 a AviList v2026.** 82 especies cambiaron de nombre científico (y con ello su `id` y la ruta de su pegatina), 91 antiguas especies son ahora subespecies de otra especie y se separaron 30 especies nuevas. Todos los cambios están en [`data/crosswalk-ioc15.2-avilist2026.csv`](data/crosswalk-ioc15.2-avilist2026.csv), y cada registro conserva su antiguo identificador de la IOC en `previous`. Véase el [CHANGELOG](CHANGELOG.md).
 
@@ -24,7 +24,7 @@ Todas las pegatinas se sirven desde la CDN de jsDelivr (con CORS), así que pued
 <img src="https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/stickers/Coraciiformes/Alcedinidae/Alcedo_atthis.webp" alt="Martín pescador común" width="240">
 ```
 
-Para buscar un ave por su nombre, cargue [`data/stickers.json`](data/stickers.json) (2,7 MB: nombre científico, inglés y chino, ruta del archivo y la página de la especie en birdalbum.com para cada pegatina). Los nombres en 43 idiomas están en [`data/names.csv`](data/names.csv).
+Para buscar un ave por su nombre, cargue [`data/stickers.json`](data/stickers.json) (2,7 MB: nombre científico, inglés y chino, ruta del archivo y la página de la especie en birdalbum.com para cada una de las 11 011 especies; las 91 pegatinas de subespecies figuran en `forms`, dentro de `data/species.json`). Los nombres en 43 idiomas están en [`data/names.csv`](data/names.csv).
 
 ```js
 const idx = await (await fetch("https://cdn.jsdelivr.net/gh/alchaincyf/huashu-bird-sticker@main/data/stickers.json")).json();
@@ -35,6 +35,16 @@ const url = idx.cdn + s.file;  // URL de la pegatina
 Cite la fuente junto a la imagen así, con el enlace a la página de la especie:
 
 `Illustration: [Bird Album](https://birdalbum.com/birds/common-kingfisher/) / [huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker), CC BY 4.0`
+
+## El ave del día
+
+Un ave distinta cada día en tu perfil de GitHub, blog o Notion. Pega esta línea en cualquier Markdown (`?lang=` para 15 idiomas, `?theme=dark` o `auto`):
+
+```markdown
+[![El ave del día](https://birdalbum.com/today.svg?lang=es)](https://birdalbum.com/today/?lang=es)
+```
+
+[![El ave del día](https://birdalbum.com/today.svg?lang=es)](https://birdalbum.com/today/?lang=es)
 
 ## Galería
 
@@ -158,27 +168,28 @@ Un registro tiene este aspecto (nombres abreviados):
 
 - Nombres: el inglés (AviList) cubre todas las especies. Los demás idiomas proceden de la lista multilingüe de la IOC y se conservan solo donde el concepto de especie no cambió; en las 129 especies cuyos límites cambiaron (fusiones y divisiones) o que son nuevas, un nombre antiguo puede referirse a otro conjunto de aves, así que lo omitimos en lugar de adivinar. El chino simplificado cubre 10 947 especies (cada especie modificada se comprobó a mano); el francés, el español, el alemán, el ruso, el japonés y el chino tradicional superan el 94 %. El coreano, el árabe, el tailandés, el persa y algunos más cubren solo desde unos cientos hasta alrededor de mil especies, porque es lo que ofrece la lista de la IOC. Véase `data/names.csv`.
 - Identificadores: eBird 10 983 y Avibase 11 011, ambos tomados de AviList; Wikidata 10 757, GBIF 10 477.
-- Pegatinas: 10 973 de 11 011 especies, más 91 pegatinas de subespecies. Las 38 especies que aún no tienen pegatina figuran con `"sticker": null`.
+- Pegatinas: las 11 011 especies, más 91 pegatinas de subespecies, 11 102 archivos en total.
 
 ## Cómo se hicieron las pegatinas y qué calidad tienen
 
-Los 11 064 archivos de pegatinas son ilustraciones hechas con IA. Para cada especie buscamos una fotografía de referencia (o, en las 453 especies para las que ninguna foto por sí sola era suficientemente buena, un tablero con varias imágenes y una descripción escrita), dibujamos la pegatina con GPT-image, la ampliamos y la recortamos.
+Los 11 102 archivos de pegatinas son ilustraciones hechas con IA. Para cada especie buscamos fotografías de referencia (desde noviembre de 2026, cuando pudimos encontrarlas, un tablero con fotos de varios fotógrafos), dibujamos la pegatina con GPT-image, la ampliamos y la recortamos. Si quieres hacer algo parecido, los prompts, las reglas de postura y los criterios de revisión están en [docs/how-the-stickers-are-made.md](docs/how-the-stickers-are-made.md) (en inglés).
 
-Después, un revisor independiente puntuó cada pegatina de IA frente a la referencia en cuanto a las marcas de campo: pico, ojo, patas y pies, patrón y color del plumaje. En la última ronda, 852 pegatinas límite (80–82) tuvieron además una segunda revisión a ciegas, y 211 de ellas no la superaron y se volvieron a generar. Las pegatinas límite de rondas anteriores no pasaron por esta segunda revisión. En noviembre de 2026 volvimos a revisar las pegatinas con un criterio más estricto, como láminas de guía de campo, y volvimos a generar 10114 de ellas. Una pegatina generada de nuevo solo supera la revisión si la identificación, el plumaje, el pico y el ojo, las patas y los pies, y las proporciones obtienen al menos 3 puntos de 4 en cada apartado, la identificación obtiene 4 y el revisor la aceptaría como lámina de guía de campo.
+Después, un revisor de IA independiente puntuó cada pegatina. En noviembre de 2026 volvimos a revisar todas las pegatinas con un criterio más estricto, como láminas de guía de campo: una pegatina solo supera la revisión si la identificación, el plumaje, el pico y el ojo, las patas y los pies, y las proporciones obtienen al menos 3 puntos de 4 en cada apartado, la identificación obtiene 4 y el revisor la aceptaría como lámina de guía de campo. 77 pegatinas la superaron tal como estaban; las otras 11 025 se generaron de nuevo hasta que una versión nueva la superó.
 
-- **11043 cumplen nuestro nivel de calidad** (`"meetsQualityBar": true`): las pegatinas que superaron la revisión más estricta descrita arriba u obtuvieron 80 puntos o más en la revisión anterior.
-- **21 no lo cumplen.** Nos quedamos con la versión de mayor puntuación para que ninguna especie quede sin imagen: 17 puntúan entre 70 y 79 y 4 puntúan por debajo de 70. Estamos generando de nuevo estas pegatinas; véanse la [incidencia n.º 1](../../issues/1) y la [incidencia n.º 3](../../issues/3) para ver los tipos de error que estamos corrigiendo.
-- **Algunas se generaron solo a partir de una descripción escrita**, sin foto de referencia (`"reference": null` en `data/species.json`; el número está en [data/README.md](data/README.md#reference-photos)). Es más probable que tengan errores que las pegatinas cotejadas con una foto. En [birdalbum.com](https://birdalbum.com/), la página de la especie lleva un aviso adicional para estas pegatinas y para las que no alcanzan el umbral de calidad.
+- **Las 11 102 cumplen nuestro nivel de calidad** (`"meetsQualityBar": true`): todas superaron la revisión más estricta descrita arriba. El revisor es una IA, no un experto en aves, así que superarla no significa que una pegatina no tenga errores; véanse la [incidencia n.º 1](../../issues/1) y la [incidencia n.º 3](../../issues/3) para ver los tipos de error que han encontrado los observadores de aves.
+- **Algunas se generaron solo a partir de una descripción escrita**, sin foto de referencia (`"reference": null` en `data/species.json`; el número está en [data/README.md](data/README.md#reference-photos)). Es más probable que tengan errores que las pegatinas cotejadas con una foto. En [birdalbum.com](https://birdalbum.com/), la página de la especie lleva un aviso adicional para estas pegatinas.
 
 Son ilustraciones, no láminas de guía de campo. Tómelas como un dibujo amable del ave y consulte una guía de campo antes de fiarse de un detalle fino. Si encuentra un error, [abra una incidencia](../../issues/new/choose): las correcciones de observadores de aves son la contribución más valiosa que puede recibir este proyecto.
+
+**¿Conoces bien un grupo de aves?** [Revisa una familia](../../issues/new?template=family-review.yml) y dinos qué stickers están mal. Cada uno que señales se vuelve a generar y a revisar, y tu nombre aparecerá en [CONTRIBUTORS.md](CONTRIBUTORS.md).
 
 ## Sobre las fotografías de referencia
 
 **Para qué sirve una referencia.** Una pegatina muestra cómo es una especie: los colores y las marcas del plumaje, el pico, el ojo, las patas y las proporciones. Son hechos sobre el ave, lo mismo que una guía de campo describe con palabras. Una descripción escrita a menudo no basta para que el modelo de imagen los acierte, así que usamos fotografías de referencia.
 
-**Cómo la usamos.** Para cada especie, al modelo de imagen se le muestran una o varias fotografías de referencia junto con una descripción escrita de los rasgos de identificación, y dibuja una ilustración nueva. No usamos la composición, el fondo ni la iluminación de la foto: las pegatinas generadas de nuevo desde noviembre de 2026 usan todas la misma postura estándar de perfil que fijamos nosotros, sobre un fondo liso, haga lo que haga el ave en la foto. Después, un revisor independiente comprueba el dibujo según los rasgos de identificación. A partir de ahora usamos, siempre que podemos, fotos de varios observadores para cada especie, de modo que la pegatina refleje la especie y no una imagen concreta. Este repositorio no incluye ninguna fotografía de referencia.
+**Cómo la usamos.** Para cada especie, al modelo de imagen se le muestran una o varias fotografías de referencia junto con una descripción escrita de los rasgos de identificación, y dibuja una ilustración nueva. Cómo se usaron las fotos depende de cuándo se hizo la pegatina. Las pegatinas antiguas, generadas antes de noviembre de 2026, usaron una foto por especie, y tanto el aspecto del ave como su postura en esa foto sirvieron de referencia. Desde noviembre de 2026, las fotos solo se usan para comprobar cómo es el ave; no usamos la postura, la composición, el fondo ni la iluminación de la foto. Cada ave se dibuja en una postura estándar que fijamos nosotros, sobre un fondo liso (de pie y de perfil en la mayoría de los grupos; las aves que nadan, las que vuelan y algunos otros grupos tienen posturas propias). Cuando pudimos encontrarlas, las fotos proceden de varios fotógrafos, de modo que la pegatina refleje la especie y no una imagen concreta (6369 pegatinas se hicieron con un tablero de varias imágenes). Desde entonces, todas las pegatinas antiguas salvo 77 se han generado de nuevo de esta manera; esas 77 superaron tal como estaban la revisión más estricta. Después, un revisor independiente comprueba el dibujo según los rasgos de identificación. Este repositorio no incluye ninguna fotografía de referencia.
 
-**Créditos y retirada.** Las fotografías de referencia de cada pegatina (página, autor y licencia) figuran en `sticker.reference`, dentro de `data/species.json`, así que cada pegatina se puede rastrear. Un desglose por licencia de las fotografías de referencia está en [data/README.md](data/README.md#reference-photos). Si una de sus fotos se usó como referencia y prefiere que no sea así, abra una incidencia o escriba a alchaincyf@gmail.com y sustituiremos la pegatina en un plazo de 7 días.
+**Créditos y retirada.** Las fotografías de referencia que registramos para cada pegatina (página y, cuando se conocen, autor y licencia) figuran en `sticker.reference`, dentro de `data/species.json`; las pegatinas generadas solo a partir de una descripción escrita tienen `"reference": null`. Un desglose por licencia de las fotografías de referencia está en [data/README.md](data/README.md#reference-photos). Si una de sus fotos se usó como referencia y prefiere que no sea así, [envíe una solicitud de retirada](../../issues/new?template=takedown.yml) y sustituiremos la pegatina en un plazo de 7 días.
 
 ## Cómo usarlo
 
@@ -202,6 +213,14 @@ git clone --filter=blob:none --sparse https://github.com/alchaincyf/huashu-bird-
 cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 ```
 
+## Quién lo usa
+
+- [水杉输入法 MSIME](https://github.com/metasequoiaime/msime): un método de entrada de chino multiplataforma; su diccionario de nombres de aves se genera a partir de `data/species.json`.
+- [Everybird](https://github.com/yusuftaleb/everybird-stickers), de Yusuf Taleb: los stickers, reducidos y nombrados por código de eBird.
+- Incluido en [Awesome Public Datasets](https://github.com/awesomedata/apd-core), en la categoría Biology.
+
+¿Lo usas en algún sitio? Abre un issue y te añadimos aquí.
+
 ## Créditos
 
 - Taxonomía, nombres en inglés, distribución e identificadores de eBird y Avibase: AviList Core Team. 2026. AviList: The Global Avian Checklist, v2026. https://doi.org/10.2173/avilist.v2026, CC BY 4.0.
@@ -211,4 +230,4 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 - Fotógrafos de las imágenes de referencia: se citan por especie en `data/species.json`. Las fotografías de referencia no se incluyen en este repositorio.
 - Pegatinas dibujadas para 鸣迹 (Mingji), una libreta de observación de aves para iOS.
 
-Si una de sus fotos se usó como referencia para una pegatina y prefiere que no sea así, abra una incidencia o escriba a alchaincyf@gmail.com y sustituiremos la pegatina en un plazo de 7 días.
+Si una de sus fotos se usó como referencia para una pegatina y prefiere que no sea así, [envíe una solicitud de retirada](../../issues/new?template=takedown.yml) y sustituiremos la pegatina en un plazo de 7 días.
