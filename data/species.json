@@ -1,5 +1,5 @@
 {
- "version": "2.3.1",
+ "version": "2.3.2",
  "taxonomy": "AviList v2026",
  "count": 11011,
  "species": [
@@ -536038,7 +536038,7 @@
    "sticker": {
     "file": "stickers/Psittaciformes/Cacatuidae/Cacatua_galerita.webp",
     "kind": "ai-illustration",
-    "reviewScore": 90,
+    "reviewScore": 80,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {

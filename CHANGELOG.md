@@ -1,5 +1,9 @@
 # Changelog / 更新记录
 
+## 2.3.2 — 2026-11-09
+
+- Sulphur-crested Cockatoo (*Cacatua galerita*) generated again with corrections for the folded wing, following [issue #3](../../issues/3). The feather groups of the folded wing still need work. / 葵花鹦鹉（*Cacatua galerita*）按 [issue #3](../../issues/3) 指出的折叠翼问题重新生成；折叠翼的羽区层次仍需继续改进。
+
 ## 2.3.1 — 2026-11-09
 
 **Small fixes after release.** / **发版后的小修正。**
