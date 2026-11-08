@@ -1,5 +1,12 @@
 # Changelog / 更新记录
 
+## 2.3.1 — 2026-11-09
+
+**Small fixes after release.** / **发版后的小修正。**
+
+- `data/names.csv`: the Indonesian column is now `id-ID`. It was `id`, the same name as the species ID column, so CSV readers mixed the two up. / `data/names.csv`的印尼语列改名为`id-ID`：原来叫`id`，和物种编号列重名，读表时两列会混在一起。
+- README and data/README: more careful wording about AviList (Clements/eBird still publishes its own list) and about the 43 species with an extinction flag (two of them are reintroduced to the wild). / README与data/README：AviList的说明改得更准确（Clements/eBird仍在发布自己的名录）；43种带灭绝标记的种里有两种已重新引入野外，说法相应修正。
+
 ## 2.3.0 — 2026-11-09
 
 **Every species has a sticker, and every sticker passed the stricter review.** / **每个种都有了贴纸，每张贴纸都通过了更严的审核。**

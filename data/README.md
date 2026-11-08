@@ -6,7 +6,7 @@
 |---|---|---|
 | `species.json` | Everything below except the Chinese field-guide text | MIT for our compilation; third-party fields keep their terms (see Sources) |
 | `species.csv` | Taxonomy, main names, IDs, sticker and reference info (for a reference board, only its type; the images are listed in `species.json`) | as above |
-| `names.csv` | Names in 43 languages, one column per language | English: CC BY 4.0 (AviList); others: CC BY 3.0 (IOC) |
+| `names.csv` | Names in 43 languages, one column per language (Indonesian is `id-ID`, because `id` is the species ID) | English: CC BY 4.0 (AviList); others: CC BY 3.0 (IOC) |
 | `stickers.json` | Small index for apps and web pages: scientific, English and Chinese name, sticker path, the species page on birdalbum.com, and the jsDelivr CDN prefix | MIT |
 | `languages.json` | Language codes and the IOC multilingual column each comes from | MIT |
 | `crosswalk-ioc15.2-avilist2026.csv` | How each IOC 15.2 species (the taxonomy of version 0.1) maps to AviList v2026 | MIT |
@@ -14,7 +14,7 @@
 
 ## Taxonomy
 
-Since version 2.0 the taxonomy is [AviList v2026](https://www.avilist.org/), the consensus global checklist that the IOC, Clements/eBird and BirdLife teams merged into in 2025. IOC 15.2 was the final IOC list. AviList updates once a year in October, and we will follow it.
+Since version 2.0 the taxonomy is [AviList v2026](https://www.avilist.org/), the consensus global checklist first published in 2025 by a group that includes the IOC, Clements/eBird and BirdLife teams; Clements/eBird still publishes its own list, and some species boundaries differ. IOC 15.2 was the final IOC list. AviList updates once a year in October, and we will follow it.
 
 Each row of the crosswalk has a `relation`:
 
@@ -42,7 +42,7 @@ For five split species we checked where the sticker's reference photo was taken.
 | `ids` | eBird species code, Avibase ID, Wikidata, GBIF, iNaturalist IDs | AviList (eBird, Avibase); Wikidata; iNaturalist | eBird 10,983 |
 | `range` | `text`: AviList range statement. `ioc`: IOC 15.2 breeding region and ranges, `zh-Hans`: Chinese summary of the IOC ranges (`zhSource`), both only where the species concept is unchanged | AviList v2026; IOC 15.2 | all; `ioc` 10,882 |
 | `subspecies` | Subspecies with authority and range | AviList v2026 | species with subspecies |
-| `extinctionStatus` | AviList's extinction flag, for the 43 species flagged extinct, extinct in the wild or possibly extinct | AviList v2026 | 43 |
+| `extinctionStatus` | AviList's extinction flag, for the 43 flagged species: extinct, extinct in the wild, possibly extinct, or, for two, once extinct in the wild and since reintroduced | AviList v2026 | 43 |
 | `traits` | Mass (g), wing, tail, tarsus, bill measurements (mm), hand-wing index, habitat, migration, trophic level and niche, primary lifestyle. `inferred: true` means AVONET imputed some traits from relatives | AVONET | 10,423 |
 | `size` | Body length and wingspan in cm, as `[min, max]`, with where the length came from | Wikidata, Wikipedia text | about 4,700 |
 | `conservation` | IUCN Red List category, CITES appendix, China's national protection class | AviList (BirdLife v10); Wikidata P7603; China's 2021 list of protected wild animals | IUCN 10,140 |
@@ -73,7 +73,7 @@ Except for 398 generated from a written description alone, each AI sticker was m
 | Board mixing images under different terms | 1,153 |
 | Generated from a written description only, without a reference photo (`"reference": null`) | 398 |
 
-The stickers are new drawings, not copies. Whether a drawing made from a photo is bound by that photo's license is not settled law; if it matters for your use, filter on the reference licenses: `sticker.reference.license` for a single photo, `sticker.reference.items[].license` for a board, and treat `"reference": null` and missing licenses separately.
+The stickers are newly generated illustrations, not edits of the photos. Whether a drawing made from a photo is bound by that photo's license is not settled law; if it matters for your use, filter on the reference licenses: `sticker.reference.license` for a single photo, `sticker.reference.items[].license` for a board, and treat `"reference": null` and missing licenses separately.
 
 ## Sources
 

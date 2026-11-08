@@ -8,7 +8,7 @@
 
 **这套贴纸的完整用法，去[birdalbum.com](https://birdalbum.com/zh/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker)看。** Bird Album是用这个贴纸库做的免费鸟类网站：15种语言都能搜鸟名，看每种鸟分布在哪、几月能见到；地图上有8,171个观鸟点，每处都列出这个月大家常记录的鸟。
 
-[花叔](https://github.com/alchaincyf)开源的全球鸟类贴纸库，贴纸出自花叔做的观鸟App「鸣迹」。按全球统一鸟类名录[AviList v2026](https://www.avilist.org/)整理，共11011种鸟、45目249科。AviList是IOC与Clements两份名录在2025年合并而成的共识名录。全部现生种都在其中，另有43种已有贴纸、但被AviList标为灭绝、野外灭绝或可能灭绝的种也保留了。每种鸟都有贴纸。每种鸟都配有结构化数据：分类、最多43种语言的鸟名、各大数据库的编号，以及每张贴纸的来历。
+[花叔](https://github.com/alchaincyf)开源的全球鸟类贴纸库，贴纸出自花叔做的观鸟App「鸣迹」。按全球统一鸟类名录[AviList v2026](https://www.avilist.org/)整理，共11011种鸟、45目249科。AviList是2025年首次发布的全球统一名录（IOC名录已停止更新，转而采用它）。AviList没有标为灭绝或可能灭绝的种全部收录；另有43种带灭绝相关标记、已有贴纸的种也保留了：灭绝、野外灭绝、可能灭绝，其中两种曾野外灭绝、现已重新引入（见`extinctionStatus`）。每种鸟都有贴纸。每种鸟都配有结构化数据：分类、最多43种语言的鸟名、各大数据库的编号，以及每张贴纸是依据什么生成的。
 
 > **2.0版把分类从IOC 15.2换成了AviList v2026。** 82种改了学名（`id`和贴纸路径随之改变），91个原独立种现在是别种的亚种，另有30个新种从原有物种中拆出。每一处变化都列在[`data/crosswalk-ioc15.2-avilist2026.csv`](data/crosswalk-ioc15.2-avilist2026.csv)里，每条记录的`previous`保留了旧的IOC编号。详见[更新记录](CHANGELOG.md)。
 

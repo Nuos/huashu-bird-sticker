@@ -8,7 +8,7 @@
 
 **這套貼紙的完整用法，請到 [birdalbum.com](https://birdalbum.com/zh-hant/?utm_source=github&utm_medium=readme&utm_campaign=bird-sticker) 看看。** Bird Album 是用這個貼紙庫做的免費鳥類網站：15 種語言都能搜尋鳥名，看每種鳥分布在哪裡、幾月看得到；地圖上有 8,171 個賞鳥點，每處都列出這個月大家常記錄到的鳥。
 
-11,011 種鳥，每種一張貼紙，共 45 目 249 科，依全球統一鳥類名錄 [AviList v2026](https://www.avilist.org/) 整理。AviList 是 IOC 與 Clements 兩份名錄在 2025 年合併而成的共識名錄。全部現生物種都在其中，另有 43 種已有貼紙、但被 AviList 標為滅絕、野外滅絕或可能滅絕的種也保留了（見 `extinctionStatus`）。每個物種都有貼紙。每種鳥都附有結構化資料：分類、最多 43 種語言的鳥名、各大資料庫的編號，以及每張貼紙的來歷。
+11,011 種鳥，每種一張貼紙，共 45 目 249 科，依全球統一鳥類名錄 [AviList v2026](https://www.avilist.org/) 整理。AviList 是 2025 年首次發布的全球統一名錄（IOC 名錄已停止更新，轉而採用它）。AviList 沒有標為滅絕或可能滅絕的物種全部收錄；另有 43 種帶滅絕相關標記、已有貼紙的物種也保留了：滅絕、野外滅絕、可能滅絕，其中兩種曾野外滅絕、現已重新引入（見 `extinctionStatus`）。每個物種都有貼紙。每種鳥都附有結構化資料：分類、最多 43 種語言的鳥名、各大資料庫的編號，以及每張貼紙是依據什麼生成的。
 
 > **2.0 版把分類從 IOC 15.2 換成了 AviList v2026。** 82 個物種改了學名（`id` 與貼紙路徑隨之改變），91 個原本獨立的種現在成了別種的亞種，另有 30 個新種從原有物種中拆出。每一處變動都列在 [`data/crosswalk-ioc15.2-avilist2026.csv`](data/crosswalk-ioc15.2-avilist2026.csv)，每筆紀錄的 `previous` 保留了舊的 IOC 編號。詳見 [CHANGELOG](CHANGELOG.md)。
 
