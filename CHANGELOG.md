@@ -1,5 +1,13 @@
 # Changelog / 更新记录
 
+## 2.3.3 — 2026-11-11
+
+**Feet checked toe by toe; 295 stickers generated again.** / **逐只脚数了脚趾，295张贴纸重新生成。**
+
+- A reader found a Downy Woodpecker drawn with five toes on each foot. We then counted the toes on every sticker against each family's foot type: zygodactyl (two toes forward, two back) for woodpeckers, parrots, cuckoos, toucans and their relatives; no hind toe for plovers, bustards and others; a short raised hind toe for sandpipers, gamebirds and others. / 有读者发现绒啄木鸟每只脚画了5趾。我们随后按各科的足型逐张数了脚趾：啄木鸟、鹦鹉、杜鹃、巨嘴鸟等是对趾足（两趾向前、两趾向后）；鸻、鸨等没有后趾；鹬、雉等后趾短小、抬离地面。
+- 295 stickers with the wrong number or arrangement of toes, or with both feet tangled together, were generated again until a new version passed review, including the Downy Woodpecker (*Dryobates pubescens*) and the Northern Lapwing (*Vanellus vanellus*). A toe count is now part of every review. / 趾数或趾的朝向不对、两只脚缠在一起的295张，重新生成到新版过线，包括绒啄木鸟（*Dryobates pubescens*）和凤头麦鸡（*Vanellus vanellus*）。此后每次审核都会数脚趾。
+- Some stickers still show both feet overlapping side by side, so the toes are hard to count. If you find a foot that is wrong, please [report it](../../issues/new?template=sticker-error.yml). / 仍有一些贴纸两只脚前后叠在一起，脚趾不好数。发现脚画错了，欢迎[报错](../../issues/new?template=sticker-error.yml)。
+
 ## 2.3.2 — 2026-11-09
 
 - Sulphur-crested Cockatoo (*Cacatua galerita*) generated again with corrections for the folded wing, following [issue #3](../../issues/3). The feather groups of the folded wing still need work. / 葵花鹦鹉（*Cacatua galerita*）按 [issue #3](../../issues/3) 指出的折叠翼问题重新生成；折叠翼的羽区层次仍需继续改进。
