@@ -1,5 +1,5 @@
 {
- "version": "2.3.4",
+ "version": "2.3.5",
  "taxonomy": "AviList v2026",
  "count": 11011,
  "species": [
@@ -46657,7 +46657,7 @@
    "sticker": {
     "file": "stickers/Galliformes/Odontophoridae/Odontophorus_gujanensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 100,
+    "reviewScore": 85,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -65928,7 +65928,7 @@
    "sticker": {
     "file": "stickers/Galliformes/Phasianidae/Scleroptila_whytei.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 75,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": null
@@ -82819,7 +82819,7 @@
    "sticker": {
     "file": "stickers/Otidiformes/Otididae/Heterotetrax_rueppelii.webp",
     "kind": "ai-illustration",
-    "reviewScore": 95,
+    "reviewScore": 75,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -189521,7 +189521,7 @@
    "sticker": {
     "file": "stickers/Charadriiformes/Rostratulidae/Rostratula_australis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 95,
+    "reviewScore": 85,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -204950,7 +204950,7 @@
    "sticker": {
     "file": "stickers/Charadriiformes/Turnicidae/Turnix_worcesteri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 90,
+    "reviewScore": 70,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": null
@@ -205308,7 +205308,7 @@
    "sticker": {
     "file": "stickers/Charadriiformes/Turnicidae/Turnix_hottentottus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -252727,7 +252727,7 @@
    "sticker": {
     "file": "stickers/Suliformes/Fregatidae/Fregata_magnificens.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 80,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {

@@ -1,5 +1,12 @@
 # Changelog / 更新记录
 
+## 2.3.5 — 2026-11-12
+
+**Feet corrected on 8 stickers that kept failing review.** / **8张反复重画仍不过线的贴纸，单独改对了脚。**
+
+- These 8 had toes drawn wrong, and each time the whole bird was generated again, a new problem appeared elsewhere. This time only the feet were regenerated on the approved image; the rest of the bird is unchanged. Each new version again passed review and the toe count. / 这8张脚趾画错，整只鸟重新生成时又总在别处出新问题。这次在已通过审核的图上只重新生成脚，鸟的其他部分不变；新版同样通过了审核和数脚趾。
+- Bustards (*Heterotetrax rueppelii*, *Lophotis gindiana*) and buttonquails (*Turnix hottentottus*, *T. worcesteri*): three forward toes, no hind toe. Wood-quail (*Odontophorus gujanensis*), Whyte's Francolin (*Scleroptila whytei*) and Australian Painted-snipe (*Rostratula australis*): a short raised hind toe. Magnificent Frigatebird (*Fregata magnificens*): four toes. / 鸨（鲁氏鸨、黄冠鸨）和三趾鹑（非洲三趾鹑、吕宋三趾鹑）：三趾朝前、没有后趾；云斑林鹑、怀氏鹧鸪、澳洲彩鹬：后趾短小、抬离地面；华丽军舰鸟：四趾。
+
 ## 2.3.4 — 2026-11-12
 
 **The stickers shown for each family and order were reviewed again; 252 stickers generated again.** / **复核了代表各科、目的贴纸，252张重新生成。**
