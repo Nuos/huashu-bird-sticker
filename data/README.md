@@ -61,17 +61,17 @@ Notes:
 
 ## Reference photos
 
-Except for 398 generated from a written description alone, each AI sticker was made with one reference photo or with a board of several images. The pages, and the author and license where known, are in `sticker.reference`; the photos themselves are not distributed. By sticker (including `forms`):
+Except for 396 generated from a written description alone, each AI sticker was made with one reference photo or with a board of several images. The pages, and the author and license where known, are in `sticker.reference`; the photos themselves are not distributed. By sticker (including `forms`):
 
 | Reference | Stickers |
 |---|---|
 | Openly licensed photo (CC0, public domain, CC BY, CC BY-SA) | 1,128 |
-| Board of openly licensed images | 5,216 |
-| Photo under a non-commercial or no-derivatives license (CC BY-NC, -ND, …) | 1,982 |
-| Photo with all rights reserved, or under Macaulay Library terms | 548 |
-| Photo whose license we did not record | 677 |
-| Board mixing images under different terms | 1,153 |
-| Generated from a written description only, without a reference photo (`"reference": null`) | 398 |
+| Board of openly licensed images | 5,218 |
+| Photo under a non-commercial or no-derivatives license (CC BY-NC, -ND, …) | 1,983 |
+| Photo with all rights reserved, or under Macaulay Library terms | 543 |
+| Photo whose license we did not record | 678 |
+| Board mixing images under different terms | 1,156 |
+| Generated from a written description only, without a reference photo (`"reference": null`) | 396 |
 
 The stickers are newly generated illustrations, not edits of the photos. Whether a drawing made from a photo is bound by that photo's license is not settled law; if it matters for your use, filter on the reference licenses: `sticker.reference.license` for a single photo, `sticker.reference.items[].license` for a board, and treat `"reference": null` and missing licenses separately.
 

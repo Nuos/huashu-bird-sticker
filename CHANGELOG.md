@@ -1,5 +1,13 @@
 # Changelog / 更新记录
 
+## 2.3.4 — 2026-11-12
+
+**The stickers shown for each family and order were reviewed again; 252 stickers generated again.** / **复核了代表各科、目的贴纸，252张重新生成。**
+
+- The 357 stickers that stand for a family or an order on [birdalbum.com](https://birdalbum.com) and in the Mingji app were reviewed again against published field-guide plates, with the toes and claws checked most closely. 213 of them were generated again until a new version passed review. / [birdalbum.com](https://birdalbum.com)和鸣迹App里代表各科、目的357张贴纸，对照公开出版的图鉴图版又审了一遍，脚趾和爪子查得最细。其中213张重新生成到新版过线。
+- The other 39 were sent back during the toe count in 2.3.3 and passed review after that release. / 另外39张是2.3.3数脚趾时放回重画、在那一版发布后才过线的。
+- The reference-photo counts in [data/README.md](data/README.md) are updated to match. / [data/README.md](data/README.md)里参考照片的分类计数随之更新。
+
 ## 2.3.3 — 2026-11-11
 
 **Feet checked toe by toe; 295 stickers generated again.** / **逐只脚数了脚趾，295张贴纸重新生成。**
