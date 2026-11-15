@@ -1,5 +1,11 @@
 # Changelog / 更新记录
 
+## 2.3.6 — 2026-11-15
+
+**3 stickers replaced at the request of a reference photographer.** / **应参考照片作者要求，替换了3张贴纸。**
+
+- *Aphrastura masafuerae* (Masafuera Rayadito), *Sephanoides fernandensis* (Juan Fernandez Firecrown) and *Merops breweri* (Black-headed Bee-eater) were generated again from openly licensed reference photos (CC0, CC BY), and the previous reference photos are no longer used. The new versions passed review and the toe count. Reference credits in `data/species.json` and `data/species.csv` are updated. / 马萨岛雷雀、火冠蜂鸟、黑头蜂虎改用开放授权（CC0、CC BY）的参考照片重新生成，原来的参考照片不再使用。新版通过了审核和数脚趾。`data/species.json`、`data/species.csv` 里的参考照署名已同步更新。
+
 ## 2.3.5 — 2026-11-12
 
 **Feet corrected on 8 stickers that kept failing review.** / **8张反复重画仍不过线的贴纸，单独改对了脚。**

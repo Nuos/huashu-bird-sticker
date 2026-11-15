@@ -65,11 +65,11 @@ Except for 396 generated from a written description alone, each AI sticker was m
 
 | Reference | Stickers |
 |---|---|
-| Openly licensed photo (CC0, public domain, CC BY, CC BY-SA) | 1,128 |
-| Board of openly licensed images | 5,218 |
+| Openly licensed photo (CC0, public domain, CC BY, CC BY-SA) | 1,129 |
+| Board of openly licensed images | 5,220 |
 | Photo under a non-commercial or no-derivatives license (CC BY-NC, -ND, …) | 1,983 |
-| Photo with all rights reserved, or under Macaulay Library terms | 543 |
-| Photo whose license we did not record | 678 |
+| Photo with all rights reserved, or under Macaulay Library terms | 542 |
+| Photo whose license we did not record | 676 |
 | Board mixing images under different terms | 1,156 |
 | Generated from a written description only, without a reference photo (`"reference": null`) | 396 |
 

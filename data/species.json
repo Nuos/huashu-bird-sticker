@@ -1,5 +1,5 @@
 {
- "version": "2.3.5",
+ "version": "2.3.6",
  "taxonomy": "AviList v2026",
  "count": 11011,
  "species": [
@@ -324514,14 +324514,28 @@
    "sticker": {
     "file": "stickers/Apodiformes/Trochilidae/Sephanoides_fernandensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 80,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/669072180",
-     "author": "Gerhard Hüdepohl",
-     "license": "Not recorded"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/381236285",
+       "author": "Dustin Chen",
+       "license": "CC0 1.0"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/208251617",
+       "author": "Flavien Saboureau",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/317437576",
+       "author": "vocepics",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -443036,14 +443050,28 @@
    "sticker": {
     "file": "stickers/Coraciiformes/Meropidae/Merops_breweri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
-     "type": "photo",
-     "page": "https://www.inaturalist.org/photos/419414093",
-     "author": "Gerhard Hüdepohl",
-     "license": "Not recorded"
+     "type": "reference-board",
+     "items": [
+      {
+       "page": "https://www.inaturalist.org/observations/2447566",
+       "author": "Matt Muir",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/2447699",
+       "author": "Matt Muir",
+       "license": "CC BY"
+      },
+      {
+       "page": "https://www.inaturalist.org/observations/65827231",
+       "author": "Dan Riley",
+       "license": "CC BY"
+      }
+     ]
     }
    },
    "previous": [
@@ -757341,14 +757369,14 @@
    "sticker": {
     "file": "stickers/Passeriformes/Furnariidae/Aphrastura_masafuerae.webp",
     "kind": "ai-illustration",
-    "reviewScore": 80,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
      "type": "photo",
-     "page": "https://www.inaturalist.org/observations/259568046",
-     "author": "Gerhard Hüdepohl",
-     "license": "All rights reserved"
+     "page": "https://www.inaturalist.org/observations/174413004",
+     "author": "Patricio Novoa",
+     "license": "CC BY"
     }
    },
    "previous": [
