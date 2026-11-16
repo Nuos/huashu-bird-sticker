@@ -218,6 +218,7 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 
 ## Кто использует
 
+- [星河 (Xinghe) в Xiaohongshu](https://www.xiaohongshu.com/user/profile/64cb9493000000000b00b307) — почти каждый день минутные ролики о голосах птиц с этими стикерами; видео о 16 птицах, которые будят по утрам, в ноябре 2026 года набрало больше 18 000 лайков.
 - [水杉输入法 MSIME](https://github.com/metasequoiaime/msime) — кроссплатформенный метод ввода китайского; его словарь названий птиц собран из `data/species.json`.
 - [Everybird](https://github.com/yusuftaleb/everybird-stickers) (Yusuf Taleb) — стикеры, уменьшенные и названные по кодам eBird.
 - Включён в [Awesome Public Datasets](https://github.com/awesomedata/apd-core), раздел Biology.

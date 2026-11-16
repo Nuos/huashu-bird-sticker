@@ -218,6 +218,7 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 
 ## من يستخدمه
 
+- [星河 (Xinghe) على Xiaohongshu](https://www.xiaohongshu.com/user/profile/64cb9493000000000b00b307): مقاطع شبه يومية مدتها دقيقة عن أصوات الطيور، مصوّرة بهذه الملصقات؛ وتجاوز مقطع «16 طائرًا توقظك في الصباح» 18 ألف إعجاب في نوفمبر 2026.
 - [水杉输入法 MSIME](https://github.com/metasequoiaime/msime): طريقة إدخال صينية متعددة المنصات، يُبنى قاموس أسماء الطيور فيها من `data/species.json`.
 - [Everybird](https://github.com/yusuftaleb/everybird-stickers) من Yusuf Taleb: الملصقات بعد تصغيرها وتسميتها برمز eBird.
 - مُدرج في [Awesome Public Datasets](https://github.com/awesomedata/apd-core) ضمن تصنيف Biology.

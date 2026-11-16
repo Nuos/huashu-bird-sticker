@@ -218,6 +218,7 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 
 ## Quem usa
 
+- [星河 (Xinghe) no Xiaohongshu](https://www.xiaohongshu.com/user/profile/64cb9493000000000b00b307): vídeos de um minuto sobre cantos de aves, quase todos os dias, ilustrados com estes stickers; o das 16 aves que acordam você de manhã passou de 18 mil curtidas em novembro de 2026.
 - [水杉输入法 MSIME](https://github.com/metasequoiaime/msime): um método de entrada de chinês multiplataforma; o dicionário de nomes de aves é gerado a partir de `data/species.json`.
 - [Everybird](https://github.com/yusuftaleb/everybird-stickers), de Yusuf Taleb: os stickers, reduzidos e nomeados pelo código do eBird.
 - Listado em [Awesome Public Datasets](https://github.com/awesomedata/apd-core), na categoria Biology.
