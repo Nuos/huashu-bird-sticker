@@ -1,5 +1,14 @@
 # Changelog / 更新记录
 
+## 2.3.7 — 2026-11-20
+
+**4 stickers corrected after reports from users.** / **按用户报错改正了4张贴纸。**
+
+- *Ardea alba* (Great Egret): now shown in non-breeding plumage, with a yellow bill, no plumes and black legs and feet ([#13](https://github.com/alchaincyf/huashu-bird-sticker/issues/13)).
+- *Ramphiculus fischeri* (Red-eared Fruit Dove): the red ear patch is now a long patch from in front of the eye over the ear coverts, with the dark band behind it, instead of a round cheek spot ([#9](https://github.com/alchaincyf/huashu-bird-sticker/issues/9)).
+- *Stilpnia cayana* (Burnished-buff Tanager): now shows a male of the southern *flava* group, with black from the mask down the throat and breast to the mid-belly; the previous sticker showed the northern *cayana* group ([#8](https://github.com/alchaincyf/huashu-bird-sticker/issues/8)).
+- *Anthus spinoletta* (Water Pipit): smaller head and a longer, slimmer body, in line with the other pipits ([#11](https://github.com/alchaincyf/huashu-bird-sticker/issues/11)).
+
 ## 2.3.6 — 2026-11-15
 
 **3 stickers replaced at the request of a reference photographer.** / **应参考照片作者要求，替换了3张贴纸。**

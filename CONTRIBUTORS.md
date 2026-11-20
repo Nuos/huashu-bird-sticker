@@ -9,6 +9,9 @@ People who found mistakes and made this collection more accurate. Every correcti
 | [@sunng87](https://github.com/sunng87) | Peregrine Falcon's legs and toes drawn too thin; led to a legs-and-feet proportion check for all raptors / 游隼的腿脚画得太细，之后所有猛禽都加查了腿脚比例 | [#1](https://github.com/alchaincyf/huashu-bird-sticker/issues/1) |
 | [@TaQini](https://github.com/TaQini) | eBird taxonomy had moved to 2026.0; led to the move to AviList v2026 / eBird 名录已更新到 2026.0，促成了整体迁移到 AviList v2026 | [#2](https://github.com/alchaincyf/huashu-bird-sticker/issues/2) |
 | [@azhizz](https://github.com/azhizz) | Wrong head proportions and wing feather tracts (Spoon-billed Sandpiper, Sulphur-crested Cockatoo); feather tracts of the folded wing are now part of every review / 头部比例和翅膀羽区画错（勺嘴鹬、葵花鹦鹉），之后折叠翼的羽区成为每张贴纸的审核项 | [#3](https://github.com/alchaincyf/huashu-bird-sticker/issues/3) |
+| [@yusuftaleb](https://github.com/yusuftaleb) | Burnished-buff Tanager drawn as the northern form only; Red-eared Fruit Dove's ear patch drawn as a cheek spot / 亮黄靓唐纳雀只画了北部类群；红耳果鸠的耳斑画成了脸颊圆点 | [#8](https://github.com/alchaincyf/huashu-bird-sticker/issues/8), [#9](https://github.com/alchaincyf/huashu-bird-sticker/issues/9) |
+| [@andrevanreenen91](https://github.com/andrevanreenen91) | Water Pipit's head drawn too large compared with other pipits / 水鹨的头比其他鹨画得大 | [#11](https://github.com/alchaincyf/huashu-bird-sticker/issues/11) |
+| [@benibalog-rgb](https://github.com/benibalog-rgb) | Great Egret drawn with a black bill and plumes, easy to confuse with Little Egret / 大白鹭画成黑喙带饰羽，容易和白鹭混 | [#13](https://github.com/alchaincyf/huashu-bird-sticker/issues/13) |
 
 To join this list, [review a family you know well](../../issues/new?template=family-review.yml) or [report a sticker mistake](../../issues/new?template=sticker-error.yml).
 

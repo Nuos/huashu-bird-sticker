@@ -1,5 +1,5 @@
 {
- "version": "2.3.6",
+ "version": "2.3.7",
  "taxonomy": "AviList v2026",
  "count": 11011,
  "species": [
@@ -145567,7 +145567,7 @@
    "sticker": {
     "file": "stickers/Columbiformes/Columbidae/Ramphiculus_fischeri.webp",
     "kind": "ai-illustration",
-    "reviewScore": 100,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -273122,7 +273122,7 @@
    "sticker": {
     "file": "stickers/Pelecaniformes/Ardeidae/Ardea_alba.webp",
     "kind": "ai-illustration",
-    "reviewScore": 90,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -1334798,7 +1334798,7 @@
    "sticker": {
     "file": "stickers/Passeriformes/Motacillidae/Anthus_spinoletta.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -1486964,7 +1486964,7 @@
    "sticker": {
     "file": "stickers/Passeriformes/Thraupidae/Stilpnia_cayana.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
