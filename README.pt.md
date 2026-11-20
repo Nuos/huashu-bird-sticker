@@ -218,6 +218,7 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 
 ## Quem usa
 
+- [Birdbrain](https://birdbrain.indianbirds.org/), de Sandeep Nanu: um jogo gratuito de adivinhar aves feito com estes stickers: três níveis de dificuldade, 10 aves novas por dia, «Qual é mais pesada?», «Qual é a intrusa?» e 100 pares de espécies fáceis de confundir. Um trabalho lindo.
 - [星河 (Xinghe) no Xiaohongshu](https://www.xiaohongshu.com/user/profile/64cb9493000000000b00b307): vídeos de um minuto sobre cantos de aves, quase todos os dias, ilustrados com estes stickers; o das 16 aves que acordam você de manhã passou de 18 mil curtidas em novembro de 2026.
 - [水杉输入法 MSIME](https://github.com/metasequoiaime/msime): um método de entrada de chinês multiplataforma; o dicionário de nomes de aves é gerado a partir de `data/species.json`.
 - [Everybird](https://github.com/yusuftaleb/everybird-stickers), de Yusuf Taleb: os stickers, reduzidos e nomeados pelo código do eBird.

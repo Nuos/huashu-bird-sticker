@@ -218,6 +218,7 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 
 ## من يستخدمه
 
+- [Birdbrain](https://birdbrain.indianbirds.org/) من Sandeep Nanu: لعبة مجانية لتخمين الطيور مبنية على هذه الملصقات: ثلاثة مستويات للصعوبة، عشرة طيور جديدة كل يوم، «أيهما أثقل؟»، «أيها المختلف؟» ومئة زوج من الأنواع المتشابهة. عمل جميل.
 - [星河 (Xinghe) على Xiaohongshu](https://www.xiaohongshu.com/user/profile/64cb9493000000000b00b307): مقاطع شبه يومية مدتها دقيقة عن أصوات الطيور، مصوّرة بهذه الملصقات؛ وتجاوز مقطع «16 طائرًا توقظك في الصباح» 18 ألف إعجاب في نوفمبر 2026.
 - [水杉输入法 MSIME](https://github.com/metasequoiaime/msime): طريقة إدخال صينية متعددة المنصات، يُبنى قاموس أسماء الطيور فيها من `data/species.json`.
 - [Everybird](https://github.com/yusuftaleb/everybird-stickers) من Yusuf Taleb: الملصقات بعد تصغيرها وتسميتها برمز eBird.

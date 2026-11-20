@@ -218,6 +218,7 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 
 ## 사용 사례
 
+- [Birdbrain](https://birdbrain.indianbirds.org/) (Sandeep Nanu): 이 스티커로 만든 무료 새 맞히기 게임입니다. 그림을 보고 이름을 맞히는 3단계 난이도, 매일 10종 도전, ‘어느 쪽이 더 무거울까’, ‘하나만 다른 새 찾기’, 헷갈리기 쉬운 100쌍 비교가 있습니다. 아름답고 재미있는 사이트입니다.
 - [星河 (샤오훙수)](https://www.xiaohongshu.com/user/profile/64cb9493000000000b00b307): 이 스티커로 새소리를 소개하는 1분 영상을 거의 매일 올립니다. ‘아침을 깨우는 새 16종’ 영상은 2026년 11월 좋아요 1.8만 개를 넘었습니다.
 - [水杉输入法 MSIME](https://github.com/metasequoiaime/msime): 크로스플랫폼 중국어 입력기. 새 이름 사전 팩을 `data/species.json`으로 만듭니다.
 - [Everybird](https://github.com/yusuftaleb/everybird-stickers) (Yusuf Taleb): 스티커를 축소해 eBird 코드로 관리해 사용합니다.

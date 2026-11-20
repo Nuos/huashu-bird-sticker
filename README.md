@@ -221,6 +221,7 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 
 ## Used by
 
+- [Birdbrain](https://birdbrain.indianbirds.org/) by Sandeep Nanu — a free bird guessing game built on these stickers: name the bird from its picture at three difficulty levels, a daily set of 10, “Which is heavier?”, “Odd one out”, and 100 look-alike pairs. A lovely piece of work.
 - [星河 (Xinghe) on Xiaohongshu](https://www.xiaohongshu.com/user/profile/64cb9493000000000b00b307) — near-daily one-minute videos on bird calls, illustrated with these stickers (“16 owl calls”, “16 birds that wake you at dawn”); the dawn one passed 18,000 likes in November 2026.
 - [水杉输入法 MSIME](https://github.com/metasequoiaime/msime) — a cross-platform Chinese input method; its bird-name dictionary pack is built from `data/species.json`.
 - [Everybird](https://github.com/yusuftaleb/everybird-stickers) by Yusuf Taleb — the stickers, resized and keyed by eBird code.

@@ -218,6 +218,7 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 
 ## 誰在用
 
+- [Birdbrain](https://birdbrain.indianbirds.org/)（Sandeep Nanu）：用這套貼紙做的免費猜鳥遊戲。看圖認鳥分三檔難度，每天一組10隻，還有「誰更重」「找不同」和100對易混鳥對比。做得很美，也很好玩。
 - [星河（小紅書）](https://www.xiaohongshu.com/user/profile/64cb9493000000000b00b307)：用這套貼紙做鳥類科普短影片，幾乎每天更新，例如「一分鐘認識貓頭鷹家族的16種叫聲」「清晨叫醒你的16種鳥叫」，後者2026年11月已超過1.8萬讚。
 - [水杉输入法 MSIME](https://github.com/metasequoiaime/msime)：跨平台中文輸入法，鳥名詞庫由 `data/species.json` 產生。
 - [Everybird](https://github.com/yusuftaleb/everybird-stickers)（Yusuf Taleb）：把貼紙縮小後按 eBird 代碼命名使用。

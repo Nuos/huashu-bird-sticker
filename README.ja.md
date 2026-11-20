@@ -218,6 +218,7 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 
 ## 利用例
 
+- [Birdbrain](https://birdbrain.indianbirds.org/)（Sandeep Nanu）：このステッカーで作られた無料の鳥当てゲーム。絵を見て名前を当てる3段階の難易度、毎日10種のチャレンジ、「どちらが重い？」「仲間はずれ」、見分けにくい100組の比較も。美しく、楽しいサイトです。
 - [星河（小紅書）](https://www.xiaohongshu.com/user/profile/64cb9493000000000b00b307)：このステッカーで鳥の鳴き声を紹介する1分動画をほぼ毎日投稿。「朝に目を覚まさせる16種の鳥の声」は2026年11月に1.8万いいねを超えました。
 - [水杉输入法 MSIME](https://github.com/metasequoiaime/msime)：クロスプラットフォームの中国語入力システム。鳥名辞書パックは `data/species.json` から作られています。
 - [Everybird](https://github.com/yusuftaleb/everybird-stickers)（Yusuf Taleb）：ステッカーを縮小し、eBird コードで管理して使用。

@@ -217,6 +217,7 @@ cd huashu-bird-sticker && git sparse-checkout set data stickers/Strigiformes
 
 ## Ils l’utilisent
 
+- [Birdbrain](https://birdbrain.indianbirds.org/), de Sandeep Nanu : un jeu gratuit où l’on devine l’oiseau d’après son image, réalisé avec ces stickers — trois niveaux de difficulté, 10 oiseaux par jour, « Lequel est le plus lourd ? », « Cherchez l’intrus » et 100 paires d’espèces faciles à confondre. Un très beau travail.
 - [星河 (Xinghe) sur Xiaohongshu](https://www.xiaohongshu.com/user/profile/64cb9493000000000b00b307) : des vidéos d’une minute sur les chants d’oiseaux, presque chaque jour, illustrées avec ces stickers ; celle sur les 16 oiseaux qui vous réveillent à l’aube a dépassé 18 000 j’aime en novembre 2026.
 - [水杉输入法 MSIME](https://github.com/metasequoiaime/msime) : une méthode de saisie du chinois multiplateforme ; son dictionnaire de noms d’oiseaux est généré à partir de `data/species.json`.
 - [Everybird](https://github.com/yusuftaleb/everybird-stickers), de Yusuf Taleb : les stickers, réduits et nommés par code eBird.
