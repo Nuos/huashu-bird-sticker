@@ -1,5 +1,5 @@
 {
- "version": "2.3.8",
+ "version": "2.3.9",
  "taxonomy": "AviList v2026",
  "count": 11011,
  "species": [
@@ -112288,7 +112288,7 @@
    "sticker": {
     "file": "stickers/Columbiformes/Columbidae/Zenaida_asiatica.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {

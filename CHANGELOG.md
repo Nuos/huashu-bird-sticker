@@ -1,5 +1,12 @@
 # Changelog / 更新记录
 
+## 2.3.9 — 2026-11-21
+
+**2 more corrections from the poster review.** / **海报审核里又改正了2张。**
+
+- *Vanellus armatus* (Blacksmith Lapwing): no hind toe. Version 2.3.8 drew a short raised hind toe, but lapwings have none. / 铁匠麦鸡：没有后趾。2.3.8画了一个短而抬起的后趾，但麦鸡类没有后趾。
+- *Zenaida asiatica* (White-winged Dove): a short, straight bill instead of a hooked one; the corrected tail from 2.3.8 is kept. / 白翅哀鸽：喙改为短而直，不再呈钩状；2.3.8改好的尾巴保留。
+
 ## 2.3.8 — 2026-11-21
 
 **12 stickers corrected after an extra review for printed posters.** / **为印刷海报加做的一轮审核里查出的12张贴纸，已改正。**
