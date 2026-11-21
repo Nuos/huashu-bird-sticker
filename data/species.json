@@ -1,5 +1,5 @@
 {
- "version": "2.3.7",
+ "version": "2.3.8",
  "taxonomy": "AviList v2026",
  "count": 11011,
  "species": [
@@ -42280,7 +42280,7 @@
    "sticker": {
     "file": "stickers/Galliformes/Numididae/Numida_meleagris.webp",
     "kind": "ai-illustration",
-    "reviewScore": 90,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -112288,7 +112288,7 @@
    "sticker": {
     "file": "stickers/Columbiformes/Columbidae/Zenaida_asiatica.webp",
     "kind": "ai-illustration",
-    "reviewScore": 90,
+    "reviewScore": 85,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -182952,7 +182952,7 @@
    "sticker": {
     "file": "stickers/Charadriiformes/Charadriidae/Vanellus_armatus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 100,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -222488,7 +222488,7 @@
    "sticker": {
     "file": "stickers/Charadriiformes/Laridae/Leucophaeus_atricilla.webp",
     "kind": "ai-illustration",
-    "reviewScore": 100,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -949083,7 +949083,7 @@
    "sticker": {
     "file": "stickers/Passeriformes/Remizidae/Auriparus_flaviceps.webp",
     "kind": "ai-illustration",
-    "reviewScore": 85,
+    "reviewScore": 90,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -1132882,7 +1132882,7 @@
    "sticker": {
     "file": "stickers/Passeriformes/Regulidae/Regulus_regulus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 80,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -1176293,7 +1176293,7 @@
    "sticker": {
     "file": "stickers/Passeriformes/Sturnidae/Lamprotornis_superbus.webp",
     "kind": "ai-illustration",
-    "reviewScore": 90,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {
@@ -1334493,7 +1334493,7 @@
    "sticker": {
     "file": "stickers/Passeriformes/Motacillidae/Anthus_pratensis.webp",
     "kind": "ai-illustration",
-    "reviewScore": 90,
+    "reviewScore": 95,
     "meetsQualityBar": true,
     "license": "CC-BY-4.0",
     "reference": {

@@ -1,5 +1,25 @@
 # Changelog / 更新记录
 
+## 2.3.8 — 2026-11-21
+
+**12 stickers corrected after an extra review for printed posters.** / **为印刷海报加做的一轮审核里查出的12张贴纸，已改正。**
+
+Before stickers go on the free printable posters for birding sites, each one gets an additional blind review (the reviewer sees only the image and the species name). These 12 failed it and were fixed; the new versions passed review and the toe count. / 贴纸用到观鸟点免费海报之前，每张会再做一次盲审（审核者只看图和种名）。下面12张没过，已改正，新版通过了审核和数脚趾。
+
+Feet only (the rest of the image is unchanged) / 只改脚（图的其余部分不变）:
+- *Calidris alba* (Sanderling), *Haematopus finschi* (South Island Oystercatcher), *Anarhynchus bicinctus* (Double-banded Plover): three front toes and no hind toe.
+- *Vanellus armatus* (Blacksmith Lapwing): a short hind toe raised off the ground.
+- *Numida meleagris* (Helmeted Guineafowl): no spur; a short hind toe at the heel.
+- *Lamprotornis superbus* (Superb Starling): exactly four toes on each foot.
+- *Anthus pratensis* (Meadow Pipit): a long, nearly straight hind claw.
+
+Generated again / 重新生成:
+- *Auriparus flaviceps* (Verdin): only a small dark patch in front of the eye, not a black mask; chestnut shoulder patch.
+- *Zenaida asiatica* (White-winged Dove): a shorter, square-ended tail with white tips and a black band, instead of a long pointed tail.
+- *Leucophaeus atricilla* (Laughing Gull): white tail; black only on the folded wing tips.
+- *Mergus serrator* (Red-breasted Merganser): short legs set far back, with the body tilted forward when standing.
+- *Regulus regulus* (Goldcrest): a narrow crown stripe lying flat on the head, instead of a raised crest.
+
 ## 2.3.7 — 2026-11-20
 
 **4 stickers corrected after reports from users.** / **按用户报错改正了4张贴纸。**
